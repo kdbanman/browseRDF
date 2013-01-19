@@ -6,21 +6,28 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 
 ###requirements
 
-#####need to have
+######need to have
 - graph-based UI, showing nodes and edges as subjects/objects and predicates, respectively
 - initialized with a seed URI returning RDF data
 - base graph (initial window) showing aggregated RDF
 - recursively explore nodes with subwindows showing returned RDF graphs
 - select data in subwindows, triggering aggregation on the base graph
 
-#####nice to have
+######nice to have
 - visualized parameters for relatedness heuristic
 - show/hide namespaced URI labels
 - save base graph as .tlp
 
 ###architecture
+
+######major components
 - toolbar indicating interaction mode and other options
 - communicator handling HTTP communication
 - translator converting RDF documents to tlp.Graph() structures
-- window/subgraph manager #TODO
+- window/subgraph manager
 - formatter handling graph layout, and labels
+
+######key data structures
+- main tulip graph
+    - contains both aggregated nodes and frontier nodes
+    - 
