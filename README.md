@@ -40,39 +40,39 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 ######major components/data structures
 controller
 
-    - toolbar interface
-        - choosing interaction mode: explore or select
-        - displaying literal value (maybe that's the default for either mode?)
-        - quitting
-        - (eventually) choosing view parameters
-        - (eventually) saving rdf-xml file
-    - observer object making function calls to the model based on event type
-        - calls to model
-            - selection
-            - exploration
-        - calls to view
-            - display literal value
+- toolbar interface
+    - choosing interaction mode: explore or select
+    - displaying literal value (maybe that's the default for either mode?)
+    - quitting
+    - (eventually) choosing view parameters
+    - (eventually) saving rdf-xml file
+- observer object making function calls to the model based on event type
+    - calls to model
+        - selection
+        - exploration
+    - calls to view
+        - display literal value
 
 model
 
-    - main graph, containing
-        - aggregated (selected) nodes
-        - frontier (under exploration) nodes
-    - communicator handling HTTP URI dereferencing
-    - translator converting RDF documents to tlp.Graph() structures
-        - upon tranlation, calling the view is necessary to begin visualization
-    - subgraph manager (maybe this is over-abstraction?)
+- main graph, containing
+    - aggregated (selected) nodes
+    - frontier (under exploration) nodes
+- communicator handling HTTP URI dereferencing
+- translator converting RDF documents to tlp.Graph() structures
+    - upon tranlation, calling the view is necessary to begin visualization
+- subgraph manager (maybe this is over-abstraction?)
 
 view
 
-    - window manager for tracking and placing exploration windows
-    - formatter handling visual properties
-        - layout
-        - colorization
-        - node sizing
-        - edge weighting
-        - labels
-    - observer object to trigger frontier cleanup in the event of window closure
+- window manager for tracking and placing exploration windows
+- formatter handling visual properties
+    - layout
+    - colorization
+    - node sizing
+    - edge weighting
+    - labels
+- observer object to trigger frontier cleanup in the event of window closure
     
 
 ###questions motivating the TODO
