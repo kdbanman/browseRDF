@@ -16,29 +16,29 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 ###requirements
 
 ######need to have
-1. graph-based UI, showing nodes and edges as subjects/objects and predicates, respectively
-1. initialized with a seed URI returning RDF data
-1. base graph (initial window) showing aggregated RDF
-1. recursively explore nodes with subwindows showing returned RDF graphs
-1. select data in subwindows, triggering aggregation on the base graph
-1. seletively display values of literals when the arise
+- graph-based UI, showing nodes and edges as subjects/objects and predicates, respectively
+- initialized with a seed URI returning RDF data
+- base graph (initial window) showing aggregated RDF
+- recursively explore nodes with subwindows showing returned RDF graphs
+- select data in subwindows, triggering aggregation on the base graph
+- seletively display values of literals when the arise
 
 ######nice to have
-1. visualized parameters for relatedness heuristic
+- visualized parameters for relatedness heuristic
     - egde weighting/coloring for common or important predicates
     - node colorizing and sizing for rediscovery, relatedness, etc.
-1. show/hide namespaced URI labels
-1. save base graph as rdf-xml file
+- show/hide namespaced URI labels
+- save base graph as rdf-xml file
 
 ###architecture
 
 ######MVC architecture
-1. model managed by rdflib
-1. view managed by Tulip
-1. controller managed by PyQt
+- model managed by rdflib
+- view managed by Tulip
+- controller managed by PyQt
 
 ######major components/data structures
-1. controller
+controller
     - toolbar interface
         - choosing interaction mode: explore or select
         - displaying literal value (maybe that's the default for either mode?)
@@ -52,7 +52,7 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
         - calls to view
             - display literal value
 
-1. model
+model
     - main graph, containing
         - aggregated (selected) nodes
         - frontier (under exploration) nodes
@@ -61,7 +61,7 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
         - upon tranlation, calling the view is necessary to begin visualization
     - subgraph manager (maybe this is over-abstraction?)
 
-1. view
+view
     - window manager for tracking and placing exploration windows
     - formatter handling visual properties
         - layout
@@ -73,9 +73,9 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
     
 
 ###questions motivating the TODO
-1. in the event of a node click, is the logic and function call to be within the observer
+- in the event of a node click, is the logic and function call to be within the observer
 object?
-1. is it appropriate to manage the main graph structure with rdflib?
+- is it appropriate to manage the main graph structure with rdflib?
     - if so, each node will have a tulip representation for the view, and an rdflib representation for the model
     - it seems like manipulating an rdf structure with rdflib makes sense, but it may be just as natural within tulip (rdflib functioning solely as a translator, in that case)
     - what do we do in the (inevitable) event that a node is discovered in more than one exploration window at once?
