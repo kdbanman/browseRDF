@@ -39,6 +39,7 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 
 ######major components/data structures
 controller
+
     - toolbar interface
         - choosing interaction mode: explore or select
         - displaying literal value (maybe that's the default for either mode?)
@@ -53,6 +54,7 @@ controller
             - display literal value
 
 model
+
     - main graph, containing
         - aggregated (selected) nodes
         - frontier (under exploration) nodes
@@ -62,6 +64,7 @@ model
     - subgraph manager (maybe this is over-abstraction?)
 
 view
+
     - window manager for tracking and placing exploration windows
     - formatter handling visual properties
         - layout
