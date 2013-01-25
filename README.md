@@ -10,7 +10,7 @@ bindings to the Qt application framework
 
 ##development notes
 
-###problem statement
+###problem
 there is no browser that allows users to explore, scrutinize, and aggregate linked data.
 
 ###requirements
@@ -39,7 +39,7 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 
 ######major components/data structures
 - controller
-    - toolbar interface for
+    - toolbar interface
         - choosing interaction mode: explore or select
         - displaying literal value (maybe that's the default for either mode?)
         - quitting
