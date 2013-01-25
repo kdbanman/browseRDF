@@ -38,7 +38,7 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 - controller managed by PyQt
 
 ######major components/data structures
-controller
+**controller**
 
 - toolbar interface
     - choosing interaction mode: explore or select
@@ -53,7 +53,7 @@ controller
     - calls to view
         - display literal value
 
-model
+**model**
 
 - main graph, containing
     - aggregated (selected) nodes
@@ -63,7 +63,7 @@ model
     - upon tranlation, calling the view is necessary to begin visualization
 - subgraph manager (maybe this is over-abstraction?)
 
-view
+**view**
 
 - window manager for tracking and placing exploration windows
 - formatter handling visual properties
