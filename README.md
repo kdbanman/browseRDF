@@ -37,6 +37,27 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 - view managed by Tulip
 - controller managed by PyQt
 
+######library choices
+- [Tulip 3.8.0](http://tulip.labri.fr/TulipDrupal/), a graph analysis and visualization 
+library
+    - extensive python scripting API that is very well documented
+    - tulipgui library for creation of standalone GUIs
+    - not without bugs, but 3.8 is more stable than 4.1
+    - alternatives are [Gephi](https://gephi.org/)
+        - great for non-programmatic visualization, and is better maintained than Tulip
+        - no scripting API to tap into and no library for standalone GUIs
+    - and [Graphvis](http://www.graphviz.org/)
+        - much older and more mature than Tulip, with better research documentation
+        - documentation of scripting APIs not nearly as comprehensive as Tulip
+- [PyQt v4](http://www.riverbankcomputing.com/software/pyqt/intro), a set of Python 
+bindings to the Qt application framework
+    - extensive documentation, examples, and support
+    - also used by Tulip
+    - alternatives are wxPython and tkinter, but the reasons above are enough to
+choose PyQt
+- [rdflib](https://github.com/RDFLib/rdflib), an RDF library for Python
+    - no real alternatives for python
+
 ######major components/data structures
 **controller**
 
@@ -81,5 +102,9 @@ object?
 - is it appropriate to manage the main graph structure with rdflib?
     - if so, each node will have a tulip representation for the view, and an rdflib representation for the model
     - it seems like manipulating an rdf structure with rdflib makes sense, but it may be just as natural within tulip (rdflib functioning solely as a translator, in that case)
-    - what do we do in the (inevitable) event that a node is discovered in more than one exploration window at once?
-        - perhaps the answer is to treat the frontier nodes and the aggregated nodes identically, and visualize the phenomenon with size or color
+    - extending the software in the future with more RDF features would be more natural if its model is maintained with rdflib
+    - rdflib supports on-disk storage with berkelyDB
+    - background crawling and processing to enhance visualization and relevancy is possible with an rdflib-managed model
+    - *solution strategy*: look at exactly what data is stored using rdflib.  if it's quite minimal, and there aren't important dependencies (like namespace data), then tulip should be used to manage the model.
+- what do we do in the (inevitable) event that a node is discovered in more than one exploration window at once?
+    - perhaps the answer is to treat the frontier nodes and the aggregated nodes identically, and visualize the phenomenon with size or color
