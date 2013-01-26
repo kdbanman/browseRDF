@@ -1,0 +1,3 @@
+- outline architecture in Dia
+    - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
+    - differentiate between data requests and data sends?

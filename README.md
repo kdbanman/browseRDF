@@ -17,11 +17,13 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
 
 ######need to have
 - graph-based UI, showing nodes and edges as subjects/objects and predicates, respectively
-- initialized with a seed URI returning RDF data
-- base graph (initial window) showing aggregated RDF
-- recursively explore nodes with subwindows showing returned RDF graphs
+- initialized with two persistent UI components
+    - blank initial window for aggregated RDF
+    - toolbar for changing interaction mode and entering URIs
+- recursively explore chosen nodes and new URIs with subwindows showing returned RDF graphs
 - select data in subwindows, triggering aggregation on the base graph
-- seletively display values of literals when the arise
+    - shortest path to aggregated nodes inherently selected, unless the aggregation is empty or disconnected
+- seletively display values of literals when they arise
 
 ######nice to have
 - visualized parameters for relatedness heuristic
