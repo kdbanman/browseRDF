@@ -1,4 +1,6 @@
-- flow chart of how tulip view graph would interact with rdflib model graph from node explore event.  roughly:
+TODO list, descending priority, keep it quick
+
+- update architecture section of readme with choices in dia diagram
     - uri field in tulip node sent to rdflib to query
     - rdflib retrieves, parses, adds to model, and sends an rdflib Graph()
         - not a tlp.Graph(), the model should be visualization-independent
@@ -8,6 +10,9 @@
     - node selection observer adds to aggregated view
     - upon window close, all unselected nodes and edges are removed from model
         - just leave the unselected triples in the model.  history is important, and we have disk storage natively in rdflib
-- outline architecture in Dia
+
+- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
+
+- detail architecture of each of m,v,c in Dia
     - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
     - differentiate between data requests and data sends?
