@@ -1,3 +1,10 @@
+- flow chart of how tulip view graph would interact with rdflib model graph from node explore event.  roughly:
+    - uri field in tulip node sent to rdflib to query
+    - rdflib retrieves, parses, adds to model, and sends a tlp.Graph() object (containing the nodes and edges with the URI/literal information fields filled) to the view module
+    - window is created for the new graph, the contents are made pretty
+    - user selects node(s), shortest path to any aggregated nodes calculated by tulip and they are selected automatically
+    - node selection observer adds to aggregated view
+    - upon window close, all unselected nodes and edges are removed from model
 - outline architecture in Dia
     - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
     - differentiate between data requests and data sends?

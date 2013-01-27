@@ -105,8 +105,9 @@ object?
     - if so, each node will have a tulip representation for the view, and an rdflib representation for the model
     - it seems like manipulating an rdf structure with rdflib makes sense, but it may be just as natural within tulip (rdflib functioning solely as a translator, in that case)
     - extending the software in the future with more RDF features would be more natural if its model is maintained with rdflib
-    - rdflib supports on-disk storage with berkelyDB
+    - rdflib supports on-disk storage with triplestores
     - background crawling and processing to enhance visualization and relevancy is possible with an rdflib-managed model
     - *solution strategy*: look at exactly what data is stored using rdflib.  if it's quite minimal, and there aren't important dependencies (like namespace data), then tulip should be used to manage the model.
+        - key difference:  rdflib stores its graph in triples, tulip in nodes and edges
 - what do we do in the (inevitable) event that a node is discovered in more than one exploration window at once?
     - perhaps the answer is to treat the frontier nodes and the aggregated nodes identically, and visualize the phenomenon with size or color
