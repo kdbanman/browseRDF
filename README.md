@@ -64,16 +64,19 @@ choose PyQt
 **controller**
 
 - toolbar interface
-    - choosing interaction mode: explore or select
-    - displaying literal value (maybe that's the default for either mode?)
-    - quitting
-    - (eventually) choosing view parameters
-    - (eventually) saving rdf-xml file
-- observer object making function calls to the model based on event type
+    - choose interaction mode: explore or select
+        - interaction with a literal in either mode displays its value
+    - quit
+    - (eventually) choose view parameters
+    - (eventually) save rdf-xml file
+- observer object that does function calls to the other components based on event type
     - calls to model
-        - selection
         - exploration
+            - URI string passed to model for dereferencing*
     - calls to view
+	- update aggregate view
+            - upon window closure, add newly selected nodes to aggregate, and update view
+        - *create frontier subgraph upon exploration return
         - display literal value
 
 **model**
