@@ -1,6 +1,10 @@
 TODO list, descending priority, keep it quick
 
-- update architecture section of readme with choices in dia diagram
+- test code on work computer
+
+- split model, view, and controller into separate files as originally intended
+
+- update architecture section of readme with choices in dia diagram, and choices made in code construction so far.
     - uri field in tulip node sent to rdflib to query
     - rdflib retrieves, parses, adds to model, and sends an rdflib Graph()
         - not a tlp.Graph(), the model should be visualization-independent
