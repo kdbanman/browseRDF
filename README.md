@@ -118,7 +118,7 @@ choose PyQt
     - labels
     
 
-###questions motivating the TODO
+###motivational questions
 - in the event of a node click, is the logic and function call to be within the observer
 object?
 - what do we do in the (inevitable) event that a node is discovered in more than one exploration window at once?
