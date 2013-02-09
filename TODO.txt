@@ -1,22 +1,39 @@
 TODO list, descending priority, keep it quick
+=============================================
 
-- test code on work computer
+- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
 
 - split model, view, and controller into separate files as originally intended
 
+- get test data files for each component
+
+- write tests based on data files
+
+- detail logical structure of each of m,v,c in Dia
+    - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
+    - differentiate between data requests and data sends?
+    - actually, do this as a flow chart.  i like flow charts.
+
+
+#FINISHED, :r !date followed by the task, as cut
+================================================
+
+Fri Feb  8 18:30:17 MST 2013
+- test code on work computer
+
+
+Fri Feb  8 19:34:43 MST 2013
 - update architecture section of readme with choices in dia diagram, and choices made in code construction so far.
     - uri field in tulip node sent to rdflib to query
     - rdflib retrieves, parses, adds to model, and sends an rdflib Graph()
         - not a tlp.Graph(), the model should be visualization-independent
     - window is created for the new graph, the contents are made pretty
     - the displayed tulip graph is very much a part of the controller, since it is the structure that the user uses to choose queries and update the view
-    - user selects node(s), shortest path to any aggregated nodes calculated by tulip and they are selected automatically
+    - user selects node(s), shortest path to aggregate calculated by tulip and they are added to aggregate to maintain single-graph property
     - node selection observer adds to aggregated view
     - upon window close, all unselected nodes and edges are removed from model
         - just leave the unselected triples in the model.  history is important, and we have disk storage natively in rdflib
 
-- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
 
-- detail architecture of each of m,v,c in Dia
-    - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
-    - differentiate between data requests and data sends?
+Fri Feb  8 19:36:51 MST 2013
+- describe overall program flow in dia as a flow chart

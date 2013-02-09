@@ -64,30 +64,48 @@ choose PyQt
 **controller**
 
 - toolbar interface
+    - text box for entering uris (disappears after the first rdf document is retrieved)
+        - since the point of this browser is to explore linked data, a single
+          seed per session is reasonable
+        - a single seed also makes for a single graph to serialize into a single
+          document in the end.  much simpler.
     - choose interaction mode: explore or select
         - interaction with a literal in either mode displays its value
     - quit
     - (eventually) choose view parameters
     - (eventually) save rdf-xml file
+        - after serialization, the user could be prompted to start a new session,
+          possibly preserving history
 - observer object that does function calls to the other components based on event type
     - calls to model
         - exploration
-            - URI string passed to model for dereferencing*
+            - URI string passed to model for dereferencing rdf document
+        - (eventually) pass list of aggregated uris for serialization
     - calls to view
 	- update aggregate view
             - upon window closure, add newly selected nodes to aggregate, and update view
-        - *create frontier subgraph upon exploration return
+        - render frontier subgraph upon return of graph from model
         - display literal value
+- parent tulip graph containing aggregate and all frontier graphs as subgraphs
+    - each node and edge needs two string properties
+        - content, for keeping track of the URI or literal that it represents
+        - uriLiteral, so it knows whether its content is a URI or a literal value
+    - for the purposes of maintaining consistency in node/edge properties, it seems
+      easiest to keep frontier graphs as subgraphs of the parent
+    - if nodes can be created with node edge properties (i.e. content, uriLiteral) in
+      one graph, added to a different graph, and have those same properties dereferenced
+      as part of the new graph, then it would be better to keep a list of frontier graphs
+        - #TODO: try above
+- translation function for converting RDF documents to tlp.Graph() structures
+    - upon translation, calling the view is necessary to begin visualization
+- observer object to trigger frontier cleanup in the event of window closure
 
 **model**
 
-- main graph, containing
-    - aggregated (selected) nodes
-    - frontier (under exploration) nodes
-- communicator handling HTTP URI dereferencing
-- translator converting RDF documents to tlp.Graph() structures
-    - upon tranlation, calling the view is necessary to begin visualization
-- subgraph manager (maybe this is over-abstraction?)
+- history graph, containing all triples ever explored
+    - this is an important feature, querying this graph means we could compute relatedness
+      for visualization
+- communication function for handling HTTP URI dereferencing
 
 **view**
 
@@ -98,7 +116,6 @@ choose PyQt
     - node sizing
     - edge weighting
     - labels
-- observer object to trigger frontier cleanup in the event of window closure
     
 
 ###questions motivating the TODO
