@@ -1,9 +1,12 @@
 TODO list, descending priority, keep it quick
 =============================================
 
-- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
+- read about how data moves around in tulip graph, especially with subgraphs
+    - especially look for how two separately created graphs with nodes that have identically named/typed properties would integrate
 
-- split model, view, and controller into separate files as originally intended
+- consolidate vocabulary and communication patterns between the two flowcharts and the forming modules.  all the assumptions need to agree before I can progress
+
+- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
 
 - get test data files for each component
 
@@ -37,3 +40,7 @@ Fri Feb  8 19:34:43 MST 2013
 
 Fri Feb  8 19:36:51 MST 2013
 - describe overall program flow in dia as a flow chart
+
+
+Mon Mar  4 20:02:15 MST 2013
+- split model, view, and controller into separate files as originally intended

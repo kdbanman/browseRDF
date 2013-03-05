@@ -12,40 +12,6 @@ from PyQt4.QtCore import *
 
 import rdflib
 
-class Model():
-  '''
-  class for retrieving new rdf, maintaining browsing history, and serializing
-  aggregated graphs
-  '''
-  
-  # class variable for browser's data history
-  _history = rdflib.Graph()
-
-  def getGraph(self, uri):
-    '''
-    checks that a uri returns rdf, adds the data to history, and returns
-    the document as an rdflib graph
-    '''
-    subGraph = rdflib.Graph()
-    try:
-      subGraph.load(uri)
-    except:
-      print "the following uri did not return a valid rdf document:"
-      print uri
-      return -1
-
-    self._history.add(subGraph)
-
-    return subGraph
-    
-  def serialize(self, uris):
-    '''
-    looks through the entire browsing history for all uris, builds a graph
-    containing them and all of their predicates, and serializes it as rdf-xml.
-    prints an error to terminal if a uri is not found in the history.
-    '''
-    #TODO: for uri in list, query for triples with all other uris ( O(n^2) )
-
 class Controller():
   '''
   class for managing data flow between view and model with a tulip graph and a
@@ -115,21 +81,5 @@ class Controller():
       pEdge = frontGraph.addEdge(sNode, oNode)
       content[pEdge] = p.encode("UTF-8")
       
-    #TODO: FrontierGraph class that knows its exploration path
+#TODO: FrontierGraph class that knows its exploration path, inherets from tlp.Graph()
 
-class View():
-  '''
-  class for managing frontier windows and aggregate graph window.
-  '''
-  
-  #TODO: newFrontier(tulipGraph)
-  '''
-  a function that creates a new window with the contents of a freshly
-  dereferenced uri.
-  '''
-
-  #TODO: makePretty(graph, window)
-  '''
-  function that applies a force-directed layout algorithm, a degree-based
-  sizing algorithm, and updates the view of the graph.
-  '''
