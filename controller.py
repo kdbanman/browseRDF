@@ -8,8 +8,6 @@ from tulip import *
 from tulipogl import *
 from tulipgui import *
 
-from PyQt4.QtCore import *
-
 import rdflib
 
 class Controller():
@@ -20,14 +18,13 @@ class Controller():
   # container for both aggregate and frontier graphs
   _parent = tlp.newGraph()
   _aggregate = _parent.addSubGraph()
-  # each node needs to know its uri or literal, and which it is
+
+  # selection property to observe for exploration/saving
+  viewSelection = _parent.getBooleanProperty("viewSelection")
+  # each node needs to know its uri or literal, and which one of those it is
   content = _parent.getStringProperty("content")
   uriLiteral = _parent.getStringProperty("uriLiteral")
 
-  #TODO: SelectionObserver class that looks at the state of the toolbar 
-  #      and behaves accordingly
-
-  #TODO: Toolbar class for changing interaction modes
 
   #TODO: member function addToAggregate(uris)
   #  '''
@@ -35,13 +32,42 @@ class Controller():
   #  selected node(s), to the aggregate
   #  '''
 
+
+
+  # for a specific node in the _parent graph, the next 3 functions get the 
+  # properties of that node
+  def getContent(self, node):
+    try:
+      return content[node]
+    except:
+      print "node not in graph"
+      quit()
+
+  def isLiteral(self, node):
+    try:
+      if uriLiteral[node] == "URI":
+        return False
+      elif uriLiteral[node] == "Literal":
+        return True
+      else:
+        print "node does not have uriLiteral property"
+        quit()
+    except:
+      print "node not in graph"
+      quit()
+
+  def isURI(self, node):
+    return not self.isLiteral(node)
+  
+
+
   def triplesToTulip(rdflibGraph):
     '''
     converts an rdflib.Graph() of triples into a Tulip (sub)graph for display
     by the view class.  the uri exploration path of the graph is known by the
     graph so that shortest path to aggregate can be calculated.
     '''
-    frontGraph = _parent.addSubGraph() #TODO: do content and uriLiteral properties trickle down?
+    frontGraph = _parent.addSubGraph()
     
     # iterate through passed graph to build tulip graph
     for s,p,o in rdfGraph:
@@ -49,6 +75,7 @@ class Controller():
       oContent = o.encode("UTF-8")
 
       # check if node is already in graph
+      # OPTIMIZATION:  This could use a hash to make the membership check constant time
       newS = True
       newO = True
       for n in frontGraph.getNodes():
