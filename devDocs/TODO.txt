@@ -1,16 +1,9 @@
 TODO list, descending priority, keep it quick
 =============================================
 
-- read about how data moves around in tulip graph, especially with subgraphs
-    - especially look for how two separately created graphs with nodes that have identically named/typed properties would integrate
+- exploration mode flow is currently hanging, I suspect QT is being used wrong.  fix this and test the exploration mode
 
-- consolidate vocabulary and communication patterns between the two flowcharts and the forming modules.  all the assumptions need to agree before I can progress
-
-- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
-
-- get test data files for each component
-
-- write tests based on data files
+- get test data files for exploration, ensure all data included properly
 
 - detail logical structure of each of m,v,c in Dia
     - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
@@ -20,6 +13,19 @@ TODO list, descending priority, keep it quick
 
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+Mon Mar 18 15:51:17 MDT 2013
+- consolidate vocabulary and communication patterns between the two flowcharts and the forming modules.  all the assumptions need to agree before I can progress
+
+
+Mon Mar 18 15:50:31 MDT 2013
+- *flow chart* starting from program initialization, starting from high level of reactions/data flow in m,v,c
+
+
+Mon Mar 18 15:49:45 MDT 2013
+- read about how data moves around in tulip graph, especially with subgraphs
+    - especially look for how two separately created graphs with nodes that have identically named/typed properties would integrate
+
 
 Fri Feb  8 18:30:17 MST 2013
 - test code on work computer
