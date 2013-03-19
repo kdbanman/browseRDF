@@ -5,8 +5,6 @@
 # this code is subject to the GPLv3 license.
 
 from tulip import *
-from tulipogl import *
-from tulipgui import *
 
 import rdflib
 
@@ -18,6 +16,11 @@ class Controller():
   # container for both aggregate and frontier graphs
   _parent = tlp.newGraph()
   _aggregate = _parent.addSubGraph()
+
+  # layout property for nice display
+  viewLayout = _parent.getLayoutProperty("viewLayout")
+  # shape will differentiate between uris and literals
+  viewShape = _parent.getIntegerProperty("viewShape")
 
   # selection property to observe for exploration/saving
   viewSelection = _parent.getBooleanProperty("viewSelection")
@@ -38,16 +41,16 @@ class Controller():
   # properties of that node
   def getContent(self, node):
     try:
-      return content[node]
+      return self.content[node]
     except:
       print "node not in graph"
       quit()
 
   def isLiteral(self, node):
     try:
-      if uriLiteral[node] == "URI":
+      if self.uriLiteral[node] == "URI":
         return False
-      elif uriLiteral[node] == "Literal":
+      elif self.uriLiteral[node] == "Literal":
         return True
       else:
         print "node does not have uriLiteral property"
@@ -61,16 +64,16 @@ class Controller():
   
 
 
-  def triplesToTulip(rdflibGraph):
+  def triplesToTulip(self, rdflibGraph):
     '''
     converts an rdflib.Graph() of triples into a Tulip (sub)graph for display
     by the view class.  the uri exploration path of the graph is known by the
     graph so that shortest path to aggregate can be calculated.
     '''
-    frontGraph = _parent.addSubGraph()
+    frontGraph = self._parent.addSubGraph()
     
     # iterate through passed graph to build tulip graph
-    for s,p,o in rdfGraph:
+    for s,p,o in rdflibGraph:
       sContent = s.encode("UTF-8")
       oContent = o.encode("UTF-8")
 
@@ -79,7 +82,7 @@ class Controller():
       newS = True
       newO = True
       for n in frontGraph.getNodes():
-        nContent = content[n]
+        nContent = self.content[n]
         if nContent == sContent:
           sNode = n
           newS = False
@@ -90,23 +93,29 @@ class Controller():
       # add nodes to subgraph if they are not new
       if newS:
         sNode = frontGraph.addNode()
-        content[sNode] = sContent
+        self.content[sNode] = sContent
         if type(s) == rdflib.URIRef:
-          uriLiteral[sNode] = "URI"
+          self.uriLiteral[sNode] = "URI"
         else:
-          uriLiteral[sNode] = "Literal"
+          self.uriLiteral[sNode] = "Literal"
 
       if newO:
-        oNode = graph.addNode()
-        content[oNode] = oContent
+        oNode = frontGraph.addNode()
+        self.content[oNode] = oContent
         if type(o) == rdflib.URIRef:
-          uriLiteral[oNode] = "URI"
+          self.uriLiteral[oNode] = "URI"
         else:
-          uriLiteral[oNode] = "Literal"
+          self.uriLiteral[oNode] = "Literal"
        
       # connect the nodes by their predicate
       pEdge = frontGraph.addEdge(sNode, oNode)
-      content[pEdge] = p.encode("UTF-8")
+      self.content[pEdge] = p.encode("UTF-8")
       
-#TODO: FrontierGraph class that knows its exploration path, inherets from tlp.Graph()
+    self.forceLayout(frontGraph)
 
+    return frontGraph
+
+
+  def forceLayout(self, graph):
+    params = tlp.getDefaultPluginParameters("FM^3 (OGDF)", graph)
+    graph.applyLayoutAlgorithm("FM^3 (OGDF)", self.viewLayout, params)

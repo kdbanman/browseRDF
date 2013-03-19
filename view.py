@@ -4,15 +4,14 @@
 #
 # This code is subject to the GPLv3 license.
 
-from tulip import *
-from tulipogl import *
-from tulipgui import *
+import tulipgui
 
 class View():
   '''
   class for managing frontier windows and aggregate graph window.
   '''
-  
+  views = []
+
   def newFrontier(self, graph):
     '''
     "graph" is of type FrontierGraph.
@@ -20,5 +19,5 @@ class View():
     dereferenced uri.  It's meant to be called after the controller has
     converted a retrieved rdflib graph into a tulip graph.
     '''
-    view = tlp.addNodeLinkDiagramView(graph)
+    view = tulipgui.tlp.addNodeLinkDiagramView(graph)
     view.setOptionsWidgetsVisible(False)

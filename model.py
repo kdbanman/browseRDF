@@ -23,12 +23,13 @@ class Model():
     subGraph = rdflib.Graph()
     try:
       subGraph.load(uri)
+      print uri + " loaded into model - " + str(len(subGraph)) + " triples"
     except:
       print "the following uri did not return a valid rdf document:"
       print uri
       return -1
 
-    self._history.add(subGraph)
+    #TODO: merge subGraph with _history,  _history += subGraph didn't work...
 
     return subGraph
     

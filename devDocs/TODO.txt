@@ -1,7 +1,14 @@
 TODO list, descending priority, keep it quick
 =============================================
 
-- exploration mode flow is currently hanging, I suspect QT is being used wrong.  fix this and test the exploration mode
+- figure out why (and explain in contents why i'm testing for newS and newO in triplesToTulip
+
+- convert graph membership in triplesToTulip to hash table for speed
+    - check to see if there are already tulip member functions that do this
+
+- test a simple tulipgui screen to resolve the QGLShader "" error
+
+- get visual differentiation between uris and literals
 
 - get test data files for exploration, ensure all data included properly
 
@@ -13,6 +20,11 @@ TODO list, descending priority, keep it quick
 
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+Tue Mar 19 12:19:17 MDT 2013
+- exploration mode flow is currently hanging, I suspect QT is being used wrong.  fix this and test the exploration mode
+
 
 Mon Mar 18 15:51:17 MDT 2013
 - consolidate vocabulary and communication patterns between the two flowcharts and the forming modules.  all the assumptions need to agree before I can progress
