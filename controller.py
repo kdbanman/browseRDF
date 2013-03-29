@@ -15,7 +15,6 @@ class Controller():
   '''
   # container for both aggregate and frontier graphs
   _parent = tlp.newGraph()
-  _aggregate = _parent.addSubGraph()
 
   # layout property for nice display
   viewLayout = _parent.getLayoutProperty("viewLayout")

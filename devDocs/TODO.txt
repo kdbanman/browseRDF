@@ -1,25 +1,61 @@
-TODO list, descending priority, keep it quick
+#TODO list, descending priority, keep it quick
 =============================================
 
-- figure out why (and explain in contents why i'm testing for newS and newO in triplesToTulip
+- figure out if there is a reasonable way to prevent the user from opening two of the same document at the same time.  there might be a way to make this inherent in the model.  think back.
 
-- convert graph membership in triplesToTulip to hash table for speed
-    - check to see if there are already tulip member functions that do this
+- implement the selection/exploration buttons, get selection switching the aggregated boolean property
 
-- test a simple tulipgui screen to resolve the QGLShader "" error
+- get labels displayed
+    - size windows larger
+    - spread out nodes more - most of the nodes
 
-- get visual differentiation between uris and literals
+- figure out what happens when a node is discovered in more than one exploration window at once
 
-- get test data files for exploration, ensure all data included properly
+- try harder to get sterr logged to a file, errors are good to know
 
-- detail logical structure of each of m,v,c in Dia
-    - ... <--> {data} <--> [component] <--> {data} <--> [component] ...
-    - differentiate between data requests and data sends?
-    - actually, do this as a flow chart.  i like flow charts.
+- review observer instantiation - compiled tulip 3.8 from source and got some observer error
 
 
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+Thu Mar 28 21:55:37 MDT 2013
+- fully update and minimize readme to reflect the new choices
+    *note: old devdocs should still be accessible, so made a directory for them
+
+
+Thu Mar 28 21:30:27 MDT 2013
+- reinstall all qt libraries and recompile tulip to try and get rid of the shader error.
+    *note: it didn't work.  error persists.
+
+
+Thu Mar 28 21:30:20 MDT 2013
+- test tulip 4 for gui
+    *note: IT DOESN'T SUPPORT IT AT ALL
+
+
+Thu Mar 28 21:26:37 MDT 2013
+- get test data files for exploration, ensure all data included properly
+    *note: THE URI THAT GIVES THE RDF NAMESPACE WILL BE USED - THAT IS AS RELIABLE AS ANY TEST DATA.  DBPEDIA EINSTEIN SCREWED ME TODAY 
+
+
+Thu Mar 28 21:26:14 MDT 2013
+- get visual differentiation between uris and literals
+
+
+Thu Mar 28 21:25:32 MDT 2013
+- test a simple tulipgui screen to resolve the QGLShader "" error
+    *note: THIS WAS JUST MUTED.  IT WAS JUST AN OPENGL ERROR.
+
+
+Thu Mar 28 21:25:09 MDT 2013
+- convert graph membership in triplesToTulip to hash table for speed
+    - check to see if there are already tulip member functions that do this
+
+
+Thu Mar 28 21:24:51 MDT 2013
+- figure out why (and explain in contents why i'm testing for newS and newO in triplesToTulip
 
 
 Tue Mar 19 12:19:17 MDT 2013

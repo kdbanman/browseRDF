@@ -5,6 +5,7 @@
 # This code is subject to the GPLv3 license.
 
 import sys
+import os
 
 import tulip
 
@@ -16,6 +17,11 @@ mod = model.Model()
 vw = view.View()
 cont = controller.Controller()
 
+
+# mute all stderr
+r,w = os.pipe()
+os.close(sys.stderr.fileno())
+os.dup2(w, sys.stderr.fileno())
 
 class SelectObserver(tulip.tlp.PropertyObserver):
   '''
@@ -35,8 +41,9 @@ selObs = SelectObserver()
 cont.viewSelection.addPropertyObserver(selObs)
 
 if len(sys.argv) == 2 and sys.argv[1] == 'debug':
-  uri = "http://dbpedia.org/resource/Albert_Einstein"
+  uri = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   rdfGraph = mod.getGraph(uri)
-  print rdfGraph
   tlpGraph = cont.triplesToTulip(rdfGraph)
   vw.newFrontier(tlpGraph)
+
+

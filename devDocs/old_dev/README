@@ -39,7 +39,8 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
     - the plan to use PyQt is no good - both tulip uses Qt and there is a conflict
 
 ######library choices
-- [Tulip 3.8.0](http://tulip.labri.fr/TulipDrupal/), a graph analysis and visualization library
+- [Tulip 3.8.0](http://tulip.labri.fr/TulipDrupal/), a graph analysis and visualization 
+library
     - extensive python scripting API that is very well documented
     - tulipgui library for creation of standalone GUIs
     - not without bugs, but 3.8 is more stable than 4.x
@@ -65,9 +66,12 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
     - choose interaction mode: explore or select/aggregate
         - nodes forming the recursive exploration path are included in the aggregate to make it connected
         - all connecting edges between newly aggregated nodes are aggregated as well
-        - interaction with a literal in either mode displays its value (in a popup?  on terminal?)
+        - interaction with a literal in either mode displays its value
     - quit
     - (eventually) save rdf-xml file
+        - after serialization, the user could be prompted to start a new session,
+          possibly preserving history
+    - (eventually) choose view parameters
 - observer object that does function calls to the other components based on event type
     - calls to model
         - exploration
@@ -81,14 +85,20 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
     - each node and edge needs a boolean property
         - aggregated, to trigger the aggregate activity
     - for the purposes of maintaining consistency in node/edge properties, it seems
-      easiest to keep frontier graphs as subgraphs of the parent, since node/edge properties can be dereferenced ubiquitously that way
-        - the parent consequently holds all browsing history.
+      easiest to keep frontier graphs as subgraphs of the parent
+    - if nodes can be created with node edge properties (i.e. content, uriLiteral) in
+      one graph, added to a different graph, and have those same properties dereferenced
+      as part of the new graph, then it would be better to keep a list of frontier graphs
+        - #TODO: try above
 - translation function for converting RDF documents to tlp.Graph() structures
     - upon translation, calling the view is necessary to begin visualization
+- observer object to trigger frontier cleanup in the event of window closure
 
 **model**
 
 - history graph, containing all triples ever explored
+    - this is an important feature, querying this graph means we could compute relatedness
+      for visualization
 - communication function for handling HTTP URI dereferencing
 
 **view**
@@ -102,3 +112,8 @@ there is no browser that allows users to explore, scrutinize, and aggregate link
     - labels
     
 
+###motivational questions
+- in the event of a node click, is the logic and function call to be within the observer
+object?
+- what do we do in the (inevitable) event that a node is discovered in more than one exploration window at once?
+    - perhaps the answer is to treat the frontier nodes and the aggregated nodes identically, and visualize the phenomenon with size or color
