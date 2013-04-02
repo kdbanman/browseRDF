@@ -1,6 +1,7 @@
 #TODO list, descending priority, keep it quick
 =============================================
 
+
 - figure out if there is a reasonable way to prevent the user from opening two of the same document at the same time.  there might be a way to make this inherent in the model.  think back.
 
 - implement the selection/exploration buttons, get selection switching the aggregated boolean property
@@ -18,6 +19,13 @@
 
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+Tue Apr  2 11:56:38 MDT 2013
+- get namespaced uris as labels in tulip graph
+    - test namespace manager for normalization in rdflib
+    *note: this is too hard to shorten uris arbitrarily, the full uris will have to be used as labels for now.  see namesp.py for evidence
+    *doublenote: this is totally practical for shortening the predicates, since rdflib handles them consistently
 
 
 Thu Mar 28 21:55:37 MDT 2013

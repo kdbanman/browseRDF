@@ -21,6 +21,8 @@ class Controller():
   # shape and color will differentiate between uris and literals
   viewShape = _parent.getIntegerProperty("viewShape")
   viewColor = _parent.getColorProperty("viewColor")
+  # nodes will be labelled by their uris (namespaced for predicates, empty for literals)
+  viewLabel = _parent.getStringProperty("viewLabel")
 
   uriShape = tlp.NodeShape.Circle
   uriColor = tlp.Color(40,80,190)
@@ -64,6 +66,17 @@ class Controller():
     return not self.isLiteral(node)
   
 
+  def fill(self, rdflibTerm, tulipNode):
+    if type(rdflibTerm) == rdflib.URIRef:
+      self.uriLiteral[tulipNode] = "URI"
+      self.viewColor[tulipNode] = self.uriColor
+      self.viewShape[tulipNode] = self.uriShape
+    else:
+      self.uriLiteral[tulipNode] = "Literal"
+      self.viewColor[tulipNode] = self.litColor
+      self.viewShape[tulipNode] = self.litShape
+
+
 
   def triplesToTulip(self, rdflibGraph):
     '''
@@ -96,14 +109,7 @@ class Controller():
 
         nodeDict[sContent] = sNode
 
-        if type(s) == rdflib.URIRef:
-          self.uriLiteral[sNode] = "URI"
-          self.viewColor[sNode] = self.uriColor
-          self.viewShape[sNode] = self.uriShape
-        else:
-          self.uriLiteral[sNode] = "Literal"
-          self.viewColor[sNode] = self.litColor
-          self.viewShape[sNode] = self.litShape
+        self.fill(s, sNode)
 
       if newO:
         oNode = frontGraph.addNode()
@@ -111,14 +117,7 @@ class Controller():
 
         nodeDict[oContent] = oNode
 
-        if type(o) == rdflib.URIRef:
-          self.uriLiteral[oNode] = "URI"
-          self.viewColor[oNode] = self.uriColor
-          self.viewShape[oNode] = self.uriShape
-        else:
-          self.uriLiteral[oNode] = "Literal"
-          self.viewColor[oNode] = self.litColor
-          self.viewShape[oNode] = self.litShape
+        self.fill(o, oNode)
        
       # connect the nodes by their predicate
       pEdge = frontGraph.addEdge(sNode, oNode)
