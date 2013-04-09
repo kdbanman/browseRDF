@@ -45,7 +45,9 @@ selObs = SelectObserver()
 cont.viewSelection.addPropertyObserver(selObs)
 
 if len(ARG) == 2 and ARG[1] == 'debug' or len(ARG) == 3 and ARG[1] == 'debug' and ARG[2] == 'errors':
-  uri = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  #uri = "http://dbpedia.org/data/Albert_Einstein"
+  #uri = "http://xmlns.com/foaf/spec/index.rdf"
+  uri = "http://purl.org/dc/elements/1.1/"
   rdfGraph = mod.getGraph(uri)
   tlpGraph = cont.triplesToTulip(rdfGraph)
   vw.newFrontier(tlpGraph)

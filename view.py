@@ -21,3 +21,19 @@ class View():
     '''
     view = tulipgui.tlp.addNodeLinkDiagramView(graph)
     view.setOptionsWidgetsVisible(False)
+
+    params = view.getRenderingParameters()
+    params.setEdgeSizeInterpolate(False)
+    params.setViewArrow(True)
+    params.setLabelsDensity(0)
+    params.setLabelScaled(False)
+    params.setNodesLabelStencil(0)
+    params.setMinSizeOfLabel(15)
+
+    # dammit.  this needs to work for big data sets too.
+    # TODO: maybe something with order/incompatibility of other params?
+    params.setViewEdgeLabel(True)
+
+
+    view.setRenderingParameters(params)
+

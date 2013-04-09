@@ -1,24 +1,48 @@
+==============================================
 #TODO list, descending priority, keep it quick
-=============================================
+==============================================
 
 
-- figure out if there is a reasonable way to prevent the user from opening two of the same document at the same time.  there might be a way to make this inherent in the model.  think back.
+- get nodes that exist in an already opened window differentiated by color, if possible
 
 - implement the selection/exploration buttons, get selection switching the aggregated boolean property
 
-- get labels displayed
-    - size windows larger
-    - spread out nodes more - most of the nodes
-
-- figure out what happens when a node is discovered in more than one exploration window at once
-
-- try harder to get sterr logged to a file, errors are good to know
+- figure out why edge labels are incompatible with large documents
 
 - review observer instantiation - compiled tulip 3.8 from source and got some observer error
 
 
+================================================
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+
+Mon Apr  8 22:07:30 MDT 2013
+- migrate comment todos here
+*note:  done, son.
+
+
+Mon Apr  8 22:05:05 MDT 2013
+- figure out what happens when a node is discovered in more than one exploration window at once
+*note: it just gets displayed.  indicate with color, then highly similar documents are obvious
+
+
+Mon Apr  8 22:04:10 MDT 2013
+- try harder to get sterr logged to a file, errors are good to know
+*note: there is just a debug with errors mode now.  'tis great, i've used it.  happy pants
+
+
+Mon Apr  8 22:03:14 MDT 2013
+- get labels displayed
+    - size windows larger
+    - spread out nodes more - most of the nodes
+*note:  things are way prettier now, but things break with edge labels in particular.  tulip has an asssertion error
+
+
+Mon Apr  8 22:02:51 MDT 2013
+- figure out if there is a reasonable way to prevent the user from opening two of the same document at the same time.  there might be a way to make this inherent in the model.  think back.
+*note: I'm not going to deal with this.  this is just silly use.  the best thing would be to indicate, by color, that a node exists in another window already.
 
 
 Tue Apr  2 11:56:38 MDT 2013

@@ -71,9 +71,7 @@ class Controller():
 
   def fill(self, rdflibTerm, tulipNode):
     # label to display for each node
-    content = rdflibTerm.encode("UTF-8")
-    if len(content) < 100:
-      self.viewLabel[tulipNode] = content
+    self.viewLabel[tulipNode] = rdflibTerm.encode("UTF-8")
 
     # color and shape of rdf resource differs between uris and literals.
     if type(rdflibTerm) == rdflib.URIRef:
