@@ -120,6 +120,7 @@ class Controller():
     by the view class.  the uri exploration path of the graph is known by the
     graph so that shortest path to aggregate can be calculated.
     '''
+
     frontGraph = self._parent.addSubGraph()
     # to check if node is already in graph by building a set for constant-time membership checks
     nodeDict= {}

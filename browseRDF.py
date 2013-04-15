@@ -33,12 +33,16 @@ class SelectObserver(tulip.tlp.PropertyObserver):
   observer object controls the communication between the browser's components
   '''
   def afterSetNodeValue(self, viewSelection, node):
-    if True: # TODO: this needs to be the exploration condition of the toolbar
-      if cont.isURI(node):
-        uri = cont.getContent(node)
+    if cont.isURI(node):
+      uri = cont.getContent(node)
+
+      try:
         rdfGraph = mod.getGraph(uri)
         tlpGraph = cont.triplesToTulip(rdfGraph)
         vw.newFrontier(tlpGraph)
+      except:
+        print "RDF document not returned from " + uri
+
 
 
 selObs = SelectObserver()
@@ -46,8 +50,10 @@ cont.viewSelection.addPropertyObserver(selObs)
 
 if len(ARG) == 2 and ARG[1] == 'debug' or len(ARG) == 3 and ARG[1] == 'debug' and ARG[2] == 'errors':
   #uri = "http://dbpedia.org/data/Albert_Einstein"
+  uri = "http://rdf.freebase.com/ns/en.germany"
   #uri = "http://xmlns.com/foaf/spec/index.rdf"
-  uri = "http://purl.org/dc/elements/1.1/"
+  #uri = "http://purl.org/dc/elements/1.1/"
+  
   rdfGraph = mod.getGraph(uri)
   tlpGraph = cont.triplesToTulip(rdfGraph)
   vw.newFrontier(tlpGraph)

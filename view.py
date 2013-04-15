@@ -14,7 +14,7 @@ class View():
 
   def newFrontier(self, graph):
     '''
-    "graph" is of type FrontierGraph.
+    "graph" is a tlp.Graph()
     newFrontier creates a new window with the contents of a freshly
     dereferenced uri.  It's meant to be called after the controller has
     converted a retrieved rdflib graph into a tulip graph.
@@ -30,10 +30,10 @@ class View():
     params.setNodesLabelStencil(0)
     params.setMinSizeOfLabel(15)
 
-    # dammit.  this needs to work for big data sets too.
-    # TODO: maybe something with order/incompatibility of other params?
-    params.setViewEdgeLabel(True)
-
+    if graph.numberOfNodes() < 200:
+      params.setViewEdgeLabel(True)
+    else:
+      print "Graph too large for stable edge labels."
 
     view.setRenderingParameters(params)
 

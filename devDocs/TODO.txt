@@ -1,13 +1,18 @@
+priorities:
+2. prefixed nodes
+3. "already found" color
+4. selection mode for neighbors of nodes
+    1. sessioned colorization by user
+
+
 ==============================================
 #TODO list, descending priority, keep it quick
 ==============================================
 
-
 - get nodes that exist in an already opened window differentiated by color, if possible
+    - Marek agrees with colorization on new window
 
-- implement the selection/exploration buttons, get selection switching the aggregated boolean property
-
-- figure out why edge labels are incompatible with large documents
+- namespaced subjects and objects
 
 - review observer instantiation - compiled tulip 3.8 from source and got some observer error
 
@@ -16,6 +21,15 @@
 #FINISHED, :r !date followed by the task, as cut
 ================================================
 
+
+Mon Apr 15 16:59:51 MDT 2013
+- figure out why edge labels are incompatible with large documents
+*note: large documents no longer attempt edge labels
+
+
+Mon Apr 15 16:59:22 MDT 2013
+- implement the selection/exploration buttons, get selection switching the aggregated boolean property
+*note: feature no longer desired
 
 
 Mon Apr  8 22:07:30 MDT 2013
