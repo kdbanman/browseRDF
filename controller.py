@@ -16,6 +16,9 @@ class Controller():
   # container for both aggregate and frontier graphs
   _parent = tlp.newGraph()
 
+  # to track uris with membership test
+  _parentURIs = []
+
   # layout and size properties for nice display
   viewLayout = _parent.getLayoutProperty("viewLayout")
   viewSize = _parent.getSizeProperty("viewSize")
@@ -30,6 +33,7 @@ class Controller():
   # default shape and color for uris and literals, respectively
   uriShape = tlp.NodeShape.Circle
   uriColor = tlp.Color(40,80,190)
+  seenURIColor = tlp.Color(200, 25, 25)
   litShape = tlp.NodeShape.Square
   litColor = tlp.Color(30,170,170)
 
@@ -38,8 +42,9 @@ class Controller():
   # each node needs to know its uri or literal, and which one of those it is
   content = _parent.getStringProperty("content")
   uriLiteral = _parent.getStringProperty("uriLiteral")
-  # each node needs a property that will trigger aggregation
-  aggregate = _parent.getBooleanProperty("aggregate")
+
+  # number of times the node has been clicked, for the selection mode colorization
+  numClicked = _parent.getIntegerProperty("numClicked")
 
 
 
@@ -71,13 +76,20 @@ class Controller():
 
   def fill(self, rdflibTerm, tulipNode):
     # label to display for each node
-    content = rdflibTerm.encode("UTF-8")
+    content = self.content[tulipNode]
+
+
     if len(content) < 100:
       self.viewLabel[tulipNode] = content
 
     # color and shape of rdf resource differs between uris and literals.
     if type(rdflibTerm) == rdflib.URIRef:
-      self.viewColor[tulipNode] = self.uriColor
+      # determine if the uri is currently in any other view
+      newURI = content not in self._parentURIs
+      self._parentURIs.append(content)
+
+      # color the uri red if it's rendered anywhere else
+      self.viewColor[tulipNode] = (self.uriColor if newURI else self.seenURIColor)
       self.viewShape[tulipNode] = self.uriShape
 
       # distinguish between uris and literals with this property
@@ -89,6 +101,7 @@ class Controller():
 
       # distinguish between uris and literals with this property
       self.uriLiteral[tulipNode] = "Literal"
+
 
   def fillEdge(self, rdflibPred, tulipEdge, rdflibGraph):
     # namespaced predicates are for free with rdflib :)
@@ -117,12 +130,12 @@ class Controller():
   def triplesToTulip(self, rdflibGraph):
     '''
     converts an rdflib.Graph() of triples into a Tulip (sub)graph for display
-    by the view class.  the uri exploration path of the graph is known by the
-    graph so that shortest path to aggregate can be calculated.
+    by the view class.
     '''
 
     frontGraph = self._parent.addSubGraph()
     # to check if node is already in graph by building a set for constant-time membership checks
+    # this is to account for the fact that every resource is listed once in every one of its triples
     nodeDict= {}
     
     # iterate through passed graph to build tulip graph

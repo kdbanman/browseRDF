@@ -9,7 +9,12 @@ priorities:
 #TODO list, descending priority, keep it quick
 ==============================================
 
+- get selection mode to highlight nodes with ColorScale
+    - this will mean two different selection modes again.  command line will be the quick and dirty way.
+
 - get nodes that exist in an already opened window differentiated by color, if possible
+    - THIS IS SO CLOSE TO WORKING.  DAMMIT.  THE LIST OF URIS ISN"T GROWING AND SHRINKING AS ONE WOULD ASSUME.
+    - this will likely mean a hash-set that is maintained from _parent in the controller module, since we need to test membership of nodes
     - Marek agrees with colorization on new window
 
 - namespaced subjects and objects
@@ -20,6 +25,12 @@ priorities:
 ================================================
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+
+Wed Apr 24 18:46:39 MDT 2013
+- get parent to delete data from closed windows
+*note: this is being handled in view.py because it has tulipgui.  silly.
 
 
 Mon Apr 15 16:59:51 MDT 2013

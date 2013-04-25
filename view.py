@@ -19,6 +19,8 @@ class View():
     dereferenced uri.  It's meant to be called after the controller has
     converted a retrieved rdflib graph into a tulip graph.
     '''
+
+
     view = tulipgui.tlp.addNodeLinkDiagramView(graph)
     view.setOptionsWidgetsVisible(False)
 
