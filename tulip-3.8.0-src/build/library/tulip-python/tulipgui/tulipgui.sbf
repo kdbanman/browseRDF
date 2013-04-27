@@ -1,0 +1,3 @@
+target = tulipgui
+sources = siptulipguicmodule.cpp siptulipguistdvector0101tlpView.cpp siptulipguitlpNodeLinkDiagramComponent.cpp siptulipguitlpView.cpp siptulipguitlp.cpp
+headers = sipAPItulipgui.h

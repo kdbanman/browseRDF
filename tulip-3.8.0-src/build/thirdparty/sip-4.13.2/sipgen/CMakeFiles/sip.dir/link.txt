@@ -1,0 +1,1 @@
+/usr/bin/gcc   -w     CMakeFiles/sip.dir/export.c.o CMakeFiles/sip.dir/extracts.c.o CMakeFiles/sip.dir/gencode.c.o CMakeFiles/sip.dir/heap.c.o CMakeFiles/sip.dir/lexer.c.o CMakeFiles/sip.dir/main.c.o CMakeFiles/sip.dir/parser.c.o CMakeFiles/sip.dir/transform.c.o  -o sip -rdynamic 

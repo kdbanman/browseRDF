@@ -28,16 +28,6 @@ vw = view.View()
 cont = controller.Controller()
 
 
-uriColor = tulip.tlp.Color(40,80,190)
-litColor = tulip.tlp.Color(30,170,170)
-
-propScale = tulip.tlp.ColorScale([])
-propScale.setColorAtPos(0, tulip.tlp.Color(0,0,255))
-propScale.setColorAtPos(5, tulip.tlp.Color(255,0,0))
-
-def uriLitColorize():
-  print "fuck you"
-
 exploring = True
 
 class SelectObserver(tulip.tlp.PropertyObserver):
@@ -51,14 +41,12 @@ class SelectObserver(tulip.tlp.PropertyObserver):
     for sub in cont._parent.getSubGraphs():
       if len(tulipgui.tlp.getViewsOfGraph(sub)) == 0:
         for n in sub.getNodes():
-          if cont.isURI(node):
+          if cont.isURI(n):
             try:
-              cont._parentURIs.remove(cont.getContent(node))
+              cont._parentURIs[cont.getContent(n)] -= 1
             except:
               print "content not found in URI list.\n"
         cont._parent.delSubGraph(sub)
-        print "Window was closed, associated RDF data removed from model.\n"
-    print len(cont._parentURIs)
 
     if cont.isURI(node) and exploring:
       uri = cont.getContent(node)
@@ -71,18 +59,44 @@ class SelectObserver(tulip.tlp.PropertyObserver):
         print "RDF document not returned from " + uri
 
     elif not exploring:
-      print node
+      toSearch = []
+      toSearch.append(node)
+      cont.numClicked[node] += 1
 
+      while len(toSearch) > 0:
+        #TODO this isn't growing past 1, so BFS isn't quite right yet
+        print len(toSearch)
+        del toSearch[0]
+        for n in toSearch:
+          cont.numClicked[n] += 1
+          for nbr in cont._parent.getInOutNodes(n):
+            if cont.numClicked[nbr] > 0:
+              toSearch.append(nbr)
+            cont.numClicked[nbr] += 1
+
+
+propScale = tulip.tlp.ColorScale([])
+propScale.setColorAtPos(0, tulip.tlp.Color(0,0,255))
+propScale.setColorAtPos(5, tulip.tlp.Color(255,0,0))
+
+class NbrObserver(tulip.tlp.PropertyObserver):
+  def afterSetNodeValue(self, numClicked, node):
+    cont.viewColor[node] = propScale.getColorAtPos(cont.numClicked[node])
 
 
 selObs = SelectObserver()
 cont.viewSelection.addPropertyObserver(selObs)
 
+nbrObs = NbrObserver()
+cont.numClicked.addPropertyObserver(nbrObs)
+
+
 if len(ARG) == 2 and ARG[1] == 'debug' or len(ARG) == 3 and ARG[1] == 'debug' and ARG[2] == 'errors':
   #uri = "http://dbpedia.org/data/Albert_Einstein"
   #uri = "http://rdf.freebase.com/ns/en.germany"
-  #uri = "http://xmlns.com/foaf/spec/index.rdf"
-  uri = "http://purl.org/dc/elements/1.1/"
+  uri = "http://xmlns.com/foaf/spec/index.rdf"
+  #uri = "http://purl.org/dc/elements/1.1/"
+  #uri = "IT_Vocabulary.rdf"
   
   rdfGraph = mod.getGraph(uri)
   tlpGraph = cont.triplesToTulip(rdfGraph)
@@ -90,21 +104,28 @@ if len(ARG) == 2 and ARG[1] == 'debug' or len(ARG) == 3 and ARG[1] == 'debug' an
 
 
 userInput = ""
-while userInput.lower() != "q" or userInput.lower() != "quit":
-  display = []
-  display.append("\n\nCurrently in " + ("exploration" if exploring else "selection") + " mode.\n")
+while True:
+  display = ["\n" for x in xrange(0,100)]
+  display.append(("EXPLORATION" if exploring else "NEIGHBOR VISUALIZATION") + " mode.\n")
   
   if exploring:
-    display.append("With the crosshair tool, click on the URI nodes (blue circles) to explore them.\n")
+    display.append("With the blue selection tool, click on the URI nodes to explore them.\n")
   else:
-    display.append("With the crosshair tool, click on the nodes to visualize their neigbours.\n")
+    display.append("With the blue selection tool, click on any node to visualize its neigbours.\n")
 
-  display.append("Enter E for exploration mode, S for selection mode, Q to quit.  ")
+  display.append("Enter E for recursive exploration mode\n      V for visualization mode\n      Q to quit.  ")
 
   for s in display:
     print s
 
-  userInput = raw_input()
-
-# when selection mode is enabled, clear the numClicked property on each node
+  userInput = raw_input().lower()
+  if userInput == "q" or userInput == "quit":
+    tulipgui.tlp.closeAllViews()
+    sys.exit(0)
+  elif userInput[0] == "e" and userInput in "exploration" and not exploring:
+    cont.restoreColors()
+    exploring = True
+  elif userInput[0] == "v" and userInput in "visualization" and exploring:
+    cont.rememberColors()
+    exploring = False
 

@@ -1,0 +1,1416 @@
+
+
+
+
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#"
+    xmlns:log="http://www.w3.org/2000/10/swap/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <Ontology xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20">
+    </Ontology>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ApplicationDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Design"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IMTIndustryExperience">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemProblemDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSoultionDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DatabaseAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTestAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestAnalystRole"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DB2MonitoringPerform">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Performance"/>
+    </Class>
+
+    <ObjectProperty xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#requiredCertif">
+        <domain xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+        <range xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Certification"/>
+    </ObjectProperty>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDevelopmentMethodology">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ClientServerDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#WrittenVerbalCommunication">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDevelopmentMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestRiskAssess">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Assessment"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProgrammingDetailDoc">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingPractices">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataMartDeveloperRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DeveloperRole"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DublinCore">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MataData"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTesterRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TesterRole"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#FinancialMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTestStress">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTest"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithBusinessPeople">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessPriorityMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationWithSeniorManagement">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#WorkWithBusinessPeople">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ArchitectureDesign"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Analysis">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#UnitTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#NegotiationSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfTechnicalDesignerTeam">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PlanningMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ServiceManagerRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PowerBuilderWOracle">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AHWTechnical">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Environment"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Requirement">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ValidationRulesDoc">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfTestAnalyst">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Project">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Skill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunityTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingPractices"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessCasesDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ClipperDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IMTInfrastructureMaint">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Maintenance"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTestDesigners">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTechnicalPeople"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BlackBoxTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingPractices"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AccountMngtOfOutsourcedApp">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AccountMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IndependentWorkSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CostAndBenefitAssess">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Assessment"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#HardSkill"/>
+    </Class>
+
+    <ObjectProperty xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#hasSkill">
+        <domain xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Person"/>
+        <range xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Skill"/>
+    </ObjectProperty>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ApplicationMaintenance">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ServiceDomain"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#InfrastructureAdmin">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Administration"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataMart">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataRelated"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DevelopTestFramework">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingProcessActivity"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationWithTechnicalPeople">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingProcessActivity">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RationalFunctionalTesterRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessProcess">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Re-engineering"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProgramDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Design"/>
+    </Class>
+
+    <ObjectProperty xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#requiredExper">
+        <domain xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Project"/>
+        <domain xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+        <range xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience"/>
+    </ObjectProperty>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithClients">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#HealthIndustry">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ServiceDomain"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ChangeMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ContractMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessActivityMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Performance">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BIEAdmin">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Administration"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfTestingTeam">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CustomerRelationMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ArchitectureDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Design"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TesterRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RationalPerformTestManagerRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#FeasibilityStudy">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RiskMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessModelDoc">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ITILFundationCertification">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ITILCertification"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#QualityTestManagerRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <ObjectProperty xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#requiredSkill">
+        <domain xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Project"/>
+        <domain xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+        <range xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Skill"/>
+    </ObjectProperty>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectDeliveryMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfProgrammingTeam">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AlternativeDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDesign"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTechnicalPeople">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#InterpersonalCommunication">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessLogicDocDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IntegrationTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AgileDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareSystemDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequirementGathering">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Requirement"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemProgramming">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Programming"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTestAnalysts">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTechnicalPeople"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Programming">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemMaintenanceTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessModel">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Modelling"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IMTArchitecture">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Architecture"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MngtOfTeamUsingAutomatedTestTools">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MaintenanceTestTeamMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Architecture">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DB2ImprovingPerform">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Performance"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DB2ReviewingPerform">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Performance"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamWorkExperience">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DeveloperRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#HardSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Skill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataAdminRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Design"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequirementIdentification">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Requirement"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Certification">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DisasterRecoveryProcedureDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceArchitectRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectActivitiesMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDevelopmentMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PlanningFeasStudy">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#FeasibilityStudy"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Design">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DevelopingTestPlanScript">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DevelopPerformanceTestFramework">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTest"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataModel">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Modelling"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ITILServiceMngtCertification">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ITILCertification"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTestArchitects">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamworkWithTechnicalPeople"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemAnalysis">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Analysis"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Re-engineering">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Administration">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Environment">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BackupProcedureDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#UserTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Maintenance">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformingTestPlanScript">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DevelopingTestPlanScript"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessRuleDoc">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceProblemDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSoultionDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MetaDataStandardAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IntoTechnicalModel">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequirementTranslation"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LargeScaleAppMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ServiceMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataRelated">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#OperationalStaffRelationship">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RelationshipSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#EstimatingMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Modelling">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LifeCycle">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareSystemDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequirementMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestArchitectRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TicketDefectTrackMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProcessMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataWareHouseAdmin">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Administration"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ServiceMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessProblemDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSoultionDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ITIndustryExperience">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SASAdmin">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Administration"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwarePrototypeDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareSystemDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AssessmentTestResults">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingProcessActivity"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfPerformanceTestTeam">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Person">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#WhiteBoxTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingPractices"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CreatingPlanningExecuting">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingProcessActivity"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataWarehouse">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataRelated"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TranslatingSpecificationIntoCode">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Programming"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceRiskAssess">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Assessment"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDesignDoc">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#HealthIndustryExperience">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PresentationDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AccountMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IntegratedPlanCoDependentMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfProjectTeam">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareTools">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#HardSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MultiDimDBDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DBDesign"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BudgetMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Documenting">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ArchitectureDesign"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProcessMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#FormatMethodsDevMethood">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDevelopmentMethodology"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TestingDataMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechDoc">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DocumentationDevelop"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectManagerRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RationalPkge">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareTools"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ContractMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PMICertification">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Certification"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ArchitectureDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadershipOfPeformanceArchitectTeam">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#OfPerformanceStressLoadArchitect">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamOfArchitectsLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamResourceMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemDevelopmentMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IssueMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ITILCertification">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Certification"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Assessment">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PresentationSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadArchitectRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BIArchitectRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationWithBusinessPeople">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DatabaseAdminRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MultiProjectSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#OutsourcedLargeAppMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LargeScaleAppMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ClientSeniorLevelRelationship">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RelationshipSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequirementTranslation">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Requirement"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TechnicalSoultionDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IndustryBIEMethodExperience">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Experience"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#VirusProtectionProcedureDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ClearQuest">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RationalPkge"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataWareHouseDeveloperRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DeveloperRole"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#EvaluationTools">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareTools"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AccountManagerRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#HighLevelReq">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Requirement"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemArchitectRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#LeadArchitectRole"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Flowcharting">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Programming"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#IntoProcess">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequirementTranslation"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AssessmentPerformanceTestResults">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#AssessmentTestResults"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MataData">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataRelated"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SystemArchitecture">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Architecture"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTestLoad">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#PerformanceTest"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProgramTesting">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Testing"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MaintenanceTestTeamMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ManagementSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Skill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#EndToEndBIESolutionDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RequisitePro">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RationalPkge"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProcessModel">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Modelling"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DataDictionaryMaint">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Maintenance"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ServiceDomain">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MngtOfTeamUsingTestMngtTools">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MaintenanceTestTeamMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DutyAnalystRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DBDesign">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Design"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftwareSystemDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ApplicationArchitecture">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Architecture"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProgrammerRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#BusinessReq">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Requirement"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ResourceMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#DBSecurityAccessProcedureDevelop">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Development"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamOfArchitectsLeadership">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadership"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SchedulingMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ISO-11179">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#MataData"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SeniorLevelRelationship">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RelationshipSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#CommunicationSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Skill">
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#RelationshipSkill">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#SoftSkill"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#TeamLeadRole">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#Role"/>
+    </Class>
+
+    <Class xmlns="http://www.w3.org/2002/07/owl#"
+        rdf:about="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ToolMngt">
+        <subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#"
+            rdf:resource="http://www.semanticweb.org/ontologies/2013/1/untitled-ontology-20#ProjectMngt"/>
+    </Class>
+</rdf:RDF>
+
+

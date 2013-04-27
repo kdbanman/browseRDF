@@ -8,6 +8,7 @@ from tulip import *
 
 import rdflib
 
+
 class Controller():
   '''
   class for managing data flow between view and model with a tulip graph and a
@@ -17,7 +18,7 @@ class Controller():
   _parent = tlp.newGraph()
 
   # to track uris with membership test
-  _parentURIs = []
+  _parentURIs = {}
 
   # layout and size properties for nice display
   viewLayout = _parent.getLayoutProperty("viewLayout")
@@ -26,6 +27,10 @@ class Controller():
   # shape and color will differentiate between uris and literals
   viewShape = _parent.getIntegerProperty("viewShape")
   viewColor = _parent.getColorProperty("viewColor")
+
+  # for selection colorization
+  prevColor = _parent.getColorProperty("prevColor")
+  colorsPreserved = False
 
   # nodes will be labelled by their uris (namespaced for predicates, empty for literals)
   viewLabel = _parent.getStringProperty("viewLabel")
@@ -47,6 +52,19 @@ class Controller():
   numClicked = _parent.getIntegerProperty("numClicked")
 
 
+  def rememberColors(self):
+    if not self.colorsPreserved:
+      self.colorsPreserved = True
+      for n in self._parent.getNodes():
+        self.prevColor[n] = self.viewColor[n]
+
+  def restoreColors(self):
+    if self.colorsPreserved:
+      self.colorsPreserved = False
+      for n in self._parent.getNodes():
+        self.viewColor[n] = self.prevColor[n]
+        self.numClicked[n] = 0
+    
 
   # for a specific node in the _parent graph, the next 3 functions get the 
   # properties of that node
@@ -78,15 +96,17 @@ class Controller():
     # label to display for each node
     content = self.content[tulipNode]
 
-
     if len(content) < 100:
       self.viewLabel[tulipNode] = content
 
     # color and shape of rdf resource differs between uris and literals.
     if type(rdflibTerm) == rdflib.URIRef:
       # determine if the uri is currently in any other view
-      newURI = content not in self._parentURIs
-      self._parentURIs.append(content)
+      newURI = content not in self._parentURIs or self._parentURIs[content] == 0
+      if newURI:
+        self._parentURIs[content] = 1
+      else:
+        self._parentURIs[content] += 1
 
       # color the uri red if it's rendered anywhere else
       self.viewColor[tulipNode] = (self.uriColor if newURI else self.seenURIColor)

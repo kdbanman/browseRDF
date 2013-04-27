@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcrash_handling.a  CMakeFiles/crash_handling.dir/CrashHandling.cpp.o CMakeFiles/crash_handling.dir/StackWalker.cpp.o CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.o
+/usr/bin/ranlib libcrash_handling.a

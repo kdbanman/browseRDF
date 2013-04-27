@@ -1,0 +1,5 @@
+ADD_SUBDIRECTORY(tulip)
+ADD_SUBDIRECTORY(tulip-ogl)
+ADD_SUBDIRECTORY(tulip-qt)
+ADD_SUBDIRECTORY(tulip-python)
+ADD_SUBDIRECTORY(tulip-ogdf)

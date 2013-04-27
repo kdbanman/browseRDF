@@ -31,11 +31,7 @@ class View():
     params.setLabelScaled(False)
     params.setNodesLabelStencil(0)
     params.setMinSizeOfLabel(15)
-
-    if graph.numberOfNodes() < 200:
-      params.setViewEdgeLabel(True)
-    else:
-      print "Graph too large for stable edge labels."
+    params.setViewEdgeLabel(True)
 
     view.setRenderingParameters(params)
 

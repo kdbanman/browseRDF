@@ -1,9 +1,3 @@
-priorities:
-2. prefixed nodes
-3. "already found" color
-4. selection mode for neighbors of nodes
-    1. sessioned colorization by user
-
 
 ==============================================
 #TODO list, descending priority, keep it quick
@@ -11,21 +5,27 @@ priorities:
 
 - get selection mode to highlight nodes with ColorScale
     - this will mean two different selection modes again.  command line will be the quick and dirty way.
-
-- get nodes that exist in an already opened window differentiated by color, if possible
-    - THIS IS SO CLOSE TO WORKING.  DAMMIT.  THE LIST OF URIS ISN"T GROWING AND SHRINKING AS ONE WOULD ASSUME.
-    - this will likely mean a hash-set that is maintained from _parent in the controller module, since we need to test membership of nodes
-    - Marek agrees with colorization on new window
+*note: the command line works but it's pretty slow for some reason.  probably because tulip is so busy printing errors
+    - the BFS isn't performing, but the color transformation is happening
 
 - namespaced subjects and objects
-
-- review observer instantiation - compiled tulip 3.8 from source and got some observer error
 
 
 ================================================
 #FINISHED, :r !date followed by the task, as cut
 ================================================
 
+
+Fri Apr 26 17:22:24 MDT 2013
+*note: edge label now work for all sizes
+
+
+Fri Apr 26 14:20:30 MDT 2013
+- get nodes that exist in an already opened window differentiated by color, if possible
+    - THIS IS SO CLOSE TO WORKING.  DAMMIT.  THE LIST OF URIS ISN"T GROWING AND SHRINKING AS ONE WOULD ASSUME.
+    - this will likely mean a hash-set that is maintained from _parent in the controller module, since we need to test membership of nodes
+    - Marek agrees with colorization on new window
+*note: implemented with dictionary _parentURIs, mapping URIs to the currently rendered quantity
 
 
 Wed Apr 24 18:46:39 MDT 2013
