@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/LeafMetric.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/LeafMetric.cpp
 stack
 -
 LeafMetric.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/LeafMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/LeafMetric.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/LeafMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/LeafMetric.h
 tulip/TulipPlugin.h
 -
 

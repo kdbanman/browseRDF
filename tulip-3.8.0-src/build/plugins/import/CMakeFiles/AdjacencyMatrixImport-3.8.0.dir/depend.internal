@@ -80,5 +80,5 @@ plugins/import/CMakeFiles/AdjacencyMatrixImport-3.8.0.dir/AdjacencyMatrixImport.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/AdjacencyMatrixImport.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/AdjacencyMatrixImport.cpp
  library/tulip/include/tulip/TulipRelease.h

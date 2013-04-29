@@ -30,7 +30,7 @@ unistd.h
 
 ../library/tulip/include/tulip/SystemDefinition.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/BfdWrapper.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/BfdWrapper.h
 windows.h
 -
 stdint.h
@@ -50,7 +50,7 @@ string
 bfd.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/CrashHandling.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/CrashHandling.cpp
 tulip/SystemDefinition.h
 -
 tulip/TulipRelease.h
@@ -60,21 +60,21 @@ iostream
 cstring
 -
 CrashHandling.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/CrashHandling.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/CrashHandling.h
 StackWalker.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/StackWalker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/StackWalker.h
 UnixSignalInterposer.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.h
 sys/ucontext.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/CrashHandling.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/CrashHandling.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/StackWalker.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/StackWalker.cpp
 omp.h
 -
 StackWalker.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/StackWalker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/StackWalker.h
 sstream
 -
 cxxabi.h
@@ -92,7 +92,7 @@ cxxabi.h
 dbghelp.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/StackWalker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/StackWalker.h
 iostream
 -
 iomanip
@@ -102,7 +102,7 @@ string
 tulip/ConsoleUtils.h
 -
 BfdWrapper.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/BfdWrapper.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/BfdWrapper.h
 stdint.h
 -
 map
@@ -110,7 +110,7 @@ map
 map
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.cpp
 cstdlib
 -
 cstdio
@@ -126,11 +126,11 @@ unistd.h
 dlfcn.h
 -
 UnixSignalInterposer.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.h
 StackWalker.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/StackWalker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/StackWalker.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling/UnixSignalInterposer.h
 csignal
 -
 

@@ -36,7 +36,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QEvent
@@ -204,7 +204,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -460,7 +460,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -756,7 +756,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -983,7 +983,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWi
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -1270,7 +1270,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -1501,7 +1501,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -1668,7 +1668,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o
  ../library/tulip/include/tulip/PluginProgress.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -1878,7 +1878,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -2065,7 +2065,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o
  ../library/tulip-qt/src/../include/tulip/ColorButton.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -2278,7 +2278,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -2496,7 +2496,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -2631,7 +2631,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -2858,7 +2858,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -3086,7 +3086,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -3253,7 +3253,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -3405,7 +3405,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -3535,7 +3535,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -3781,7 +3781,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4060,7 +4060,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4269,7 +4269,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidg
  ../library/tulip-qt/src/../include/tulip/StringsListSelectionWidgetInterface.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QHash
@@ -4460,7 +4460,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4610,8 +4610,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/../include/tulip/ElementPropertiesWidgetUI.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/../include/tulip/ElementPropertiesWidgetUI.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4783,7 +4783,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o
  ../library/tulip-qt/src/../include/tulip/FileNameEditorWidget.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4994,7 +4994,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -5253,7 +5253,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -5492,7 +5492,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o
  ../library/tulip-ogl/include/tulip/Camera.h
@@ -5591,7 +5591,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -5879,7 +5879,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -6103,7 +6103,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -6367,7 +6367,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -6607,7 +6607,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -6754,7 +6754,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -6953,7 +6953,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -7192,7 +7192,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -7315,7 +7315,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o
  ../library/tulip-qt/src/../include/tulip/GraphicsWidgetBase.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -7513,7 +7513,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -7720,7 +7720,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -7863,7 +7863,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibilit
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -8067,7 +8067,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -8192,7 +8192,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o
  ../library/tulip-qt/src/../include/tulip/ItemsListWidget.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QHash
@@ -8423,7 +8423,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -8619,7 +8619,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -8900,7 +8900,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -9223,7 +9223,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -9455,7 +9455,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -9678,7 +9678,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -9899,7 +9899,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -10119,7 +10119,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -10336,7 +10336,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -10558,7 +10558,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -10785,7 +10785,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -11003,7 +11003,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QEvent
@@ -11224,7 +11224,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -11450,7 +11450,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -11680,7 +11680,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -11933,7 +11933,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -12186,7 +12186,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -12478,7 +12478,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -12765,7 +12765,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -12983,7 +12983,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -13119,7 +13119,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o
  ../library/tulip-qt/src/../include/tulip/QtOpenGlErrorViewer.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -13373,7 +13373,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -13603,7 +13603,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -13836,7 +13836,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -13973,7 +13973,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidg
  ../library/tulip-qt/src/../include/tulip/StringsListSelectionWidgetInterface.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -14132,7 +14132,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -14379,7 +14379,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorCompone
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QEvent
@@ -14610,7 +14610,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -14792,7 +14792,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -14983,7 +14983,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp
  ../library/tulip-qt/src/../include/tulip/StringsListSelectionWidgetInterface.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QHash
@@ -15144,7 +15144,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsPr
  ../library/tulip-qt/src/../include/tulip/TabWidgetHidableMenuGraphicsProxy.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QEventLoop
@@ -15294,7 +15294,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QCoreApplication
@@ -15357,7 +15357,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o
  ../library/tulip-qt/src/../include/tulip/TlpNetworkAccess.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -15534,7 +15534,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -15667,7 +15667,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o
  ../library/tulip-qt/src/../include/tulip/TulipSettings.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QSettings
@@ -15831,7 +15831,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16047,7 +16047,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/View.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16250,7 +16250,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16401,9 +16401,9 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AbstractView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AbstractView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16512,8 +16512,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16700,8 +16700,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16843,8 +16843,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurati
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -16996,8 +16996,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidg
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -17157,8 +17157,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -17299,8 +17299,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidg
  ../library/tulip-qt/src/../include/tulip/CSVParser.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -17423,8 +17423,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidg
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorButton.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorButton.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -17547,8 +17547,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -17741,10 +17741,10 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Controller.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Controller.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -17882,8 +17882,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -18004,8 +18004,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CoordWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CoordWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -18113,8 +18113,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -18222,9 +18222,9 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelection
  ../library/tulip-qt/src/../include/tulip/ItemsListWidget.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QHash
@@ -18404,8 +18404,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -18507,8 +18507,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cp
  /usr/include/qt4/QtGui/qwmatrix.h
  library/tulip/include/tulip/TulipRelease.h
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -18611,8 +18611,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -18719,8 +18719,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -18949,8 +18949,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -19143,8 +19143,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -19346,8 +19346,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -19561,8 +19561,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -19792,8 +19792,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -19938,8 +19938,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -20159,8 +20159,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -20365,9 +20365,9 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -20475,8 +20475,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QHash
@@ -20604,8 +20604,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -20769,8 +20769,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -20959,8 +20959,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MainController.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MainController.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -21096,8 +21096,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Morphing.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Morphing.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/qalgorithms.h
  /usr/include/qt4/QtCore/qatomic.h
@@ -21201,8 +21201,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QObject
  /usr/include/qt4/QtCore/qalgorithms.h
@@ -21322,8 +21322,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QObject
  /usr/include/qt4/QtCore/qalgorithms.h
@@ -21404,9 +21404,9 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -21548,8 +21548,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -21660,8 +21660,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -21789,8 +21789,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -21982,8 +21982,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -22246,8 +22246,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimato
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject
@@ -22400,8 +22400,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtProgress.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtProgress.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -22560,8 +22560,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -22743,8 +22743,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -22867,9 +22867,9 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23027,8 +23027,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SizeWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SizeWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23182,8 +23182,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23293,8 +23293,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23462,8 +23462,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphi
  ../library/tulip-qt/src/../include/tulip/GraphicsWidgetBase.h
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23576,8 +23576,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphi
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TextEditDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TextEditDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23745,8 +23745,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -23907,8 +23907,8 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -24015,7 +24015,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o
  /usr/include/qt4/QtGui/qwmatrix.h
  library/tulip/include/tulip/TulipRelease.h
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx
  /usr/include/qt4/QtCore/qconfig.h
  /usr/include/qt4/QtCore/qfeatures.h
  /usr/include/qt4/QtCore/qglobal.h

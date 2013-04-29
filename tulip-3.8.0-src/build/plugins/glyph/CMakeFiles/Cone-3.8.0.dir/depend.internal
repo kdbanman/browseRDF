@@ -75,7 +75,7 @@ plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/glyph/cone.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/glyph/cone.cpp
  /usr/include/GL/../GL/gl.h
  /usr/include/GL/../GL/gl_mangle.h
  /usr/include/GL/../GL/glext.h

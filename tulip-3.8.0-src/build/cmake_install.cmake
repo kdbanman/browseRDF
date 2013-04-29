@@ -1,4 +1,4 @@
-# Install script for directory: /home/kdbanman/Desktop/tulip-3.8.0-src
+# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,30 +33,30 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/build/tulip-config")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/tulip-config")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/FindTULIP3.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/FindTULIP3.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/FindGLEW.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/FindGLEW.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/FindXML2.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/FindXML2.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_dev")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/textures/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/externalplugins/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/docs/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/textures/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/externalplugins/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -66,7 +66,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/kdbanman/Desktop/tulip-3.8.0-src/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/kdbanman/Desktop/tulip-3.8.0-src/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

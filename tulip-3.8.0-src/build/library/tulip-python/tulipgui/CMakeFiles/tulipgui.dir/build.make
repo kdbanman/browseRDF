@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend.make
@@ -48,17 +48,17 @@ include library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: library/tulip-python/tulipgui/siptulipguicmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp > CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp > CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp -o CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp -o CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o.requires
@@ -71,17 +71,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o.p
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp > CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp > CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp -o CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp -o CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o.requires
@@ -94,17 +94,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tl
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp > CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp > CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp -o CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp -o CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o.requires
@@ -117,17 +117,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiag
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: library/tulip-python/tulipgui/siptulipguitlpView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp > CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp > CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp -o CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp -o CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o.requires
@@ -140,17 +140,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o.p
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: library/tulip-python/tulipgui/siptulipguitlp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp > CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp > CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp -o CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp -o CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o.requires
@@ -163,17 +163,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o.provi
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../library/tulip-python/tulipgui/TulipViewsUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp > CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp > CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp -o CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp -o CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o.requires
@@ -186,17 +186,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o.prov
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o: library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp > CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp > CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp -o CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp -o CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o.requires
@@ -209,17 +209,17 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o.
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/flags.make
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o: library/tulip-python/tulipgui/qrc_TulipGui.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx > CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx > CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.i
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx -o CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx -o CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.s
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o.requires:
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o.requires
@@ -318,9 +318,9 @@ library/tulip-python/tulipgui/siptulipguicmodule.cpp: ../library/tulip-python/st
 library/tulip-python/tulipgui/siptulipguicmodule.cpp: ../library/tulip-python/stl/string.sip
 library/tulip-python/tulipgui/siptulipguicmodule.cpp: ../library/tulip-python/stl/vector.sip
 library/tulip-python/tulipgui/siptulipguicmodule.cpp: ../library/tulip-python/stl/ostream.sip
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating siptulipguicmodule.cpp, siptulipguistdvector0101tlpView.cpp, siptulipguitlpNodeLinkDiagramComponent.cpp, siptulipguitlpView.cpp, siptulipguitlp.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && ../../../thirdparty/sip-4.13.2/sipgen/sip -I /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui -I /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/../ -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/Module.sip
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/sip -I /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui -I /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/../ -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/Module.sip
 
 library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp: library/tulip-python/tulipgui/siptulipguicmodule.cpp
 
@@ -331,16 +331,16 @@ library/tulip-python/tulipgui/siptulipguitlpView.cpp: library/tulip-python/tulip
 library/tulip-python/tulipgui/siptulipguitlp.cpp: library/tulip-python/tulipgui/siptulipguicmodule.cpp
 
 library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp: ../library/tulip-python/tulipgui/TulipViewsUtils.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipViewsUtils.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
 
 library/tulip-python/tulipgui/qrc_TulipGui.cxx: ../library/tulip-python/tulipgui/logo32x32.ico
 library/tulip-python/tulipgui/qrc_TulipGui.cxx: library/tulip-python/tulipgui/TulipGui.qrc.depends
 library/tulip-python/tulipgui/qrc_TulipGui.cxx: ../library/tulip-python/tulipgui/TulipGui.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_TulipGui.cxx"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/rcc -name TulipGui -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipGui.qrc
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/rcc -name TulipGui -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipGui.qrc
 
 # Object files for target tulipgui
 tulipgui_OBJECTS = \
@@ -388,8 +388,8 @@ library/tulip-python/tulipgui/tulipgui.so: /usr/lib/x86_64-linux-gnu/libQtCore.s
 library/tulip-python/tulipgui/tulipgui.so: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/build.make
 library/tulip-python/tulipgui/tulipgui.so: library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library tulipgui.so"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulipgui.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && ../../../thirdparty/sip-4.13.2/sipgen/sip -I /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/../ -a /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/tulipgui.api /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/Module.sip
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulipgui.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/sip -I /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/../ -a /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/tulipgui.api /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/Module.sip
 
 # Rule to build all files generated by this target.
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/build: library/tulip-python/tulipgui/tulipgui.so
@@ -406,7 +406,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/requires: library/tulip-py
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/requires
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && $(CMAKE_COMMAND) -P CMakeFiles/tulipgui.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && $(CMAKE_COMMAND) -P CMakeFiles/tulipgui.dir/cmake_clean.cmake
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/clean
 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend: library/tulip-python/tulipgui/siptulipguicmodule.cpp
@@ -416,6 +416,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend: library/tulip-pyth
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend: library/tulip-python/tulipgui/siptulipguitlp.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend: library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend: library/tulip-python/tulipgui/qrc_TulipGui.cxx
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/depend
 

@@ -836,7 +836,7 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.cpp
 cmath
 -
 algorithm
@@ -844,11 +844,11 @@ algorithm
 tulip/TreeTest.h
 -
 SquarifiedTreeMap.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.h
 TreeTools.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeTools.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.h
 vector
 -
 utility
@@ -856,11 +856,11 @@ utility
 tulip/tuliphash.h
 -
 tulip/TulipPlugin.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/tulip/TulipPlugin.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/tulip/TulipPlugin.h
 tulip/Rectangle.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/tulip/Rectangle.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/tulip/Rectangle.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeTools.h
 tulip/Node.h
 -
 tulip/LayoutProperty.h

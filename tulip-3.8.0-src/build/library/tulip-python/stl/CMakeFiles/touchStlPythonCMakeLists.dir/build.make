@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Utility rule file for touchStlPythonCMakeLists.
 
@@ -43,9 +43,9 @@ CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
 include library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/progress.make
 
 library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists: library/tulip-python/stl/stl.so
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "touching CMakeLists.txt for Stl Python Bindings (force configure before next build to keep source files list updated)"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl && /usr/bin/cmake -E touch /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/stl/CMakeLists.txt
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl && /usr/bin/cmake -E touch /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/stl/CMakeLists.txt
 
 touchStlPythonCMakeLists: library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists
 touchStlPythonCMakeLists: library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/build.make
@@ -56,10 +56,10 @@ library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/build: touchStl
 .PHONY : library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/build
 
 library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl && $(CMAKE_COMMAND) -P CMakeFiles/touchStlPythonCMakeLists.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl && $(CMAKE_COMMAND) -P CMakeFiles/touchStlPythonCMakeLists.dir/cmake_clean.cmake
 .PHONY : library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/clean
 
 library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/stl /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/stl /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/tulip-python/stl/CMakeFiles/touchStlPythonCMakeLists.dir/depend
 

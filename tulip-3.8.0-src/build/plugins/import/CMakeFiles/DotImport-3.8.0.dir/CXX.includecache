@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImport.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImport.cpp
 string.h
 -
 errno.h
@@ -834,17 +834,17 @@ tulip/tuliphash.h
 tulip/TulipPlugin.h
 -
 dotImportCLUT.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImportCLUT.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportCLUT.h
 dotImportParser.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImportParser.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportParser.h
 dotImportLexer.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImportLexer.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportLexer.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImportCLUT.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportCLUT.h
 stdio.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImportLexer.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportLexer.h
 stdio.h
 -
 string.h
@@ -860,7 +860,7 @@ io.h
 unistd.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/dotImportParser.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportParser.h
 cstdlib
 -
 stddef.h

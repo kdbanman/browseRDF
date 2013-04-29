@@ -27,8 +27,8 @@ plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/interactor/InteractorSelection.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/InteractorSelection.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject

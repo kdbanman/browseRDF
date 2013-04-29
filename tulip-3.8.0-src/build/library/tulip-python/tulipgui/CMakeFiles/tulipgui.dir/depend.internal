@@ -110,9 +110,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -166,6 +165,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -413,8 +413,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -549,7 +549,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/moc_TulipViewsUtils.cpp.o
  /usr/include/qt4/QtGui/qwmatrix.h
  library/tulip/include/tulip/TulipRelease.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/qrc_TulipGui.cxx.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx
  /usr/include/qt4/QtCore/qconfig.h
  /usr/include/qt4/QtCore/qfeatures.h
  /usr/include/qt4/QtCore/qglobal.h
@@ -664,9 +664,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -720,6 +719,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1036,9 +1036,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tl
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -1092,6 +1091,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tl
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1401,9 +1401,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -1457,6 +1456,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1766,9 +1766,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiag
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -1822,6 +1821,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiag
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2131,9 +2131,8 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -2187,6 +2186,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h

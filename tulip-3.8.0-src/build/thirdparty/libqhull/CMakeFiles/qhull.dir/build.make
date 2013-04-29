@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include thirdparty/libqhull/CMakeFiles/qhull.dir/depend.make
@@ -48,17 +48,17 @@ include thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.o: ../thirdparty/libqhull/global.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/global.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/global.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/global.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/global.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/global.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/global.c > CMakeFiles/qhull.dir/global.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/global.c > CMakeFiles/qhull.dir/global.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/global.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/global.c -o CMakeFiles/qhull.dir/global.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/global.c -o CMakeFiles/qhull.dir/global.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.o.requires
@@ -71,17 +71,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/global.c.o.provides.build: thirdparty/l
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.o: ../thirdparty/libqhull/stat.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/stat.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/stat.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/stat.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/stat.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/stat.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/stat.c > CMakeFiles/qhull.dir/stat.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/stat.c > CMakeFiles/qhull.dir/stat.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/stat.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/stat.c -o CMakeFiles/qhull.dir/stat.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/stat.c -o CMakeFiles/qhull.dir/stat.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.o.requires
@@ -94,17 +94,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/stat.c.o.provides.build: thirdparty/lib
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.o: ../thirdparty/libqhull/geom2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/geom2.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/geom2.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/geom2.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/geom2.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/geom2.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/geom2.c > CMakeFiles/qhull.dir/geom2.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/geom2.c > CMakeFiles/qhull.dir/geom2.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/geom2.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/geom2.c -o CMakeFiles/qhull.dir/geom2.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/geom2.c -o CMakeFiles/qhull.dir/geom2.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.o.requires
@@ -117,17 +117,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/geom2.c.o.provides.build: thirdparty/li
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.o: ../thirdparty/libqhull/poly2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/poly2.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/poly2.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/poly2.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/poly2.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/poly2.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/poly2.c > CMakeFiles/qhull.dir/poly2.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/poly2.c > CMakeFiles/qhull.dir/poly2.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/poly2.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/poly2.c -o CMakeFiles/qhull.dir/poly2.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/poly2.c -o CMakeFiles/qhull.dir/poly2.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.o.requires
@@ -140,17 +140,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/poly2.c.o.provides.build: thirdparty/li
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.o: ../thirdparty/libqhull/merge.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/merge.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/merge.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/merge.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/merge.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/merge.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/merge.c > CMakeFiles/qhull.dir/merge.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/merge.c > CMakeFiles/qhull.dir/merge.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/merge.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/merge.c -o CMakeFiles/qhull.dir/merge.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/merge.c -o CMakeFiles/qhull.dir/merge.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.o.requires
@@ -163,17 +163,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/merge.c.o.provides.build: thirdparty/li
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.o: ../thirdparty/libqhull/libqhull.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/libqhull.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/libqhull.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/libqhull.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/libqhull.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/libqhull.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/libqhull.c > CMakeFiles/qhull.dir/libqhull.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/libqhull.c > CMakeFiles/qhull.dir/libqhull.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/libqhull.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/libqhull.c -o CMakeFiles/qhull.dir/libqhull.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/libqhull.c -o CMakeFiles/qhull.dir/libqhull.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.o.requires
@@ -186,17 +186,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/libqhull.c.o.provides.build: thirdparty
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.o: ../thirdparty/libqhull/geom.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/geom.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/geom.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/geom.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/geom.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/geom.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/geom.c > CMakeFiles/qhull.dir/geom.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/geom.c > CMakeFiles/qhull.dir/geom.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/geom.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/geom.c -o CMakeFiles/qhull.dir/geom.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/geom.c -o CMakeFiles/qhull.dir/geom.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.o.requires
@@ -209,17 +209,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/geom.c.o.provides.build: thirdparty/lib
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.o: ../thirdparty/libqhull/poly.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/poly.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/poly.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/poly.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/poly.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/poly.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/poly.c > CMakeFiles/qhull.dir/poly.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/poly.c > CMakeFiles/qhull.dir/poly.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/poly.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/poly.c -o CMakeFiles/qhull.dir/poly.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/poly.c -o CMakeFiles/qhull.dir/poly.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.o.requires
@@ -232,17 +232,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/poly.c.o.provides.build: thirdparty/lib
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.o: ../thirdparty/libqhull/qset.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/qset.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/qset.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/qset.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/qset.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/qset.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/qset.c > CMakeFiles/qhull.dir/qset.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/qset.c > CMakeFiles/qhull.dir/qset.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/qset.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/qset.c -o CMakeFiles/qhull.dir/qset.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/qset.c -o CMakeFiles/qhull.dir/qset.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.o.requires
@@ -255,17 +255,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/qset.c.o.provides.build: thirdparty/lib
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.o: ../thirdparty/libqhull/mem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/mem.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/mem.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/mem.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/mem.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/mem.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/mem.c > CMakeFiles/qhull.dir/mem.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/mem.c > CMakeFiles/qhull.dir/mem.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/mem.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/mem.c -o CMakeFiles/qhull.dir/mem.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/mem.c -o CMakeFiles/qhull.dir/mem.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.o.requires
@@ -278,17 +278,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/mem.c.o.provides.build: thirdparty/libq
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.o: ../thirdparty/libqhull/random.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/random.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/random.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/random.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/random.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/random.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/random.c > CMakeFiles/qhull.dir/random.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/random.c > CMakeFiles/qhull.dir/random.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/random.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/random.c -o CMakeFiles/qhull.dir/random.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/random.c -o CMakeFiles/qhull.dir/random.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.o.requires
@@ -301,17 +301,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/random.c.o.provides.build: thirdparty/l
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.o: ../thirdparty/libqhull/usermem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/usermem.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/usermem.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/usermem.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/usermem.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/usermem.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/usermem.c > CMakeFiles/qhull.dir/usermem.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/usermem.c > CMakeFiles/qhull.dir/usermem.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/usermem.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/usermem.c -o CMakeFiles/qhull.dir/usermem.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/usermem.c -o CMakeFiles/qhull.dir/usermem.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.o.requires
@@ -324,17 +324,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/usermem.c.o.provides.build: thirdparty/
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.o: ../thirdparty/libqhull/userprintf.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/userprintf.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/userprintf.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/userprintf.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/userprintf.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/userprintf.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/userprintf.c > CMakeFiles/qhull.dir/userprintf.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/userprintf.c > CMakeFiles/qhull.dir/userprintf.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/userprintf.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/userprintf.c -o CMakeFiles/qhull.dir/userprintf.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/userprintf.c -o CMakeFiles/qhull.dir/userprintf.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.o.requires
@@ -347,17 +347,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf.c.o.provides.build: thirdpar
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.o: ../thirdparty/libqhull/io.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/io.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/io.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/io.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/io.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/io.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/io.c > CMakeFiles/qhull.dir/io.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/io.c > CMakeFiles/qhull.dir/io.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/io.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/io.c -o CMakeFiles/qhull.dir/io.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/io.c -o CMakeFiles/qhull.dir/io.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.o.requires
@@ -370,17 +370,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/io.c.o.provides.build: thirdparty/libqh
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.o: ../thirdparty/libqhull/user.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/user.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/user.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/user.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/user.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/user.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/user.c > CMakeFiles/qhull.dir/user.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/user.c > CMakeFiles/qhull.dir/user.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/user.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/user.c -o CMakeFiles/qhull.dir/user.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/user.c -o CMakeFiles/qhull.dir/user.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.o.requires
@@ -393,17 +393,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/user.c.o.provides.build: thirdparty/lib
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.o: ../thirdparty/libqhull/rboxlib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/rboxlib.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/rboxlib.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/rboxlib.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/rboxlib.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/rboxlib.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/rboxlib.c > CMakeFiles/qhull.dir/rboxlib.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/rboxlib.c > CMakeFiles/qhull.dir/rboxlib.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/rboxlib.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/rboxlib.c -o CMakeFiles/qhull.dir/rboxlib.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/rboxlib.c -o CMakeFiles/qhull.dir/rboxlib.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.o.requires
@@ -416,17 +416,17 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/rboxlib.c.o.provides.build: thirdparty/
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.o: thirdparty/libqhull/CMakeFiles/qhull.dir/flags.make
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.o: ../thirdparty/libqhull/userprintf_rbox.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/userprintf_rbox.c.o   -c /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/userprintf_rbox.c
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/qhull.dir/userprintf_rbox.c.o   -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/userprintf_rbox.c
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qhull.dir/userprintf_rbox.c.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/userprintf_rbox.c > CMakeFiles/qhull.dir/userprintf_rbox.c.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/userprintf_rbox.c > CMakeFiles/qhull.dir/userprintf_rbox.c.i
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qhull.dir/userprintf_rbox.c.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull/userprintf_rbox.c -o CMakeFiles/qhull.dir/userprintf_rbox.c.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull/userprintf_rbox.c -o CMakeFiles/qhull.dir/userprintf_rbox.c.s
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.o.requires:
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/userprintf_rbox.c.o.requires
@@ -480,8 +480,8 @@ thirdparty/libqhull/libqhull.a: thirdparty/libqhull/CMakeFiles/qhull.dir/userpri
 thirdparty/libqhull/libqhull.a: thirdparty/libqhull/CMakeFiles/qhull.dir/build.make
 thirdparty/libqhull/libqhull.a: thirdparty/libqhull/CMakeFiles/qhull.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libqhull.a"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && $(CMAKE_COMMAND) -P CMakeFiles/qhull.dir/cmake_clean_target.cmake
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qhull.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && $(CMAKE_COMMAND) -P CMakeFiles/qhull.dir/cmake_clean_target.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qhull.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 thirdparty/libqhull/CMakeFiles/qhull.dir/build: thirdparty/libqhull/libqhull.a
@@ -507,10 +507,10 @@ thirdparty/libqhull/CMakeFiles/qhull.dir/requires: thirdparty/libqhull/CMakeFile
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/requires
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull && $(CMAKE_COMMAND) -P CMakeFiles/qhull.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull && $(CMAKE_COMMAND) -P CMakeFiles/qhull.dir/cmake_clean.cmake
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/clean
 
 thirdparty/libqhull/CMakeFiles/qhull.dir/depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/libqhull /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull /home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/libqhull/CMakeFiles/qhull.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/libqhull /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/libqhull/CMakeFiles/qhull.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : thirdparty/libqhull/CMakeFiles/qhull.dir/depend
 

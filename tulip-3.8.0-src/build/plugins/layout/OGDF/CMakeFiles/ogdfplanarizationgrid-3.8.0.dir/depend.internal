@@ -142,5 +142,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfplanarizationgrid-3.8.0.dir/OGDFPlanarization
  ../thirdparty/OGDF/ogdf/planarity/PlanRepUML.h
  ../thirdparty/OGDF/ogdf/planarity/PlanarizationGridLayout.h
  ../thirdparty/OGDF/ogdf/planarity/VariableEmbeddingInserter.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFPlanarizationGrid.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFPlanarizationGrid.cpp
  library/tulip/include/tulip/TulipRelease.h

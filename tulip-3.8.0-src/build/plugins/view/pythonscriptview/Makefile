@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/CMakeFiles/progress.marks
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/CMakeFiles/progress.marks
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/clean
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/rule
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ pythonscriptview-3.8.0: plugins/view/pythonscriptview/CMakeFiles/pythonscriptvie
 
 # fast build rule for target.
 pythonscriptview-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build
 .PHONY : pythonscriptview-3.8.0/fast
 
 APIDataBase.o: APIDataBase.cpp.o
@@ -175,7 +175,7 @@ APIDataBase.o: APIDataBase.cpp.o
 
 # target to build an object file
 APIDataBase.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o
 .PHONY : APIDataBase.cpp.o
 
 APIDataBase.i: APIDataBase.cpp.i
@@ -183,7 +183,7 @@ APIDataBase.i: APIDataBase.cpp.i
 
 # target to preprocess a source file
 APIDataBase.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.i
 .PHONY : APIDataBase.cpp.i
 
 APIDataBase.s: APIDataBase.cpp.s
@@ -191,7 +191,7 @@ APIDataBase.s: APIDataBase.cpp.s
 
 # target to generate assembly for a file
 APIDataBase.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.s
 .PHONY : APIDataBase.cpp.s
 
 AutoCompletionDataBase.o: AutoCompletionDataBase.cpp.o
@@ -199,7 +199,7 @@ AutoCompletionDataBase.o: AutoCompletionDataBase.cpp.o
 
 # target to build an object file
 AutoCompletionDataBase.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o
 .PHONY : AutoCompletionDataBase.cpp.o
 
 AutoCompletionDataBase.i: AutoCompletionDataBase.cpp.i
@@ -207,7 +207,7 @@ AutoCompletionDataBase.i: AutoCompletionDataBase.cpp.i
 
 # target to preprocess a source file
 AutoCompletionDataBase.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.i
 .PHONY : AutoCompletionDataBase.cpp.i
 
 AutoCompletionDataBase.s: AutoCompletionDataBase.cpp.s
@@ -215,7 +215,7 @@ AutoCompletionDataBase.s: AutoCompletionDataBase.cpp.s
 
 # target to generate assembly for a file
 AutoCompletionDataBase.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.s
 .PHONY : AutoCompletionDataBase.cpp.s
 
 ParenMatcherHighlighter.o: ParenMatcherHighlighter.cpp.o
@@ -223,7 +223,7 @@ ParenMatcherHighlighter.o: ParenMatcherHighlighter.cpp.o
 
 # target to build an object file
 ParenMatcherHighlighter.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o
 .PHONY : ParenMatcherHighlighter.cpp.o
 
 ParenMatcherHighlighter.i: ParenMatcherHighlighter.cpp.i
@@ -231,7 +231,7 @@ ParenMatcherHighlighter.i: ParenMatcherHighlighter.cpp.i
 
 # target to preprocess a source file
 ParenMatcherHighlighter.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.i
 .PHONY : ParenMatcherHighlighter.cpp.i
 
 ParenMatcherHighlighter.s: ParenMatcherHighlighter.cpp.s
@@ -239,7 +239,7 @@ ParenMatcherHighlighter.s: ParenMatcherHighlighter.cpp.s
 
 # target to generate assembly for a file
 ParenMatcherHighlighter.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.s
 .PHONY : ParenMatcherHighlighter.cpp.s
 
 PluginCreationDialog.o: PluginCreationDialog.cpp.o
@@ -247,7 +247,7 @@ PluginCreationDialog.o: PluginCreationDialog.cpp.o
 
 # target to build an object file
 PluginCreationDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o
 .PHONY : PluginCreationDialog.cpp.o
 
 PluginCreationDialog.i: PluginCreationDialog.cpp.i
@@ -255,7 +255,7 @@ PluginCreationDialog.i: PluginCreationDialog.cpp.i
 
 # target to preprocess a source file
 PluginCreationDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.i
 .PHONY : PluginCreationDialog.cpp.i
 
 PluginCreationDialog.s: PluginCreationDialog.cpp.s
@@ -263,7 +263,7 @@ PluginCreationDialog.s: PluginCreationDialog.cpp.s
 
 # target to generate assembly for a file
 PluginCreationDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.s
 .PHONY : PluginCreationDialog.cpp.s
 
 PythonCodeEditor.o: PythonCodeEditor.cpp.o
@@ -271,7 +271,7 @@ PythonCodeEditor.o: PythonCodeEditor.cpp.o
 
 # target to build an object file
 PythonCodeEditor.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o
 .PHONY : PythonCodeEditor.cpp.o
 
 PythonCodeEditor.i: PythonCodeEditor.cpp.i
@@ -279,7 +279,7 @@ PythonCodeEditor.i: PythonCodeEditor.cpp.i
 
 # target to preprocess a source file
 PythonCodeEditor.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.i
 .PHONY : PythonCodeEditor.cpp.i
 
 PythonCodeEditor.s: PythonCodeEditor.cpp.s
@@ -287,7 +287,7 @@ PythonCodeEditor.s: PythonCodeEditor.cpp.s
 
 # target to generate assembly for a file
 PythonCodeEditor.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.s
 .PHONY : PythonCodeEditor.cpp.s
 
 PythonCodeHighlighter.o: PythonCodeHighlighter.cpp.o
@@ -295,7 +295,7 @@ PythonCodeHighlighter.o: PythonCodeHighlighter.cpp.o
 
 # target to build an object file
 PythonCodeHighlighter.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o
 .PHONY : PythonCodeHighlighter.cpp.o
 
 PythonCodeHighlighter.i: PythonCodeHighlighter.cpp.i
@@ -303,7 +303,7 @@ PythonCodeHighlighter.i: PythonCodeHighlighter.cpp.i
 
 # target to preprocess a source file
 PythonCodeHighlighter.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.i
 .PHONY : PythonCodeHighlighter.cpp.i
 
 PythonCodeHighlighter.s: PythonCodeHighlighter.cpp.s
@@ -311,7 +311,7 @@ PythonCodeHighlighter.s: PythonCodeHighlighter.cpp.s
 
 # target to generate assembly for a file
 PythonCodeHighlighter.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.s
 .PHONY : PythonCodeHighlighter.cpp.s
 
 PythonInterpreter.o: PythonInterpreter.cpp.o
@@ -319,7 +319,7 @@ PythonInterpreter.o: PythonInterpreter.cpp.o
 
 # target to build an object file
 PythonInterpreter.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o
 .PHONY : PythonInterpreter.cpp.o
 
 PythonInterpreter.i: PythonInterpreter.cpp.i
@@ -327,7 +327,7 @@ PythonInterpreter.i: PythonInterpreter.cpp.i
 
 # target to preprocess a source file
 PythonInterpreter.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.i
 .PHONY : PythonInterpreter.cpp.i
 
 PythonInterpreter.s: PythonInterpreter.cpp.s
@@ -335,7 +335,7 @@ PythonInterpreter.s: PythonInterpreter.cpp.s
 
 # target to generate assembly for a file
 PythonInterpreter.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.s
 .PHONY : PythonInterpreter.cpp.s
 
 PythonScriptView.o: PythonScriptView.cpp.o
@@ -343,7 +343,7 @@ PythonScriptView.o: PythonScriptView.cpp.o
 
 # target to build an object file
 PythonScriptView.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o
 .PHONY : PythonScriptView.cpp.o
 
 PythonScriptView.i: PythonScriptView.cpp.i
@@ -351,7 +351,7 @@ PythonScriptView.i: PythonScriptView.cpp.i
 
 # target to preprocess a source file
 PythonScriptView.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.i
 .PHONY : PythonScriptView.cpp.i
 
 PythonScriptView.s: PythonScriptView.cpp.s
@@ -359,7 +359,7 @@ PythonScriptView.s: PythonScriptView.cpp.s
 
 # target to generate assembly for a file
 PythonScriptView.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.s
 .PHONY : PythonScriptView.cpp.s
 
 PythonScriptViewWidget.o: PythonScriptViewWidget.cpp.o
@@ -367,7 +367,7 @@ PythonScriptViewWidget.o: PythonScriptViewWidget.cpp.o
 
 # target to build an object file
 PythonScriptViewWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o
 .PHONY : PythonScriptViewWidget.cpp.o
 
 PythonScriptViewWidget.i: PythonScriptViewWidget.cpp.i
@@ -375,7 +375,7 @@ PythonScriptViewWidget.i: PythonScriptViewWidget.cpp.i
 
 # target to preprocess a source file
 PythonScriptViewWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.i
 .PHONY : PythonScriptViewWidget.cpp.i
 
 PythonScriptViewWidget.s: PythonScriptViewWidget.cpp.s
@@ -383,7 +383,7 @@ PythonScriptViewWidget.s: PythonScriptViewWidget.cpp.s
 
 # target to generate assembly for a file
 PythonScriptViewWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.s
 .PHONY : PythonScriptViewWidget.cpp.s
 
 PythonShellWidget.o: PythonShellWidget.cpp.o
@@ -391,7 +391,7 @@ PythonShellWidget.o: PythonShellWidget.cpp.o
 
 # target to build an object file
 PythonShellWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o
 .PHONY : PythonShellWidget.cpp.o
 
 PythonShellWidget.i: PythonShellWidget.cpp.i
@@ -399,7 +399,7 @@ PythonShellWidget.i: PythonShellWidget.cpp.i
 
 # target to preprocess a source file
 PythonShellWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.i
 .PHONY : PythonShellWidget.cpp.i
 
 PythonShellWidget.s: PythonShellWidget.cpp.s
@@ -407,7 +407,7 @@ PythonShellWidget.s: PythonShellWidget.cpp.s
 
 # target to generate assembly for a file
 PythonShellWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.s
 .PHONY : PythonShellWidget.cpp.s
 
 moc_ConsoleOutputHandler.o: moc_ConsoleOutputHandler.cpp.o
@@ -415,7 +415,7 @@ moc_ConsoleOutputHandler.o: moc_ConsoleOutputHandler.cpp.o
 
 # target to build an object file
 moc_ConsoleOutputHandler.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o
 .PHONY : moc_ConsoleOutputHandler.cpp.o
 
 moc_ConsoleOutputHandler.i: moc_ConsoleOutputHandler.cpp.i
@@ -423,7 +423,7 @@ moc_ConsoleOutputHandler.i: moc_ConsoleOutputHandler.cpp.i
 
 # target to preprocess a source file
 moc_ConsoleOutputHandler.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.i
 .PHONY : moc_ConsoleOutputHandler.cpp.i
 
 moc_ConsoleOutputHandler.s: moc_ConsoleOutputHandler.cpp.s
@@ -431,7 +431,7 @@ moc_ConsoleOutputHandler.s: moc_ConsoleOutputHandler.cpp.s
 
 # target to generate assembly for a file
 moc_ConsoleOutputHandler.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.s
 .PHONY : moc_ConsoleOutputHandler.cpp.s
 
 moc_PluginCreationDialog.o: moc_PluginCreationDialog.cpp.o
@@ -439,7 +439,7 @@ moc_PluginCreationDialog.o: moc_PluginCreationDialog.cpp.o
 
 # target to build an object file
 moc_PluginCreationDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o
 .PHONY : moc_PluginCreationDialog.cpp.o
 
 moc_PluginCreationDialog.i: moc_PluginCreationDialog.cpp.i
@@ -447,7 +447,7 @@ moc_PluginCreationDialog.i: moc_PluginCreationDialog.cpp.i
 
 # target to preprocess a source file
 moc_PluginCreationDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.i
 .PHONY : moc_PluginCreationDialog.cpp.i
 
 moc_PluginCreationDialog.s: moc_PluginCreationDialog.cpp.s
@@ -455,7 +455,7 @@ moc_PluginCreationDialog.s: moc_PluginCreationDialog.cpp.s
 
 # target to generate assembly for a file
 moc_PluginCreationDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.s
 .PHONY : moc_PluginCreationDialog.cpp.s
 
 moc_PythonCodeEditor.o: moc_PythonCodeEditor.cpp.o
@@ -463,7 +463,7 @@ moc_PythonCodeEditor.o: moc_PythonCodeEditor.cpp.o
 
 # target to build an object file
 moc_PythonCodeEditor.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o
 .PHONY : moc_PythonCodeEditor.cpp.o
 
 moc_PythonCodeEditor.i: moc_PythonCodeEditor.cpp.i
@@ -471,7 +471,7 @@ moc_PythonCodeEditor.i: moc_PythonCodeEditor.cpp.i
 
 # target to preprocess a source file
 moc_PythonCodeEditor.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.i
 .PHONY : moc_PythonCodeEditor.cpp.i
 
 moc_PythonCodeEditor.s: moc_PythonCodeEditor.cpp.s
@@ -479,7 +479,7 @@ moc_PythonCodeEditor.s: moc_PythonCodeEditor.cpp.s
 
 # target to generate assembly for a file
 moc_PythonCodeEditor.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.s
 .PHONY : moc_PythonCodeEditor.cpp.s
 
 moc_PythonInterpreter.o: moc_PythonInterpreter.cpp.o
@@ -487,7 +487,7 @@ moc_PythonInterpreter.o: moc_PythonInterpreter.cpp.o
 
 # target to build an object file
 moc_PythonInterpreter.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o
 .PHONY : moc_PythonInterpreter.cpp.o
 
 moc_PythonInterpreter.i: moc_PythonInterpreter.cpp.i
@@ -495,7 +495,7 @@ moc_PythonInterpreter.i: moc_PythonInterpreter.cpp.i
 
 # target to preprocess a source file
 moc_PythonInterpreter.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.i
 .PHONY : moc_PythonInterpreter.cpp.i
 
 moc_PythonInterpreter.s: moc_PythonInterpreter.cpp.s
@@ -503,7 +503,7 @@ moc_PythonInterpreter.s: moc_PythonInterpreter.cpp.s
 
 # target to generate assembly for a file
 moc_PythonInterpreter.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.s
 .PHONY : moc_PythonInterpreter.cpp.s
 
 moc_PythonScriptView.o: moc_PythonScriptView.cpp.o
@@ -511,7 +511,7 @@ moc_PythonScriptView.o: moc_PythonScriptView.cpp.o
 
 # target to build an object file
 moc_PythonScriptView.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o
 .PHONY : moc_PythonScriptView.cpp.o
 
 moc_PythonScriptView.i: moc_PythonScriptView.cpp.i
@@ -519,7 +519,7 @@ moc_PythonScriptView.i: moc_PythonScriptView.cpp.i
 
 # target to preprocess a source file
 moc_PythonScriptView.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.i
 .PHONY : moc_PythonScriptView.cpp.i
 
 moc_PythonScriptView.s: moc_PythonScriptView.cpp.s
@@ -527,7 +527,7 @@ moc_PythonScriptView.s: moc_PythonScriptView.cpp.s
 
 # target to generate assembly for a file
 moc_PythonScriptView.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.s
 .PHONY : moc_PythonScriptView.cpp.s
 
 moc_PythonScriptViewWidget.o: moc_PythonScriptViewWidget.cpp.o
@@ -535,7 +535,7 @@ moc_PythonScriptViewWidget.o: moc_PythonScriptViewWidget.cpp.o
 
 # target to build an object file
 moc_PythonScriptViewWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o
 .PHONY : moc_PythonScriptViewWidget.cpp.o
 
 moc_PythonScriptViewWidget.i: moc_PythonScriptViewWidget.cpp.i
@@ -543,7 +543,7 @@ moc_PythonScriptViewWidget.i: moc_PythonScriptViewWidget.cpp.i
 
 # target to preprocess a source file
 moc_PythonScriptViewWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.i
 .PHONY : moc_PythonScriptViewWidget.cpp.i
 
 moc_PythonScriptViewWidget.s: moc_PythonScriptViewWidget.cpp.s
@@ -551,7 +551,7 @@ moc_PythonScriptViewWidget.s: moc_PythonScriptViewWidget.cpp.s
 
 # target to generate assembly for a file
 moc_PythonScriptViewWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.s
 .PHONY : moc_PythonScriptViewWidget.cpp.s
 
 moc_PythonShellWidget.o: moc_PythonShellWidget.cpp.o
@@ -559,7 +559,7 @@ moc_PythonShellWidget.o: moc_PythonShellWidget.cpp.o
 
 # target to build an object file
 moc_PythonShellWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o
 .PHONY : moc_PythonShellWidget.cpp.o
 
 moc_PythonShellWidget.i: moc_PythonShellWidget.cpp.i
@@ -567,7 +567,7 @@ moc_PythonShellWidget.i: moc_PythonShellWidget.cpp.i
 
 # target to preprocess a source file
 moc_PythonShellWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.i
 .PHONY : moc_PythonShellWidget.cpp.i
 
 moc_PythonShellWidget.s: moc_PythonShellWidget.cpp.s
@@ -575,7 +575,7 @@ moc_PythonShellWidget.s: moc_PythonShellWidget.cpp.s
 
 # target to generate assembly for a file
 moc_PythonShellWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.s
 .PHONY : moc_PythonShellWidget.cpp.s
 
 qrc_PythonScriptViewResource.o: qrc_PythonScriptViewResource.cxx.o
@@ -583,7 +583,7 @@ qrc_PythonScriptViewResource.o: qrc_PythonScriptViewResource.cxx.o
 
 # target to build an object file
 qrc_PythonScriptViewResource.cxx.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o
 .PHONY : qrc_PythonScriptViewResource.cxx.o
 
 qrc_PythonScriptViewResource.i: qrc_PythonScriptViewResource.cxx.i
@@ -591,7 +591,7 @@ qrc_PythonScriptViewResource.i: qrc_PythonScriptViewResource.cxx.i
 
 # target to preprocess a source file
 qrc_PythonScriptViewResource.cxx.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.i
 .PHONY : qrc_PythonScriptViewResource.cxx.i
 
 qrc_PythonScriptViewResource.s: qrc_PythonScriptViewResource.cxx.s
@@ -599,7 +599,7 @@ qrc_PythonScriptViewResource.s: qrc_PythonScriptViewResource.cxx.s
 
 # target to generate assembly for a file
 qrc_PythonScriptViewResource.cxx.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.s
 .PHONY : qrc_PythonScriptViewResource.cxx.s
 
 # Help Target
@@ -682,6 +682,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -117,5 +117,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfmmmexamplenicelayout-3.8.0.dir/OGDFMMMExample
  ../thirdparty/OGDF/ogdf/internal/basic/list_templates.h
  ../thirdparty/OGDF/ogdf/internal/energybased/MultilevelGraph.h
  ../thirdparty/OGDF/ogdf/module/LayoutModule.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFMMMExampleNiceLayout.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFMMMExampleNiceLayout.cpp
  library/tulip/include/tulip/TulipRelease.h

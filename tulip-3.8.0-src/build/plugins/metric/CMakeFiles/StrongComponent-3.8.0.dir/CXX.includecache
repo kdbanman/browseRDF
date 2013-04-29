@@ -824,15 +824,15 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrongComponent.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.cpp
 cmath
 -
 StrongComponent.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrongComponent.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.h
 tulip/DoubleProperty.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrongComponent.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.h
 stack
 -
 tulip/tuliphash.h

@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/CMakeFiles/progress.marks
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/CMakeFiles/progress.marks
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/clean
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 software/tulip/src/CMakeFiles/tulip_app.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/CMakeFiles/tulip_app.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/CMakeFiles/tulip_app.dir/rule
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ tulip_app: software/tulip/src/CMakeFiles/tulip_app.dir/rule
 
 # fast build rule for target.
 tulip_app/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/build
 .PHONY : tulip_app/fast
 
 # Convenience name for target.
 software/tulip/src/CMakeFiles/tulip_need_restart.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/CMakeFiles/tulip_need_restart.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/tulip/src/CMakeFiles/tulip_need_restart.dir/rule
 .PHONY : software/tulip/src/CMakeFiles/tulip_need_restart.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ tulip_need_restart: software/tulip/src/CMakeFiles/tulip_need_restart.dir/rule
 
 # fast build rule for target.
 tulip_need_restart/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/build
 .PHONY : tulip_need_restart/fast
 
 AppStartUp.o: AppStartUp.cpp.o
@@ -189,7 +189,7 @@ AppStartUp.o: AppStartUp.cpp.o
 
 # target to build an object file
 AppStartUp.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o
 .PHONY : AppStartUp.cpp.o
 
 AppStartUp.i: AppStartUp.cpp.i
@@ -197,7 +197,7 @@ AppStartUp.i: AppStartUp.cpp.i
 
 # target to preprocess a source file
 AppStartUp.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.i
 .PHONY : AppStartUp.cpp.i
 
 AppStartUp.s: AppStartUp.cpp.s
@@ -205,7 +205,7 @@ AppStartUp.s: AppStartUp.cpp.s
 
 # target to generate assembly for a file
 AppStartUp.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.s
 .PHONY : AppStartUp.cpp.s
 
 ChooseControllerDialog.o: ChooseControllerDialog.cpp.o
@@ -213,7 +213,7 @@ ChooseControllerDialog.o: ChooseControllerDialog.cpp.o
 
 # target to build an object file
 ChooseControllerDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o
 .PHONY : ChooseControllerDialog.cpp.o
 
 ChooseControllerDialog.i: ChooseControllerDialog.cpp.i
@@ -221,7 +221,7 @@ ChooseControllerDialog.i: ChooseControllerDialog.cpp.i
 
 # target to preprocess a source file
 ChooseControllerDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.i
 .PHONY : ChooseControllerDialog.cpp.i
 
 ChooseControllerDialog.s: ChooseControllerDialog.cpp.s
@@ -229,7 +229,7 @@ ChooseControllerDialog.s: ChooseControllerDialog.cpp.s
 
 # target to generate assembly for a file
 ChooseControllerDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.s
 .PHONY : ChooseControllerDialog.cpp.s
 
 InfoDialog.o: InfoDialog.cpp.o
@@ -237,7 +237,7 @@ InfoDialog.o: InfoDialog.cpp.o
 
 # target to build an object file
 InfoDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o
 .PHONY : InfoDialog.cpp.o
 
 InfoDialog.i: InfoDialog.cpp.i
@@ -245,7 +245,7 @@ InfoDialog.i: InfoDialog.cpp.i
 
 # target to preprocess a source file
 InfoDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.i
 .PHONY : InfoDialog.cpp.i
 
 InfoDialog.s: InfoDialog.cpp.s
@@ -253,7 +253,7 @@ InfoDialog.s: InfoDialog.cpp.s
 
 # target to generate assembly for a file
 InfoDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.s
 .PHONY : InfoDialog.cpp.s
 
 PreferenceDialog.o: PreferenceDialog.cpp.o
@@ -261,7 +261,7 @@ PreferenceDialog.o: PreferenceDialog.cpp.o
 
 # target to build an object file
 PreferenceDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o
 .PHONY : PreferenceDialog.cpp.o
 
 PreferenceDialog.i: PreferenceDialog.cpp.i
@@ -269,7 +269,7 @@ PreferenceDialog.i: PreferenceDialog.cpp.i
 
 # target to preprocess a source file
 PreferenceDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.i
 .PHONY : PreferenceDialog.cpp.i
 
 PreferenceDialog.s: PreferenceDialog.cpp.s
@@ -277,7 +277,7 @@ PreferenceDialog.s: PreferenceDialog.cpp.s
 
 # target to generate assembly for a file
 PreferenceDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.s
 .PHONY : PreferenceDialog.cpp.s
 
 TulipApp.o: TulipApp.cpp.o
@@ -285,7 +285,7 @@ TulipApp.o: TulipApp.cpp.o
 
 # target to build an object file
 TulipApp.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o
 .PHONY : TulipApp.cpp.o
 
 TulipApp.i: TulipApp.cpp.i
@@ -293,7 +293,7 @@ TulipApp.i: TulipApp.cpp.i
 
 # target to preprocess a source file
 TulipApp.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.i
 .PHONY : TulipApp.cpp.i
 
 TulipApp.s: TulipApp.cpp.s
@@ -301,7 +301,7 @@ TulipApp.s: TulipApp.cpp.s
 
 # target to generate assembly for a file
 TulipApp.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.s
 .PHONY : TulipApp.cpp.s
 
 TulipNeedRestart.o: TulipNeedRestart.cpp.o
@@ -309,7 +309,7 @@ TulipNeedRestart.o: TulipNeedRestart.cpp.o
 
 # target to build an object file
 TulipNeedRestart.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/TulipNeedRestart.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/TulipNeedRestart.cpp.o
 .PHONY : TulipNeedRestart.cpp.o
 
 TulipNeedRestart.i: TulipNeedRestart.cpp.i
@@ -317,7 +317,7 @@ TulipNeedRestart.i: TulipNeedRestart.cpp.i
 
 # target to preprocess a source file
 TulipNeedRestart.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/TulipNeedRestart.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/TulipNeedRestart.cpp.i
 .PHONY : TulipNeedRestart.cpp.i
 
 TulipNeedRestart.s: TulipNeedRestart.cpp.s
@@ -325,7 +325,7 @@ TulipNeedRestart.s: TulipNeedRestart.cpp.s
 
 # target to generate assembly for a file
 TulipNeedRestart.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/TulipNeedRestart.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_need_restart.dir/build.make software/tulip/src/CMakeFiles/tulip_need_restart.dir/TulipNeedRestart.cpp.s
 .PHONY : TulipNeedRestart.cpp.s
 
 main.o: main.cpp.o
@@ -333,7 +333,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -341,7 +341,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -349,7 +349,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 moc_AppStartUp.o: moc_AppStartUp.cpp.o
@@ -357,7 +357,7 @@ moc_AppStartUp.o: moc_AppStartUp.cpp.o
 
 # target to build an object file
 moc_AppStartUp.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o
 .PHONY : moc_AppStartUp.cpp.o
 
 moc_AppStartUp.i: moc_AppStartUp.cpp.i
@@ -365,7 +365,7 @@ moc_AppStartUp.i: moc_AppStartUp.cpp.i
 
 # target to preprocess a source file
 moc_AppStartUp.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.i
 .PHONY : moc_AppStartUp.cpp.i
 
 moc_AppStartUp.s: moc_AppStartUp.cpp.s
@@ -373,7 +373,7 @@ moc_AppStartUp.s: moc_AppStartUp.cpp.s
 
 # target to generate assembly for a file
 moc_AppStartUp.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.s
 .PHONY : moc_AppStartUp.cpp.s
 
 moc_ChooseControllerDialog.o: moc_ChooseControllerDialog.cpp.o
@@ -381,7 +381,7 @@ moc_ChooseControllerDialog.o: moc_ChooseControllerDialog.cpp.o
 
 # target to build an object file
 moc_ChooseControllerDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o
 .PHONY : moc_ChooseControllerDialog.cpp.o
 
 moc_ChooseControllerDialog.i: moc_ChooseControllerDialog.cpp.i
@@ -389,7 +389,7 @@ moc_ChooseControllerDialog.i: moc_ChooseControllerDialog.cpp.i
 
 # target to preprocess a source file
 moc_ChooseControllerDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.i
 .PHONY : moc_ChooseControllerDialog.cpp.i
 
 moc_ChooseControllerDialog.s: moc_ChooseControllerDialog.cpp.s
@@ -397,7 +397,7 @@ moc_ChooseControllerDialog.s: moc_ChooseControllerDialog.cpp.s
 
 # target to generate assembly for a file
 moc_ChooseControllerDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.s
 .PHONY : moc_ChooseControllerDialog.cpp.s
 
 moc_InfoDialog.o: moc_InfoDialog.cpp.o
@@ -405,7 +405,7 @@ moc_InfoDialog.o: moc_InfoDialog.cpp.o
 
 # target to build an object file
 moc_InfoDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o
 .PHONY : moc_InfoDialog.cpp.o
 
 moc_InfoDialog.i: moc_InfoDialog.cpp.i
@@ -413,7 +413,7 @@ moc_InfoDialog.i: moc_InfoDialog.cpp.i
 
 # target to preprocess a source file
 moc_InfoDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.i
 .PHONY : moc_InfoDialog.cpp.i
 
 moc_InfoDialog.s: moc_InfoDialog.cpp.s
@@ -421,7 +421,7 @@ moc_InfoDialog.s: moc_InfoDialog.cpp.s
 
 # target to generate assembly for a file
 moc_InfoDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.s
 .PHONY : moc_InfoDialog.cpp.s
 
 moc_PreferenceDialog.o: moc_PreferenceDialog.cpp.o
@@ -429,7 +429,7 @@ moc_PreferenceDialog.o: moc_PreferenceDialog.cpp.o
 
 # target to build an object file
 moc_PreferenceDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o
 .PHONY : moc_PreferenceDialog.cpp.o
 
 moc_PreferenceDialog.i: moc_PreferenceDialog.cpp.i
@@ -437,7 +437,7 @@ moc_PreferenceDialog.i: moc_PreferenceDialog.cpp.i
 
 # target to preprocess a source file
 moc_PreferenceDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.i
 .PHONY : moc_PreferenceDialog.cpp.i
 
 moc_PreferenceDialog.s: moc_PreferenceDialog.cpp.s
@@ -445,7 +445,7 @@ moc_PreferenceDialog.s: moc_PreferenceDialog.cpp.s
 
 # target to generate assembly for a file
 moc_PreferenceDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.s
 .PHONY : moc_PreferenceDialog.cpp.s
 
 moc_TulipApp.o: moc_TulipApp.cpp.o
@@ -453,7 +453,7 @@ moc_TulipApp.o: moc_TulipApp.cpp.o
 
 # target to build an object file
 moc_TulipApp.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o
 .PHONY : moc_TulipApp.cpp.o
 
 moc_TulipApp.i: moc_TulipApp.cpp.i
@@ -461,7 +461,7 @@ moc_TulipApp.i: moc_TulipApp.cpp.i
 
 # target to preprocess a source file
 moc_TulipApp.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.i
 .PHONY : moc_TulipApp.cpp.i
 
 moc_TulipApp.s: moc_TulipApp.cpp.s
@@ -469,7 +469,7 @@ moc_TulipApp.s: moc_TulipApp.cpp.s
 
 # target to generate assembly for a file
 moc_TulipApp.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.s
 .PHONY : moc_TulipApp.cpp.s
 
 qrc_TulipResource.o: qrc_TulipResource.cxx.o
@@ -477,7 +477,7 @@ qrc_TulipResource.o: qrc_TulipResource.cxx.o
 
 # target to build an object file
 qrc_TulipResource.cxx.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o
 .PHONY : qrc_TulipResource.cxx.o
 
 qrc_TulipResource.i: qrc_TulipResource.cxx.i
@@ -485,7 +485,7 @@ qrc_TulipResource.i: qrc_TulipResource.cxx.i
 
 # target to preprocess a source file
 qrc_TulipResource.cxx.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.i
 .PHONY : qrc_TulipResource.cxx.i
 
 qrc_TulipResource.s: qrc_TulipResource.cxx.s
@@ -493,7 +493,7 @@ qrc_TulipResource.s: qrc_TulipResource.cxx.s
 
 # target to generate assembly for a file
 qrc_TulipResource.cxx.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/tulip/src/CMakeFiles/tulip_app.dir/build.make software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.s
 .PHONY : qrc_TulipResource.cxx.s
 
 # Help Target
@@ -562,6 +562,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -824,15 +824,15 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.cpp
 MultipleEdgeSelection.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.h
 tulip/BooleanProperty.h
 -
 tulip/SimpleTest.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.h
 tulip/TulipPlugin.h
 -
 

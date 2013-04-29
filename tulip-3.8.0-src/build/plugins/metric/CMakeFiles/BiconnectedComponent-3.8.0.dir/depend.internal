@@ -80,5 +80,5 @@ plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/BiconnectedComponent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/BiconnectedComponent.cpp
  library/tulip/include/tulip/TulipRelease.h

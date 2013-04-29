@@ -135,5 +135,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfvisibility-3.8.0.dir/OGDFVisibility.cpp.o
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanRep.h
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanarModule.h
  ../thirdparty/OGDF/ogdf/upward/VisibilityLayout.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFVisibility.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFVisibility.cpp
  library/tulip/include/tulip/TulipRelease.h

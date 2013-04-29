@@ -145,5 +145,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfupwardplanarization-3.8.0.dir/OGDFUpwardPlana
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanRep.h
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanarModule.h
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanarizationLayout.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFUpwardPlanarization.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFUpwardPlanarization.cpp
  library/tulip/include/tulip/TulipRelease.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulip
+# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python/tulip.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python" TYPE SHARED_LIBRARY FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip/tulip.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip/tulip.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python/tulip.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python/tulip.so")
     FILE(RPATH_REMOVE
@@ -51,10 +51,10 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/apiFiles" TYPE FILE FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip/tulip.api")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/apiFiles" TYPE FILE FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip/tulip.api")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python" TYPE FILE FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulip/tulipplugins.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python" TYPE FILE FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip/tulipplugins.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
 

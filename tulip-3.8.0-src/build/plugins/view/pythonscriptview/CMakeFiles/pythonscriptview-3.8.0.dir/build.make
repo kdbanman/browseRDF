@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flag
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o: ../plugins/view/pythonscriptview/PythonCodeEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEditor.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeEd
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o: ../plugins/view/pythonscriptview/PythonCodeHighlighter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHighlighter.cpp.o.requires
@@ -94,17 +94,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonCodeHi
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o: ../plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcherHighlighter.cpp.o.requires
@@ -117,17 +117,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/ParenMatcher
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o: ../plugins/view/pythonscriptview/PythonInterpreter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterpreter.cpp.o.requires
@@ -140,17 +140,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonInterp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o: ../plugins/view/pythonscriptview/PythonScriptView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptView.cpp.o.requires
@@ -163,17 +163,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScript
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o: ../plugins/view/pythonscriptview/PythonScriptViewWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScriptViewWidget.cpp.o.requires
@@ -186,17 +186,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonScript
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o: ../plugins/view/pythonscriptview/PythonShellWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellWidget.cpp.o.requires
@@ -209,17 +209,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PythonShellW
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o: ../plugins/view/pythonscriptview/PluginCreationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreationDialog.cpp.o.requires
@@ -232,17 +232,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/PluginCreati
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o: ../plugins/view/pythonscriptview/APIDataBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.cpp.o.requires
@@ -255,17 +255,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/APIDataBase.
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o: ../plugins/view/pythonscriptview/AutoCompletionDataBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompletionDataBase.cpp.o.requires
@@ -278,17 +278,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/AutoCompleti
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o: plugins/view/pythonscriptview/moc_PythonScriptView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptView.cpp.o.requires
@@ -301,17 +301,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonSc
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o: plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonScriptViewWidget.cpp.o.requires
@@ -324,17 +324,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonSc
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o: plugins/view/pythonscriptview/moc_PythonInterpreter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonInterpreter.cpp.o.requires
@@ -347,17 +347,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonIn
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o: plugins/view/pythonscriptview/moc_PythonShellWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonShellWidget.cpp.o.requires
@@ -370,17 +370,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonSh
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o: plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCreationDialog.cpp.o.requires
@@ -393,17 +393,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PluginCr
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o: plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleOutputHandler.cpp.o.requires
@@ -416,17 +416,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_ConsoleO
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o: plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp > CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp -o CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCodeEditor.cpp.o.requires
@@ -439,17 +439,17 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/moc_PythonCo
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/flags.make
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o: plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx > CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx > CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.i
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx -o CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx -o CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.s
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o.requires:
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o.requires
@@ -461,54 +461,54 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonSc
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o.provides.build: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/qrc_PythonScriptViewResource.cxx.o
 
 plugins/view/pythonscriptview/moc_PythonScriptView.cpp: ../plugins/view/pythonscriptview/PythonScriptView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PythonScriptView.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
 
 plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp: ../plugins/view/pythonscriptview/PythonScriptViewWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PythonScriptViewWidget.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
 
 plugins/view/pythonscriptview/moc_PythonInterpreter.cpp: ../plugins/view/pythonscriptview/PythonInterpreter.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PythonInterpreter.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 
 plugins/view/pythonscriptview/moc_PythonShellWidget.cpp: ../plugins/view/pythonscriptview/PythonShellWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PythonShellWidget.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
 
 plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp: ../plugins/view/pythonscriptview/PluginCreationDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PluginCreationDialog.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
 
 plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp: ../plugins/view/pythonscriptview/ConsoleOutputHandler.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ConsoleOutputHandler.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputHandler.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputHandler.h
 
 plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp: ../plugins/view/pythonscriptview/PythonCodeEditor.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PythonCodeEditor.cpp"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/sip-4.13.2/siplib -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview -I/usr/include/python2.7 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/moc-qt4 -I/usr/include/python2.7 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
 
 plugins/view/pythonscriptview/PythonScriptViewWidgetData.h: ../plugins/view/pythonscriptview/PythonScriptViewWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating PythonScriptViewWidgetData.h"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/uic-qt4 -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/PythonScriptViewWidgetData.h /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.ui
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/PythonScriptViewWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.ui
 
 plugins/view/pythonscriptview/PluginCreationDialogData.h: ../plugins/view/pythonscriptview/PluginCreationDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating PluginCreationDialogData.h"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/uic-qt4 -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/PluginCreationDialogData.h /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.ui
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/PluginCreationDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.ui
 
 plugins/view/pythonscriptview/FindReplaceDialogData.h: ../plugins/view/pythonscriptview/FindReplaceDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating FindReplaceDialogData.h"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/uic-qt4 -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/FindReplaceDialogData.h /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/FindReplaceDialog.ui
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/FindReplaceDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/FindReplaceDialog.ui
 
 plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx: ../plugins/view/pythonscriptview/icons/round_minus.png
 plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx: ../plugins/view/pythonscriptview/icons/round_plus.png
@@ -524,9 +524,9 @@ plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx: ../plugins/view/
 plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx: ../plugins/view/pythonscriptview/icons/doc_plus.png
 plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx: plugins/view/pythonscriptview/PythonScriptViewResource.qrc.depends
 plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx: ../plugins/view/pythonscriptview/PythonScriptViewResource.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_PythonScriptViewResource.cxx"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/rcc -name PythonScriptViewResource -o /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewResource.qrc
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && /usr/bin/rcc -name PythonScriptViewResource -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewResource.qrc
 
 # Object files for target pythonscriptview-3.8.0
 pythonscriptview__3_8_0_OBJECTS = \
@@ -597,7 +597,7 @@ plugins/view/pythonscriptview/libpythonscriptview-3.8.0.so: /usr/lib/x86_64-linu
 plugins/view/pythonscriptview/libpythonscriptview-3.8.0.so: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build.make
 plugins/view/pythonscriptview/libpythonscriptview-3.8.0.so: plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libpythonscriptview-3.8.0.so"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pythonscriptview-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pythonscriptview-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/build: plugins/view/pythonscriptview/libpythonscriptview-3.8.0.so
@@ -624,7 +624,7 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/requires: pl
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/requires
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview && $(CMAKE_COMMAND) -P CMakeFiles/pythonscriptview-3.8.0.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview && $(CMAKE_COMMAND) -P CMakeFiles/pythonscriptview-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/clean
 
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend: plugins/view/pythonscriptview/moc_PythonScriptView.cpp
@@ -638,6 +638,6 @@ plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend: plug
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend: plugins/view/pythonscriptview/PluginCreationDialogData.h
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend: plugins/view/pythonscriptview/FindReplaceDialogData.h
 plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend: plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/view/pythonscriptview/CMakeFiles/pythonscriptview-3.8.0.dir/depend
 

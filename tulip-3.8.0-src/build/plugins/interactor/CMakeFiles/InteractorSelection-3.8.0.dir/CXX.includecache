@@ -240,15 +240,15 @@ tr1/unordered_set
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/interactor/InteractorSelection.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/InteractorSelection.cpp
 tulip/MouseInteractors.h
 -
 tulip/MouseSelector.h
 -
 NodeLinkDiagramComponentInteractor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
 tulip/InteractorChainOfResponsibility.h
 -
 

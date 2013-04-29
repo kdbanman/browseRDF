@@ -80,6 +80,6 @@ plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/MultipleEdgeSelection.h
  library/tulip/include/tulip/TulipRelease.h

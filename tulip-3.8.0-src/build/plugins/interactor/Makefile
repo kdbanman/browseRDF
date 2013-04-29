@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/interactor/CMakeFiles/progress.marks
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/CMakeFiles/progress.marks
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/clean
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,92 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/rule
-.PHONY : plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/rule
-
-# Convenience name for target.
-InteractorAddEdge-3.8.0: plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/rule
-.PHONY : InteractorAddEdge-3.8.0
-
-# fast build rule for target.
-InteractorAddEdge-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build
-.PHONY : InteractorAddEdge-3.8.0/fast
-
-# Convenience name for target.
-plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/rule
-.PHONY : plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/rule
-
-# Convenience name for target.
-InteractorAddNode-3.8.0: plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/rule
-.PHONY : InteractorAddNode-3.8.0
-
-# fast build rule for target.
-InteractorAddNode-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build
-.PHONY : InteractorAddNode-3.8.0/fast
-
-# Convenience name for target.
-plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/rule
-.PHONY : plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/rule
-
-# Convenience name for target.
-InteractorDeleteElement-3.8.0: plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/rule
-.PHONY : InteractorDeleteElement-3.8.0
-
-# fast build rule for target.
-InteractorDeleteElement-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build
-.PHONY : InteractorDeleteElement-3.8.0/fast
-
-# Convenience name for target.
-plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/rule
-.PHONY : plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/rule
-
-# Convenience name for target.
-InteractorEditEdgeBends-3.8.0: plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/rule
-.PHONY : InteractorEditEdgeBends-3.8.0
-
-# fast build rule for target.
-InteractorEditEdgeBends-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build
-.PHONY : InteractorEditEdgeBends-3.8.0/fast
-
-# Convenience name for target.
-plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/rule
-.PHONY : plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/rule
-
-# Convenience name for target.
-InteractorGetInformation-3.8.0: plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/rule
-.PHONY : InteractorGetInformation-3.8.0
-
-# fast build rule for target.
-InteractorGetInformation-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build
-.PHONY : InteractorGetInformation-3.8.0/fast
-
-# Convenience name for target.
 plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/rule
 .PHONY : plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -237,12 +167,12 @@ InteractorNavigation-3.8.0: plugins/interactor/CMakeFiles/InteractorNavigation-3
 
 # fast build rule for target.
 InteractorNavigation-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build
 .PHONY : InteractorNavigation-3.8.0/fast
 
 # Convenience name for target.
 plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/rule
 .PHONY : plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -251,12 +181,12 @@ InteractorRectangleZoom-3.8.0: plugins/interactor/CMakeFiles/InteractorRectangle
 
 # fast build rule for target.
 InteractorRectangleZoom-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build
 .PHONY : InteractorRectangleZoom-3.8.0/fast
 
 # Convenience name for target.
 plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/rule
 .PHONY : plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -265,12 +195,12 @@ InteractorSelection-3.8.0: plugins/interactor/CMakeFiles/InteractorSelection-3.8
 
 # fast build rule for target.
 InteractorSelection-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build
 .PHONY : InteractorSelection-3.8.0/fast
 
 # Convenience name for target.
 plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/rule
 .PHONY : plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -279,135 +209,15 @@ InteractorSelectionModifier-3.8.0: plugins/interactor/CMakeFiles/InteractorSelec
 
 # fast build rule for target.
 InteractorSelectionModifier-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build
 .PHONY : InteractorSelectionModifier-3.8.0/fast
-
-InteractorAddEdge.o: InteractorAddEdge.cpp.o
-.PHONY : InteractorAddEdge.o
-
-# target to build an object file
-InteractorAddEdge.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/InteractorAddEdge.cpp.o
-.PHONY : InteractorAddEdge.cpp.o
-
-InteractorAddEdge.i: InteractorAddEdge.cpp.i
-.PHONY : InteractorAddEdge.i
-
-# target to preprocess a source file
-InteractorAddEdge.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/InteractorAddEdge.cpp.i
-.PHONY : InteractorAddEdge.cpp.i
-
-InteractorAddEdge.s: InteractorAddEdge.cpp.s
-.PHONY : InteractorAddEdge.s
-
-# target to generate assembly for a file
-InteractorAddEdge.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/InteractorAddEdge.cpp.s
-.PHONY : InteractorAddEdge.cpp.s
-
-InteractorAddNode.o: InteractorAddNode.cpp.o
-.PHONY : InteractorAddNode.o
-
-# target to build an object file
-InteractorAddNode.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/InteractorAddNode.cpp.o
-.PHONY : InteractorAddNode.cpp.o
-
-InteractorAddNode.i: InteractorAddNode.cpp.i
-.PHONY : InteractorAddNode.i
-
-# target to preprocess a source file
-InteractorAddNode.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/InteractorAddNode.cpp.i
-.PHONY : InteractorAddNode.cpp.i
-
-InteractorAddNode.s: InteractorAddNode.cpp.s
-.PHONY : InteractorAddNode.s
-
-# target to generate assembly for a file
-InteractorAddNode.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/InteractorAddNode.cpp.s
-.PHONY : InteractorAddNode.cpp.s
-
-InteractorDeleteElement.o: InteractorDeleteElement.cpp.o
-.PHONY : InteractorDeleteElement.o
-
-# target to build an object file
-InteractorDeleteElement.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/InteractorDeleteElement.cpp.o
-.PHONY : InteractorDeleteElement.cpp.o
-
-InteractorDeleteElement.i: InteractorDeleteElement.cpp.i
-.PHONY : InteractorDeleteElement.i
-
-# target to preprocess a source file
-InteractorDeleteElement.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/InteractorDeleteElement.cpp.i
-.PHONY : InteractorDeleteElement.cpp.i
-
-InteractorDeleteElement.s: InteractorDeleteElement.cpp.s
-.PHONY : InteractorDeleteElement.s
-
-# target to generate assembly for a file
-InteractorDeleteElement.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/InteractorDeleteElement.cpp.s
-.PHONY : InteractorDeleteElement.cpp.s
-
-InteractorEditEdgeBends.o: InteractorEditEdgeBends.cpp.o
-.PHONY : InteractorEditEdgeBends.o
-
-# target to build an object file
-InteractorEditEdgeBends.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/InteractorEditEdgeBends.cpp.o
-.PHONY : InteractorEditEdgeBends.cpp.o
-
-InteractorEditEdgeBends.i: InteractorEditEdgeBends.cpp.i
-.PHONY : InteractorEditEdgeBends.i
-
-# target to preprocess a source file
-InteractorEditEdgeBends.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/InteractorEditEdgeBends.cpp.i
-.PHONY : InteractorEditEdgeBends.cpp.i
-
-InteractorEditEdgeBends.s: InteractorEditEdgeBends.cpp.s
-.PHONY : InteractorEditEdgeBends.s
-
-# target to generate assembly for a file
-InteractorEditEdgeBends.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/InteractorEditEdgeBends.cpp.s
-.PHONY : InteractorEditEdgeBends.cpp.s
-
-InteractorGetInformation.o: InteractorGetInformation.cpp.o
-.PHONY : InteractorGetInformation.o
-
-# target to build an object file
-InteractorGetInformation.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/InteractorGetInformation.cpp.o
-.PHONY : InteractorGetInformation.cpp.o
-
-InteractorGetInformation.i: InteractorGetInformation.cpp.i
-.PHONY : InteractorGetInformation.i
-
-# target to preprocess a source file
-InteractorGetInformation.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/InteractorGetInformation.cpp.i
-.PHONY : InteractorGetInformation.cpp.i
-
-InteractorGetInformation.s: InteractorGetInformation.cpp.s
-.PHONY : InteractorGetInformation.s
-
-# target to generate assembly for a file
-InteractorGetInformation.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/InteractorGetInformation.cpp.s
-.PHONY : InteractorGetInformation.cpp.s
 
 InteractorNavigation.o: InteractorNavigation.cpp.o
 .PHONY : InteractorNavigation.o
 
 # target to build an object file
 InteractorNavigation.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/InteractorNavigation.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/InteractorNavigation.cpp.o
 .PHONY : InteractorNavigation.cpp.o
 
 InteractorNavigation.i: InteractorNavigation.cpp.i
@@ -415,7 +225,7 @@ InteractorNavigation.i: InteractorNavigation.cpp.i
 
 # target to preprocess a source file
 InteractorNavigation.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/InteractorNavigation.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/InteractorNavigation.cpp.i
 .PHONY : InteractorNavigation.cpp.i
 
 InteractorNavigation.s: InteractorNavigation.cpp.s
@@ -423,7 +233,7 @@ InteractorNavigation.s: InteractorNavigation.cpp.s
 
 # target to generate assembly for a file
 InteractorNavigation.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/InteractorNavigation.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorNavigation-3.8.0.dir/InteractorNavigation.cpp.s
 .PHONY : InteractorNavigation.cpp.s
 
 InteractorRectangleZoom.o: InteractorRectangleZoom.cpp.o
@@ -431,7 +241,7 @@ InteractorRectangleZoom.o: InteractorRectangleZoom.cpp.o
 
 # target to build an object file
 InteractorRectangleZoom.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/InteractorRectangleZoom.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/InteractorRectangleZoom.cpp.o
 .PHONY : InteractorRectangleZoom.cpp.o
 
 InteractorRectangleZoom.i: InteractorRectangleZoom.cpp.i
@@ -439,7 +249,7 @@ InteractorRectangleZoom.i: InteractorRectangleZoom.cpp.i
 
 # target to preprocess a source file
 InteractorRectangleZoom.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/InteractorRectangleZoom.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/InteractorRectangleZoom.cpp.i
 .PHONY : InteractorRectangleZoom.cpp.i
 
 InteractorRectangleZoom.s: InteractorRectangleZoom.cpp.s
@@ -447,7 +257,7 @@ InteractorRectangleZoom.s: InteractorRectangleZoom.cpp.s
 
 # target to generate assembly for a file
 InteractorRectangleZoom.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/InteractorRectangleZoom.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorRectangleZoom-3.8.0.dir/InteractorRectangleZoom.cpp.s
 .PHONY : InteractorRectangleZoom.cpp.s
 
 InteractorSelection.o: InteractorSelection.cpp.o
@@ -455,7 +265,7 @@ InteractorSelection.o: InteractorSelection.cpp.o
 
 # target to build an object file
 InteractorSelection.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.cpp.o
 .PHONY : InteractorSelection.cpp.o
 
 InteractorSelection.i: InteractorSelection.cpp.i
@@ -463,7 +273,7 @@ InteractorSelection.i: InteractorSelection.cpp.i
 
 # target to preprocess a source file
 InteractorSelection.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.cpp.i
 .PHONY : InteractorSelection.cpp.i
 
 InteractorSelection.s: InteractorSelection.cpp.s
@@ -471,7 +281,7 @@ InteractorSelection.s: InteractorSelection.cpp.s
 
 # target to generate assembly for a file
 InteractorSelection.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelection-3.8.0.dir/InteractorSelection.cpp.s
 .PHONY : InteractorSelection.cpp.s
 
 InteractorSelectionModifier.o: InteractorSelectionModifier.cpp.o
@@ -479,7 +289,7 @@ InteractorSelectionModifier.o: InteractorSelectionModifier.cpp.o
 
 # target to build an object file
 InteractorSelectionModifier.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/InteractorSelectionModifier.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/InteractorSelectionModifier.cpp.o
 .PHONY : InteractorSelectionModifier.cpp.o
 
 InteractorSelectionModifier.i: InteractorSelectionModifier.cpp.i
@@ -487,7 +297,7 @@ InteractorSelectionModifier.i: InteractorSelectionModifier.cpp.i
 
 # target to preprocess a source file
 InteractorSelectionModifier.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/InteractorSelectionModifier.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/InteractorSelectionModifier.cpp.i
 .PHONY : InteractorSelectionModifier.cpp.i
 
 InteractorSelectionModifier.s: InteractorSelectionModifier.cpp.s
@@ -495,7 +305,7 @@ InteractorSelectionModifier.s: InteractorSelectionModifier.cpp.s
 
 # target to generate assembly for a file
 InteractorSelectionModifier.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/InteractorSelectionModifier.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorSelectionModifier-3.8.0.dir/InteractorSelectionModifier.cpp.s
 .PHONY : InteractorSelectionModifier.cpp.s
 
 # Help Target
@@ -504,11 +314,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... InteractorAddEdge-3.8.0"
-	@echo "... InteractorAddNode-3.8.0"
-	@echo "... InteractorDeleteElement-3.8.0"
-	@echo "... InteractorEditEdgeBends-3.8.0"
-	@echo "... InteractorGetInformation-3.8.0"
 	@echo "... InteractorNavigation-3.8.0"
 	@echo "... InteractorRectangleZoom-3.8.0"
 	@echo "... InteractorSelection-3.8.0"
@@ -521,21 +326,6 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... InteractorAddEdge.o"
-	@echo "... InteractorAddEdge.i"
-	@echo "... InteractorAddEdge.s"
-	@echo "... InteractorAddNode.o"
-	@echo "... InteractorAddNode.i"
-	@echo "... InteractorAddNode.s"
-	@echo "... InteractorDeleteElement.o"
-	@echo "... InteractorDeleteElement.i"
-	@echo "... InteractorDeleteElement.s"
-	@echo "... InteractorEditEdgeBends.o"
-	@echo "... InteractorEditEdgeBends.i"
-	@echo "... InteractorEditEdgeBends.s"
-	@echo "... InteractorGetInformation.o"
-	@echo "... InteractorGetInformation.i"
-	@echo "... InteractorGetInformation.s"
 	@echo "... InteractorNavigation.o"
 	@echo "... InteractorNavigation.i"
 	@echo "... InteractorNavigation.s"
@@ -559,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/LoopSelection.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/LoopSelection.cpp
 LoopSelection.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/LoopSelection.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/LoopSelection.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/LoopSelection.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/LoopSelection.h
 tulip/TulipPlugin.h
 -
 

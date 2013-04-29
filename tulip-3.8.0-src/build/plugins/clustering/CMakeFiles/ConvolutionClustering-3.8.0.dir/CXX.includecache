@@ -824,47 +824,47 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClustering.h
 vector
 -
 tulip/TulipPlugin.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetup.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetup.h
 ConvolutionClusteringSetupData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetupData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetupData.h
 ConvolutionClustering.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClustering.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/moc_ConvolutionClusteringSetup.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/moc_ConvolutionClusteringSetup.cpp
 ../../../plugins/clustering/ConvolutionClusteringSetup.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetup.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetup.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.cpp
 ConvolutionClustering.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
 ConvolutionClusteringSetup.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
 tulip/ForEach.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/tulip/ForEach.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/tulip/ForEach.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
 vector
 -
 tulip/TulipPlugin.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.cpp
 ConvolutionClusteringSetup.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
 QPainter
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
 ConvolutionClusteringSetupData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetupData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetupData.h
 ConvolutionClustering.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

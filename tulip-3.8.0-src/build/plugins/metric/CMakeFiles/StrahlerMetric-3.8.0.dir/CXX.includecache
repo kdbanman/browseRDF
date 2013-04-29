@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrahlerMetric.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrahlerMetric.cpp
 cmath
 -
 cstdio
@@ -832,9 +832,9 @@ cstdio
 tulip/StringProperty.h
 -
 StrahlerMetric.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrahlerMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrahlerMetric.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrahlerMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrahlerMetric.h
 tulip/tuliphash.h
 -
 tulip/TulipPlugin.h

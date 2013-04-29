@@ -1,4 +1,4 @@
-# Install script for directory: /home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/server
+# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/server
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

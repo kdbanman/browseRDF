@@ -49,10 +49,7 @@ namespace tlp {
 class TLP_QT_SCOPE GlMainWidgetItem : public QObject, public QGraphicsItem {
 
   Q_OBJECT
-// moc failure on MAC
-//#if QT_MINOR_REL > 5
-//  Q_INTERFACES(QGraphicsItem)
-//#endif
+
 
 public :
 

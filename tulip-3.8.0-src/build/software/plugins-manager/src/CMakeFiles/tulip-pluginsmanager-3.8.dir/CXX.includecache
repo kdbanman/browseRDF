@@ -988,7 +988,7 @@ UpdatePluginsDialogData.h
 PluginInfo.h
 ../software/plugins-manager/src/../include/PluginInfo.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/AuthorizationInstallDependencies.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/AuthorizationInstallDependencies.h
 QtGui/QLabel
 -
 QtGui/QDialog
@@ -996,9 +996,9 @@ QtGui/QDialog
 vector
 -
 PluginsViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsViewWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ChooseServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ChooseServerDialog.h
 QtGui/QDialog
 -
 QtGui/QPushButton
@@ -1012,7 +1012,7 @@ QtGui/QListWidget
 tulip/tulipconf.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/HttpRequest.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/HttpRequest.h
 tulip/tulipconf.h
 -
 QtNetwork/QNetworkAccessManager
@@ -1020,7 +1020,7 @@ QtNetwork/QNetworkAccessManager
 QtCore/QFile
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallExitDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallExitDialog.h
 QtGui/QDialog
 -
 QtGui/QLabel
@@ -1030,7 +1030,7 @@ QtGui/QPushButton
 tulip/tulipconf.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialog.h
 map
 -
 QtGui/QDialog
@@ -1046,11 +1046,11 @@ QtGui/QGroupBox
 QtGui/QProgressBar
 -
 InstallPluginDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialogData.h
 InstallExitDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallExitDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallExitDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ModifyServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ModifyServerDialog.h
 QtGui/QDialog
 -
 QtGui/QPushButton
@@ -1064,29 +1064,29 @@ QtGui/QBoxLayout
 tulip/tulipconf.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
 tulip/tulipconf.h
 -
 QtCore/QObject
 -
 Server.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
 Request.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
 ResponseTreatment.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
 PluginsListManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsListManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsListManager.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/NewTulipVersionAvailableDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/NewTulipVersionAvailableDialog.h
 QtGui/QDialog
 -
 tulip/tulipconf.h
 -
 NewTulipVersionAvailableDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/NewTulipVersionAvailableDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/NewTulipVersionAvailableDialogData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 tulip/tulipconf.h
 -
 string
@@ -1120,7 +1120,7 @@ tulip/View.h
 tulip/Controller.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsInfoWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsInfoWidget.h
 QtGui/QTextBrowser
 -
 QtXml/QDomDocument
@@ -1128,29 +1128,29 @@ QtXml/QDomDocument
 QtCore/QFile
 -
 ResponseTreatment.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 PluginsInfoWidgetData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsInfoWidgetData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsInfoWidgetData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsListManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsListManager.h
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 TPWFonctor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/TPWFonctor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/TPWFonctor.h
 QtXml/QDomElement
 -
 set
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsManager.h
 tulip/tulipconf.h
 -
 QtGui/QDialog
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsUpdateChecker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsUpdateChecker.h
 tulip/tulipconf.h
 -
 QtCore/QObject
@@ -1158,11 +1158,11 @@ QtCore/QObject
 vector
 -
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 UpdatePlugin.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsViewWidget.h
 tulip/tulipconf.h
 -
 QtGui/QTreeWidget
@@ -1170,25 +1170,25 @@ QtGui/QTreeWidget
 QtXml/QDomDocument
 -
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
 TPWFonctor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/TPWFonctor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/TPWFonctor.h
 UpdatePlugin.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
 InstallPluginDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ProxyConfigurationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ProxyConfigurationDialog.h
 tulip/tulipconf.h
 -
 QtNetwork/QNetworkProxy
 -
 ProxyConfigurationDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ProxyConfigurationDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ProxyConfigurationDialogData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
 cassert
 -
 iostream
@@ -1196,27 +1196,27 @@ iostream
 QtCore/QObject
 -
 ResponseTreatment.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
 Server.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ResponseTreatment.h
 tulip/tulipconf.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
 list
 -
 QtCore/QTimer
 -
 SoapResponseReader.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapResponseReader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapResponseReader.h
 SoapRequestBuilder.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapRequestBuilder.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapRequestBuilder.h
 HttpRequest.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/HttpRequest.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/HttpRequest.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ServersOptionDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ServersOptionDialog.h
 QtGui/QDialog
 -
 QtGui/QPushButton
@@ -1226,121 +1226,121 @@ QtGui/QBoxLayout
 QtGui/QListWidget
 -
 ModifyServerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ModifyServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ModifyServerDialog.h
 MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapRequestBuilder.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapRequestBuilder.h
 tulip/tulipconf.h
 -
 QtXml/QDomDocument
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapResponseReader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/SoapResponseReader.h
 tulip/tulipconf.h
 -
 QtXml/QDomDocument
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/TPWFonctor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/TPWFonctor.h
 algorithm
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
 iostream
 -
 QtCore/QDir
 -
 Server.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
 Request.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePluginsDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePluginsDialog.h
 tulip/tulipconf.h
 -
 QtNetwork/QNetworkProxy
 -
 UpdatePluginsDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePluginsDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePluginsDialogData.h
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginInfo.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp
 ../../../../software/plugins-manager/include/AuthorizationInstallDependencies.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/AuthorizationInstallDependencies.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/AuthorizationInstallDependencies.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp
 ../../../../software/plugins-manager/include/ChooseServerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ChooseServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ChooseServerDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp
 ../../../../software/plugins-manager/include/HttpRequest.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/HttpRequest.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/HttpRequest.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp
 ../../../../software/plugins-manager/include/InstallExitDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallExitDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallExitDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp
 ../../../../software/plugins-manager/include/InstallPluginDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/InstallPluginDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp
 ../../../../software/plugins-manager/include/ModifyServerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ModifyServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ModifyServerDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp
 ../../../../software/plugins-manager/include/MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/MultiServerManager.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp
 ../../../../software/plugins-manager/include/NewTulipVersionAvailableDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/NewTulipVersionAvailableDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/NewTulipVersionAvailableDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp
 ../../../../software/plugins-manager/include/PluginsInfoWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsInfoWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsInfoWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp
 ../../../../software/plugins-manager/include/PluginsManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsManager.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp
 ../../../../software/plugins-manager/include/PluginsUpdateChecker.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsUpdateChecker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsUpdateChecker.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp
 ../../../../software/plugins-manager/include/PluginsViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/PluginsViewWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp
 ../../../../software/plugins-manager/include/ProxyConfigurationDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ProxyConfigurationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ProxyConfigurationDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp
 ../../../../software/plugins-manager/include/Request.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Request.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp
 ../../../../software/plugins-manager/include/Server.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/Server.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp
 ../../../../software/plugins-manager/include/ServersOptionDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ServersOptionDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/ServersOptionDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp
 ../../../../software/plugins-manager/include/UpdatePlugin.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePlugin.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp
 ../../../../software/plugins-manager/include/UpdatePluginsDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePluginsDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../../../../software/plugins-manager/include/UpdatePluginsDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp
 QtGui/QBoxLayout
 -
 QtGui/QPushButton
@@ -1348,9 +1348,9 @@ QtGui/QPushButton
 iostream
 -
 AuthorizationInstallDependencies.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp
 iostream
 -
 QtGui/QBoxLayout
@@ -1360,9 +1360,9 @@ QtGui/QGroupBox
 QtGui/QCloseEvent
 -
 ChooseServerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp
 iostream
 -
 QtCore/QUrl
@@ -1378,21 +1378,21 @@ QtNetwork/QNetworkReply
 tulip/TlpNetworkAccess.h
 -
 HttpRequest.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.h
 SoapResponseReader.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp
 QtGui/QBoxLayout
 -
 QtGui/QCloseEvent
 -
 InstallExitDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.h
 InstallPluginDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp
 iostream
 -
 cassert
@@ -1404,39 +1404,39 @@ QtGui/QMessageBox
 QtGui/QHeaderView
 -
 InstallPluginDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp
 ModifyServerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.h
 QtGui/QHBoxLayout
 -
 QtGui/QVBoxLayout
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp
 MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp
 NewTulipVersionAvailableDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.h
 iostream
 -
 QtCore/QSettings
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/QtCore/QSettings
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/QtCore/QSettings
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp
 tulip/TulipRelease.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/tulip/TulipRelease.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/tulip/TulipRelease.h
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.h
 QtCore/QDir
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp
 PluginsHelp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.h
 cassert
 -
 QtCore/QDir
@@ -1446,9 +1446,9 @@ tulip/TulipRelease.h
 tulip/TlpTools.h
 -
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp
 iostream
 -
 QtCore/QFile
@@ -1456,17 +1456,17 @@ QtCore/QFile
 QtCore/QTextStream
 -
 PluginsInfoWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.h
 Request.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.h
 Server.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.h
 MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp
 PluginsListManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.h
 iostream
 -
 tulip/TlpTools.h
@@ -1480,11 +1480,11 @@ QtCore/QDir
 QtCore/QProcess
 -
 TPWFonctor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/TPWFonctor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/TPWFonctor.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp
 PluginsManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.h
 QtCore/QSettings
 -
 QtGui/QVBoxLayout
@@ -1500,7 +1500,7 @@ QtGui/QMessageBox
 iostream
 -
 ProxyConfigurationDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.h
 PluginsViewWidget.h
 -
 PluginsInfoWidget.h
@@ -1508,15 +1508,15 @@ PluginsInfoWidget.h
 ServersOptionDialog.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp
 PluginsUpdateChecker.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.h
 MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
 UpdatePluginsDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.h
 NewTulipVersionAvailableDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.h
 iostream
 -
 QtCore/QSettings
@@ -1524,9 +1524,9 @@ QtCore/QSettings
 QtGui/QMessageBox
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp
 PluginsViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.h
 iostream
 -
 QtGui/QHeaderView
@@ -1542,15 +1542,15 @@ QtGui/QLabel
 QtGui/QPushButton
 -
 AuthorizationInstallDependencies.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.h
 ChooseServerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.h
 PluginsInfoWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp
 ProxyConfigurationDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.h
 iostream
 -
 QtCore/QSettings
@@ -1560,25 +1560,25 @@ QtGui/QIntValidator
 tulip/TlpNetworkAccess.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp
 Request.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.h
 tulip/TulipRelease.h
 -
 SoapRequestBuilder.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.h
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp
 Server.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Server.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.h
 Request.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/Request.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp
 ServersOptionDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.h
 QtCore/QSettings
 -
 QtGui/QMessageBox
@@ -1588,31 +1588,31 @@ QtGui/QHBoxLayout
 QtGui/QVBoxLayout
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp
 SoapRequestBuilder.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp
 SoapResponseReader.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.h
 cassert
 -
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp
 UpdatePlugin.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.h
 MultiServerManager.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.h
 AuthorizationInstallDependencies.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.h
 InstallPluginDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.h
 PluginsHelp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.h
 PluginInfo.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.h
 iostream
 -
 QtCore/QDir
@@ -1624,13 +1624,13 @@ QtCore/QProcess
 QtGui/QApplication
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp
 UpdatePluginsDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.h
 iostream
 -
 QtCore/QSettings
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/plugins-manager/src/QtCore/QSettings
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/QtCore/QSettings
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

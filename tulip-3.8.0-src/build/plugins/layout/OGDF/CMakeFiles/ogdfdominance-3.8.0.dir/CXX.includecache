@@ -1240,11 +1240,11 @@ ogdf/basic/NodeArray.h
 ogdf/basic/SList.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFDominance.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFDominance.cpp
 ogdf/upward/DominanceLayout.h
 -
 tulip2ogdf/OGDFLayoutPluginBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
 tulip/ConnectedTest.h
 -
 

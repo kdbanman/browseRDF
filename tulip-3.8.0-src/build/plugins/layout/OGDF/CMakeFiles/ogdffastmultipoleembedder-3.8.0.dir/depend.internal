@@ -117,5 +117,5 @@ plugins/layout/OGDF/CMakeFiles/ogdffastmultipoleembedder-3.8.0.dir/OGDFFastMulti
  ../thirdparty/OGDF/ogdf/internal/basic/list_templates.h
  ../thirdparty/OGDF/ogdf/internal/energybased/MultilevelGraph.h
  ../thirdparty/OGDF/ogdf/module/LayoutModule.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleEmbedder.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleEmbedder.cpp
  library/tulip/include/tulip/TulipRelease.h

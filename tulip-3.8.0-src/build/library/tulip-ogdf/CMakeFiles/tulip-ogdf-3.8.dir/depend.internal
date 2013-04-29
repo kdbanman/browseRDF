@@ -116,9 +116,9 @@ library/tulip-ogdf/CMakeFiles/tulip-ogdf-3.8.dir/OGDFLayoutPluginBase.cpp.o
  ../thirdparty/OGDF/ogdf/internal/basic/list_templates.h
  ../thirdparty/OGDF/ogdf/internal/energybased/MultilevelGraph.h
  ../thirdparty/OGDF/ogdf/module/LayoutModule.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogdf/OGDFLayoutPluginBase.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/OGDFLayoutPluginBase.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/OGDFLayoutPluginBase.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/OGDFLayoutPluginBase.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
  library/tulip/include/tulip/TulipRelease.h
 library/tulip-ogdf/CMakeFiles/tulip-ogdf-3.8.dir/TulipToOGDF.cpp.o
  ../library/tulip/include/tulip/AbstractProperty.h
@@ -203,6 +203,6 @@ library/tulip-ogdf/CMakeFiles/tulip-ogdf-3.8.dir/TulipToOGDF.cpp.o
  ../thirdparty/OGDF/ogdf/internal/basic/MallocMemoryAllocator.h
  ../thirdparty/OGDF/ogdf/internal/basic/PoolMemoryAllocator.h
  ../thirdparty/OGDF/ogdf/internal/basic/list_templates.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogdf/TulipToOGDF.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/TulipToOGDF.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
  library/tulip/include/tulip/TulipRelease.h

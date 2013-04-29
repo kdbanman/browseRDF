@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
 DatasetTools.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
 tulip/TulipPlugin.h
 -
 tulip/LayoutProperty.h
@@ -836,9 +836,9 @@ tulip/LayoutProperty.h
 tulip/SizeProperty.h
 -
 Orientation.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Orientation.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp
 cmath
 -
 algorithm
@@ -846,17 +846,17 @@ algorithm
 tulip/GraphTools.h
 -
 TreeTools.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeTools.h
 Orientation.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Orientation.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
 DatasetTools.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
 EdgeTools.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/EdgeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.h
 Dendrogram.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Dendrogram.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Dendrogram.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.h
 map
 -
 vector
@@ -864,89 +864,89 @@ vector
 tulip/TulipPlugin.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp
 Orientation.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Orientation.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
 EdgeTools.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/EdgeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/EdgeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.h
 OrientableCoord.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp
 OrientableLayout.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
 OrientableCoord.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
 tulip/Coord.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp
 algorithm
 -
 OrientableLayout.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
 OrientableLayoutInterface.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
 vector
 -
 tulip/LayoutProperty.h
 -
 OrientableConstants.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
 OrientableCoord.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp
 OrientableSize.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
 OrientableSizeProxy.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
 tulip/Size.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp
 OrientableSizeProxy.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
 vector
 -
 tulip/SizeProperty.h
 -
 OrientableConstants.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
 OrientableSize.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Orientation.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp
 Orientation.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Orientation.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Orientation.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
 OrientableConstants.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
 OrientableLayout.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
 OrientableCoord.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
 OrientableSize.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
 OrientableSizeProxy.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeTools.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeTools.h
 tulip/Node.h
 -
 tulip/LayoutProperty.h

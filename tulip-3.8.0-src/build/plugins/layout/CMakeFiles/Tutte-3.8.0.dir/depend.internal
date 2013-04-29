@@ -81,6 +81,6 @@ plugins/layout/CMakeFiles/Tutte-3.8.0.dir/Tutte.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Tutte.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Tutte.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.h
  library/tulip/include/tulip/TulipRelease.h

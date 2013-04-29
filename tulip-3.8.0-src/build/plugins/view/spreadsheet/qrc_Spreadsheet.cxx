@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Resource object code
 **
-** Created: Fri Apr 26 16:36:22 2013
+** Created: Mon Apr 29 02:03:46 2013
 **      by: The Resource Compiler for Qt version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost!
@@ -10,7 +10,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/inherited_properties.png
+  // /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/inherited_properties.png
   0x0,0x0,0x6,0x75,
   0x89,
   0x50,0x4e,0x47,0xd,0xa,0x1a,0xa,0x0,0x0,0x0,0xd,0x49,0x48,0x44,0x52,0x0,

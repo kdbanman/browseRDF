@@ -6,115 +6,77 @@
 
 #IncludeRegexTransform: 
 
-../thirdparty/sip-4.13.2/siplib/sip.h
-basetsd.h
--
-assert.h
--
-ctype.h
--
-errno.h
--
-io.h
--
-math.h
--
-sal.h
--
-stdarg.h
--
-stddef.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-sys/stat.h
--
-time.h
--
-wchar.h
--
-Python.h
--
-Python.h
--
-rpc.h
--
-
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 sip.h
 -
 string
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlcmodule.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlcmodule.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstd.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstd.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdostream.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdostream.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdpair19001900.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdpair19001900.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 utility
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdset1800.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdset1800.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 set
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdset1900.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdset1900.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 set
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdset2400.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdset2400.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 set
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdstring.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdstring.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 string
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector1800.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector1800.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 vector
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector1900.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector1900.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 vector
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector2400.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector2400.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 vector
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector2600.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipstlstdvector2600.cpp
 sipAPIstl.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/sipAPIstl.h
 vector
 -
 
@@ -423,6 +385,12 @@ wctype.h
 /usr/include/python2.7/rangeobject.h
 
 /usr/include/python2.7/setobject.h
+
+/usr/include/python2.7/sip.h
+Python.h
+-
+rpc.h
+-
 
 /usr/include/python2.7/sliceobject.h
 

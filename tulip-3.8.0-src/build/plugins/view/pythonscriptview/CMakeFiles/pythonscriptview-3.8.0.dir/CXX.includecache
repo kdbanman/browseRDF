@@ -1140,45 +1140,7 @@ PythonCodeEditor.h
 tulip/Graph.h
 -
 
-../thirdparty/sip-4.13.2/siplib/sip.h
-basetsd.h
--
-assert.h
--
-ctype.h
--
-errno.h
--
-io.h
--
-math.h
--
-sal.h
--
-stdarg.h
--
-stddef.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-sys/stat.h
--
-time.h
--
-wchar.h
--
-Python.h
--
-Python.h
--
-rpc.h
--
-
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/APIDataBase.h
 QtCore/QSet
 -
 QtCore/QVector
@@ -1188,7 +1150,7 @@ QtCore/QHash
 QtCore/QString
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/AutoCompletionDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/AutoCompletionDataBase.h
 QtCore/QString
 -
 QtCore/QSet
@@ -1198,9 +1160,9 @@ QtCore/QHash
 tulip/Graph.h
 -
 APIDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/APIDataBase.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ConsoleOutputHandler.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ConsoleOutputHandler.h
 QtGui/QPlainTextEdit
 -
 QtGui/QTextBrowser
@@ -1212,35 +1174,35 @@ QtGui/QApplication
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ParenMatcherHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ParenMatcherHighlighter.h
 QtGui/QSyntaxHighlighter
 -
 QtCore/QVector
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PluginCreationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PluginCreationDialog.h
 PluginCreationDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PluginCreationDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PluginCreationDialogData.h
 QtGui/QDialog
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
 PythonCodeHighlighter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeHighlighter.h
 ParenMatcherHighlighter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ParenMatcherHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ParenMatcherHighlighter.h
 APIDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/APIDataBase.h
 AutoCompletionDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/AutoCompletionDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/AutoCompletionDataBase.h
 FindReplaceDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/FindReplaceDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/FindReplaceDialogData.h
 QtGui/QListWidget
 -
 QtGui/QPlainTextEdit
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeHighlighter.h
 QtGui/QSyntaxHighlighter
 -
 QtCore/QHash
@@ -1248,7 +1210,7 @@ QtCore/QHash
 QtGui/QTextCharFormat
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonInterpreter.h
 QtGui/QDialog
 -
 QtGui/QPlainTextEdit
@@ -1266,9 +1228,9 @@ string
 set
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptView.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptView.h
 PythonScriptViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
 QtCore/QObject
 -
 QtCore/QDateTime
@@ -1276,59 +1238,59 @@ QtCore/QDateTime
 tulip/AbstractView.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
 PythonScriptViewWidgetData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidgetData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidgetData.h
 QtGui/QAction
 -
 PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
 tulip/Graph.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonShellWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonShellWidget.h
 vector
 -
 QtGui/QPlainTextEdit
 -
 PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
 tulip/Graph.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_ConsoleOutputHandler.cpp
 ../../../../plugins/view/pythonscriptview/ConsoleOutputHandler.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ConsoleOutputHandler.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/ConsoleOutputHandler.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PluginCreationDialog.cpp
 ../../../../plugins/view/pythonscriptview/PluginCreationDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PluginCreationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PluginCreationDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonCodeEditor.cpp
 ../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonCodeEditor.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonInterpreter.cpp
 ../../../../plugins/view/pythonscriptview/PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonInterpreter.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptView.cpp
 ../../../../plugins/view/pythonscriptview/PythonScriptView.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptView.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptView.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonScriptViewWidget.cpp
 ../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonScriptViewWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/moc_PythonShellWidget.cpp
 ../../../../plugins/view/pythonscriptview/PythonShellWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonShellWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/../../../../plugins/view/pythonscriptview/PythonShellWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/qrc_PythonScriptViewResource.cxx
 QtCore/qglobal.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.cpp
 QtCore/QFile
 -
 QtCore/QList
@@ -1342,9 +1304,9 @@ QtCore/QTextStream
 iostream
 -
 APIDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
 QtCore/QSet
 -
 QtCore/QVector
@@ -1354,7 +1316,7 @@ QtCore/QHash
 QtCore/QString
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.cpp
 QtCore/QTextStream
 -
 QtCore/QRegExp
@@ -1378,11 +1340,11 @@ tulip/ImportModule.h
 tulip/ExportModule.h
 -
 AutoCompletionDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.h
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.h
 QtCore/QString
 -
 QtCore/QSet
@@ -1392,9 +1354,9 @@ QtCore/QHash
 tulip/Graph.h
 -
 APIDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputHandler.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputHandler.h
 QtGui/QPlainTextEdit
 -
 QtGui/QTextBrowser
@@ -1406,33 +1368,33 @@ QtGui/QApplication
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputModule.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputModule.h
 PythonShellWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
 ConsoleOutputHandler.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputHandler.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputHandler.h
 PythonIncludes.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.cpp
 algorithm
 -
 ParenMatcherHighlighter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.h
 QtGui/QSyntaxHighlighter
 -
 QtCore/QVector
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.cpp
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 PluginCreationDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
 QtCore/QDate
 -
 QtGui/QFileDialog
@@ -1442,17 +1404,17 @@ QtGui/QMessageBox
 iostream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
 PluginCreationDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialogData.h
 QtGui/QDialog
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.cpp
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
 QtGui/QPainter
 -
 QtGui/QTextBlock
@@ -1470,33 +1432,33 @@ iostream
 tulip/TlpTools.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
 PythonCodeHighlighter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.h
 ParenMatcherHighlighter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ParenMatcherHighlighter.h
 APIDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
 AutoCompletionDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/AutoCompletionDataBase.h
 FindReplaceDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/FindReplaceDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/FindReplaceDialogData.h
 QtGui/QListWidget
 -
 QtGui/QPlainTextEdit
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.cpp
 PythonCodeHighlighter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.h
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 APIDataBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/APIDataBase.h
 QtGui/QTextDocument
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeHighlighter.h
 QtGui/QSyntaxHighlighter
 -
 QtCore/QHash
@@ -1504,7 +1466,7 @@ QtCore/QHash
 QtGui/QTextCharFormat
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
 basetsd.h
 -
 assert.h
@@ -1556,15 +1518,15 @@ import.h
 sip.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.cpp
 PythonIncludes.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 ConsoleOutputModule.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputModule.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/ConsoleOutputModule.h
 TulipUtilsModule.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/TulipUtilsModule.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/TulipUtilsModule.h
 iostream
 -
 sstream
@@ -1584,7 +1546,7 @@ cstdio
 dlfcn.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 QtGui/QDialog
 -
 QtGui/QPlainTextEdit
@@ -1602,15 +1564,15 @@ string
 set
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.cpp
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 PythonScriptView.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
 PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
 PluginCreationDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PluginCreationDialog.h
 QtGui/QMessageBox
 -
 QtGui/QFileDialog
@@ -1656,9 +1618,9 @@ tulip/TemplateFactory.h
 sstream
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
 PythonScriptViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
 QtCore/QObject
 -
 QtCore/QDateTime
@@ -1666,13 +1628,13 @@ QtCore/QDateTime
 tulip/AbstractView.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.cpp
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 PythonScriptViewWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
 PythonScriptView.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
 QtCore/QFile
 -
 QtGui/QToolBar
@@ -1682,19 +1644,19 @@ QtGui/QIcon
 QtWebKit/QWebView
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidget.h
 PythonScriptViewWidgetData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidgetData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptViewWidgetData.h
 QtGui/QAction
 -
 PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
 tulip/Graph.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.cpp
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 iostream
 -
 QtCore/QRegExp
@@ -1712,25 +1674,25 @@ tulip/TlpTools.h
 tulip/Observable.h
 -
 PythonShellWidget.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonShellWidget.h
 vector
 -
 QtGui/QPlainTextEdit
 -
 PythonCodeEditor.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonCodeEditor.h
 tulip/Graph.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/TulipUtilsModule.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/TulipUtilsModule.h
 PythonIncludes.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonIncludes.h
 PythonInterpreter.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonInterpreter.h
 PythonScriptView.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/PythonScriptView.h
 tulip/MainController.h
 -
 tulip/ControllerAlgorithmTools.h
@@ -2055,6 +2017,12 @@ wctype.h
 /usr/include/python2.7/rangeobject.h
 
 /usr/include/python2.7/setobject.h
+
+/usr/include/python2.7/sip.h
+Python.h
+-
+rpc.h
+-
 
 /usr/include/python2.7/sliceobject.h
 

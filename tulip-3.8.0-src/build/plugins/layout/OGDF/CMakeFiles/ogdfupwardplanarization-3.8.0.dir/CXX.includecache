@@ -1326,11 +1326,11 @@ ogdf/upward/LayerBasedUPRLayout.h
 ogdf/upward/SubgraphUpwardPlanarizer.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFUpwardPlanarization.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFUpwardPlanarization.cpp
 ogdf/upward/UpwardPlanarizationLayout.h
 -
 tulip2ogdf/OGDFLayoutPluginBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
 
 library/tulip/include/tulip/TulipRelease.h
 

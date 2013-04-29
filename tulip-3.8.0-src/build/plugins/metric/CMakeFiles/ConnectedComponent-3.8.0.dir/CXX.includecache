@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/ConnectedComponent.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/ConnectedComponent.cpp
 ConnectedComponent.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/ConnectedComponent.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/ConnectedComponent.h
 tulip/ConnectedTest.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/ConnectedComponent.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/ConnectedComponent.h
 tulip/TulipPlugin.h
 -
 

@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/clustering/Delaunay/CMakeFiles/progress.marks
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/Delaunay/CMakeFiles/progress.marks
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/clean
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/rule
 .PHONY : plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ Delaunay-3.8.0: plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/rule
 
 # fast build rule for target.
 Delaunay-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build
 .PHONY : Delaunay-3.8.0/fast
 
 # Convenience name for target.
 plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/rule
 .PHONY : plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ Voronoi-3.8.0: plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/rule
 
 # fast build rule for target.
 Voronoi-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build
 .PHONY : Voronoi-3.8.0/fast
 
 DelaunayTriangulation.o: DelaunayTriangulation.cpp.o
@@ -189,7 +189,7 @@ DelaunayTriangulation.o: DelaunayTriangulation.cpp.o
 
 # target to build an object file
 DelaunayTriangulation.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/DelaunayTriangulation.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/DelaunayTriangulation.cpp.o
 .PHONY : DelaunayTriangulation.cpp.o
 
 DelaunayTriangulation.i: DelaunayTriangulation.cpp.i
@@ -197,7 +197,7 @@ DelaunayTriangulation.i: DelaunayTriangulation.cpp.i
 
 # target to preprocess a source file
 DelaunayTriangulation.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/DelaunayTriangulation.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/DelaunayTriangulation.cpp.i
 .PHONY : DelaunayTriangulation.cpp.i
 
 DelaunayTriangulation.s: DelaunayTriangulation.cpp.s
@@ -205,7 +205,7 @@ DelaunayTriangulation.s: DelaunayTriangulation.cpp.s
 
 # target to generate assembly for a file
 DelaunayTriangulation.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/DelaunayTriangulation.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Delaunay-3.8.0.dir/DelaunayTriangulation.cpp.s
 .PHONY : DelaunayTriangulation.cpp.s
 
 VoronoiDiagram.o: VoronoiDiagram.cpp.o
@@ -213,7 +213,7 @@ VoronoiDiagram.o: VoronoiDiagram.cpp.o
 
 # target to build an object file
 VoronoiDiagram.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.o
 .PHONY : VoronoiDiagram.cpp.o
 
 VoronoiDiagram.i: VoronoiDiagram.cpp.i
@@ -221,7 +221,7 @@ VoronoiDiagram.i: VoronoiDiagram.cpp.i
 
 # target to preprocess a source file
 VoronoiDiagram.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.i
 .PHONY : VoronoiDiagram.cpp.i
 
 VoronoiDiagram.s: VoronoiDiagram.cpp.s
@@ -229,7 +229,7 @@ VoronoiDiagram.s: VoronoiDiagram.cpp.s
 
 # target to generate assembly for a file
 VoronoiDiagram.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/build.make plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.s
 .PHONY : VoronoiDiagram.cpp.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

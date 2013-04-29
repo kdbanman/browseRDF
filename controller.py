@@ -6,13 +6,13 @@
 
 from tulip import *
 
+import math
 import rdflib
 
 
 class Controller():
   '''
-  class for managing data flow between view and model with a tulip graph and a
-  PyQt toolbar
+  class for managing data flow between view and model with a tulip graph
   '''
   # container for both aggregate and frontier graphs
   _parent = tlp.newGraph()
@@ -30,7 +30,6 @@ class Controller():
 
   # for selection colorization
   prevColor = _parent.getColorProperty("prevColor")
-  colorsPreserved = False
 
   # nodes will be labelled by their uris (namespaced for predicates, empty for literals)
   viewLabel = _parent.getStringProperty("viewLabel")
@@ -49,21 +48,16 @@ class Controller():
   uriLiteral = _parent.getStringProperty("uriLiteral")
 
   # number of times the node has been clicked, for the selection mode colorization
-  numClicked = _parent.getIntegerProperty("numClicked")
+  clicked = _parent.getBooleanProperty("clicked")
 
 
-  def rememberColors(self):
-    if not self.colorsPreserved:
-      self.colorsPreserved = True
-      for n in self._parent.getNodes():
-        self.prevColor[n] = self.viewColor[n]
+  def rememberColor(self, node):
+    self.prevColor[node] = self.viewColor[node]
 
-  def restoreColors(self):
-    if self.colorsPreserved:
-      self.colorsPreserved = False
-      for n in self._parent.getNodes():
-        self.viewColor[n] = self.prevColor[n]
-        self.numClicked[n] = 0
+  def restoreColors(self, nodes):
+    self.clicked.setAllNodeValue(False)
+    for node in nodes:
+      self.viewColor[node] = self.prevColor[node]
     
 
   # for a specific node in the _parent graph, the next 3 functions get the 
@@ -92,15 +86,42 @@ class Controller():
     return not self.isLiteral(node)
   
 
-  def fill(self, rdflibTerm, tulipNode):
+  def fill(self, rdflibTerm, tulipNode, rdflibGraph):
     # label to display for each node
     content = self.content[tulipNode]
 
-    if len(content) < 100:
+
+    if len(content) < 80:
       self.viewLabel[tulipNode] = content
+    else:
+      self.viewLabel[tulipNode] = content[:77] + "..."
 
     # color and shape of rdf resource differs between uris and literals.
     if type(rdflibTerm) == rdflib.URIRef:
+
+      prefixFail = False
+      try:
+        # split uri by namespace
+        namespace, name = rdflib.namespace.split_uri(rdflibTerm)
+      except:
+        # don't bother prefixing if it failed
+        self.viewLabel[tulipNode] = rdflibTerm.encode("UTF-8")
+        prefixFail = True
+  
+      if not prefixFail:
+        # cast from string to uri
+        namespace = rdflib.URIRef(namespace)
+        # get prefix from parent graph
+        prefix = rdflibGraph.store.prefix(namespace)
+        # test if that failed
+        if prefix == None:
+          # just set full uri as label
+          self.viewLabel[tulipNode] = rdflibTerm.encode("UTF-8")
+        else:
+          # write prefixed uri as label
+          self.viewLabel[tulipNode] = str(prefix) + ":" + str(name)
+
+
       # determine if the uri is currently in any other view
       newURI = content not in self._parentURIs or self._parentURIs[content] == 0
       if newURI:
@@ -110,6 +131,7 @@ class Controller():
 
       # color the uri red if it's rendered anywhere else
       self.viewColor[tulipNode] = (self.uriColor if newURI else self.seenURIColor)
+      self.prevColor[tulipNode] = self.viewColor[tulipNode]
       self.viewShape[tulipNode] = self.uriShape
 
       # distinguish between uris and literals with this property
@@ -117,6 +139,7 @@ class Controller():
 
     else:
       self.viewColor[tulipNode] = self.litColor
+      self.prevColor[tulipNode] = self.viewColor[tulipNode]
       self.viewShape[tulipNode] = self.litShape
 
       # distinguish between uris and literals with this property
@@ -140,7 +163,7 @@ class Controller():
     # test if that failed
     if prefix == None:
       # overwrite the intended prefix with the full namespace
-      prexix = namespace
+      prefix = namespace
  
     # write prefixed uri as label
     self.viewLabel[tulipEdge] = str(prefix + ":" + name)
@@ -179,7 +202,7 @@ class Controller():
 
         nodeDict[sContent] = sNode
 
-        self.fill(s, sNode)
+        self.fill(s, sNode, rdflibGraph)
 
       if newO:
         oNode = frontGraph.addNode()
@@ -187,7 +210,7 @@ class Controller():
 
         nodeDict[oContent] = oNode
 
-        self.fill(o, oNode)
+        self.fill(o, oNode, rdflibGraph)
        
       # connect the nodes by their predicate
       pEdge = frontGraph.addEdge(sNode, oNode)
@@ -202,7 +225,7 @@ class Controller():
   def forceLayout(self, graph):
     # apply tulip's quickest force-directed layout
     params = tlp.getDefaultPluginParameters("FM^3 (OGDF)", graph)
-    params["Unit edge length"] = graph.numberOfNodes()*2
+    params["Unit edge length"] = math.sqrt(graph.numberOfNodes())*8
 
     graph.applyLayoutAlgorithm("FM^3 (OGDF)", self.viewLayout, params)
 

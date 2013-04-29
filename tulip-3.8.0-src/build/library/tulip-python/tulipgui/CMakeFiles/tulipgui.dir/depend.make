@@ -109,7 +109,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../library/tulip/include/tulip/vectorgraph.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../library/tulip/include/tulip/vectorgraphproperty.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../library/tulip/include/tulip/vs_compat.h
-library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../thirdparty/sip-4.13.2/siplib/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../library/tulip-python/tulipgui/TulipViewsUtils.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: ../library/tulip-python/tulipgui/TulipViewsUtils.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/Python.h
@@ -165,6 +164,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /us
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/pythonrun.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/rangeobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/setobject.h
+library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/sliceobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/stringobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/TulipViewsUtils.cpp.o: /usr/include/python2.7/sysmodule.h
@@ -663,7 +663,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: ../library/tulip/include/tulip/vectorgraph.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: ../library/tulip/include/tulip/vectorgraphproperty.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: ../library/tulip/include/tulip/vs_compat.h
-library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: ../thirdparty/sip-4.13.2/siplib/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: library/tulip-python/tulipgui/sipAPItulipgui.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: library/tulip-python/tulipgui/siptulipguicmodule.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/Python.h
@@ -719,6 +718,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/pythonrun.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/rangeobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/setobject.h
+library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/sliceobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/stringobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguicmodule.cpp.o: /usr/include/python2.7/sysmodule.h
@@ -1035,7 +1035,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tl
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: ../library/tulip/include/tulip/vectorgraph.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: ../library/tulip/include/tulip/vectorgraphproperty.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: ../library/tulip/include/tulip/vs_compat.h
-library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: ../thirdparty/sip-4.13.2/siplib/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: library/tulip-python/tulipgui/sipAPItulipgui.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/Python.h
@@ -1091,6 +1090,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tl
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/pythonrun.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/rangeobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/setobject.h
+library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/sliceobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/stringobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguistdvector0101tlpView.cpp.o: /usr/include/python2.7/sysmodule.h
@@ -1400,7 +1400,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: ../l
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: ../library/tulip/include/tulip/vectorgraph.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: ../library/tulip/include/tulip/vectorgraphproperty.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: ../library/tulip/include/tulip/vs_compat.h
-library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: ../thirdparty/sip-4.13.2/siplib/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: library/tulip-python/tulipgui/sipAPItulipgui.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: library/tulip-python/tulipgui/siptulipguitlp.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/Python.h
@@ -1456,6 +1455,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/pythonrun.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/rangeobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/setobject.h
+library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/sliceobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/stringobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlp.cpp.o: /usr/include/python2.7/sysmodule.h
@@ -1765,7 +1765,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiag
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: ../library/tulip/include/tulip/vectorgraph.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: ../library/tulip/include/tulip/vectorgraphproperty.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: ../library/tulip/include/tulip/vs_compat.h
-library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: ../thirdparty/sip-4.13.2/siplib/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: library/tulip-python/tulipgui/sipAPItulipgui.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/Python.h
@@ -1821,6 +1820,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiag
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/pythonrun.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/rangeobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/setobject.h
+library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/sliceobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/stringobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpNodeLinkDiagramComponent.cpp.o: /usr/include/python2.7/sysmodule.h
@@ -2130,7 +2130,6 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: ../library/tulip/include/tulip/vectorgraph.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: ../library/tulip/include/tulip/vectorgraphproperty.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: ../library/tulip/include/tulip/vs_compat.h
-library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: ../thirdparty/sip-4.13.2/siplib/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: library/tulip-python/tulipgui/sipAPItulipgui.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: library/tulip-python/tulipgui/siptulipguitlpView.cpp
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/Python.h
@@ -2186,6 +2185,7 @@ library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: 
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/pythonrun.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/rangeobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/setobject.h
+library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/sip.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/sliceobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/stringobject.h
 library/tulip-python/tulipgui/CMakeFiles/tulipgui.dir/siptulipguitlpView.cpp.o: /usr/include/python2.7/sysmodule.h

@@ -1376,19 +1376,19 @@ PluginLoaderWithInfo.h
 AppStartUp.h
 ../software/tulip/src/../include/AppStartUp.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUp.h
 string
 -
 QtGui/QMovie
 -
 AppStartUpData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUpData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUpData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/ChooseControllerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/ChooseControllerDialog.h
 ChooseControllerDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/ChooseControllerDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/ChooseControllerDialogData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/GraphNeedsSavingObserver.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/GraphNeedsSavingObserver.h
 tulip/Observable.h
 -
 tulip/ObservableGraph.h
@@ -1406,15 +1406,15 @@ tulip/PropertyInterface.h
 deque
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/InfoDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/InfoDialog.h
 InfoDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/InfoDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/InfoDialogData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/PreferenceDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/PreferenceDialog.h
 PreferenceDialogData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/PreferenceDialogData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/PreferenceDialogData.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipApp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipApp.h
 QtGui/QMainWindow
 -
 QtCore/QSettings
@@ -1422,45 +1422,45 @@ QtCore/QSettings
 QtGui/QMessageBox
 -
 TulipPluginLoader.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipPluginLoader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipPluginLoader.h
 TulipData.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipData.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipData.h
 GraphNeedsSavingObserver.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/GraphNeedsSavingObserver.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/GraphNeedsSavingObserver.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipPluginLoader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipPluginLoader.h
 vector
 -
 PluginLoaderWithInfo.h
 -
 AppStartUp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUp.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp
 ../../../../software/tulip/include/AppStartUp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/AppStartUp.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp
 ../../../../software/tulip/include/ChooseControllerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/ChooseControllerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/ChooseControllerDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp
 ../../../../software/tulip/include/InfoDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/InfoDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/InfoDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp
 ../../../../software/tulip/include/PreferenceDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/PreferenceDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/PreferenceDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp
 ../../../../software/tulip/include/TulipApp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipApp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../../../../software/tulip/include/TulipApp.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx
 QtCore/qglobal.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp
 time.h
 -
 string
@@ -1484,27 +1484,27 @@ tulip/ControllerPluginsManager.h
 tulip/EdgeExtremityGlyphManager.h
 -
 AppStartUp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/AppStartUp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.h
 TulipPluginLoader.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/TulipPluginLoader.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipPluginLoader.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp
 ChooseControllerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.h
 QtCore/QSettings
 -
 tulip/PreferenceManager.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp
 tulip/TulipRelease.h
 -
 InfoDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/InfoDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp
 PreferenceDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.h
 QtCore/QSettings
 -
 string
@@ -1512,7 +1512,7 @@ string
 tulip/PreferenceManager.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp
 fstream
 -
 windows.h
@@ -1552,15 +1552,15 @@ PluginsHelp.h
 PluginsManager.h
 -
 TulipApp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/TulipApp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.h
 InfoDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/InfoDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.h
 PreferenceDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.h
 ChooseControllerDialog.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/main.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp
 QtCore/QTimer
 -
 QtCore/QLocale
@@ -1572,7 +1572,7 @@ PluginInfo.h
 CrashHandling.h
 -
 TulipApp.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/software/tulip/src/TulipApp.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

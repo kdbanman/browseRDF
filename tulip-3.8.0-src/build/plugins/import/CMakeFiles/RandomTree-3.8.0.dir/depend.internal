@@ -80,5 +80,5 @@ plugins/import/CMakeFiles/RandomTree-3.8.0.dir/RandomTree.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/RandomTree.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/RandomTree.cpp
  library/tulip/include/tulip/TulipRelease.h

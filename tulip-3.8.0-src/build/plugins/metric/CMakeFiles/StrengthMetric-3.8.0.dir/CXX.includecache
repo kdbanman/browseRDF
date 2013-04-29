@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrengthMetric.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.cpp
 StrengthMetric.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrengthMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/StrengthMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.h
 tulip/tuliphash.h
 -
 tulip/TulipPlugin.h

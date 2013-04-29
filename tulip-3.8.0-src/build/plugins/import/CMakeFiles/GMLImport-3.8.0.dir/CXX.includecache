@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/GMLImport.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLImport.cpp
 sys/stat.h
 -
 sys/types.h
@@ -838,9 +838,9 @@ tulip/TulipPlugin.h
 tulip/AbstractProperty.h
 -
 GMLParser.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/GMLParser.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLParser.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/import/GMLParser.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLParser.h
 iostream
 -
 string

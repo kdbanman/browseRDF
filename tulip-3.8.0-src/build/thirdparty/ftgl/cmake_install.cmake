@@ -1,4 +1,4 @@
-# Install script for directory: /home/kdbanman/Desktop/tulip-3.8.0-src/thirdparty/ftgl
+# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "ftgl")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libftgl.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kdbanman/Desktop/tulip-3.8.0-src/build/thirdparty/ftgl/libftgl.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl/libftgl.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libftgl.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libftgl.so")
     IF(CMAKE_INSTALL_DO_STRIP)

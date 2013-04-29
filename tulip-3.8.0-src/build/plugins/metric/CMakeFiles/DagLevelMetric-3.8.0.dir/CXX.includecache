@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/DagLevelMetric.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/DagLevelMetric.cpp
 cassert
 -
 DagLevelMetric.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/DagLevelMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/DagLevelMetric.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/DagLevelMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/DagLevelMetric.h
 tulip/TulipPlugin.h
 -
 

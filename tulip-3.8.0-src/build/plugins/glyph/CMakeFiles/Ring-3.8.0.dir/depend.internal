@@ -75,7 +75,7 @@ plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/glyph/ring.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/glyph/ring.cpp
  /usr/include/GL/../GL/gl.h
  /usr/include/GL/../GL/gl_mangle.h
  /usr/include/GL/../GL/glext.h

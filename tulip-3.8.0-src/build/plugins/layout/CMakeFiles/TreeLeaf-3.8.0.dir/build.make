@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o: ../plugins/layout/TreeLeaf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeLeaf.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeLeaf.cpp
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeLeaf.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeLeaf.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.i
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/TreeLeaf.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeLeaf.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.s
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/TreeLeaf.cpp.o.provides.build: plug
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o: ../plugins/layout/DatasetTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.i
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.s
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o.requires
@@ -94,17 +94,17 @@ plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DatasetTools.cpp.o.provides.build: 
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o: ../plugins/layout/OrientableCoord.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.i
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.s
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o.requires
@@ -117,17 +117,17 @@ plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableCoord.cpp.o.provides.buil
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o: ../plugins/layout/OrientableLayout.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.i
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.s
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o.requires
@@ -140,17 +140,17 @@ plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableLayout.cpp.o.provides.bui
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o: ../plugins/layout/OrientableSize.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.i
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.s
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o.requires
@@ -163,17 +163,17 @@ plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSize.cpp.o.provides.build
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o: ../plugins/layout/OrientableSizeProxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp > CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.i
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp -o CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.s
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/OrientableSizeProxy.cpp.o.requires
@@ -209,7 +209,7 @@ plugins/layout/libTreeLeaf-3.8.0.so: thirdparty/libqhull/libqhull.a
 plugins/layout/libTreeLeaf-3.8.0.so: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/build.make
 plugins/layout/libTreeLeaf-3.8.0.so: plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libTreeLeaf-3.8.0.so"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TreeLeaf-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TreeLeaf-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/build: plugins/layout/libTreeLeaf-3.8.0.so
@@ -224,10 +224,10 @@ plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/requires: plugins/layout/CMakeFiles
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/requires
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/TreeLeaf-3.8.0.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/TreeLeaf-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/clean
 
 plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/layout/CMakeFiles/TreeLeaf-3.8.0.dir/depend
 

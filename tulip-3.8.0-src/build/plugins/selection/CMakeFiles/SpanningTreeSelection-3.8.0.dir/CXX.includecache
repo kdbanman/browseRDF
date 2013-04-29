@@ -824,9 +824,9 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/SpanningTreeSelection.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningTreeSelection.cpp
 SpanningTreeSelection.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/SpanningTreeSelection.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningTreeSelection.h
 tulip/BooleanProperty.h
 -
 tulip/MethodFactory.h
@@ -834,7 +834,7 @@ tulip/MethodFactory.h
 tulip/GraphTools.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/selection/SpanningTreeSelection.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningTreeSelection.h
 tulip/TulipPlugin.h
 -
 

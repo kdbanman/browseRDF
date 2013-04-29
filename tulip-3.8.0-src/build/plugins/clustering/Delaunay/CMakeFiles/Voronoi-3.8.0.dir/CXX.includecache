@@ -834,7 +834,7 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/Delaunay/VoronoiDiagram.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/Delaunay/VoronoiDiagram.cpp
 tulip/Algorithm.h
 -
 tulip/TulipPlugin.h

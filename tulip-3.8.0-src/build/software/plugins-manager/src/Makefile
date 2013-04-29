@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/software/plugins-manager/src/CMakeFiles/progress.marks
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/CMakeFiles/progress.marks
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/clean
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/rule
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ tulip-pluginsmanager-3.8: software/plugins-manager/src/CMakeFiles/tulip-pluginsm
 
 # fast build rule for target.
 tulip-pluginsmanager-3.8/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build
 .PHONY : tulip-pluginsmanager-3.8/fast
 
 # Convenience name for target.
 software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/rule
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ tulip_check_pl: software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/rule
 
 # fast build rule for target.
 tulip_check_pl/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build
 .PHONY : tulip_check_pl/fast
 
 AuthorizationInstallDependencies.o: AuthorizationInstallDependencies.cpp.o
@@ -189,7 +189,7 @@ AuthorizationInstallDependencies.o: AuthorizationInstallDependencies.cpp.o
 
 # target to build an object file
 AuthorizationInstallDependencies.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o
 .PHONY : AuthorizationInstallDependencies.cpp.o
 
 AuthorizationInstallDependencies.i: AuthorizationInstallDependencies.cpp.i
@@ -197,7 +197,7 @@ AuthorizationInstallDependencies.i: AuthorizationInstallDependencies.cpp.i
 
 # target to preprocess a source file
 AuthorizationInstallDependencies.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.i
 .PHONY : AuthorizationInstallDependencies.cpp.i
 
 AuthorizationInstallDependencies.s: AuthorizationInstallDependencies.cpp.s
@@ -205,7 +205,7 @@ AuthorizationInstallDependencies.s: AuthorizationInstallDependencies.cpp.s
 
 # target to generate assembly for a file
 AuthorizationInstallDependencies.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.s
 .PHONY : AuthorizationInstallDependencies.cpp.s
 
 ChooseServerDialog.o: ChooseServerDialog.cpp.o
@@ -213,7 +213,7 @@ ChooseServerDialog.o: ChooseServerDialog.cpp.o
 
 # target to build an object file
 ChooseServerDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o
 .PHONY : ChooseServerDialog.cpp.o
 
 ChooseServerDialog.i: ChooseServerDialog.cpp.i
@@ -221,7 +221,7 @@ ChooseServerDialog.i: ChooseServerDialog.cpp.i
 
 # target to preprocess a source file
 ChooseServerDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.i
 .PHONY : ChooseServerDialog.cpp.i
 
 ChooseServerDialog.s: ChooseServerDialog.cpp.s
@@ -229,7 +229,7 @@ ChooseServerDialog.s: ChooseServerDialog.cpp.s
 
 # target to generate assembly for a file
 ChooseServerDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.s
 .PHONY : ChooseServerDialog.cpp.s
 
 HttpRequest.o: HttpRequest.cpp.o
@@ -237,7 +237,7 @@ HttpRequest.o: HttpRequest.cpp.o
 
 # target to build an object file
 HttpRequest.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o
 .PHONY : HttpRequest.cpp.o
 
 HttpRequest.i: HttpRequest.cpp.i
@@ -245,7 +245,7 @@ HttpRequest.i: HttpRequest.cpp.i
 
 # target to preprocess a source file
 HttpRequest.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.i
 .PHONY : HttpRequest.cpp.i
 
 HttpRequest.s: HttpRequest.cpp.s
@@ -253,7 +253,7 @@ HttpRequest.s: HttpRequest.cpp.s
 
 # target to generate assembly for a file
 HttpRequest.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.s
 .PHONY : HttpRequest.cpp.s
 
 InstallExitDialog.o: InstallExitDialog.cpp.o
@@ -261,7 +261,7 @@ InstallExitDialog.o: InstallExitDialog.cpp.o
 
 # target to build an object file
 InstallExitDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o
 .PHONY : InstallExitDialog.cpp.o
 
 InstallExitDialog.i: InstallExitDialog.cpp.i
@@ -269,7 +269,7 @@ InstallExitDialog.i: InstallExitDialog.cpp.i
 
 # target to preprocess a source file
 InstallExitDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.i
 .PHONY : InstallExitDialog.cpp.i
 
 InstallExitDialog.s: InstallExitDialog.cpp.s
@@ -277,7 +277,7 @@ InstallExitDialog.s: InstallExitDialog.cpp.s
 
 # target to generate assembly for a file
 InstallExitDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.s
 .PHONY : InstallExitDialog.cpp.s
 
 InstallPluginDialog.o: InstallPluginDialog.cpp.o
@@ -285,7 +285,7 @@ InstallPluginDialog.o: InstallPluginDialog.cpp.o
 
 # target to build an object file
 InstallPluginDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o
 .PHONY : InstallPluginDialog.cpp.o
 
 InstallPluginDialog.i: InstallPluginDialog.cpp.i
@@ -293,7 +293,7 @@ InstallPluginDialog.i: InstallPluginDialog.cpp.i
 
 # target to preprocess a source file
 InstallPluginDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.i
 .PHONY : InstallPluginDialog.cpp.i
 
 InstallPluginDialog.s: InstallPluginDialog.cpp.s
@@ -301,7 +301,7 @@ InstallPluginDialog.s: InstallPluginDialog.cpp.s
 
 # target to generate assembly for a file
 InstallPluginDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.s
 .PHONY : InstallPluginDialog.cpp.s
 
 ModifyServerDialog.o: ModifyServerDialog.cpp.o
@@ -309,7 +309,7 @@ ModifyServerDialog.o: ModifyServerDialog.cpp.o
 
 # target to build an object file
 ModifyServerDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o
 .PHONY : ModifyServerDialog.cpp.o
 
 ModifyServerDialog.i: ModifyServerDialog.cpp.i
@@ -317,7 +317,7 @@ ModifyServerDialog.i: ModifyServerDialog.cpp.i
 
 # target to preprocess a source file
 ModifyServerDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.i
 .PHONY : ModifyServerDialog.cpp.i
 
 ModifyServerDialog.s: ModifyServerDialog.cpp.s
@@ -325,7 +325,7 @@ ModifyServerDialog.s: ModifyServerDialog.cpp.s
 
 # target to generate assembly for a file
 ModifyServerDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.s
 .PHONY : ModifyServerDialog.cpp.s
 
 MultiServerManager.o: MultiServerManager.cpp.o
@@ -333,7 +333,7 @@ MultiServerManager.o: MultiServerManager.cpp.o
 
 # target to build an object file
 MultiServerManager.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o
 .PHONY : MultiServerManager.cpp.o
 
 MultiServerManager.i: MultiServerManager.cpp.i
@@ -341,7 +341,7 @@ MultiServerManager.i: MultiServerManager.cpp.i
 
 # target to preprocess a source file
 MultiServerManager.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.i
 .PHONY : MultiServerManager.cpp.i
 
 MultiServerManager.s: MultiServerManager.cpp.s
@@ -349,7 +349,7 @@ MultiServerManager.s: MultiServerManager.cpp.s
 
 # target to generate assembly for a file
 MultiServerManager.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.s
 .PHONY : MultiServerManager.cpp.s
 
 NewTulipVersionAvailableDialog.o: NewTulipVersionAvailableDialog.cpp.o
@@ -357,7 +357,7 @@ NewTulipVersionAvailableDialog.o: NewTulipVersionAvailableDialog.cpp.o
 
 # target to build an object file
 NewTulipVersionAvailableDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o
 .PHONY : NewTulipVersionAvailableDialog.cpp.o
 
 NewTulipVersionAvailableDialog.i: NewTulipVersionAvailableDialog.cpp.i
@@ -365,7 +365,7 @@ NewTulipVersionAvailableDialog.i: NewTulipVersionAvailableDialog.cpp.i
 
 # target to preprocess a source file
 NewTulipVersionAvailableDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.i
 .PHONY : NewTulipVersionAvailableDialog.cpp.i
 
 NewTulipVersionAvailableDialog.s: NewTulipVersionAvailableDialog.cpp.s
@@ -373,7 +373,7 @@ NewTulipVersionAvailableDialog.s: NewTulipVersionAvailableDialog.cpp.s
 
 # target to generate assembly for a file
 NewTulipVersionAvailableDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.s
 .PHONY : NewTulipVersionAvailableDialog.cpp.s
 
 PluginInfo.o: PluginInfo.cpp.o
@@ -381,7 +381,7 @@ PluginInfo.o: PluginInfo.cpp.o
 
 # target to build an object file
 PluginInfo.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o
 .PHONY : PluginInfo.cpp.o
 
 PluginInfo.i: PluginInfo.cpp.i
@@ -389,7 +389,7 @@ PluginInfo.i: PluginInfo.cpp.i
 
 # target to preprocess a source file
 PluginInfo.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.i
 .PHONY : PluginInfo.cpp.i
 
 PluginInfo.s: PluginInfo.cpp.s
@@ -397,7 +397,7 @@ PluginInfo.s: PluginInfo.cpp.s
 
 # target to generate assembly for a file
 PluginInfo.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.s
 .PHONY : PluginInfo.cpp.s
 
 PluginsHelp.o: PluginsHelp.cpp.o
@@ -405,7 +405,7 @@ PluginsHelp.o: PluginsHelp.cpp.o
 
 # target to build an object file
 PluginsHelp.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o
 .PHONY : PluginsHelp.cpp.o
 
 PluginsHelp.i: PluginsHelp.cpp.i
@@ -413,7 +413,7 @@ PluginsHelp.i: PluginsHelp.cpp.i
 
 # target to preprocess a source file
 PluginsHelp.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.i
 .PHONY : PluginsHelp.cpp.i
 
 PluginsHelp.s: PluginsHelp.cpp.s
@@ -421,7 +421,7 @@ PluginsHelp.s: PluginsHelp.cpp.s
 
 # target to generate assembly for a file
 PluginsHelp.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.s
 .PHONY : PluginsHelp.cpp.s
 
 PluginsInfoWidget.o: PluginsInfoWidget.cpp.o
@@ -429,7 +429,7 @@ PluginsInfoWidget.o: PluginsInfoWidget.cpp.o
 
 # target to build an object file
 PluginsInfoWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o
 .PHONY : PluginsInfoWidget.cpp.o
 
 PluginsInfoWidget.i: PluginsInfoWidget.cpp.i
@@ -437,7 +437,7 @@ PluginsInfoWidget.i: PluginsInfoWidget.cpp.i
 
 # target to preprocess a source file
 PluginsInfoWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.i
 .PHONY : PluginsInfoWidget.cpp.i
 
 PluginsInfoWidget.s: PluginsInfoWidget.cpp.s
@@ -445,7 +445,7 @@ PluginsInfoWidget.s: PluginsInfoWidget.cpp.s
 
 # target to generate assembly for a file
 PluginsInfoWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.s
 .PHONY : PluginsInfoWidget.cpp.s
 
 PluginsListManager.o: PluginsListManager.cpp.o
@@ -453,7 +453,7 @@ PluginsListManager.o: PluginsListManager.cpp.o
 
 # target to build an object file
 PluginsListManager.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o
 .PHONY : PluginsListManager.cpp.o
 
 PluginsListManager.i: PluginsListManager.cpp.i
@@ -461,7 +461,7 @@ PluginsListManager.i: PluginsListManager.cpp.i
 
 # target to preprocess a source file
 PluginsListManager.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.i
 .PHONY : PluginsListManager.cpp.i
 
 PluginsListManager.s: PluginsListManager.cpp.s
@@ -469,7 +469,7 @@ PluginsListManager.s: PluginsListManager.cpp.s
 
 # target to generate assembly for a file
 PluginsListManager.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.s
 .PHONY : PluginsListManager.cpp.s
 
 PluginsManager.o: PluginsManager.cpp.o
@@ -477,7 +477,7 @@ PluginsManager.o: PluginsManager.cpp.o
 
 # target to build an object file
 PluginsManager.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o
 .PHONY : PluginsManager.cpp.o
 
 PluginsManager.i: PluginsManager.cpp.i
@@ -485,7 +485,7 @@ PluginsManager.i: PluginsManager.cpp.i
 
 # target to preprocess a source file
 PluginsManager.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.i
 .PHONY : PluginsManager.cpp.i
 
 PluginsManager.s: PluginsManager.cpp.s
@@ -493,7 +493,7 @@ PluginsManager.s: PluginsManager.cpp.s
 
 # target to generate assembly for a file
 PluginsManager.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.s
 .PHONY : PluginsManager.cpp.s
 
 PluginsUpdateChecker.o: PluginsUpdateChecker.cpp.o
@@ -501,7 +501,7 @@ PluginsUpdateChecker.o: PluginsUpdateChecker.cpp.o
 
 # target to build an object file
 PluginsUpdateChecker.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o
 .PHONY : PluginsUpdateChecker.cpp.o
 
 PluginsUpdateChecker.i: PluginsUpdateChecker.cpp.i
@@ -509,7 +509,7 @@ PluginsUpdateChecker.i: PluginsUpdateChecker.cpp.i
 
 # target to preprocess a source file
 PluginsUpdateChecker.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.i
 .PHONY : PluginsUpdateChecker.cpp.i
 
 PluginsUpdateChecker.s: PluginsUpdateChecker.cpp.s
@@ -517,7 +517,7 @@ PluginsUpdateChecker.s: PluginsUpdateChecker.cpp.s
 
 # target to generate assembly for a file
 PluginsUpdateChecker.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.s
 .PHONY : PluginsUpdateChecker.cpp.s
 
 PluginsViewWidget.o: PluginsViewWidget.cpp.o
@@ -525,7 +525,7 @@ PluginsViewWidget.o: PluginsViewWidget.cpp.o
 
 # target to build an object file
 PluginsViewWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o
 .PHONY : PluginsViewWidget.cpp.o
 
 PluginsViewWidget.i: PluginsViewWidget.cpp.i
@@ -533,7 +533,7 @@ PluginsViewWidget.i: PluginsViewWidget.cpp.i
 
 # target to preprocess a source file
 PluginsViewWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.i
 .PHONY : PluginsViewWidget.cpp.i
 
 PluginsViewWidget.s: PluginsViewWidget.cpp.s
@@ -541,7 +541,7 @@ PluginsViewWidget.s: PluginsViewWidget.cpp.s
 
 # target to generate assembly for a file
 PluginsViewWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.s
 .PHONY : PluginsViewWidget.cpp.s
 
 ProxyConfigurationDialog.o: ProxyConfigurationDialog.cpp.o
@@ -549,7 +549,7 @@ ProxyConfigurationDialog.o: ProxyConfigurationDialog.cpp.o
 
 # target to build an object file
 ProxyConfigurationDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o
 .PHONY : ProxyConfigurationDialog.cpp.o
 
 ProxyConfigurationDialog.i: ProxyConfigurationDialog.cpp.i
@@ -557,7 +557,7 @@ ProxyConfigurationDialog.i: ProxyConfigurationDialog.cpp.i
 
 # target to preprocess a source file
 ProxyConfigurationDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.i
 .PHONY : ProxyConfigurationDialog.cpp.i
 
 ProxyConfigurationDialog.s: ProxyConfigurationDialog.cpp.s
@@ -565,7 +565,7 @@ ProxyConfigurationDialog.s: ProxyConfigurationDialog.cpp.s
 
 # target to generate assembly for a file
 ProxyConfigurationDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.s
 .PHONY : ProxyConfigurationDialog.cpp.s
 
 Request.o: Request.cpp.o
@@ -573,7 +573,7 @@ Request.o: Request.cpp.o
 
 # target to build an object file
 Request.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o
 .PHONY : Request.cpp.o
 
 Request.i: Request.cpp.i
@@ -581,7 +581,7 @@ Request.i: Request.cpp.i
 
 # target to preprocess a source file
 Request.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.i
 .PHONY : Request.cpp.i
 
 Request.s: Request.cpp.s
@@ -589,7 +589,7 @@ Request.s: Request.cpp.s
 
 # target to generate assembly for a file
 Request.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.s
 .PHONY : Request.cpp.s
 
 Server.o: Server.cpp.o
@@ -597,7 +597,7 @@ Server.o: Server.cpp.o
 
 # target to build an object file
 Server.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o
 .PHONY : Server.cpp.o
 
 Server.i: Server.cpp.i
@@ -605,7 +605,7 @@ Server.i: Server.cpp.i
 
 # target to preprocess a source file
 Server.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.i
 .PHONY : Server.cpp.i
 
 Server.s: Server.cpp.s
@@ -613,7 +613,7 @@ Server.s: Server.cpp.s
 
 # target to generate assembly for a file
 Server.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.s
 .PHONY : Server.cpp.s
 
 ServersOptionDialog.o: ServersOptionDialog.cpp.o
@@ -621,7 +621,7 @@ ServersOptionDialog.o: ServersOptionDialog.cpp.o
 
 # target to build an object file
 ServersOptionDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o
 .PHONY : ServersOptionDialog.cpp.o
 
 ServersOptionDialog.i: ServersOptionDialog.cpp.i
@@ -629,7 +629,7 @@ ServersOptionDialog.i: ServersOptionDialog.cpp.i
 
 # target to preprocess a source file
 ServersOptionDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.i
 .PHONY : ServersOptionDialog.cpp.i
 
 ServersOptionDialog.s: ServersOptionDialog.cpp.s
@@ -637,7 +637,7 @@ ServersOptionDialog.s: ServersOptionDialog.cpp.s
 
 # target to generate assembly for a file
 ServersOptionDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.s
 .PHONY : ServersOptionDialog.cpp.s
 
 SoapRequestBuilder.o: SoapRequestBuilder.cpp.o
@@ -645,7 +645,7 @@ SoapRequestBuilder.o: SoapRequestBuilder.cpp.o
 
 # target to build an object file
 SoapRequestBuilder.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o
 .PHONY : SoapRequestBuilder.cpp.o
 
 SoapRequestBuilder.i: SoapRequestBuilder.cpp.i
@@ -653,7 +653,7 @@ SoapRequestBuilder.i: SoapRequestBuilder.cpp.i
 
 # target to preprocess a source file
 SoapRequestBuilder.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.i
 .PHONY : SoapRequestBuilder.cpp.i
 
 SoapRequestBuilder.s: SoapRequestBuilder.cpp.s
@@ -661,7 +661,7 @@ SoapRequestBuilder.s: SoapRequestBuilder.cpp.s
 
 # target to generate assembly for a file
 SoapRequestBuilder.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.s
 .PHONY : SoapRequestBuilder.cpp.s
 
 SoapResponseReader.o: SoapResponseReader.cpp.o
@@ -669,7 +669,7 @@ SoapResponseReader.o: SoapResponseReader.cpp.o
 
 # target to build an object file
 SoapResponseReader.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o
 .PHONY : SoapResponseReader.cpp.o
 
 SoapResponseReader.i: SoapResponseReader.cpp.i
@@ -677,7 +677,7 @@ SoapResponseReader.i: SoapResponseReader.cpp.i
 
 # target to preprocess a source file
 SoapResponseReader.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.i
 .PHONY : SoapResponseReader.cpp.i
 
 SoapResponseReader.s: SoapResponseReader.cpp.s
@@ -685,7 +685,7 @@ SoapResponseReader.s: SoapResponseReader.cpp.s
 
 # target to generate assembly for a file
 SoapResponseReader.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.s
 .PHONY : SoapResponseReader.cpp.s
 
 TulipCheckPluginLoad.o: TulipCheckPluginLoad.cpp.o
@@ -693,7 +693,7 @@ TulipCheckPluginLoad.o: TulipCheckPluginLoad.cpp.o
 
 # target to build an object file
 TulipCheckPluginLoad.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.cpp.o
 .PHONY : TulipCheckPluginLoad.cpp.o
 
 TulipCheckPluginLoad.i: TulipCheckPluginLoad.cpp.i
@@ -701,7 +701,7 @@ TulipCheckPluginLoad.i: TulipCheckPluginLoad.cpp.i
 
 # target to preprocess a source file
 TulipCheckPluginLoad.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.cpp.i
 .PHONY : TulipCheckPluginLoad.cpp.i
 
 TulipCheckPluginLoad.s: TulipCheckPluginLoad.cpp.s
@@ -709,7 +709,7 @@ TulipCheckPluginLoad.s: TulipCheckPluginLoad.cpp.s
 
 # target to generate assembly for a file
 TulipCheckPluginLoad.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/build.make software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.cpp.s
 .PHONY : TulipCheckPluginLoad.cpp.s
 
 UpdatePlugin.o: UpdatePlugin.cpp.o
@@ -717,7 +717,7 @@ UpdatePlugin.o: UpdatePlugin.cpp.o
 
 # target to build an object file
 UpdatePlugin.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o
 .PHONY : UpdatePlugin.cpp.o
 
 UpdatePlugin.i: UpdatePlugin.cpp.i
@@ -725,7 +725,7 @@ UpdatePlugin.i: UpdatePlugin.cpp.i
 
 # target to preprocess a source file
 UpdatePlugin.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.i
 .PHONY : UpdatePlugin.cpp.i
 
 UpdatePlugin.s: UpdatePlugin.cpp.s
@@ -733,7 +733,7 @@ UpdatePlugin.s: UpdatePlugin.cpp.s
 
 # target to generate assembly for a file
 UpdatePlugin.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.s
 .PHONY : UpdatePlugin.cpp.s
 
 UpdatePluginsDialog.o: UpdatePluginsDialog.cpp.o
@@ -741,7 +741,7 @@ UpdatePluginsDialog.o: UpdatePluginsDialog.cpp.o
 
 # target to build an object file
 UpdatePluginsDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o
 .PHONY : UpdatePluginsDialog.cpp.o
 
 UpdatePluginsDialog.i: UpdatePluginsDialog.cpp.i
@@ -749,7 +749,7 @@ UpdatePluginsDialog.i: UpdatePluginsDialog.cpp.i
 
 # target to preprocess a source file
 UpdatePluginsDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.i
 .PHONY : UpdatePluginsDialog.cpp.i
 
 UpdatePluginsDialog.s: UpdatePluginsDialog.cpp.s
@@ -757,7 +757,7 @@ UpdatePluginsDialog.s: UpdatePluginsDialog.cpp.s
 
 # target to generate assembly for a file
 UpdatePluginsDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.s
 .PHONY : UpdatePluginsDialog.cpp.s
 
 moc_AuthorizationInstallDependencies.o: moc_AuthorizationInstallDependencies.cpp.o
@@ -765,7 +765,7 @@ moc_AuthorizationInstallDependencies.o: moc_AuthorizationInstallDependencies.cpp
 
 # target to build an object file
 moc_AuthorizationInstallDependencies.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o
 .PHONY : moc_AuthorizationInstallDependencies.cpp.o
 
 moc_AuthorizationInstallDependencies.i: moc_AuthorizationInstallDependencies.cpp.i
@@ -773,7 +773,7 @@ moc_AuthorizationInstallDependencies.i: moc_AuthorizationInstallDependencies.cpp
 
 # target to preprocess a source file
 moc_AuthorizationInstallDependencies.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.i
 .PHONY : moc_AuthorizationInstallDependencies.cpp.i
 
 moc_AuthorizationInstallDependencies.s: moc_AuthorizationInstallDependencies.cpp.s
@@ -781,7 +781,7 @@ moc_AuthorizationInstallDependencies.s: moc_AuthorizationInstallDependencies.cpp
 
 # target to generate assembly for a file
 moc_AuthorizationInstallDependencies.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.s
 .PHONY : moc_AuthorizationInstallDependencies.cpp.s
 
 moc_ChooseServerDialog.o: moc_ChooseServerDialog.cpp.o
@@ -789,7 +789,7 @@ moc_ChooseServerDialog.o: moc_ChooseServerDialog.cpp.o
 
 # target to build an object file
 moc_ChooseServerDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o
 .PHONY : moc_ChooseServerDialog.cpp.o
 
 moc_ChooseServerDialog.i: moc_ChooseServerDialog.cpp.i
@@ -797,7 +797,7 @@ moc_ChooseServerDialog.i: moc_ChooseServerDialog.cpp.i
 
 # target to preprocess a source file
 moc_ChooseServerDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.i
 .PHONY : moc_ChooseServerDialog.cpp.i
 
 moc_ChooseServerDialog.s: moc_ChooseServerDialog.cpp.s
@@ -805,7 +805,7 @@ moc_ChooseServerDialog.s: moc_ChooseServerDialog.cpp.s
 
 # target to generate assembly for a file
 moc_ChooseServerDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.s
 .PHONY : moc_ChooseServerDialog.cpp.s
 
 moc_HttpRequest.o: moc_HttpRequest.cpp.o
@@ -813,7 +813,7 @@ moc_HttpRequest.o: moc_HttpRequest.cpp.o
 
 # target to build an object file
 moc_HttpRequest.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o
 .PHONY : moc_HttpRequest.cpp.o
 
 moc_HttpRequest.i: moc_HttpRequest.cpp.i
@@ -821,7 +821,7 @@ moc_HttpRequest.i: moc_HttpRequest.cpp.i
 
 # target to preprocess a source file
 moc_HttpRequest.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.i
 .PHONY : moc_HttpRequest.cpp.i
 
 moc_HttpRequest.s: moc_HttpRequest.cpp.s
@@ -829,7 +829,7 @@ moc_HttpRequest.s: moc_HttpRequest.cpp.s
 
 # target to generate assembly for a file
 moc_HttpRequest.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.s
 .PHONY : moc_HttpRequest.cpp.s
 
 moc_InstallExitDialog.o: moc_InstallExitDialog.cpp.o
@@ -837,7 +837,7 @@ moc_InstallExitDialog.o: moc_InstallExitDialog.cpp.o
 
 # target to build an object file
 moc_InstallExitDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o
 .PHONY : moc_InstallExitDialog.cpp.o
 
 moc_InstallExitDialog.i: moc_InstallExitDialog.cpp.i
@@ -845,7 +845,7 @@ moc_InstallExitDialog.i: moc_InstallExitDialog.cpp.i
 
 # target to preprocess a source file
 moc_InstallExitDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.i
 .PHONY : moc_InstallExitDialog.cpp.i
 
 moc_InstallExitDialog.s: moc_InstallExitDialog.cpp.s
@@ -853,7 +853,7 @@ moc_InstallExitDialog.s: moc_InstallExitDialog.cpp.s
 
 # target to generate assembly for a file
 moc_InstallExitDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.s
 .PHONY : moc_InstallExitDialog.cpp.s
 
 moc_InstallPluginDialog.o: moc_InstallPluginDialog.cpp.o
@@ -861,7 +861,7 @@ moc_InstallPluginDialog.o: moc_InstallPluginDialog.cpp.o
 
 # target to build an object file
 moc_InstallPluginDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o
 .PHONY : moc_InstallPluginDialog.cpp.o
 
 moc_InstallPluginDialog.i: moc_InstallPluginDialog.cpp.i
@@ -869,7 +869,7 @@ moc_InstallPluginDialog.i: moc_InstallPluginDialog.cpp.i
 
 # target to preprocess a source file
 moc_InstallPluginDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.i
 .PHONY : moc_InstallPluginDialog.cpp.i
 
 moc_InstallPluginDialog.s: moc_InstallPluginDialog.cpp.s
@@ -877,7 +877,7 @@ moc_InstallPluginDialog.s: moc_InstallPluginDialog.cpp.s
 
 # target to generate assembly for a file
 moc_InstallPluginDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.s
 .PHONY : moc_InstallPluginDialog.cpp.s
 
 moc_ModifyServerDialog.o: moc_ModifyServerDialog.cpp.o
@@ -885,7 +885,7 @@ moc_ModifyServerDialog.o: moc_ModifyServerDialog.cpp.o
 
 # target to build an object file
 moc_ModifyServerDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o
 .PHONY : moc_ModifyServerDialog.cpp.o
 
 moc_ModifyServerDialog.i: moc_ModifyServerDialog.cpp.i
@@ -893,7 +893,7 @@ moc_ModifyServerDialog.i: moc_ModifyServerDialog.cpp.i
 
 # target to preprocess a source file
 moc_ModifyServerDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.i
 .PHONY : moc_ModifyServerDialog.cpp.i
 
 moc_ModifyServerDialog.s: moc_ModifyServerDialog.cpp.s
@@ -901,7 +901,7 @@ moc_ModifyServerDialog.s: moc_ModifyServerDialog.cpp.s
 
 # target to generate assembly for a file
 moc_ModifyServerDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.s
 .PHONY : moc_ModifyServerDialog.cpp.s
 
 moc_MultiServerManager.o: moc_MultiServerManager.cpp.o
@@ -909,7 +909,7 @@ moc_MultiServerManager.o: moc_MultiServerManager.cpp.o
 
 # target to build an object file
 moc_MultiServerManager.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o
 .PHONY : moc_MultiServerManager.cpp.o
 
 moc_MultiServerManager.i: moc_MultiServerManager.cpp.i
@@ -917,7 +917,7 @@ moc_MultiServerManager.i: moc_MultiServerManager.cpp.i
 
 # target to preprocess a source file
 moc_MultiServerManager.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.i
 .PHONY : moc_MultiServerManager.cpp.i
 
 moc_MultiServerManager.s: moc_MultiServerManager.cpp.s
@@ -925,7 +925,7 @@ moc_MultiServerManager.s: moc_MultiServerManager.cpp.s
 
 # target to generate assembly for a file
 moc_MultiServerManager.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.s
 .PHONY : moc_MultiServerManager.cpp.s
 
 moc_NewTulipVersionAvailableDialog.o: moc_NewTulipVersionAvailableDialog.cpp.o
@@ -933,7 +933,7 @@ moc_NewTulipVersionAvailableDialog.o: moc_NewTulipVersionAvailableDialog.cpp.o
 
 # target to build an object file
 moc_NewTulipVersionAvailableDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o
 .PHONY : moc_NewTulipVersionAvailableDialog.cpp.o
 
 moc_NewTulipVersionAvailableDialog.i: moc_NewTulipVersionAvailableDialog.cpp.i
@@ -941,7 +941,7 @@ moc_NewTulipVersionAvailableDialog.i: moc_NewTulipVersionAvailableDialog.cpp.i
 
 # target to preprocess a source file
 moc_NewTulipVersionAvailableDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.i
 .PHONY : moc_NewTulipVersionAvailableDialog.cpp.i
 
 moc_NewTulipVersionAvailableDialog.s: moc_NewTulipVersionAvailableDialog.cpp.s
@@ -949,7 +949,7 @@ moc_NewTulipVersionAvailableDialog.s: moc_NewTulipVersionAvailableDialog.cpp.s
 
 # target to generate assembly for a file
 moc_NewTulipVersionAvailableDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.s
 .PHONY : moc_NewTulipVersionAvailableDialog.cpp.s
 
 moc_PluginsInfoWidget.o: moc_PluginsInfoWidget.cpp.o
@@ -957,7 +957,7 @@ moc_PluginsInfoWidget.o: moc_PluginsInfoWidget.cpp.o
 
 # target to build an object file
 moc_PluginsInfoWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o
 .PHONY : moc_PluginsInfoWidget.cpp.o
 
 moc_PluginsInfoWidget.i: moc_PluginsInfoWidget.cpp.i
@@ -965,7 +965,7 @@ moc_PluginsInfoWidget.i: moc_PluginsInfoWidget.cpp.i
 
 # target to preprocess a source file
 moc_PluginsInfoWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.i
 .PHONY : moc_PluginsInfoWidget.cpp.i
 
 moc_PluginsInfoWidget.s: moc_PluginsInfoWidget.cpp.s
@@ -973,7 +973,7 @@ moc_PluginsInfoWidget.s: moc_PluginsInfoWidget.cpp.s
 
 # target to generate assembly for a file
 moc_PluginsInfoWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.s
 .PHONY : moc_PluginsInfoWidget.cpp.s
 
 moc_PluginsManager.o: moc_PluginsManager.cpp.o
@@ -981,7 +981,7 @@ moc_PluginsManager.o: moc_PluginsManager.cpp.o
 
 # target to build an object file
 moc_PluginsManager.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o
 .PHONY : moc_PluginsManager.cpp.o
 
 moc_PluginsManager.i: moc_PluginsManager.cpp.i
@@ -989,7 +989,7 @@ moc_PluginsManager.i: moc_PluginsManager.cpp.i
 
 # target to preprocess a source file
 moc_PluginsManager.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.i
 .PHONY : moc_PluginsManager.cpp.i
 
 moc_PluginsManager.s: moc_PluginsManager.cpp.s
@@ -997,7 +997,7 @@ moc_PluginsManager.s: moc_PluginsManager.cpp.s
 
 # target to generate assembly for a file
 moc_PluginsManager.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.s
 .PHONY : moc_PluginsManager.cpp.s
 
 moc_PluginsUpdateChecker.o: moc_PluginsUpdateChecker.cpp.o
@@ -1005,7 +1005,7 @@ moc_PluginsUpdateChecker.o: moc_PluginsUpdateChecker.cpp.o
 
 # target to build an object file
 moc_PluginsUpdateChecker.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o
 .PHONY : moc_PluginsUpdateChecker.cpp.o
 
 moc_PluginsUpdateChecker.i: moc_PluginsUpdateChecker.cpp.i
@@ -1013,7 +1013,7 @@ moc_PluginsUpdateChecker.i: moc_PluginsUpdateChecker.cpp.i
 
 # target to preprocess a source file
 moc_PluginsUpdateChecker.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.i
 .PHONY : moc_PluginsUpdateChecker.cpp.i
 
 moc_PluginsUpdateChecker.s: moc_PluginsUpdateChecker.cpp.s
@@ -1021,7 +1021,7 @@ moc_PluginsUpdateChecker.s: moc_PluginsUpdateChecker.cpp.s
 
 # target to generate assembly for a file
 moc_PluginsUpdateChecker.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.s
 .PHONY : moc_PluginsUpdateChecker.cpp.s
 
 moc_PluginsViewWidget.o: moc_PluginsViewWidget.cpp.o
@@ -1029,7 +1029,7 @@ moc_PluginsViewWidget.o: moc_PluginsViewWidget.cpp.o
 
 # target to build an object file
 moc_PluginsViewWidget.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o
 .PHONY : moc_PluginsViewWidget.cpp.o
 
 moc_PluginsViewWidget.i: moc_PluginsViewWidget.cpp.i
@@ -1037,7 +1037,7 @@ moc_PluginsViewWidget.i: moc_PluginsViewWidget.cpp.i
 
 # target to preprocess a source file
 moc_PluginsViewWidget.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.i
 .PHONY : moc_PluginsViewWidget.cpp.i
 
 moc_PluginsViewWidget.s: moc_PluginsViewWidget.cpp.s
@@ -1045,7 +1045,7 @@ moc_PluginsViewWidget.s: moc_PluginsViewWidget.cpp.s
 
 # target to generate assembly for a file
 moc_PluginsViewWidget.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.s
 .PHONY : moc_PluginsViewWidget.cpp.s
 
 moc_ProxyConfigurationDialog.o: moc_ProxyConfigurationDialog.cpp.o
@@ -1053,7 +1053,7 @@ moc_ProxyConfigurationDialog.o: moc_ProxyConfigurationDialog.cpp.o
 
 # target to build an object file
 moc_ProxyConfigurationDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o
 .PHONY : moc_ProxyConfigurationDialog.cpp.o
 
 moc_ProxyConfigurationDialog.i: moc_ProxyConfigurationDialog.cpp.i
@@ -1061,7 +1061,7 @@ moc_ProxyConfigurationDialog.i: moc_ProxyConfigurationDialog.cpp.i
 
 # target to preprocess a source file
 moc_ProxyConfigurationDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.i
 .PHONY : moc_ProxyConfigurationDialog.cpp.i
 
 moc_ProxyConfigurationDialog.s: moc_ProxyConfigurationDialog.cpp.s
@@ -1069,7 +1069,7 @@ moc_ProxyConfigurationDialog.s: moc_ProxyConfigurationDialog.cpp.s
 
 # target to generate assembly for a file
 moc_ProxyConfigurationDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.s
 .PHONY : moc_ProxyConfigurationDialog.cpp.s
 
 moc_Request.o: moc_Request.cpp.o
@@ -1077,7 +1077,7 @@ moc_Request.o: moc_Request.cpp.o
 
 # target to build an object file
 moc_Request.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o
 .PHONY : moc_Request.cpp.o
 
 moc_Request.i: moc_Request.cpp.i
@@ -1085,7 +1085,7 @@ moc_Request.i: moc_Request.cpp.i
 
 # target to preprocess a source file
 moc_Request.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.i
 .PHONY : moc_Request.cpp.i
 
 moc_Request.s: moc_Request.cpp.s
@@ -1093,7 +1093,7 @@ moc_Request.s: moc_Request.cpp.s
 
 # target to generate assembly for a file
 moc_Request.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.s
 .PHONY : moc_Request.cpp.s
 
 moc_Server.o: moc_Server.cpp.o
@@ -1101,7 +1101,7 @@ moc_Server.o: moc_Server.cpp.o
 
 # target to build an object file
 moc_Server.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o
 .PHONY : moc_Server.cpp.o
 
 moc_Server.i: moc_Server.cpp.i
@@ -1109,7 +1109,7 @@ moc_Server.i: moc_Server.cpp.i
 
 # target to preprocess a source file
 moc_Server.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.i
 .PHONY : moc_Server.cpp.i
 
 moc_Server.s: moc_Server.cpp.s
@@ -1117,7 +1117,7 @@ moc_Server.s: moc_Server.cpp.s
 
 # target to generate assembly for a file
 moc_Server.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.s
 .PHONY : moc_Server.cpp.s
 
 moc_ServersOptionDialog.o: moc_ServersOptionDialog.cpp.o
@@ -1125,7 +1125,7 @@ moc_ServersOptionDialog.o: moc_ServersOptionDialog.cpp.o
 
 # target to build an object file
 moc_ServersOptionDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o
 .PHONY : moc_ServersOptionDialog.cpp.o
 
 moc_ServersOptionDialog.i: moc_ServersOptionDialog.cpp.i
@@ -1133,7 +1133,7 @@ moc_ServersOptionDialog.i: moc_ServersOptionDialog.cpp.i
 
 # target to preprocess a source file
 moc_ServersOptionDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.i
 .PHONY : moc_ServersOptionDialog.cpp.i
 
 moc_ServersOptionDialog.s: moc_ServersOptionDialog.cpp.s
@@ -1141,7 +1141,7 @@ moc_ServersOptionDialog.s: moc_ServersOptionDialog.cpp.s
 
 # target to generate assembly for a file
 moc_ServersOptionDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.s
 .PHONY : moc_ServersOptionDialog.cpp.s
 
 moc_UpdatePlugin.o: moc_UpdatePlugin.cpp.o
@@ -1149,7 +1149,7 @@ moc_UpdatePlugin.o: moc_UpdatePlugin.cpp.o
 
 # target to build an object file
 moc_UpdatePlugin.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o
 .PHONY : moc_UpdatePlugin.cpp.o
 
 moc_UpdatePlugin.i: moc_UpdatePlugin.cpp.i
@@ -1157,7 +1157,7 @@ moc_UpdatePlugin.i: moc_UpdatePlugin.cpp.i
 
 # target to preprocess a source file
 moc_UpdatePlugin.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.i
 .PHONY : moc_UpdatePlugin.cpp.i
 
 moc_UpdatePlugin.s: moc_UpdatePlugin.cpp.s
@@ -1165,7 +1165,7 @@ moc_UpdatePlugin.s: moc_UpdatePlugin.cpp.s
 
 # target to generate assembly for a file
 moc_UpdatePlugin.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.s
 .PHONY : moc_UpdatePlugin.cpp.s
 
 moc_UpdatePluginsDialog.o: moc_UpdatePluginsDialog.cpp.o
@@ -1173,7 +1173,7 @@ moc_UpdatePluginsDialog.o: moc_UpdatePluginsDialog.cpp.o
 
 # target to build an object file
 moc_UpdatePluginsDialog.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o
 .PHONY : moc_UpdatePluginsDialog.cpp.o
 
 moc_UpdatePluginsDialog.i: moc_UpdatePluginsDialog.cpp.i
@@ -1181,7 +1181,7 @@ moc_UpdatePluginsDialog.i: moc_UpdatePluginsDialog.cpp.i
 
 # target to preprocess a source file
 moc_UpdatePluginsDialog.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.i
 .PHONY : moc_UpdatePluginsDialog.cpp.i
 
 moc_UpdatePluginsDialog.s: moc_UpdatePluginsDialog.cpp.s
@@ -1189,7 +1189,7 @@ moc_UpdatePluginsDialog.s: moc_UpdatePluginsDialog.cpp.s
 
 # target to generate assembly for a file
 moc_UpdatePluginsDialog.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.s
 .PHONY : moc_UpdatePluginsDialog.cpp.s
 
 # Help Target
@@ -1345,6 +1345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

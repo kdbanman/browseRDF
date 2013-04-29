@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0
 
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o: plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/flags.make
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o: ../plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp
 
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp > CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp > CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.i
 
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp -o CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFastMultipoleMultilevelEmbedder.cpp -o CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.s
 
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o.requires:
 .PHONY : plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/OGDFFastMultipoleMultilevelEmbedder.cpp.o.requires
@@ -86,7 +86,7 @@ plugins/layout/OGDF/libogdffastmultipolemultilevelembedder-3.8.0.so: thirdparty/
 plugins/layout/OGDF/libogdffastmultipolemultilevelembedder-3.8.0.so: plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/build.make
 plugins/layout/OGDF/libogdffastmultipolemultilevelembedder-3.8.0.so: plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libogdffastmultipolemultilevelembedder-3.8.0.so"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/build: plugins/layout/OGDF/libogdffastmultipolemultilevelembedder-3.8.0.so
@@ -96,10 +96,10 @@ plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/req
 .PHONY : plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/requires
 
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF && $(CMAKE_COMMAND) -P CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF && $(CMAKE_COMMAND) -P CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/clean
 
 plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/layout/OGDF/CMakeFiles/ogdffastmultipolemultilevelembedder-3.8.0.dir/depend
 

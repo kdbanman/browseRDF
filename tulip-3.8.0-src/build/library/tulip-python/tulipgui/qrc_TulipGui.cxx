@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Resource object code
 **
-** Created: Fri Apr 26 16:36:19 2013
+** Created: Mon Apr 29 01:51:41 2013
 **      by: The Resource Compiler for Qt version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost!
@@ -10,7 +10,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/logo32x32.ico
+  // /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/logo32x32.ico
   0x0,0x0,0x8,0xbe,
   0x0,
   0x0,0x1,0x0,0x1,0x0,0x20,0x20,0x0,0x0,0x1,0x0,0x8,0x0,0xa8,0x8,0x0,

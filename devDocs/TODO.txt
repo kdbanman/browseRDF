@@ -1,19 +1,24 @@
-
 ==============================================
 #TODO list, descending priority, keep it quick
 ==============================================
 
-- get selection mode to highlight nodes with ColorScale
-    - this will mean two different selection modes again.  command line will be the quick and dirty way.
-*note: the command line works but it's pretty slow for some reason.  probably because tulip is so busy printing errors
-    - the BFS isn't performing, but the color transformation is happening
-
-- namespaced subjects and objects
+:)
 
 
 ================================================
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+Mon Apr 29 00:52:55 MDT 2013
+- namespaced subjects and objects
+*note:  working now.  this was failing because i mispelled prefix.
+
+
+Mon Apr 29 00:52:13 MDT 2013
+- get selection mode to highlight nodes with ColorScale
+    - this will mean two different selection modes again.  command line will be the quick and dirty way.
+*note:  works.  fast and effective.  had to hide the views to restore colors
 
 
 Fri Apr 26 17:22:24 MDT 2013

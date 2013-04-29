@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/DepthMetric.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/DepthMetric.cpp
 stack
 -
 DepthMetric.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/DepthMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/DepthMetric.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/DepthMetric.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/DepthMetric.h
 tulip/TulipPlugin.h
 -
 

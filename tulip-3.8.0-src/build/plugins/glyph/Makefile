@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/glyph/CMakeFiles/progress.marks
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/glyph/CMakeFiles/progress.marks
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/clean
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/preinstall
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ Billboard-3.8.0: plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/rule
 
 # fast build rule for target.
 Billboard-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build
 .PHONY : Billboard-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ ChristmasTree-3.8.0: plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/rule
 
 # fast build rule for target.
 ChristmasTree-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build
 .PHONY : ChristmasTree-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Circle-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Circle-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Circle-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Circle-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -195,12 +195,12 @@ Circle-3.8.0: plugins/glyph/CMakeFiles/Circle-3.8.0.dir/rule
 
 # fast build rule for target.
 Circle-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build
 .PHONY : Circle-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Cone-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cone-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cone-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Cone-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ Cone-3.8.0: plugins/glyph/CMakeFiles/Cone-3.8.0.dir/rule
 
 # fast build rule for target.
 Cone-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build
 .PHONY : Cone-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Cross-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cross-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cross-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Cross-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -223,12 +223,12 @@ Cross-3.8.0: plugins/glyph/CMakeFiles/Cross-3.8.0.dir/rule
 
 # fast build rule for target.
 Cross-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build
 .PHONY : Cross-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Cube-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cube-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cube-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Cube-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ Cube-3.8.0: plugins/glyph/CMakeFiles/Cube-3.8.0.dir/rule
 
 # fast build rule for target.
 Cube-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build
 .PHONY : Cube-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -251,12 +251,12 @@ CubeOutlinedTransparent-3.8.0: plugins/glyph/CMakeFiles/CubeOutlinedTransparent-
 
 # fast build rule for target.
 CubeOutlinedTransparent-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build
 .PHONY : CubeOutlinedTransparent-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -265,12 +265,12 @@ Cylinder-3.8.0: plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/rule
 
 # fast build rule for target.
 Cylinder-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build
 .PHONY : Cylinder-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -279,12 +279,12 @@ Diamond-3.8.0: plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/rule
 
 # fast build rule for target.
 Diamond-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build
 .PHONY : Diamond-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -293,12 +293,12 @@ GlowSphere-3.8.0: plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/rule
 
 # fast build rule for target.
 GlowSphere-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build
 .PHONY : GlowSphere-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -307,12 +307,12 @@ HalfCylinder-3.8.0: plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/rule
 
 # fast build rule for target.
 HalfCylinder-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build
 .PHONY : HalfCylinder-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -321,12 +321,12 @@ Hexagone-3.8.0: plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/rule
 
 # fast build rule for target.
 Hexagone-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build
 .PHONY : Hexagone-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -335,12 +335,12 @@ Pentagone-3.8.0: plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/rule
 
 # fast build rule for target.
 Pentagone-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build
 .PHONY : Pentagone-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Ring-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Ring-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Ring-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Ring-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -349,12 +349,12 @@ Ring-3.8.0: plugins/glyph/CMakeFiles/Ring-3.8.0.dir/rule
 
 # fast build rule for target.
 Ring-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build
 .PHONY : Ring-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ RoundedBox-3.8.0: plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/rule
 
 # fast build rule for target.
 RoundedBox-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build
 .PHONY : RoundedBox-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -377,12 +377,12 @@ Sphere-3.8.0: plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/rule
 
 # fast build rule for target.
 Sphere-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build
 .PHONY : Sphere-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Square-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Square-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Square-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Square-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -391,12 +391,12 @@ Square-3.8.0: plugins/glyph/CMakeFiles/Square-3.8.0.dir/rule
 
 # fast build rule for target.
 Square-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/build
 .PHONY : Square-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -405,12 +405,12 @@ Triangle-3.8.0: plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/rule
 
 # fast build rule for target.
 Triangle-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build
 .PHONY : Triangle-3.8.0/fast
 
 # Convenience name for target.
 plugins/glyph/CMakeFiles/Window-3.8.0.dir/rule:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Window-3.8.0.dir/rule
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/glyph/CMakeFiles/Window-3.8.0.dir/rule
 .PHONY : plugins/glyph/CMakeFiles/Window-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -419,7 +419,7 @@ Window-3.8.0: plugins/glyph/CMakeFiles/Window-3.8.0.dir/rule
 
 # fast build rule for target.
 Window-3.8.0/fast:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/build
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/build
 .PHONY : Window-3.8.0/fast
 
 billboard.o: billboard.cpp.o
@@ -427,7 +427,7 @@ billboard.o: billboard.cpp.o
 
 # target to build an object file
 billboard.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/billboard.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/billboard.cpp.o
 .PHONY : billboard.cpp.o
 
 billboard.i: billboard.cpp.i
@@ -435,7 +435,7 @@ billboard.i: billboard.cpp.i
 
 # target to preprocess a source file
 billboard.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/billboard.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/billboard.cpp.i
 .PHONY : billboard.cpp.i
 
 billboard.s: billboard.cpp.s
@@ -443,7 +443,7 @@ billboard.s: billboard.cpp.s
 
 # target to generate assembly for a file
 billboard.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/billboard.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Billboard-3.8.0.dir/billboard.cpp.s
 .PHONY : billboard.cpp.s
 
 christmastree.o: christmastree.cpp.o
@@ -451,7 +451,7 @@ christmastree.o: christmastree.cpp.o
 
 # target to build an object file
 christmastree.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/christmastree.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/christmastree.cpp.o
 .PHONY : christmastree.cpp.o
 
 christmastree.i: christmastree.cpp.i
@@ -459,7 +459,7 @@ christmastree.i: christmastree.cpp.i
 
 # target to preprocess a source file
 christmastree.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/christmastree.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/christmastree.cpp.i
 .PHONY : christmastree.cpp.i
 
 christmastree.s: christmastree.cpp.s
@@ -467,7 +467,7 @@ christmastree.s: christmastree.cpp.s
 
 # target to generate assembly for a file
 christmastree.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/christmastree.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/build.make plugins/glyph/CMakeFiles/ChristmasTree-3.8.0.dir/christmastree.cpp.s
 .PHONY : christmastree.cpp.s
 
 circle.o: circle.cpp.o
@@ -475,7 +475,7 @@ circle.o: circle.cpp.o
 
 # target to build an object file
 circle.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/circle.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
 circle.i: circle.cpp.i
@@ -483,7 +483,7 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/circle.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
 circle.s: circle.cpp.s
@@ -491,7 +491,7 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/circle.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Circle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Circle-3.8.0.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
 cone.o: cone.cpp.o
@@ -499,7 +499,7 @@ cone.o: cone.cpp.o
 
 # target to build an object file
 cone.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.o
 .PHONY : cone.cpp.o
 
 cone.i: cone.cpp.i
@@ -507,7 +507,7 @@ cone.i: cone.cpp.i
 
 # target to preprocess a source file
 cone.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.i
 .PHONY : cone.cpp.i
 
 cone.s: cone.cpp.s
@@ -515,7 +515,7 @@ cone.s: cone.cpp.s
 
 # target to generate assembly for a file
 cone.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cone-3.8.0.dir/cone.cpp.s
 .PHONY : cone.cpp.s
 
 cross.o: cross.cpp.o
@@ -523,7 +523,7 @@ cross.o: cross.cpp.o
 
 # target to build an object file
 cross.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/cross.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/cross.cpp.o
 .PHONY : cross.cpp.o
 
 cross.i: cross.cpp.i
@@ -531,7 +531,7 @@ cross.i: cross.cpp.i
 
 # target to preprocess a source file
 cross.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/cross.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/cross.cpp.i
 .PHONY : cross.cpp.i
 
 cross.s: cross.cpp.s
@@ -539,7 +539,7 @@ cross.s: cross.cpp.s
 
 # target to generate assembly for a file
 cross.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/cross.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cross-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cross-3.8.0.dir/cross.cpp.s
 .PHONY : cross.cpp.s
 
 cube.o: cube.cpp.o
@@ -547,7 +547,7 @@ cube.o: cube.cpp.o
 
 # target to build an object file
 cube.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/cube.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/cube.cpp.o
 .PHONY : cube.cpp.o
 
 cube.i: cube.cpp.i
@@ -555,7 +555,7 @@ cube.i: cube.cpp.i
 
 # target to preprocess a source file
 cube.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/cube.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/cube.cpp.i
 .PHONY : cube.cpp.i
 
 cube.s: cube.cpp.s
@@ -563,7 +563,7 @@ cube.s: cube.cpp.s
 
 # target to generate assembly for a file
 cube.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/cube.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cube-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cube-3.8.0.dir/cube.cpp.s
 .PHONY : cube.cpp.s
 
 cubeoutlinedtransparent.o: cubeoutlinedtransparent.cpp.o
@@ -571,7 +571,7 @@ cubeoutlinedtransparent.o: cubeoutlinedtransparent.cpp.o
 
 # target to build an object file
 cubeoutlinedtransparent.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/cubeoutlinedtransparent.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/cubeoutlinedtransparent.cpp.o
 .PHONY : cubeoutlinedtransparent.cpp.o
 
 cubeoutlinedtransparent.i: cubeoutlinedtransparent.cpp.i
@@ -579,7 +579,7 @@ cubeoutlinedtransparent.i: cubeoutlinedtransparent.cpp.i
 
 # target to preprocess a source file
 cubeoutlinedtransparent.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/cubeoutlinedtransparent.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/cubeoutlinedtransparent.cpp.i
 .PHONY : cubeoutlinedtransparent.cpp.i
 
 cubeoutlinedtransparent.s: cubeoutlinedtransparent.cpp.s
@@ -587,7 +587,7 @@ cubeoutlinedtransparent.s: cubeoutlinedtransparent.cpp.s
 
 # target to generate assembly for a file
 cubeoutlinedtransparent.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/cubeoutlinedtransparent.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/build.make plugins/glyph/CMakeFiles/CubeOutlinedTransparent-3.8.0.dir/cubeoutlinedtransparent.cpp.s
 .PHONY : cubeoutlinedtransparent.cpp.s
 
 cylinder.o: cylinder.cpp.o
@@ -595,7 +595,7 @@ cylinder.o: cylinder.cpp.o
 
 # target to build an object file
 cylinder.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/cylinder.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/cylinder.cpp.o
 .PHONY : cylinder.cpp.o
 
 cylinder.i: cylinder.cpp.i
@@ -603,7 +603,7 @@ cylinder.i: cylinder.cpp.i
 
 # target to preprocess a source file
 cylinder.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/cylinder.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/cylinder.cpp.i
 .PHONY : cylinder.cpp.i
 
 cylinder.s: cylinder.cpp.s
@@ -611,7 +611,7 @@ cylinder.s: cylinder.cpp.s
 
 # target to generate assembly for a file
 cylinder.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/cylinder.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Cylinder-3.8.0.dir/cylinder.cpp.s
 .PHONY : cylinder.cpp.s
 
 diamond.o: diamond.cpp.o
@@ -619,7 +619,7 @@ diamond.o: diamond.cpp.o
 
 # target to build an object file
 diamond.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/diamond.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/diamond.cpp.o
 .PHONY : diamond.cpp.o
 
 diamond.i: diamond.cpp.i
@@ -627,7 +627,7 @@ diamond.i: diamond.cpp.i
 
 # target to preprocess a source file
 diamond.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/diamond.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/diamond.cpp.i
 .PHONY : diamond.cpp.i
 
 diamond.s: diamond.cpp.s
@@ -635,7 +635,7 @@ diamond.s: diamond.cpp.s
 
 # target to generate assembly for a file
 diamond.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/diamond.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Diamond-3.8.0.dir/diamond.cpp.s
 .PHONY : diamond.cpp.s
 
 glowsphere.o: glowsphere.cpp.o
@@ -643,7 +643,7 @@ glowsphere.o: glowsphere.cpp.o
 
 # target to build an object file
 glowsphere.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/glowsphere.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/glowsphere.cpp.o
 .PHONY : glowsphere.cpp.o
 
 glowsphere.i: glowsphere.cpp.i
@@ -651,7 +651,7 @@ glowsphere.i: glowsphere.cpp.i
 
 # target to preprocess a source file
 glowsphere.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/glowsphere.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/glowsphere.cpp.i
 .PHONY : glowsphere.cpp.i
 
 glowsphere.s: glowsphere.cpp.s
@@ -659,7 +659,7 @@ glowsphere.s: glowsphere.cpp.s
 
 # target to generate assembly for a file
 glowsphere.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/glowsphere.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/GlowSphere-3.8.0.dir/glowsphere.cpp.s
 .PHONY : glowsphere.cpp.s
 
 halfcylinder.o: halfcylinder.cpp.o
@@ -667,7 +667,7 @@ halfcylinder.o: halfcylinder.cpp.o
 
 # target to build an object file
 halfcylinder.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/halfcylinder.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/halfcylinder.cpp.o
 .PHONY : halfcylinder.cpp.o
 
 halfcylinder.i: halfcylinder.cpp.i
@@ -675,7 +675,7 @@ halfcylinder.i: halfcylinder.cpp.i
 
 # target to preprocess a source file
 halfcylinder.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/halfcylinder.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/halfcylinder.cpp.i
 .PHONY : halfcylinder.cpp.i
 
 halfcylinder.s: halfcylinder.cpp.s
@@ -683,7 +683,7 @@ halfcylinder.s: halfcylinder.cpp.s
 
 # target to generate assembly for a file
 halfcylinder.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/halfcylinder.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/build.make plugins/glyph/CMakeFiles/HalfCylinder-3.8.0.dir/halfcylinder.cpp.s
 .PHONY : halfcylinder.cpp.s
 
 hexagone.o: hexagone.cpp.o
@@ -691,7 +691,7 @@ hexagone.o: hexagone.cpp.o
 
 # target to build an object file
 hexagone.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/hexagone.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/hexagone.cpp.o
 .PHONY : hexagone.cpp.o
 
 hexagone.i: hexagone.cpp.i
@@ -699,7 +699,7 @@ hexagone.i: hexagone.cpp.i
 
 # target to preprocess a source file
 hexagone.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/hexagone.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/hexagone.cpp.i
 .PHONY : hexagone.cpp.i
 
 hexagone.s: hexagone.cpp.s
@@ -707,7 +707,7 @@ hexagone.s: hexagone.cpp.s
 
 # target to generate assembly for a file
 hexagone.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/hexagone.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Hexagone-3.8.0.dir/hexagone.cpp.s
 .PHONY : hexagone.cpp.s
 
 pentagone.o: pentagone.cpp.o
@@ -715,7 +715,7 @@ pentagone.o: pentagone.cpp.o
 
 # target to build an object file
 pentagone.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/pentagone.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/pentagone.cpp.o
 .PHONY : pentagone.cpp.o
 
 pentagone.i: pentagone.cpp.i
@@ -723,7 +723,7 @@ pentagone.i: pentagone.cpp.i
 
 # target to preprocess a source file
 pentagone.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/pentagone.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/pentagone.cpp.i
 .PHONY : pentagone.cpp.i
 
 pentagone.s: pentagone.cpp.s
@@ -731,7 +731,7 @@ pentagone.s: pentagone.cpp.s
 
 # target to generate assembly for a file
 pentagone.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/pentagone.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Pentagone-3.8.0.dir/pentagone.cpp.s
 .PHONY : pentagone.cpp.s
 
 ring.o: ring.cpp.o
@@ -739,7 +739,7 @@ ring.o: ring.cpp.o
 
 # target to build an object file
 ring.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.o
 .PHONY : ring.cpp.o
 
 ring.i: ring.cpp.i
@@ -747,7 +747,7 @@ ring.i: ring.cpp.i
 
 # target to preprocess a source file
 ring.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.i
 .PHONY : ring.cpp.i
 
 ring.s: ring.cpp.s
@@ -755,7 +755,7 @@ ring.s: ring.cpp.s
 
 # target to generate assembly for a file
 ring.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Ring-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Ring-3.8.0.dir/ring.cpp.s
 .PHONY : ring.cpp.s
 
 roundedbox.o: roundedbox.cpp.o
@@ -763,7 +763,7 @@ roundedbox.o: roundedbox.cpp.o
 
 # target to build an object file
 roundedbox.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/roundedbox.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/roundedbox.cpp.o
 .PHONY : roundedbox.cpp.o
 
 roundedbox.i: roundedbox.cpp.i
@@ -771,7 +771,7 @@ roundedbox.i: roundedbox.cpp.i
 
 # target to preprocess a source file
 roundedbox.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/roundedbox.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/roundedbox.cpp.i
 .PHONY : roundedbox.cpp.i
 
 roundedbox.s: roundedbox.cpp.s
@@ -779,7 +779,7 @@ roundedbox.s: roundedbox.cpp.s
 
 # target to generate assembly for a file
 roundedbox.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/roundedbox.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/build.make plugins/glyph/CMakeFiles/RoundedBox-3.8.0.dir/roundedbox.cpp.s
 .PHONY : roundedbox.cpp.s
 
 sphere.o: sphere.cpp.o
@@ -787,7 +787,7 @@ sphere.o: sphere.cpp.o
 
 # target to build an object file
 sphere.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/sphere.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/sphere.cpp.o
 .PHONY : sphere.cpp.o
 
 sphere.i: sphere.cpp.i
@@ -795,7 +795,7 @@ sphere.i: sphere.cpp.i
 
 # target to preprocess a source file
 sphere.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/sphere.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/sphere.cpp.i
 .PHONY : sphere.cpp.i
 
 sphere.s: sphere.cpp.s
@@ -803,7 +803,7 @@ sphere.s: sphere.cpp.s
 
 # target to generate assembly for a file
 sphere.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/sphere.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Sphere-3.8.0.dir/sphere.cpp.s
 .PHONY : sphere.cpp.s
 
 square.o: square.cpp.o
@@ -811,7 +811,7 @@ square.o: square.cpp.o
 
 # target to build an object file
 square.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/square.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/square.cpp.o
 .PHONY : square.cpp.o
 
 square.i: square.cpp.i
@@ -819,7 +819,7 @@ square.i: square.cpp.i
 
 # target to preprocess a source file
 square.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/square.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/square.cpp.i
 .PHONY : square.cpp.i
 
 square.s: square.cpp.s
@@ -827,7 +827,7 @@ square.s: square.cpp.s
 
 # target to generate assembly for a file
 square.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/square.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Square-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Square-3.8.0.dir/square.cpp.s
 .PHONY : square.cpp.s
 
 triangle.o: triangle.cpp.o
@@ -835,7 +835,7 @@ triangle.o: triangle.cpp.o
 
 # target to build an object file
 triangle.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.o
 .PHONY : triangle.cpp.o
 
 triangle.i: triangle.cpp.i
@@ -843,7 +843,7 @@ triangle.i: triangle.cpp.i
 
 # target to preprocess a source file
 triangle.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.i
 .PHONY : triangle.cpp.i
 
 triangle.s: triangle.cpp.s
@@ -851,7 +851,7 @@ triangle.s: triangle.cpp.s
 
 # target to generate assembly for a file
 triangle.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.s
 .PHONY : triangle.cpp.s
 
 window.o: window.cpp.o
@@ -859,7 +859,7 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/window.cpp.o
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/window.cpp.o
 .PHONY : window.cpp.o
 
 window.i: window.cpp.i
@@ -867,7 +867,7 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/window.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -875,7 +875,7 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/window.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/glyph/CMakeFiles/Window-3.8.0.dir/build.make plugins/glyph/CMakeFiles/Window-3.8.0.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -979,6 +979,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

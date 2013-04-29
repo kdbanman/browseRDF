@@ -96,8 +96,8 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -259,8 +259,8 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -423,8 +423,8 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDi
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/tuliphash.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialog.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialog.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint

@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Utility rule file for touchTulipGuiPythonCMakeLists.
 
@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
 include library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/progress.make
 
 library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists: library/tulip-python/tulipgui/tulipgui.so
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/cmake -E touch /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui/CMakeLists.txt
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && /usr/bin/cmake -E touch /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/CMakeLists.txt
 
 touchTulipGuiPythonCMakeLists: library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists
 touchTulipGuiPythonCMakeLists: library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/build.make
@@ -54,10 +54,10 @@ library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/build
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/build
 
 library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui && $(CMAKE_COMMAND) -P CMakeFiles/touchTulipGuiPythonCMakeLists.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui && $(CMAKE_COMMAND) -P CMakeFiles/touchTulipGuiPythonCMakeLists.dir/cmake_clean.cmake
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/clean
 
 library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python/tulipgui /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/tulip-python/tulipgui/CMakeFiles/touchTulipGuiPythonCMakeLists.dir/depend
 

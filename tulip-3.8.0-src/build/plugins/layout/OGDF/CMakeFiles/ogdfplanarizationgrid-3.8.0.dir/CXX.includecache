@@ -1280,7 +1280,7 @@ ogdf/basic/CombinatorialEmbedding.h
 ogdf/basic/FaceArray.h
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/OGDFPlanarizationGrid.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFPlanarizationGrid.cpp
 ogdf/planarity/PlanarizationGridLayout.h
 -
 ogdf/planarity/FastPlanarSubgraph.h
@@ -1292,7 +1292,7 @@ ogdf/planarity/FixedEmbeddingInserter.h
 ogdf/planarity/VariableEmbeddingInserter.h
 -
 tulip2ogdf/OGDFLayoutPluginBase.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
 
 library/tulip/include/tulip/TulipRelease.h
 

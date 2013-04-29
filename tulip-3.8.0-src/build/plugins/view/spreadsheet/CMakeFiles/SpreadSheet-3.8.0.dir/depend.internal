@@ -4,8 +4,8 @@
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -186,8 +186,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -396,10 +396,10 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractItemModel
@@ -579,11 +579,11 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractItemModel
@@ -728,8 +728,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o
  /usr/include/qt4/QtGui/qwmatrix.h
  library/tulip/include/tulip/TulipRelease.h
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -954,11 +954,11 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o
  ../library/tulip/include/tulip/vs_compat.h
  ../plugins/view/spreadsheet/./OrientedPushButton.h
  ../plugins/view/spreadsheet/./SpreadViewTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractItemModel
@@ -1187,11 +1187,11 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.
  ../library/tulip/include/tulip/vs_compat.h
  ../plugins/view/spreadsheet/./TulipTableWidgetColumnSelectionWidget.h
  ../plugins/view/spreadsheet/./VisibleSectionsModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractItemModel
@@ -1418,9 +1418,9 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QAbstractItemModel
  /usr/include/qt4/QtCore/qabstractitemmodel.h
@@ -1579,11 +1579,11 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -1844,10 +1844,10 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -2000,10 +2000,10 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumn
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractItemModel
@@ -2152,10 +2152,10 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumn
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractItemModel
@@ -2420,11 +2420,11 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -2692,10 +2692,10 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -2840,8 +2840,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.c
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -2954,8 +2954,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cx
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QAbstractItemModel
  /usr/include/qt4/QtCore/qabstractitemmodel.h
@@ -3035,8 +3035,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.c
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -3190,8 +3190,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadView.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadView.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QModelIndexList
@@ -3324,8 +3324,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWid
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QModelIndex
@@ -3447,8 +3447,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyMo
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/qabstractitemmodel.h
  /usr/include/qt4/QtCore/qalgorithms.h
@@ -3509,8 +3509,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyMo
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o
  ../library/tulip/include/tulip/tulipconf.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipItemDelegate.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipItemDelegate.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -3627,8 +3627,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.
  /usr/include/qt4/QtGui/qwindowdefs_win.h
  /usr/include/qt4/QtGui/qwmatrix.h
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QAbstractListModel
  /usr/include/qt4/QtCore/qabstractitemmodel.h
@@ -3683,8 +3683,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetCo
  /usr/include/qt4/QtCore/qstringbuilder.h
  /usr/include/qt4/QtCore/qvariant.h
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -3882,10 +3882,10 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidge
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipQVariantBuilder.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VectorEditionWidget.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipQVariantBuilder.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VectorEditionWidget.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QAbstractListModel
@@ -4013,8 +4013,8 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidge
  /usr/include/qt4/QtOpenGL/qglframebufferobject.h
  library/tulip/include/tulip/TulipRelease.h
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4131,7 +4131,7 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsMod
  /usr/include/qt4/QtGui/qwindowdefs_win.h
  /usr/include/qt4/QtGui/qwmatrix.h
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx
  /usr/include/qt4/QtCore/qconfig.h
  /usr/include/qt4/QtCore/qfeatures.h
  /usr/include/qt4/QtCore/qglobal.h

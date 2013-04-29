@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/QuotientClustering.cpp
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/QuotientClustering.cpp
 QuotientClustering.h
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/QuotientClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/QuotientClustering.h
 
-/home/kdbanman/Desktop/tulip-3.8.0-src/plugins/clustering/QuotientClustering.h
+/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/QuotientClustering.h
 tulip/TulipPlugin.h
 -
 

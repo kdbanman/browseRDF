@@ -1,4 +1,4 @@
-# Install script for directory: /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip-python
+# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/stl/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/cmake_install.cmake")
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulipgui/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/stl/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

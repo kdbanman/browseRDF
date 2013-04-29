@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o: ../plugins/layout/ConnectedComponentPacking.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/ConnectedComponentPacking.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConnectedComponentPacking.cpp
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/ConnectedComponentPacking.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConnectedComponentPacking.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.i
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/ConnectedComponentPacking.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConnectedComponentPacking.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.s
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponentPacking.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/ConnectedComponent
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o: ../plugins/layout/Number.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Number.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Number.cpp
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Number.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Number.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.i
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/Number.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Number.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.s
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o.requires
@@ -94,17 +94,17 @@ plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/Number.cpp.o.provi
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o: ../plugins/layout/RectanglePacking.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/RectanglePacking.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/RectanglePacking.cpp
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/RectanglePacking.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/RectanglePacking.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.i
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/RectanglePacking.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/RectanglePacking.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.s
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.cpp.o.requires
@@ -117,17 +117,17 @@ plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectanglePacking.c
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o: ../plugins/layout/rectanglePackingFonctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/rectanglePackingFonctions.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/rectanglePackingFonctions.cpp
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/rectanglePackingFonctions.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/rectanglePackingFonctions.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.i
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/rectanglePackingFonctions.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/rectanglePackingFonctions.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.s
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFonctions.cpp.o.requires
@@ -140,17 +140,17 @@ plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/rectanglePackingFo
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o: ../plugins/layout/RectangleRelativePositionList.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/RectangleRelativePositionList.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/RectangleRelativePositionList.cpp
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/RectangleRelativePositionList.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/RectangleRelativePositionList.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.i
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/RectangleRelativePositionList.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/RectangleRelativePositionList.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.s
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativePositionList.cpp.o.requires
@@ -163,17 +163,17 @@ plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/RectangleRelativeP
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o: ../plugins/layout/DatasetTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o -c /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.i"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.i
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.i
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.s"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.s
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.s
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DatasetTools.cpp.o.requires
@@ -209,7 +209,7 @@ plugins/layout/libConnectedComponentPacking-3.8.0.so: thirdparty/libqhull/libqhu
 plugins/layout/libConnectedComponentPacking-3.8.0.so: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/build.make
 plugins/layout/libConnectedComponentPacking-3.8.0.so: plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libConnectedComponentPacking-3.8.0.so"
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConnectedComponentPacking-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConnectedComponentPacking-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/build: plugins/layout/libConnectedComponentPacking-3.8.0.so
@@ -224,10 +224,10 @@ plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/requires: plugins/
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/requires
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/clean:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/ConnectedComponentPacking-3.8.0.dir/cmake_clean.cmake
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/ConnectedComponentPacking-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/clean
 
 plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/depend:
-	cd /home/kdbanman/Desktop/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/Desktop/tulip-3.8.0-src /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/layout /home/kdbanman/Desktop/tulip-3.8.0-src/build /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout /home/kdbanman/Desktop/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/layout/CMakeFiles/ConnectedComponentPacking-3.8.0.dir/depend
 

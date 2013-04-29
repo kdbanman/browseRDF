@@ -52,7 +52,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -105,7 +105,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Bfs.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -142,7 +142,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -194,7 +194,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -247,7 +247,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -258,7 +258,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
  ../library/tulip/src/../include/tulip/Color.h
@@ -268,7 +268,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Color.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
  ../library/tulip/src/../include/tulip/Algorithm.h
@@ -319,7 +319,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -371,7 +371,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -422,7 +422,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -458,7 +458,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -471,7 +471,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
  ../library/tulip/src/../include/tulip/Algorithm.h
@@ -533,7 +533,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o
  ../thirdparty/libqhull/poly.h
  ../thirdparty/libqhull/qset.h
  ../thirdparty/libqhull/user.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -585,7 +585,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -637,7 +637,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -698,7 +698,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -761,7 +761,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -792,7 +792,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -864,7 +864,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Graph.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -923,7 +923,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -951,7 +951,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -995,7 +995,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1036,7 +1036,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -1089,7 +1089,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -1140,7 +1140,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1164,7 +1164,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
  ../library/tulip/src/../include/tulip/AcyclicTest.h
@@ -1228,7 +1228,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1269,7 +1269,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -1329,7 +1329,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/GraphView.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -1339,7 +1339,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/IdManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
  ../library/tulip/src/../include/tulip/Algorithm.h
@@ -1390,7 +1390,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -1442,7 +1442,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -1494,7 +1494,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -1546,7 +1546,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -1574,7 +1574,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -1592,7 +1592,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Observable.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -1619,7 +1619,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -1640,7 +1640,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1680,7 +1680,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Ordering.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1721,7 +1721,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1766,7 +1766,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1808,7 +1808,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1849,7 +1849,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1889,7 +1889,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1929,7 +1929,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1969,7 +1969,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
@@ -1982,7 +1982,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Plane.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o
  ../library/tulip/src/../include/tulip/PluginLibraryLoader.h
  ../library/tulip/src/../include/tulip/PluginLoader.h
@@ -1990,7 +1990,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o
  ../library/tulip/src/../include/tulip/WithDependency.h
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o
  ../library/tulip/src/../include/tulip/PluginLoader.h
@@ -1998,11 +1998,11 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o
  ../library/tulip/src/../include/tulip/WithDependency.h
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o
  ../library/tulip/src/../include/tulip/Polynome.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Polynome.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
  ../library/tulip/src/../include/tulip/Color.h
@@ -2013,7 +2013,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/tuliphash.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
  ../library/tulip/src/../include/tulip/ForEach.h
@@ -2039,7 +2039,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2092,7 +2092,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2142,7 +2142,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2207,14 +2207,14 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/Reflect.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o
  ../library/tulip/src/../include/tulip/PluginProgress.h
  ../library/tulip/src/../include/tulip/SimplePluginProgress.h
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o
  ../library/tulip/src/../include/tulip/Array.h
  ../library/tulip/src/../include/tulip/Color.h
@@ -2249,7 +2249,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2301,7 +2301,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2353,7 +2353,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2406,7 +2406,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2458,13 +2458,13 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o
  ../library/tulip/src/../include/tulip/StringCollection.h
  ../library/tulip/src/../include/tulip/tulipconf.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
  ../library/tulip/src/../include/tulip/Algorithm.h
@@ -2515,7 +2515,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o
  ../library/tulip/src/../include/tulip/Algorithm.h
@@ -2569,7 +2569,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2638,7 +2638,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2706,7 +2706,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
  ../thirdparty/gzstream/gzstream.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2765,7 +2765,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o
  ../library/tulip/src/../include/tulip/BiconnectedTest.h
@@ -2794,7 +2794,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o
  ../library/tulip/src/../include/tulip/AbstractProperty.h
@@ -2859,7 +2859,7 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp
  library/tulip/include/tulip/TulipRelease.h
 library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o
  ../library/tulip/src/../include/tulip/Edge.h
@@ -2877,4 +2877,4 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o
  ../library/tulip/src/../include/tulip/vectorgraph.h
  ../library/tulip/src/../include/tulip/vectorgraphproperty.h
  ../library/tulip/src/../include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp

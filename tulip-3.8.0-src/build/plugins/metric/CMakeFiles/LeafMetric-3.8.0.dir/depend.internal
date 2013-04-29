@@ -80,6 +80,6 @@ plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/LeafMetric.cpp
- /home/kdbanman/Desktop/tulip-3.8.0-src/plugins/metric/LeafMetric.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/LeafMetric.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/LeafMetric.h
  library/tulip/include/tulip/TulipRelease.h

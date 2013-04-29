@@ -35,9 +35,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -112,6 +111,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -221,9 +221,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -298,6 +297,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -341,9 +341,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -397,6 +396,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -440,9 +440,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -496,6 +495,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -539,9 +539,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -595,6 +594,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -638,9 +638,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -694,6 +693,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -737,9 +737,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -793,6 +792,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -896,9 +896,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamer
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -952,6 +951,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamer
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -996,9 +996,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbs
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -1073,6 +1072,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbs
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1120,9 +1120,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCir
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -1197,6 +1196,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCir
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1241,9 +1241,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCom
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -1318,6 +1317,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCom
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1361,9 +1361,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCom
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -1438,6 +1437,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCom
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1534,9 +1534,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -1611,6 +1610,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1699,9 +1699,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -1755,6 +1754,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1830,9 +1830,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -1886,6 +1885,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -1988,9 +1988,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLay
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -2044,6 +2043,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLay
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2089,9 +2089,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPol
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -2166,6 +2165,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPol
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2212,9 +2212,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRec
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -2289,6 +2288,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRec
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2335,9 +2335,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlReg
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -2412,6 +2411,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlReg
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2515,9 +2515,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -2571,6 +2570,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2674,9 +2674,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -2730,6 +2729,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2773,9 +2773,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -2829,6 +2828,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -2872,9 +2872,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSim
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
  /usr/include/libxml2/libxml/SAX.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
@@ -2949,6 +2948,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSim
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -3037,9 +3037,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -3093,6 +3092,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -3181,9 +3181,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -3237,6 +3236,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h
@@ -3325,9 +3325,8 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- ../thirdparty/sip-4.13.2/siplib/sip.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
- /home/kdbanman/Desktop/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+ /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -3381,6 +3380,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
  /usr/include/python2.7/pythonrun.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
+ /usr/include/python2.7/sip.h
  /usr/include/python2.7/sliceobject.h
  /usr/include/python2.7/stringobject.h
  /usr/include/python2.7/sysmodule.h

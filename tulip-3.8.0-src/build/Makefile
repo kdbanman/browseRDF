@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdbanman/Desktop/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"libtulip_qt_plugins\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/Desktop/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,9 +127,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/Desktop/tulip-3.8.0-src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,19 +194,6 @@ ftgl: cmake_check_build_system
 ftgl/fast:
 	$(MAKE) -f thirdparty/ftgl/CMakeFiles/ftgl.dir/build.make thirdparty/ftgl/CMakeFiles/ftgl.dir/build
 .PHONY : ftgl/fast
-
-#=============================================================================
-# Target rules for targets named sip
-
-# Build rule for target.
-sip: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sip
-.PHONY : sip
-
-# fast build rule for target.
-sip/fast:
-	$(MAKE) -f thirdparty/sip-4.13.2/siplib/CMakeFiles/sip.dir/build.make thirdparty/sip-4.13.2/siplib/CMakeFiles/sip.dir/build
-.PHONY : sip/fast
 
 #=============================================================================
 # Target rules for targets named qhull
@@ -1834,71 +1821,6 @@ pythonscriptview-3.8.0/fast:
 .PHONY : pythonscriptview-3.8.0/fast
 
 #=============================================================================
-# Target rules for targets named InteractorAddEdge-3.8.0
-
-# Build rule for target.
-InteractorAddEdge-3.8.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InteractorAddEdge-3.8.0
-.PHONY : InteractorAddEdge-3.8.0
-
-# fast build rule for target.
-InteractorAddEdge-3.8.0/fast:
-	$(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddEdge-3.8.0.dir/build
-.PHONY : InteractorAddEdge-3.8.0/fast
-
-#=============================================================================
-# Target rules for targets named InteractorAddNode-3.8.0
-
-# Build rule for target.
-InteractorAddNode-3.8.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InteractorAddNode-3.8.0
-.PHONY : InteractorAddNode-3.8.0
-
-# fast build rule for target.
-InteractorAddNode-3.8.0/fast:
-	$(MAKE) -f plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorAddNode-3.8.0.dir/build
-.PHONY : InteractorAddNode-3.8.0/fast
-
-#=============================================================================
-# Target rules for targets named InteractorDeleteElement-3.8.0
-
-# Build rule for target.
-InteractorDeleteElement-3.8.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InteractorDeleteElement-3.8.0
-.PHONY : InteractorDeleteElement-3.8.0
-
-# fast build rule for target.
-InteractorDeleteElement-3.8.0/fast:
-	$(MAKE) -f plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorDeleteElement-3.8.0.dir/build
-.PHONY : InteractorDeleteElement-3.8.0/fast
-
-#=============================================================================
-# Target rules for targets named InteractorEditEdgeBends-3.8.0
-
-# Build rule for target.
-InteractorEditEdgeBends-3.8.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InteractorEditEdgeBends-3.8.0
-.PHONY : InteractorEditEdgeBends-3.8.0
-
-# fast build rule for target.
-InteractorEditEdgeBends-3.8.0/fast:
-	$(MAKE) -f plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorEditEdgeBends-3.8.0.dir/build
-.PHONY : InteractorEditEdgeBends-3.8.0/fast
-
-#=============================================================================
-# Target rules for targets named InteractorGetInformation-3.8.0
-
-# Build rule for target.
-InteractorGetInformation-3.8.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InteractorGetInformation-3.8.0
-.PHONY : InteractorGetInformation-3.8.0
-
-# fast build rule for target.
-InteractorGetInformation-3.8.0/fast:
-	$(MAKE) -f plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build.make plugins/interactor/CMakeFiles/InteractorGetInformation-3.8.0.dir/build
-.PHONY : InteractorGetInformation-3.8.0/fast
-
-#=============================================================================
 # Target rules for targets named InteractorNavigation-3.8.0
 
 # Build rule for target.
@@ -1951,19 +1873,6 @@ InteractorSelectionModifier-3.8.0/fast:
 .PHONY : InteractorSelectionModifier-3.8.0/fast
 
 #=============================================================================
-# Target rules for targets named InteractorMagicSelection-3.8.0
-
-# Build rule for target.
-InteractorMagicSelection-3.8.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 InteractorMagicSelection-3.8.0
-.PHONY : InteractorMagicSelection-3.8.0
-
-# fast build rule for target.
-InteractorMagicSelection-3.8.0/fast:
-	$(MAKE) -f plugins/interactor/MagicWand/CMakeFiles/InteractorMagicSelection-3.8.0.dir/build.make plugins/interactor/MagicWand/CMakeFiles/InteractorMagicSelection-3.8.0.dir/build
-.PHONY : InteractorMagicSelection-3.8.0/fast
-
-#=============================================================================
 # Target rules for targets named doc_generation
 
 # Build rule for target.
@@ -1993,7 +1902,6 @@ help:
 	@echo "... gzstream"
 	@echo "... OGDF"
 	@echo "... ftgl"
-	@echo "... sip"
 	@echo "... qhull"
 	@echo "... tulip-3.8"
 	@echo "... tulip-ogl-3.8"
@@ -2119,16 +2027,10 @@ help:
 	@echo "... Window-3.8.0"
 	@echo "... SpreadSheet-3.8.0"
 	@echo "... pythonscriptview-3.8.0"
-	@echo "... InteractorAddEdge-3.8.0"
-	@echo "... InteractorAddNode-3.8.0"
-	@echo "... InteractorDeleteElement-3.8.0"
-	@echo "... InteractorEditEdgeBends-3.8.0"
-	@echo "... InteractorGetInformation-3.8.0"
 	@echo "... InteractorNavigation-3.8.0"
 	@echo "... InteractorRectangleZoom-3.8.0"
 	@echo "... InteractorSelection-3.8.0"
 	@echo "... InteractorSelectionModifier-3.8.0"
-	@echo "... InteractorMagicSelection-3.8.0"
 	@echo "... doc_generation"
 .PHONY : help
 

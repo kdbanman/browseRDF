@@ -1,4 +1,4 @@
-# Install script for directory: /home/kdbanman/Desktop/tulip-3.8.0-src/docs
+# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/docs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_doc")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip" TYPE FILE FILES
-    "/home/kdbanman/Desktop/tulip-3.8.0-src/build/docs/tulip380.qhc"
-    "/home/kdbanman/Desktop/tulip-3.8.0-src/build/docs/tulip380.qch"
+    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/tulip380.qhc"
+    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/tulip380.qch"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_doc")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/kdbanman/Desktop/tulip-3.8.0-src/build/docs/python/cmake_install.cmake")
+  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/python/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
