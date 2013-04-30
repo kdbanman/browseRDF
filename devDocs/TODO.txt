@@ -2,7 +2,15 @@
 #TODO list, descending priority, keep it quick
 ==============================================
 
-:)
+- port to mac
+
+- toggle labels on the fly
+
+- main window close stability?
+
+- get rid of useless toolbar options
+
+
 
 
 ================================================
