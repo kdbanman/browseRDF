@@ -4,9 +4,7 @@
 
 - port to mac
 
-- toggle labels on the fly
 
-- main window close stability?
 
 - get rid of useless toolbar options
 
@@ -16,6 +14,16 @@
 ================================================
 #FINISHED, :r !date followed by the task, as cut
 ================================================
+
+
+Thu May  2 11:28:15 MDT 2013
+- main window close stability?
+*note:  the crash Marek observed was not related to closure of the main window.  ugh.
+
+
+Thu May  2 11:27:44 MDT 2013
+- toggle labels on the fly
+*note:  easy peasy
 
 
 Mon Apr 29 00:52:55 MDT 2013

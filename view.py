@@ -12,7 +12,7 @@ class View():
   '''
   views = []
 
-  def newFrontier(self, graph):
+  def newFrontier(self, graph, labels):
     '''
     "graph" is a tlp.Graph()
     newFrontier creates a new window with the contents of a freshly
@@ -25,13 +25,14 @@ class View():
     view.setOptionsWidgetsVisible(False)
 
     params = view.getRenderingParameters()
+    params.setViewEdgeLabel(labels)
+    params.setViewNodeLabel(labels)
     params.setEdgeSizeInterpolate(False)
     params.setViewArrow(True)
     params.setLabelsDensity(0)
     params.setLabelScaled(False)
     params.setNodesLabelStencil(0)
     params.setMinSizeOfLabel(15)
-    params.setViewEdgeLabel(True)
 
     view.setRenderingParameters(params)
 
