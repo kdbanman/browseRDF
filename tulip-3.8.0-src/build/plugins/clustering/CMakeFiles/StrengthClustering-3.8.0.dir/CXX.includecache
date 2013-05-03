@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.cpp
 StrengthClustering.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.h
 string
 -
 set

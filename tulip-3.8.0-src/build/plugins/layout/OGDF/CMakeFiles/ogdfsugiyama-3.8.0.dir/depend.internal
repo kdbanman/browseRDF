@@ -148,5 +148,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfsugiyama-3.8.0.dir/OGDFSugiyama.cpp.o
  ../thirdparty/OGDF/ogdf/module/RankingModule.h
  ../thirdparty/OGDF/ogdf/module/TwoLayerCrossMin.h
  ../thirdparty/OGDF/ogdf/simultaneous/TwoLayerCrossMinSimDraw.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFSugiyama.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFSugiyama.cpp
  library/tulip/include/tulip/TulipRelease.h

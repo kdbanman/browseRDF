@@ -1164,7 +1164,45 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
+../thirdparty/sip-4.13.2/siplib/sip.h
+basetsd.h
+-
+assert.h
+-
+ctype.h
+-
+errno.h
+-
+io.h
+-
+math.h
+-
+sal.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/stat.h
+-
+time.h
+-
+wchar.h
+-
+Python.h
+-
+Python.h
+-
+rpc.h
+-
+
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
 QtGui/QMainWindow
 -
 QtGui/QToolBar
@@ -1178,15 +1216,15 @@ tulip/BaseGraphicsViewComponent.h
 tulip/SGHierarchyWidget.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/moc_TulipViewsUtils.cpp
 ../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/../../../../library/tulip-python/tulipgui/TulipViewsUtils.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/qrc_TulipGui.cxx
 QtCore/qglobal.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
 sip.h
 -
 string
@@ -1216,9 +1254,9 @@ tulip/LayerManagerWidget.h
 TulipViewsUtils.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguicmodule.cpp
 sipAPItulipgui.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
 tulip/View.h
 -
 string
@@ -1258,17 +1296,17 @@ QTimer
 QSocketNotifier
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguistdvector0101tlpView.cpp
 sipAPItulipgui.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
 vector
 -
 tulip/View.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlp.cpp
 sipAPItulipgui.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
 vector
 -
 string
@@ -1304,9 +1342,9 @@ tulip/Graph.h
 tulip/NodeLinkDiagramComponent.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpNodeLinkDiagramComponent.cpp
 sipAPItulipgui.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
 tulip/NodeLinkDiagramComponent.h
 -
 tulip/GlGraphRenderingParameters.h
@@ -1340,9 +1378,9 @@ tulip/PluginProgress.h
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/siptulipguitlpView.cpp
 sipAPItulipgui.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/sipAPItulipgui.h
 tulip/View.h
 -
 string
@@ -1372,7 +1410,7 @@ tulip/PluginProgress.h
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.cpp
 sipAPItulipgui.h
 -
 tulip/Interactor.h
@@ -1388,9 +1426,9 @@ QtGui/QWorkspace
 QtGui/QApplication
 -
 TulipViewsUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui/TulipViewsUtils.h
 QtGui/QMainWindow
 -
 QtGui/QToolBar
@@ -1709,12 +1747,6 @@ wctype.h
 /usr/include/python2.7/rangeobject.h
 
 /usr/include/python2.7/setobject.h
-
-/usr/include/python2.7/sip.h
-Python.h
--
-rpc.h
--
 
 /usr/include/python2.7/sliceobject.h
 

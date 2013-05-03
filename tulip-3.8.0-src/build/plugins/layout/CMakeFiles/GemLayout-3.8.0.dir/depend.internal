@@ -80,6 +80,6 @@ plugins/layout/CMakeFiles/GemLayout-3.8.0.dir/GEMLayout.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.h
  library/tulip/include/tulip/TulipRelease.h

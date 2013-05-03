@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/import/CMakeFiles/WebImport-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/import/CMakeFiles/WebImport-3.8.0.dir/flags.make
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o: plugins/import/CMakeFiles/WebImport-3.8.0.dir/flags.make
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o: ../plugins/import/WebImport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp > CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp > CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.i
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp -o CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp -o CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.s
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o.requires:
 .PHONY : plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o.provides.build: pl
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o: plugins/import/CMakeFiles/WebImport-3.8.0.dir/flags.make
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o: plugins/import/moc_WebImport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp > CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp > CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.i
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp -o CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp -o CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.s
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o.requires:
 .PHONY : plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o.requires
@@ -93,9 +93,9 @@ plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o.provides: plug
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o.provides.build: plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o
 
 plugins/import/moc_WebImport.cpp: ../plugins/import/WebImport.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_WebImport.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/. -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/. -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
 
 # Object files for target WebImport-3.8.0
 WebImport__3_8_0_OBJECTS = \
@@ -132,7 +132,7 @@ plugins/import/libWebImport-3.8.0.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 plugins/import/libWebImport-3.8.0.so: plugins/import/CMakeFiles/WebImport-3.8.0.dir/build.make
 plugins/import/libWebImport-3.8.0.so: plugins/import/CMakeFiles/WebImport-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libWebImport-3.8.0.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WebImport-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WebImport-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/build: plugins/import/libWebImport-3.8.0.so
@@ -143,10 +143,10 @@ plugins/import/CMakeFiles/WebImport-3.8.0.dir/requires: plugins/import/CMakeFile
 .PHONY : plugins/import/CMakeFiles/WebImport-3.8.0.dir/requires
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import && $(CMAKE_COMMAND) -P CMakeFiles/WebImport-3.8.0.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import && $(CMAKE_COMMAND) -P CMakeFiles/WebImport-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/import/CMakeFiles/WebImport-3.8.0.dir/clean
 
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/depend: plugins/import/moc_WebImport.cpp
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/CMakeFiles/WebImport-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/CMakeFiles/WebImport-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/import/CMakeFiles/WebImport-3.8.0.dir/depend
 

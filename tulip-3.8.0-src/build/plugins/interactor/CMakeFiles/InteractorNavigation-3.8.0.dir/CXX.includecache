@@ -236,13 +236,13 @@ tr1/unordered_set
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/InteractorNavigation.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor/InteractorNavigation.cpp
 tulip/MouseInteractors.h
 -
 NodeLinkDiagramComponentInteractor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
 tulip/InteractorChainOfResponsibility.h
 -
 

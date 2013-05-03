@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/flags.make
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o: plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/flags.make
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o: ../plugins/colors/ColorMapping.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp > CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp > CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.i
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp -o CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp -o CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.s
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o.requires:
 .PHONY : plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/ColorMapping.cpp.o.provides.bui
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o: plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/flags.make
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o: ../plugins/colors/DoubleStringsListRelationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp > CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp > CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.i
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp -o CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp -o CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.s
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o.requires:
 .PHONY : plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog.cpp.o.requires
@@ -94,17 +94,17 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DoubleStringsListRelationDialog
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o: plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/flags.make
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o: plugins/colors/moc_DoubleStringsListRelationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp > CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp > CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.i
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp -o CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp -o CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.s
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o.requires:
 .PHONY : plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o.requires
@@ -116,14 +116,14 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDi
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o.provides.build: plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/moc_DoubleStringsListRelationDialog.cpp.o
 
 plugins/colors/DoubleStringsListRelationDialogData.h: ../plugins/colors/DoubleStringsListRelationDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating DoubleStringsListRelationDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/DoubleStringsListRelationDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/DoubleStringsListRelationDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.ui
 
 plugins/colors/moc_DoubleStringsListRelationDialog.cpp: ../plugins/colors/DoubleStringsListRelationDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_DoubleStringsListRelationDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
 
 # Object files for target ColorMapping-3.8.0
 ColorMapping__3_8_0_OBJECTS = \
@@ -160,7 +160,7 @@ plugins/colors/libColorMapping-3.8.0.so: /usr/lib/x86_64-linux-gnu/libQtCore.so
 plugins/colors/libColorMapping-3.8.0.so: plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/build.make
 plugins/colors/libColorMapping-3.8.0.so: plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libColorMapping-3.8.0.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ColorMapping-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ColorMapping-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/build: plugins/colors/libColorMapping-3.8.0.so
@@ -172,11 +172,11 @@ plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/requires: plugins/colors/CMakeF
 .PHONY : plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/requires
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && $(CMAKE_COMMAND) -P CMakeFiles/ColorMapping-3.8.0.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors && $(CMAKE_COMMAND) -P CMakeFiles/ColorMapping-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/clean
 
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/depend: plugins/colors/DoubleStringsListRelationDialogData.h
 plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/depend: plugins/colors/moc_DoubleStringsListRelationDialog.cpp
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/colors/CMakeFiles/ColorMapping-3.8.0.dir/depend
 

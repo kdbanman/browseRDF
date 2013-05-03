@@ -134,5 +134,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfdominance-3.8.0.dir/OGDFDominance.cpp.o
  ../thirdparty/OGDF/ogdf/upward/SubgraphUpwardPlanarizer.h
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanRep.h
  ../thirdparty/OGDF/ogdf/upward/UpwardPlanarModule.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFDominance.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFDominance.cpp
  library/tulip/include/tulip/TulipRelease.h

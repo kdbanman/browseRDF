@@ -1054,7 +1054,45 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+../thirdparty/sip-4.13.2/siplib/sip.h
+basetsd.h
+-
+assert.h
+-
+ctype.h
+-
+errno.h
+-
+io.h
+-
+math.h
+-
+sal.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/stat.h
+-
+time.h
+-
+wchar.h
+-
+Python.h
+-
+Python.h
+-
+rpc.h
+-
+
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 sip.h
 -
 string
@@ -1070,15 +1108,15 @@ tulip/GlTools.h
 tulip/ParametricCurves.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 libxml/tree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/WithParameter.h
 -
 tulip/ColorScale.h
@@ -1144,9 +1182,9 @@ tulip/GlCircle.h
 tulip/GlRect.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 utility
 -
 tulip/GlLayer.h
@@ -1154,9 +1192,9 @@ tulip/GlLayer.h
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 vector
 -
 utility
@@ -1164,9 +1202,9 @@ utility
 tulip/GlLayer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 vector
 -
 vector
@@ -1174,17 +1212,17 @@ vector
 tulip/Coord.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 vector
 -
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/Color.h
 -
 vector
@@ -1196,9 +1234,9 @@ tulip/Coord.h
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlScene.h
 -
 tulip/Coord.h
@@ -1258,9 +1296,9 @@ tulip/Observable.h
 tulip/Node.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlAbstractPolygon.h
 -
 vector
@@ -1282,9 +1320,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlCircle.h
 -
 tulip/Coord.h
@@ -1308,9 +1346,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlComplexPolygon.h
 -
 vector
@@ -1332,9 +1370,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlComposite.h
 -
 tulip/Coord.h
@@ -1352,9 +1390,9 @@ libxml/tree.h
 tulip/BoundingBox.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlGraphComposite.h
 -
 tulip/WithParameter.h
@@ -1406,9 +1444,9 @@ tulip/GlComposite.h
 tulip/BoundingBox.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlGraphInputData.h
 -
 tulip/IntegerProperty.h
@@ -1454,9 +1492,9 @@ tulip/GlGraphRenderingParameters.h
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlGraphRenderingParameters.h
 -
 tulip/BooleanProperty.h
@@ -1468,9 +1506,9 @@ tulip/DoubleProperty.h
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlLayer.h
 -
 string
@@ -1484,9 +1522,9 @@ tulip/GlSimpleEntity.h
 tulip/GlScene.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlPolygon.h
 -
 string
@@ -1510,9 +1548,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlRect.h
 -
 tulip/Coord.h
@@ -1538,9 +1576,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlRegularPolygon.h
 -
 tulip/Coord.h
@@ -1566,9 +1604,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlScene.h
 -
 tulip/GlLayer.h
@@ -1662,9 +1700,9 @@ tulip/Observable.h
 tulip/Node.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlSceneObserver.h
 -
 tulip/GlScene.h
@@ -1724,9 +1762,9 @@ tulip/PluginProgress.h
 tulip/Observable.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlSceneVisitor.h
 -
 tulip/GlSimpleEntity.h
@@ -1734,9 +1772,9 @@ tulip/GlSimpleEntity.h
 tulip/GlLayer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/GlSimpleEntity.h
 -
 libxml/tree.h
@@ -1750,9 +1788,9 @@ tulip/BoundingBox.h
 tulip/GlSceneVisitor.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/Glyph.h
 -
 tulip/GlGraphInputData.h
@@ -1768,17 +1806,17 @@ tulip/BoundingBox.h
 tulip/Node.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/Glyph.h
 -
 tulip/GlGraphInputData.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
 sipAPItulipogl.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/sipAPItulipogl.h
 tulip/Glyph.h
 -
 string
@@ -2289,12 +2327,6 @@ wctype.h
 /usr/include/python2.7/rangeobject.h
 
 /usr/include/python2.7/setobject.h
-
-/usr/include/python2.7/sip.h
-Python.h
--
-rpc.h
--
 
 /usr/include/python2.7/sliceobject.h
 

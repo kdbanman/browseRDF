@@ -1328,7 +1328,7 @@ ogdf/layered/Hierarchy.h
 ogdf/module/TwoLayerCrossMin.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFSugiyama.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFSugiyama.cpp
 ogdf/layered/SugiyamaLayout.h
 -
 ogdf/layered/LongestPathRanking.h
@@ -1356,7 +1356,7 @@ ogdf/layered/OptimalHierarchyLayout.h
 ogdf/layered/FastSimpleHierarchyLayout.h
 -
 tulip2ogdf/OGDFLayoutPluginBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
 
 library/tulip/include/tulip/TulipRelease.h
 

@@ -82,7 +82,7 @@ plugins/layout/CMakeFiles/SquarifiedTreeMap-3.8.0.dir/SquarifiedTreeMap.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeTools.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/SquarifiedTreeMap.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/TreeTools.h
  library/tulip/include/tulip/TulipRelease.h

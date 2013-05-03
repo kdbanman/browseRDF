@@ -80,6 +80,6 @@ plugins/clustering/CMakeFiles/EqualValueClustering-3.8.0.dir/EqualValueClusterin
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.h
  library/tulip/include/tulip/TulipRelease.h

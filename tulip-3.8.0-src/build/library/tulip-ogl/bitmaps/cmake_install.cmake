@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_ogl")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/bitmaps" TYPE FILE FILES
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/fontb.ttf"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/font.ttf"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/halfCylinderTexture.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/cylinderTexture.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/roundTexture.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/fontb.ttf"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/font.ttf"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/halfCylinderTexture.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/cylinderTexture.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/bitmaps/roundTexture.png"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtulip_ogl")
 

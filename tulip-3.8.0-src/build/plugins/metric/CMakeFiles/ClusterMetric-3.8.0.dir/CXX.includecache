@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/ClusterMetric.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/ClusterMetric.cpp
 deque
 -
 ClusterMetric.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/ClusterMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/ClusterMetric.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/ClusterMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/ClusterMetric.h
 tulip/TulipPlugin.h
 -
 

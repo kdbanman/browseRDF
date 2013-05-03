@@ -82,16 +82,16 @@ plugins/layout/CMakeFiles/ConeTreeExtended-3.8.0.dir/ConeTreeExtended.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConeTreeExtended.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConeTreeExtended.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConeTreeExtended.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/ConeTreeExtended.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
  library/tulip/include/tulip/TulipRelease.h
 plugins/layout/CMakeFiles/ConeTreeExtended-3.8.0.dir/DatasetTools.cpp.o
  ../library/tulip/include/tulip/AbstractProperty.h
@@ -172,13 +172,13 @@ plugins/layout/CMakeFiles/ConeTreeExtended-3.8.0.dir/DatasetTools.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableConstants.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayoutInterface.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.h
  library/tulip/include/tulip/TulipRelease.h

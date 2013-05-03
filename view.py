@@ -27,11 +27,12 @@ class View():
     params = view.getRenderingParameters()
     params.setEdgeSizeInterpolate(False)
     params.setViewArrow(True)
-    params.setLabelsDensity(0)
+    params.setLabelsDensity(50)
     params.setLabelScaled(False)
     params.setNodesLabelStencil(0)
     params.setMinSizeOfLabel(15)
     params.setViewEdgeLabel(True)
+    params.setViewNodeLabel(True)
 
     view.setRenderingParameters(params)
 

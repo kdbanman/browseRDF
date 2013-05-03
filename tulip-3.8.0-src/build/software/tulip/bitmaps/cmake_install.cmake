@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,20 +34,20 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/bitmaps" TYPE FILE FILES
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/headerlogo.bmp"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logo32x32.bmp"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logo.bmp"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logo32x32.ico"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/welcomelogo.bmp"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logotulip.jpg"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logolabri.jpg"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/tex_back.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/headerlogo.bmp"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logo32x32.bmp"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logo.bmp"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logo32x32.ico"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/welcomelogo.bmp"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logotulip.jpg"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/logolabri.jpg"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/tex_back.png"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/bitmaps/colorscales/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/bitmaps/colorscales/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningDagSelection.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningDagSelection.cpp
 cassert
 -
 tulip/BooleanProperty.h
@@ -832,9 +832,9 @@ tulip/BooleanProperty.h
 tulip/AcyclicTest.h
 -
 SpanningDagSelection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningDagSelection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningDagSelection.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningDagSelection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/SpanningDagSelection.h
 tulip/TulipPlugin.h
 -
 

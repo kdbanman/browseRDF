@@ -118,5 +118,5 @@ plugins/layout/OGDF/CMakeFiles/ogdfgemfrick-3.8.0.dir/OGDFGemFrick.cpp.o
  ../thirdparty/OGDF/ogdf/internal/basic/list_templates.h
  ../thirdparty/OGDF/ogdf/internal/energybased/MultilevelGraph.h
  ../thirdparty/OGDF/ogdf/module/LayoutModule.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFGemFrick.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFGemFrick.cpp
  library/tulip/include/tulip/TulipRelease.h

@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/ReachableSubGraphSelection.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/ReachableSubGraphSelection.cpp
 ReachableSubGraphSelection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/ReachableSubGraphSelection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/ReachableSubGraphSelection.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/ReachableSubGraphSelection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/ReachableSubGraphSelection.h
 tulip/TulipPlugin.h
 -
 

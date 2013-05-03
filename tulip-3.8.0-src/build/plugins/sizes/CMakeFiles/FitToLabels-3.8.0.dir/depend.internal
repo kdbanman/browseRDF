@@ -89,5 +89,5 @@ plugins/sizes/CMakeFiles/FitToLabels-3.8.0.dir/FitToLabel.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/sizes/FitToLabel.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/sizes/FitToLabel.cpp
  library/tulip/include/tulip/TulipRelease.h

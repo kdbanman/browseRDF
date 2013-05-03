@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulipgui
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python/tulipgui.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/tulipgui.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/tulipgui.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python/tulipgui.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python/tulipgui.so")
     FILE(RPATH_REMOVE
@@ -51,6 +51,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/apiFiles" TYPE FILE FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/tulipgui.api")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/apiFiles" TYPE FILE FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulipgui/tulipgui.api")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
 

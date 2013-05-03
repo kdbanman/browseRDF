@@ -125,5 +125,5 @@ plugins/layout/OGDF/CMakeFiles/ogdffm3-3.8.0.dir/OGDFFm3.cpp.o
  ../thirdparty/OGDF/ogdf/internal/energybased/QuadTreeNM.h
  ../thirdparty/OGDF/ogdf/internal/energybased/QuadTreeNodeNM.h
  ../thirdparty/OGDF/ogdf/module/LayoutModule.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFm3.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFFm3.cpp
  library/tulip/include/tulip/TulipRelease.h

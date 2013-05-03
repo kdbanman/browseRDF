@@ -2242,23 +2242,23 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AbstractView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AbstractView.h
 View.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
 tulip/tulipconf.h
 -
 AugmentedDisplayDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialogData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
 tulip/AbstractView.h
 -
 tulip/TabWidgetHidableMenuGraphicsProxy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
 QtGui/QWidget
 -
 QtGui/QComboBox
@@ -2268,7 +2268,7 @@ tulip/tuliphash.h
 tulip/CSVGraphImport.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
 QtGui/QWidget
 -
 QtGui/QValidator
@@ -2282,7 +2282,7 @@ tulip/CSVContentHandler.h
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
 QtGui/QWizard
 -
 QtGui/QWizardPage
@@ -2292,13 +2292,13 @@ QtGui/QTableWidget
 QtGui/QHeaderView
 -
 tulip/CSVParserConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/CSVParserConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/CSVParserConfigurationWidget.h
 tulip/CSVImportConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/CSVImportConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/CSVImportConfigurationWidget.h
 tulip/CSVGraphMappingConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/CSVGraphMappingConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/CSVGraphMappingConfigurationWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
 QtGui/QWidget
 -
 QtGui/QComboBox
@@ -2308,15 +2308,15 @@ tulip/CSVParser.h
 tulip/CSVContentHandler.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorButton.h
 QtGui/QPushButton
 -
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
 tulip/ColorScaleConfigDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ColorScaleConfigDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ColorScaleConfigDialogData.h
 tulip/ColorScale.h
 -
 QtGui/QDialog
@@ -2324,7 +2324,7 @@ QtGui/QDialog
 QtCore/QString
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Controller.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Controller.h
 QtCore/QObject
 -
 QtGui/QDockWidget
@@ -2340,9 +2340,9 @@ tulip/TemplateFactory.h
 tulip/Vector.h
 -
 Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
 tulip/tulipconf.h
 -
 map
@@ -2350,9 +2350,9 @@ map
 string
 -
 tulip/Controller.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/Controller.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/Controller.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CoordWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CoordWidget.h
 QtGui/QWidget
 -
 tulip/Coord.h
@@ -2360,7 +2360,7 @@ tulip/Coord.h
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
 string
 -
 vector
@@ -2378,15 +2378,15 @@ QtGui/QWidget
 windows.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
 QtGui/QWidget
 -
 DoubleStringsListSelectionWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidgetData.h
 StringsListSelectionWidgetInterface.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
 QtCore/qstringlist.h
 -
 QtCore/qsize.h
@@ -2396,19 +2396,19 @@ tulip/Graph.h
 tulip/ObservableGraph.h
 -
 tulip/ElementPropertiesWidgetUI.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ElementPropertiesWidgetUI.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ElementPropertiesWidgetUI.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
 QtGui/qwidget.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
 QWidget
 -
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
 tulip/tulipconf.h
 -
 tulip/Node.h
@@ -2416,13 +2416,13 @@ tulip/Node.h
 tulip/Edge.h
 -
 tulip/FindSelectionData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/FindSelectionData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/FindSelectionData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
 tulip/GWOverviewWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GWOverviewWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GWOverviewWidgetData.h
 tulip/RenderingParametersDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/RenderingParametersDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/RenderingParametersDialogData.h
 tulip/Camera.h
 -
 tulip/ObservableGraph.h
@@ -2438,15 +2438,15 @@ QtCore/qstring.h
 QtGui/qlayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
 tulip/AbstractView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/AbstractView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/AbstractView.h
 QtGui/QMainWindow
 -
 QtGui/QDockWidget
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidget.h
 tulip/GlScene.h
 -
 QtOpenGL/qgl.h
@@ -2458,11 +2458,11 @@ QtGui/qaction.h
 QtOpenGL/QGLFramebufferObject
 -
 tulip/AbstractView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/AbstractView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/AbstractView.h
 tulip/ForegroundEntity.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ForegroundEntity.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ForegroundEntity.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
 tulip/AbstractView.h
 -
 tulip/GlMainWidget.h
@@ -2484,7 +2484,7 @@ QtOpenGL/QGLWidget
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
 QtGui/QPainter
 -
 QtGui/QGraphicsWidget
@@ -2502,7 +2502,7 @@ QtGui/QGraphicsSceneResizeEvent
 QtGui/QCheckBox
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
 QtGui/QTableWidget
 -
 tulip/ObservableGraph.h
@@ -2512,9 +2512,9 @@ QtCore/QStringList
 QtCore/QRegExp
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
 GridOptionsData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsData.h
 tulip/GlMainWidget.h
 -
 tulip/RenderingParametersDialog.h
@@ -2522,7 +2522,7 @@ tulip/RenderingParametersDialog.h
 tulip/GlGrid.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
 QtCore/qobject.h
 -
 QtGui/QAction
@@ -2534,9 +2534,9 @@ tulip/TulipRelease.h
 tulip/TemplateFactory.h
 -
 InteractorManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/InteractorManager.h
 string
 -
 cassert
@@ -2548,7 +2548,7 @@ tulip/tulipconf.h
 tulip/PluginLoader.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
 tulip/tulipconf.h
 -
 QtGui/QListWidget
@@ -2566,23 +2566,23 @@ QtCore/QObject
 QtCore/QHash
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
 tulip/tulipconf.h
 -
 tulip/LayerManagerWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/LayerManagerWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/LayerManagerWidgetData.h
 QtGui/QTreeWidgetItem
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
 tulip/ListPropertyWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ListPropertyWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ListPropertyWidgetData.h
 tulip/TulipTableWidget.h
 -
 QtGui/QTableWidgetItem
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MainController.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MainController.h
 tulip/Reflect.h
 -
 tulip/Observable.h
@@ -2590,9 +2590,9 @@ tulip/Observable.h
 tulip/ObservableGraph.h
 -
 tulip/ControllerViewsManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ControllerViewsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ControllerViewsManager.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Morphing.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Morphing.h
 vector
 -
 tulip/Camera.h
@@ -2608,7 +2608,7 @@ QtCore/qobject.h
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
 tulip/GlCircle.h
 -
 tulip/GlTriangle.h
@@ -2616,7 +2616,7 @@ tulip/GlTriangle.h
 tulip/InteractorComponent.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
 tulip/GlCircle.h
 -
 tulip/GlRect.h
@@ -2636,11 +2636,11 @@ tulip/DoubleProperty.h
 tulip/SizeProperty.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
 GlMainView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
 tulip/tulipconf.h
 -
 tulip/SimplePluginProgress.h
@@ -2654,13 +2654,13 @@ QtCore/QTime
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
 QDialog
 -
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialog.h
 string
 -
 windows.h
@@ -2668,9 +2668,9 @@ windows.h
 tulip/Observable.h
 -
 PropertyDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialogData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyWidget.h
 string
 -
 QtGui/qwidget.h
@@ -2686,17 +2686,17 @@ tulip/Coord.h
 tulip/TulipTableWidget.h
 -
 tulip/ChooseFileNameDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ChooseFileNameDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ChooseFileNameDialogData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
 QtCore/QObject
 -
 tulip/GlMainWidget.h
 -
 tulip/GlSceneZoomAndPan.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GlSceneZoomAndPan.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GlSceneZoomAndPan.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtProgress.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtProgress.h
 string
 -
 tulip/PluginProgress.h
@@ -2706,17 +2706,17 @@ tulip/View.h
 QtGui/QDialog
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
 tulip/tulipconf.h
 -
 tulip/GlGraphRenderingParameters.h
 -
 tulip/RenderingParametersDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/RenderingParametersDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/RenderingParametersDialogData.h
 QtGui/QTreeWidgetItem
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
 QtCore/qobject.h
 -
 QtCore/qpoint.h
@@ -2728,15 +2728,15 @@ tulip/tulipconf.h
 tulip/MutableContainer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
 QtGui/QWidget
 -
 StringsListSelectionWidgetInterface.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
 SimpleStringsListSelectionWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidgetData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SizeWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SizeWidget.h
 QtGui/QWidget
 -
 tulip/Size.h
@@ -2744,15 +2744,15 @@ tulip/Size.h
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
 tulip/AbstractView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/AbstractView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/AbstractView.h
 tulip/GlGraphRenderingParameters.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GlGraphRenderingParameters.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GlGraphRenderingParameters.h
 QtCore/QVector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
 QtGui/QDialog
 -
 tulip/SnapshotDialogData.h
@@ -2760,7 +2760,7 @@ tulip/SnapshotDialogData.h
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/StringsListSelectionWidgetInterface.h
 tulip/tulipconf.h
 -
 vector
@@ -2770,21 +2770,21 @@ string
 QtGui/QWidget
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
 QtGui/QTabWidget
 -
 tulip/GraphicsWidgetBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GraphicsWidgetBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/GraphicsWidgetBase.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TextEditDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TextEditDialog.h
 tulip/tulipconf.h
 -
 QtGui/QDialog
 -
 tulip/TextEditDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/TextEditDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/TextEditDialogData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
 string
 -
 QtGui/qpushbutton.h
@@ -2804,11 +2804,11 @@ tulip/Size.h
 tulip/Coord.h
 -
 tulip/FileNameEditorWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/FileNameEditorWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/FileNameEditorWidget.h
 tulip/ColorButton.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ColorButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/tulip/ColorButton.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
 QtGui/QWidget
 -
 QtGui/QMainWindow
@@ -2824,217 +2824,217 @@ tulip/ObservableGraph.h
 tulip/Vector.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp
 ../../../../library/tulip-qt/include/tulip/AbstractView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AbstractView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AbstractView.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
 ../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
 ../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
 ../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
 ../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp
 ../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVImportWizard.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
 ../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp
 ../../../../library/tulip-qt/include/tulip/ColorButton.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorButton.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
 ../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp
 ../../../../library/tulip-qt/include/tulip/Controller.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Controller.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Controller.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp
 ../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ControllerViewsManager.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp
 ../../../../library/tulip-qt/include/tulip/CoordWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CoordWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CoordWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp
 ../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/CopyPropertyDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
 ../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
 ../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
 ../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp
 ../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FileNameEditorWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp
 ../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/FindSelectionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp
 ../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GWOverviewWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp
 ../../../../library/tulip-qt/include/tulip/GlMainView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainView.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp
 ../../../../library/tulip-qt/include/tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
 ../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp
 ../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GlMainWidgetItem.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
 ../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp
 ../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/GridOptionsWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp
 ../../../../library/tulip-qt/include/tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Interactor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp
 ../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ItemsListWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp
 ../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/LayerManagerWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp
 ../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/ListPropertyWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp
 ../../../../library/tulip-qt/include/tulip/MainController.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MainController.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MainController.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp
 ../../../../library/tulip-qt/include/tulip/Morphing.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Morphing.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/Morphing.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
 ../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp
 ../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/MouseSelectionEditor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
 ../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp
 ../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PluginProgressWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp
 ../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyCreationDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp
 ../../../../library/tulip-qt/include/tulip/PropertyDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp
 ../../../../library/tulip-qt/include/tulip/PropertyWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/PropertyWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
 ../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp
 ../../../../library/tulip-qt/include/tulip/QtProgress.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtProgress.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/QtProgress.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp
 ../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/RenderingParametersDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp
 ../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SGHierarchyWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
 ../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp
 ../../../../library/tulip-qt/include/tulip/SizeWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SizeWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SizeWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp
 ../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SmallMultiplesView.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp
 ../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/SnapshotDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
 ../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp
 ../../../../library/tulip-qt/include/tulip/TextEditDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TextEditDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TextEditDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp
 ../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/TulipTableWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp
 ../../../../library/tulip-qt/include/tulip/View.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../../../../library/tulip-qt/include/tulip/View.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx
 QtCore/qglobal.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/../include/tulip/ElementPropertiesWidgetUI.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/../include/tulip/ElementPropertiesWidgetUI.h
 QtGui/qwidget.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp
 tulip/AbstractView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/AbstractView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/AbstractView.h
 QtCore/QEvent
 -
 QtGui/QMouseEvent
@@ -3054,15 +3054,15 @@ QtGui/QImageWriter
 QtGui/QFileDialog
 -
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp
 tulip/AugmentedDisplayDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/AugmentedDisplayDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/AugmentedDisplayDialog.h
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp
 tulip/BaseGraphicsViewComponent.h
 -
 tulip/GWOverviewWidget.h
@@ -3080,9 +3080,9 @@ tulip/GlMainWidgetItem.h
 QtGui/QMenu
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp
 tulip/CSVGraphImport.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphImport.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphImport.h
 tulip/Graph.h
 -
 tulip/PropertyInterface.h
@@ -3092,15 +3092,15 @@ tulip/ForEach.h
 tulip/TlpQtTools.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
 tulip/CSVGraphMappingConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphMappingConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphMappingConfigurationWidget.h
 tulip/CSVGraphMappingConfigurationWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphMappingConfigurationWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphMappingConfigurationWidgetData.h
 tulip/CSVGraphImport.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphImport.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVGraphImport.h
 tulip/PropertyCreationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyCreationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyCreationDialog.h
 tulip/Graph.h
 -
 tulip/ForEach.h
@@ -3118,11 +3118,11 @@ QtGui/QPushButton
 QtGui/QLineEdit
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp
 tulip/CSVImportConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportConfigurationWidget.h
 tulip/CSVImportConfigurationWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportConfigurationWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportConfigurationWidgetData.h
 tulip/TlpQtTools.h
 -
 tulip/QtProgress.h
@@ -3136,11 +3136,11 @@ QtGui/QScrollBar
 climits
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp
 tulip/CSVImportWizard.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportWizard.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportWizard.h
 tulip/CSVImportWizardData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportWizardData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportWizardData.h
 tulip/QtProgress.h
 -
 QtGui/QVBoxLayout
@@ -3148,9 +3148,9 @@ QtGui/QVBoxLayout
 QtGui/QLabel
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp
 tulip/CSVParser.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParser.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParser.h
 tulip/PluginProgress.h
 -
 QtGui/QApplication
@@ -3168,7 +3168,7 @@ cassert
 math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp
 tulip/TlpQtTools.h
 -
 QtCore/QTextCodec
@@ -3178,13 +3178,13 @@ QtGui/QFileDialog
 QtGui/QKeyEvent
 -
 tulip/CSVParserConfigurationWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParserConfigurationWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParserConfigurationWidget.h
 tulip/CSVParserConfigurationWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParserConfigurationWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParserConfigurationWidgetData.h
 tulip/CSVParser.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParser.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVParser.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp
 tulip/ColorButton.h
 -
 QtGui/QPaintEvent
@@ -3194,7 +3194,7 @@ QtGui/QStylePainter
 QtGui/QColorDialog
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp
 QtGui/QFileDialog
 -
 QtGui/QHeaderView
@@ -3214,25 +3214,25 @@ algorithm
 vector
 -
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/ColorScaleConfigDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleConfigDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleConfigDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp
 tulip/ColorScaleWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleWidget.h
 tulip/ColorScale.h
 -
 QtGui/QPaintEvent
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp
 tulip/Controller.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Controller.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Controller.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp
 tulip/ControllerAlgorithmTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerAlgorithmTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerAlgorithmTools.h
 QtGui/QMessageBox
 -
 tulip/BooleanProperty.h
@@ -3264,25 +3264,25 @@ tulip/GlVertexArrayManager.h
 tulip/GlCPULODCalculator.h
 -
 tulip/NodeLinkDiagramComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/NodeLinkDiagramComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/NodeLinkDiagramComponent.h
 tulip/QtProgress.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtProgress.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtProgress.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/PreferenceManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PreferenceManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PreferenceManager.h
 tulip/ThreadedComputeProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ThreadedComputeProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ThreadedComputeProperty.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp
 tulip/ControllerPluginsManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerPluginsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerPluginsManager.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp
 tulip/ControllerViewsManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerViewsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerViewsManager.h
 QtGui/QWorkspace
 -
 QtGui/QToolBar
@@ -3290,13 +3290,13 @@ QtGui/QToolBar
 tulip/Graph.h
 -
 tulip/View.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/View.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/View.h
 tulip/ControllerViewsTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerViewsTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerViewsTools.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp
 tulip/ControllerViewsTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerViewsTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ControllerViewsTools.h
 QtGui/QToolBar
 -
 QtGui/QAction
@@ -3306,25 +3306,25 @@ QtGui/QGridLayout
 QtGui/QLabel
 -
 tulip/ViewPluginsManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ViewPluginsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ViewPluginsManager.h
 tulip/InteractorManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorManager.h
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp
 tulip/CoordWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CoordWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CoordWidget.h
 CoordWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidgetData.h
 QtGui/QDoubleValidator
 -
 cfloat
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp
 CopyPropertyDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialogData.h
 windows.h
 -
 QtCore/qstring.h
@@ -3344,9 +3344,9 @@ QtGui/qlabel.h
 QtGui/qtabwidget.h
 -
 tulip/CopyPropertyDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CopyPropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CopyPropertyDialog.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/ForEach.h
 -
 tulip/Graph.h
@@ -3366,31 +3366,31 @@ tulip/SizeProperty.h
 tulip/StringProperty.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/Reflect.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Reflect.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Reflect.h
 tulip/Color.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Color.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Color.h
 tulip/DoubleProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/DoubleProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/DoubleProperty.h
 tulip/StringProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/StringProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/StringProperty.h
 tulip/BooleanProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/BooleanProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/BooleanProperty.h
 tulip/LayoutProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/LayoutProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/LayoutProperty.h
 tulip/IntegerProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/IntegerProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/IntegerProperty.h
 tulip/ColorProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorProperty.h
 tulip/SizeProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SizeProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SizeProperty.h
 tulip/ColorScaleWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleWidget.h
 tulip/ColorScaleConfigDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleConfigDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ColorScaleConfigDialog.h
 QtGui/qvalidator.h
 -
 QtGui/qdialog.h
@@ -3420,11 +3420,11 @@ QtGui/qevent.h
 QtGui/QScrollArea
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
 tulip/DoubleStringsListSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/DoubleStringsListSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/DoubleStringsListSelectionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp
 QtGui/qlabel.h
 -
 QtGui/qmessagebox.h
@@ -3434,13 +3434,13 @@ QtGui/qheaderview.h
 QtGui/qscrollbar.h
 -
 tulip/TulipTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TulipTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TulipTableWidget.h
 tulip/ElementPropertiesWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ElementPropertiesWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ElementPropertiesWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
 ../include/tulip/ElementPropertiesWidgetUI.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/../include/tulip/ElementPropertiesWidgetUI.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/../include/tulip/ElementPropertiesWidgetUI.h
 QtGui/qlabel.h
 -
 QtGui/qlayout.h
@@ -3450,17 +3450,17 @@ QtGui/qwhatsthis.h
 tulip/PropertyWidget.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp
 tulip/FileNameEditorWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/FileNameEditorWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/FileNameEditorWidget.h
 FileNameEditorWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidgetData.h
 QtGui/QFileDialog
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp
 tulip/FindSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/FindSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/FindSelectionWidget.h
 tulip/Graph.h
 -
 tulip/DoubleProperty.h
@@ -3474,7 +3474,7 @@ tulip/IntegerProperty.h
 QtCore/qregexp.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp
 QtGui/qcolor.h
 -
 QtGui/qslider.h
@@ -3496,21 +3496,21 @@ QtGui/QMenu
 tulip/GlSimpleEntity.h
 -
 tulip/GWOverviewWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GlTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlTools.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp
 tulip/GlCompositeHierarchyManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlCompositeHierarchyManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlCompositeHierarchyManager.h
 tulip/Graph.h
 -
 tulip/GlLayer.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlLayer.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlLayer.h
 tulip/GlConvexHull.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlConvexHull.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlConvexHull.h
 sstream
 -
 tulip/GlConvexGraphHull.h
@@ -3518,19 +3518,19 @@ tulip/GlConvexGraphHull.h
 tulip/LayoutProperty.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp
 tulip/GlMainView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainView.h
 QtGui/QMessageBox
 -
 QtGui/QMenu
 -
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GWOverviewWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp
 windows.h
 -
 QtGui/qimage.h
@@ -3544,7 +3544,7 @@ QtOpenGL/QGLFormat
 omp.h
 -
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/Graph.h
 -
 tulip/GlTools.h
@@ -3558,15 +3558,15 @@ tulip/Gl2DRect.h
 tulip/GlQuadTreeLODCalculator.h
 -
 tulip/QGlPixelBufferManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QGlPixelBufferManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QGlPixelBufferManager.h
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 tulip/GlCompositeHierarchyManager.h
 -
 tulip/GlVertexArrayManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlVertexArrayManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlVertexArrayManager.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
 QtGui/QApplication
 -
 QtGui/QDialog
@@ -3594,11 +3594,11 @@ tulip/Interactor.h
 tulip/QGlPixelBufferManager.h
 -
 tulip/GlMainWidgetGraphicsView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetGraphicsView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetGraphicsView.h
 tulip/GlMainWidgetItem.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetItem.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetItem.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp
 QtOpenGL/QGLFramebufferObject
 -
 QtGui/QGraphicsSceneMouseEvent
@@ -3618,29 +3618,29 @@ tulip/GlTools.h
 sstream
 -
 tulip/GlMainWidgetItem.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetItem.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetItem.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp
 sstream
 -
 tulip/GlOffscreenRenderer.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlOffscreenRenderer.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlOffscreenRenderer.h
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GlVertexArrayManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlVertexArrayManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlVertexArrayManager.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
 tulip/GraphPropertiesSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GraphPropertiesSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GraphPropertiesSelectionWidget.h
 tulip/Graph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Graph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Graph.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp
 tulip/GraphPropertiesTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GraphPropertiesTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GraphPropertiesTableWidget.h
 tulip/Graph.h
 -
 tulip/PropertyInterface.h
@@ -3658,7 +3658,7 @@ algorithm
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp
 tulip/Morphing.h
 -
 tulip/GlMainWidget.h
@@ -3672,13 +3672,13 @@ tulip/SizeProperty.h
 tulip/ColorProperty.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp
 tulip/GraphicsWidgetBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GraphicsWidgetBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GraphicsWidgetBase.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp
 tulip/GridOptionsWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GridOptionsWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GridOptionsWidget.h
 QtGui/qpushbutton.h
 -
 QtGui/qcheckbox.h
@@ -3698,45 +3698,45 @@ tulip/DoubleProperty.h
 tulip/DrawingTools.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 QtGui/QTextEdit
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp
 tulip/InteractorChainOfResponsibility.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorChainOfResponsibility.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorChainOfResponsibility.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp
 tulip/InteractorManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorManager.h
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp
 tulip/ItemsListWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ItemsListWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ItemsListWidget.h
 QtGui/qapplication.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp
 tulip/LayerManagerWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/LayerManagerWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/LayerManagerWidget.h
 QtGui/QHeaderView
 -
 tulip/GWOverviewWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GlMainView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainView.h
 tulip/GlVertexArrayManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlVertexArrayManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlVertexArrayManager.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp
 tulip/ListPropertyWidget.h
 -
 iostream
@@ -3746,9 +3746,9 @@ QtGui/QDialog
 QtGui/QDialogButtonBox
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp
 tulip/MainController.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MainController.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MainController.h
 QtGui/QDockWidget
 -
 QtGui/QWorkspace
@@ -3822,7 +3822,7 @@ tulip/InteractorManager.h
 tulip/SnapshotDialog.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp
 tulip/GlMainWidget.h
 -
 tulip/Graph.h
@@ -3840,7 +3840,7 @@ QtCore/QTimeLine
 QtGui/QApplication
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp
 iostream
 -
 windows.h
@@ -3860,9 +3860,9 @@ tulip/QtGlSceneZoomAndPanAnimator.h
 tulip/GlBoundingBoxSceneVisitor.h
 -
 tulip/MouseBoxZoomer.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseBoxZoomer.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseBoxZoomer.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp
 tulip/GlMainWidget.h
 -
 tulip/MouseEdgeBendEditor.h
@@ -3870,7 +3870,7 @@ tulip/MouseEdgeBendEditor.h
 QtGui/qevent.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp
 windows.h
 -
 QtGui/qevent.h
@@ -3894,7 +3894,7 @@ tulip/NodeLinkDiagramComponent.h
 tulip/MouseEdgeBuilder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp
 windows.h
 -
 QtGui/qevent.h
@@ -3912,7 +3912,7 @@ tulip/GlTools.h
 tulip/MouseEdgeSelector.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp
 windows.h
 -
 QtGui/qcursor.h
@@ -3932,7 +3932,7 @@ tulip/AbstractView.h
 tulip/Observable.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp
 windows.h
 -
 QtGui/qevent.h
@@ -3950,7 +3950,7 @@ tulip/NodeLinkDiagramComponent.h
 tulip/MouseNodeBuilder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp
 cmath
 -
 climits
@@ -3976,7 +3976,7 @@ tulip/MouseSelectionEditor.h
 QtGui/qevent.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp
 windows.h
 -
 QEvent
@@ -3996,13 +3996,13 @@ tulip/GlTools.h
 tulip/MouseSelector.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp
 tulip/MouseShowElementInfos.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseShowElementInfos.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseShowElementInfos.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp
 tulip/NodeLinkDiagramComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/NodeLinkDiagramComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/NodeLinkDiagramComponent.h
 QtGui/QKeyEvent
 -
 QtGui/QMenu
@@ -4026,17 +4026,17 @@ tulip/LayerManagerWidget.h
 tulip/GridOptionsWidget.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp
 tulip/PluginProgressWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PluginProgressWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PluginProgressWidget.h
 tulip/PluginProgressWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PluginProgressWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PluginProgressWidgetData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp
 tulip/PropertyCreationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyCreationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyCreationDialog.h
 PropertyCreationDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialogData.h
 tulip/Graph.h
 -
 tulip/TlpQtTools.h
@@ -4046,7 +4046,7 @@ QtGui/QMessageBox
 QtGui/QPushButton
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp
 iostream
 -
 sstream
@@ -4086,15 +4086,15 @@ tulip/SizeProperty.h
 tulip/ForEach.h
 -
 tulip/PropertyDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyDialog.h
 tulip/PropertyCreationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyCreationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyCreationDialog.h
 tulip/CopyPropertyDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CopyPropertyDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CopyPropertyDialog.h
 tulip/CSVImportWizard.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportWizard.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CSVImportWizard.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp
 iostream
 -
 sstream
@@ -4162,35 +4162,35 @@ tulip/EdgeExtremityGlyphManager.h
 tulip/GlTextureManager.h
 -
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/PropertyWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PropertyWidget.h
 tulip/TextEditDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TextEditDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TextEditDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp
 tulip/QGlBufferManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QGlBufferManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QGlBufferManager.h
 QtOpenGL/QGLPixelBuffer
 -
 QtOpenGL/QGLFramebufferObject
 -
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
 QtGui/QApplication
 -
 QtCore/QTimeLine
 -
 tulip/QtGlSceneZoomAndPanAnimator.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtGlSceneZoomAndPanAnimator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtGlSceneZoomAndPanAnimator.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp
 tulip/QtOpenGlErrorViewer.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtOpenGlErrorViewer.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtOpenGlErrorViewer.h
 QtGui/QMessageBox
 -
 QtGui/QDialog
@@ -4198,19 +4198,19 @@ QtGui/QDialog
 QtCore/QSettings
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp
 tulip/QtProgress.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtProgress.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtProgress.h
 tulip/PluginProgressWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PluginProgressWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/PluginProgressWidget.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 QtGui/QVBoxLayout
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp
 tulip/RenderingParametersDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/RenderingParametersDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/RenderingParametersDialog.h
 QtGui/QHeaderView
 -
 QtCore/QSettings
@@ -4218,17 +4218,17 @@ QtCore/QSettings
 tulip/PreferenceManager.h
 -
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/GWOverviewWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GWOverviewWidget.h
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GlMainView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainView.h
 tulip/NodeLinkDiagramComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/NodeLinkDiagramComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/NodeLinkDiagramComponent.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp
 cstdio
 -
 iostream
@@ -4240,35 +4240,35 @@ QtGui/qmenu.h
 QtGui/qmessagebox.h
 -
 tulip/SGHierarchyWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SGHierarchyWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SGHierarchyWidget.h
 tulip/Graph.h
 -
 tulip/BooleanProperty.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
 tulip/SimpleStringsListSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SimpleStringsListSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SimpleStringsListSelectionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp
 tulip/SizeWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SizeWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SizeWidget.h
 SizeWidgetData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidgetData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidgetData.h
 cfloat
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
 tulip/SmallMultiplesNavigatorComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesNavigatorComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesNavigatorComponent.h
 tulip/SmallMultiplesView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesView.h
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GlLODCalculator.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlLODCalculator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlLODCalculator.h
 tulip/MouseInteractors.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseInteractors.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseInteractors.h
 QtCore/QEvent
 -
 QtGui/QMouseEvent
@@ -4276,35 +4276,35 @@ QtGui/QMouseEvent
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp
 tulip/SmallMultiplesView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesView.h
 tulip/GlMainWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidget.h
 tulip/GlGraphInputData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlGraphInputData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlGraphInputData.h
 tulip/ForEach.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ForEach.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ForEach.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 tulip/InteractorChainOfResponsibility.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorChainOfResponsibility.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/InteractorChainOfResponsibility.h
 tulip/MouseInteractors.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseInteractors.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/MouseInteractors.h
 tulip/SmallMultiplesNavigatorComponent.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesNavigatorComponent.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SmallMultiplesNavigatorComponent.h
 tulip/QtGlSceneZoomAndPanAnimator.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtGlSceneZoomAndPanAnimator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/QtGlSceneZoomAndPanAnimator.h
 tulip/GlNode.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlNode.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlNode.h
 tulip/DrawingTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/DrawingTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/DrawingTools.h
 tulip/GlMainWidgetGraphicsView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetGraphicsView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetGraphicsView.h
 tulip/GlMainWidgetItem.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetItem.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/GlMainWidgetItem.h
 QtGui/QLabel
 -
 QtGui/QImage
@@ -4316,7 +4316,7 @@ QtGui/QGraphicsProxyWidget
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp
 tulip/SnapshotDialog.h
 -
 tulip/View.h
@@ -4332,7 +4332,7 @@ QClipboard
 QtGui/QGraphicsPixmapItem
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp
 tulip/SimpleStringsListSelectionWidget.h
 -
 tulip/DoubleStringsListSelectionWidget.h
@@ -4340,7 +4340,7 @@ tulip/DoubleStringsListSelectionWidget.h
 tulip/StringsListSelectionWidget.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
 QtGui/QTabBar
 -
 QtCore/QTimeLine
@@ -4352,17 +4352,17 @@ QtGui/QApplication
 iostream
 -
 tulip/TabWidgetHidableMenuGraphicsProxy.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TabWidgetHidableMenuGraphicsProxy.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TabWidgetHidableMenuGraphicsProxy.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp
 tulip/ThreadedComputeProperty.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ThreadedComputeProperty.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ThreadedComputeProperty.h
 QtCore/QCoreApplication
 -
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp
 QtNetwork/QNetworkAccessManager
 -
 QtNetwork/QNetworkProxy
@@ -4372,21 +4372,21 @@ QtCore/QSettings
 tulip/TlpNetworkAccess.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp
 QtOpenGL/QGLPixelBuffer
 -
 QtGui/QColorDialog
 -
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/Reflect.h
 -
 tulip/Interactor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Interactor.h
 tulip/View.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/View.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/View.h
 tulip/Controller.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Controller.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/Controller.h
 tulip/BooleanProperty.h
 -
 tulip/ColorProperty.h
@@ -4404,11 +4404,11 @@ tulip/SizeProperty.h
 tulip/StringProperty.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp
 tulip/TulipSettings.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TulipSettings.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TulipSettings.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp
 iostream
 -
 sstream
@@ -4472,29 +4472,29 @@ tulip/EdgeExtremityGlyphManager.h
 tulip/GlTextureManager.h
 -
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 tulip/TulipTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TulipTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TulipTableWidget.h
 tulip/TextEditDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TextEditDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TextEditDialog.h
 tulip/ListPropertyWidget.h
 -
 tulip/SizeWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SizeWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/SizeWidget.h
 tulip/CoordWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CoordWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/CoordWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp
 iostream
 -
 tulip/View.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/View.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/View.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp
 tulip/ViewPluginsManager.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ViewPluginsManager.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/ViewPluginsManager.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/tulip/TlpQtTools.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

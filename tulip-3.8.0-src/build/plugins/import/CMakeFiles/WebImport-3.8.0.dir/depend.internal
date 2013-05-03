@@ -81,8 +81,8 @@ plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QIODevice
@@ -206,8 +206,8 @@ plugins/import/CMakeFiles/WebImport-3.8.0.dir/WebImport.cpp.o
  /usr/include/qt4/QtNetwork/qnetworkrequest.h
  library/tulip/include/tulip/TulipRelease.h
 plugins/import/CMakeFiles/WebImport-3.8.0.dir/moc_WebImport.cpp.o
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/../../../plugins/import/WebImport.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/../../../plugins/import/WebImport.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QIODevice
  /usr/include/qt4/QtCore/QObject

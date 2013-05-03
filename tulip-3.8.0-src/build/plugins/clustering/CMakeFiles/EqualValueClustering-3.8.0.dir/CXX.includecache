@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.cpp
 EqualValueClustering.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/EqualValueClustering.h
 tulip/TulipPlugin.h
 -
 

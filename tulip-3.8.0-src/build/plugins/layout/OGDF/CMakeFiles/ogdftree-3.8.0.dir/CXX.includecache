@@ -1114,11 +1114,11 @@ ogdf/module/LayoutModule.h
 ogdf/basic/SList.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFTree.cpp
 ogdf/tree/TreeLayout.h
 -
 tulip2ogdf/OGDFLayoutPluginBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/tulip2ogdf/OGDFLayoutPluginBase.h
 
 library/tulip/include/tulip/TulipRelease.h
 

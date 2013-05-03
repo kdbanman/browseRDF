@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend.make
@@ -48,17 +48,17 @@ include library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o: library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.cpp.o.requires
@@ -71,17 +71,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglcmodule.
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o: library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp.o.requires
@@ -94,17 +94,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o: library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_pair_0100std_string_0101tlp_GlLayer.cpp.o.requires
@@ -117,17 +117,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o: library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_2400.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvector0100std_vector_2400.cpp.o.requires
@@ -140,17 +140,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdvecto
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o: library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp > CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp -o CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0100stdstring0101tlpGlLayer.cpp.o.requires
@@ -163,17 +163,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipoglstdpair0
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRect.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRect.cpp.o.requires
@@ -186,17 +186,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRec
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlCircle.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCircle.cpp.o.requires
@@ -209,17 +209,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCir
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComplexPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComplexPolygon.cpp.o.requires
@@ -232,17 +232,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCom
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlRegularPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlRegularPolygon.cpp.o.requires
@@ -255,17 +255,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlReg
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPolygon.cpp.o.requires
@@ -278,17 +278,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlPol
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlAbstractPolygon.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbstractPolygon.cpp.o.requires
@@ -301,17 +301,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlAbs
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneEvent.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneEvent.cpp.o.requires
@@ -324,17 +324,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphFactory.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphFactory.cpp.o.requires
@@ -347,17 +347,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyph.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph.cpp.o.requires
@@ -370,17 +370,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlyphContext.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyphContext.cpp.o.requires
@@ -393,17 +393,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlyph
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphInputData.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphInputData.cpp.o.requires
@@ -416,17 +416,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphRenderingParameters.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphRenderingParameters.cpp.o.requires
@@ -439,17 +439,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlLayer.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLayer.cpp.o.requires
@@ -462,17 +462,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlLay
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpCamera.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamera.cpp.o.requires
@@ -485,17 +485,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpCamer
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlScene.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlScene.cpp.o.requires
@@ -508,17 +508,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlGraphComposite.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGraphComposite.cpp.o.requires
@@ -531,17 +531,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlGra
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlComposite.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlComposite.cpp.o.requires
@@ -554,17 +554,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlCom
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSceneVisitor.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSceneVisitor.cpp.o.requires
@@ -577,17 +577,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSce
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSimpleEntity.cpp.o.requires
@@ -600,17 +600,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlpGlSim
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o: library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp > CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp > CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode.cpp.o.requires
@@ -623,17 +623,17 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogl_xmlNode
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/flags.make
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o: library/tulip-python/tulip-ogl/siptulipogltlp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp > CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.i
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/siptulipogltlp.cpp -o CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.s
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o.requires:
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/siptulipogltlp.cpp.o.requires
@@ -728,9 +728,9 @@ library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp: ../library/tulip-python/s
 library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp: ../library/tulip-python/stl/string.sip
 library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp: ../library/tulip-python/stl/vector.sip
 library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp: ../library/tulip-python/stl/ostream.sip
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python Bindings for libtulip-ogl"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/sip -o -I /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip-ogl/Module.sip
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && ../../../thirdparty/sip-4.13.2/sipgen/sip -o -I /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip-ogl/Module.sip
 
 library/tulip-python/tulip-ogl/siptulipoglstdvector0100std_vector_0100tlp_Coord.cpp: library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
 
@@ -858,9 +858,9 @@ library/tulip-python/tulip-ogl/tulipogl.so: /usr/lib/x86_64-linux-gnu/libfreetyp
 library/tulip-python/tulip-ogl/tulipogl.so: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/build.make
 library/tulip-python/tulip-ogl/tulipogl.so: library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library tulipogl.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulipoglpython.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulipoglpython.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating QScintilla API file for Tulip OpenGL Python bindings"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && /usr/bin/sip -a /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/tulipogl.api /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip-ogl/Module.sip
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && ../../../thirdparty/sip-4.13.2/sipgen/sip -a /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/tulipogl.api /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip-ogl/Module.sip
 
 # Rule to build all files generated by this target.
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/build: library/tulip-python/tulip-ogl/tulipogl.so
@@ -895,7 +895,7 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/requires: library/t
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/requires
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && $(CMAKE_COMMAND) -P CMakeFiles/tulipoglpython.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl && $(CMAKE_COMMAND) -P CMakeFiles/tulipoglpython.dir/cmake_clean.cmake
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/clean
 
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend: library/tulip-python/tulip-ogl/siptulipoglcmodule.cpp
@@ -924,6 +924,6 @@ library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend: library/tul
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend: library/tulip-python/tulip-ogl/siptulipogltlpGlSimpleEntity.cpp
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend: library/tulip-python/tulip-ogl/siptulipogl_xmlNode.cpp
 library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend: library/tulip-python/tulip-ogl/siptulipogltlp.cpp
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip-ogl /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-python/tulip-ogl /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/tulip-python/tulip-ogl/CMakeFiles/tulipoglpython.dir/depend
 

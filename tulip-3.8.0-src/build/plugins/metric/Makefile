@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/metric/CMakeFiles/progress.marks
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/metric/CMakeFiles/progress.marks
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/clean
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ BetweennessCentrality-3.8.0: plugins/metric/CMakeFiles/BetweennessCentrality-3.8
 
 # fast build rule for target.
 BetweennessCentrality-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build
 .PHONY : BetweennessCentrality-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ BiconnectedComponent-3.8.0: plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0
 
 # fast build rule for target.
 BiconnectedComponent-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build
 .PHONY : BiconnectedComponent-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -195,12 +195,12 @@ ClusterMetric-3.8.0: plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 ClusterMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build
 .PHONY : ClusterMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ ConnectedComponent-3.8.0: plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir
 
 # fast build rule for target.
 ConnectedComponent-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build
 .PHONY : ConnectedComponent-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -223,12 +223,12 @@ DagLevelMetric-3.8.0: plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 DagLevelMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build
 .PHONY : DagLevelMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ DegreeMetric-3.8.0: plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 DegreeMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build
 .PHONY : DegreeMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -251,12 +251,12 @@ DepthMetric-3.8.0: plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 DepthMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build
 .PHONY : DepthMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -265,12 +265,12 @@ Eccentricity-3.8.0: plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/rule
 
 # fast build rule for target.
 Eccentricity-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build
 .PHONY : Eccentricity-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -279,12 +279,12 @@ IdMetric-3.8.0: plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 IdMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build
 .PHONY : IdMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -293,12 +293,12 @@ LeafMetric-3.8.0: plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 LeafMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build
 .PHONY : LeafMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -307,12 +307,12 @@ NodeMetric-3.8.0: plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 NodeMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build
 .PHONY : NodeMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -321,12 +321,12 @@ PathLengthMetric-3.8.0: plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/rul
 
 # fast build rule for target.
 PathLengthMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build
 .PHONY : PathLengthMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -335,12 +335,12 @@ RandomMetric-3.8.0: plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 RandomMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build
 .PHONY : RandomMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -349,12 +349,12 @@ StrahlerMetric-3.8.0: plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 StrahlerMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build
 .PHONY : StrahlerMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ StrengthMetric-3.8.0: plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/rule
 
 # fast build rule for target.
 StrengthMetric-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build
 .PHONY : StrengthMetric-3.8.0/fast
 
 # Convenience name for target.
 plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/rule
 .PHONY : plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -377,7 +377,7 @@ StrongComponent-3.8.0: plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/rule
 
 # fast build rule for target.
 StrongComponent-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build
 .PHONY : StrongComponent-3.8.0/fast
 
 BetweennessCentrality.o: BetweennessCentrality.cpp.o
@@ -385,7 +385,7 @@ BetweennessCentrality.o: BetweennessCentrality.cpp.o
 
 # target to build an object file
 BetweennessCentrality.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/BetweennessCentrality.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/BetweennessCentrality.cpp.o
 .PHONY : BetweennessCentrality.cpp.o
 
 BetweennessCentrality.i: BetweennessCentrality.cpp.i
@@ -393,7 +393,7 @@ BetweennessCentrality.i: BetweennessCentrality.cpp.i
 
 # target to preprocess a source file
 BetweennessCentrality.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/BetweennessCentrality.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/BetweennessCentrality.cpp.i
 .PHONY : BetweennessCentrality.cpp.i
 
 BetweennessCentrality.s: BetweennessCentrality.cpp.s
@@ -401,7 +401,7 @@ BetweennessCentrality.s: BetweennessCentrality.cpp.s
 
 # target to generate assembly for a file
 BetweennessCentrality.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/BetweennessCentrality.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/build.make plugins/metric/CMakeFiles/BetweennessCentrality-3.8.0.dir/BetweennessCentrality.cpp.s
 .PHONY : BetweennessCentrality.cpp.s
 
 BiconnectedComponent.o: BiconnectedComponent.cpp.o
@@ -409,7 +409,7 @@ BiconnectedComponent.o: BiconnectedComponent.cpp.o
 
 # target to build an object file
 BiconnectedComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cpp.o
 .PHONY : BiconnectedComponent.cpp.o
 
 BiconnectedComponent.i: BiconnectedComponent.cpp.i
@@ -417,7 +417,7 @@ BiconnectedComponent.i: BiconnectedComponent.cpp.i
 
 # target to preprocess a source file
 BiconnectedComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cpp.i
 .PHONY : BiconnectedComponent.cpp.i
 
 BiconnectedComponent.s: BiconnectedComponent.cpp.s
@@ -425,7 +425,7 @@ BiconnectedComponent.s: BiconnectedComponent.cpp.s
 
 # target to generate assembly for a file
 BiconnectedComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/BiconnectedComponent-3.8.0.dir/BiconnectedComponent.cpp.s
 .PHONY : BiconnectedComponent.cpp.s
 
 ClusterMetric.o: ClusterMetric.cpp.o
@@ -433,7 +433,7 @@ ClusterMetric.o: ClusterMetric.cpp.o
 
 # target to build an object file
 ClusterMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/ClusterMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/ClusterMetric.cpp.o
 .PHONY : ClusterMetric.cpp.o
 
 ClusterMetric.i: ClusterMetric.cpp.i
@@ -441,7 +441,7 @@ ClusterMetric.i: ClusterMetric.cpp.i
 
 # target to preprocess a source file
 ClusterMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/ClusterMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/ClusterMetric.cpp.i
 .PHONY : ClusterMetric.cpp.i
 
 ClusterMetric.s: ClusterMetric.cpp.s
@@ -449,7 +449,7 @@ ClusterMetric.s: ClusterMetric.cpp.s
 
 # target to generate assembly for a file
 ClusterMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/ClusterMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/ClusterMetric-3.8.0.dir/ClusterMetric.cpp.s
 .PHONY : ClusterMetric.cpp.s
 
 ConnectedComponent.o: ConnectedComponent.cpp.o
@@ -457,7 +457,7 @@ ConnectedComponent.o: ConnectedComponent.cpp.o
 
 # target to build an object file
 ConnectedComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/ConnectedComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/ConnectedComponent.cpp.o
 .PHONY : ConnectedComponent.cpp.o
 
 ConnectedComponent.i: ConnectedComponent.cpp.i
@@ -465,7 +465,7 @@ ConnectedComponent.i: ConnectedComponent.cpp.i
 
 # target to preprocess a source file
 ConnectedComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/ConnectedComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/ConnectedComponent.cpp.i
 .PHONY : ConnectedComponent.cpp.i
 
 ConnectedComponent.s: ConnectedComponent.cpp.s
@@ -473,7 +473,7 @@ ConnectedComponent.s: ConnectedComponent.cpp.s
 
 # target to generate assembly for a file
 ConnectedComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/ConnectedComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/ConnectedComponent-3.8.0.dir/ConnectedComponent.cpp.s
 .PHONY : ConnectedComponent.cpp.s
 
 DagLevelMetric.o: DagLevelMetric.cpp.o
@@ -481,7 +481,7 @@ DagLevelMetric.o: DagLevelMetric.cpp.o
 
 # target to build an object file
 DagLevelMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/DagLevelMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/DagLevelMetric.cpp.o
 .PHONY : DagLevelMetric.cpp.o
 
 DagLevelMetric.i: DagLevelMetric.cpp.i
@@ -489,7 +489,7 @@ DagLevelMetric.i: DagLevelMetric.cpp.i
 
 # target to preprocess a source file
 DagLevelMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/DagLevelMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/DagLevelMetric.cpp.i
 .PHONY : DagLevelMetric.cpp.i
 
 DagLevelMetric.s: DagLevelMetric.cpp.s
@@ -497,7 +497,7 @@ DagLevelMetric.s: DagLevelMetric.cpp.s
 
 # target to generate assembly for a file
 DagLevelMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/DagLevelMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DagLevelMetric-3.8.0.dir/DagLevelMetric.cpp.s
 .PHONY : DagLevelMetric.cpp.s
 
 DegreeMetric.o: DegreeMetric.cpp.o
@@ -505,7 +505,7 @@ DegreeMetric.o: DegreeMetric.cpp.o
 
 # target to build an object file
 DegreeMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/DegreeMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/DegreeMetric.cpp.o
 .PHONY : DegreeMetric.cpp.o
 
 DegreeMetric.i: DegreeMetric.cpp.i
@@ -513,7 +513,7 @@ DegreeMetric.i: DegreeMetric.cpp.i
 
 # target to preprocess a source file
 DegreeMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/DegreeMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/DegreeMetric.cpp.i
 .PHONY : DegreeMetric.cpp.i
 
 DegreeMetric.s: DegreeMetric.cpp.s
@@ -521,7 +521,7 @@ DegreeMetric.s: DegreeMetric.cpp.s
 
 # target to generate assembly for a file
 DegreeMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/DegreeMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DegreeMetric-3.8.0.dir/DegreeMetric.cpp.s
 .PHONY : DegreeMetric.cpp.s
 
 DepthMetric.o: DepthMetric.cpp.o
@@ -529,7 +529,7 @@ DepthMetric.o: DepthMetric.cpp.o
 
 # target to build an object file
 DepthMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/DepthMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/DepthMetric.cpp.o
 .PHONY : DepthMetric.cpp.o
 
 DepthMetric.i: DepthMetric.cpp.i
@@ -537,7 +537,7 @@ DepthMetric.i: DepthMetric.cpp.i
 
 # target to preprocess a source file
 DepthMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/DepthMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/DepthMetric.cpp.i
 .PHONY : DepthMetric.cpp.i
 
 DepthMetric.s: DepthMetric.cpp.s
@@ -545,7 +545,7 @@ DepthMetric.s: DepthMetric.cpp.s
 
 # target to generate assembly for a file
 DepthMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/DepthMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/DepthMetric-3.8.0.dir/DepthMetric.cpp.s
 .PHONY : DepthMetric.cpp.s
 
 Eccentricity.o: Eccentricity.cpp.o
@@ -553,7 +553,7 @@ Eccentricity.o: Eccentricity.cpp.o
 
 # target to build an object file
 Eccentricity.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/Eccentricity.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/Eccentricity.cpp.o
 .PHONY : Eccentricity.cpp.o
 
 Eccentricity.i: Eccentricity.cpp.i
@@ -561,7 +561,7 @@ Eccentricity.i: Eccentricity.cpp.i
 
 # target to preprocess a source file
 Eccentricity.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/Eccentricity.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/Eccentricity.cpp.i
 .PHONY : Eccentricity.cpp.i
 
 Eccentricity.s: Eccentricity.cpp.s
@@ -569,7 +569,7 @@ Eccentricity.s: Eccentricity.cpp.s
 
 # target to generate assembly for a file
 Eccentricity.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/Eccentricity.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/build.make plugins/metric/CMakeFiles/Eccentricity-3.8.0.dir/Eccentricity.cpp.s
 .PHONY : Eccentricity.cpp.s
 
 IdMetric.o: IdMetric.cpp.o
@@ -577,7 +577,7 @@ IdMetric.o: IdMetric.cpp.o
 
 # target to build an object file
 IdMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/IdMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/IdMetric.cpp.o
 .PHONY : IdMetric.cpp.o
 
 IdMetric.i: IdMetric.cpp.i
@@ -585,7 +585,7 @@ IdMetric.i: IdMetric.cpp.i
 
 # target to preprocess a source file
 IdMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/IdMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/IdMetric.cpp.i
 .PHONY : IdMetric.cpp.i
 
 IdMetric.s: IdMetric.cpp.s
@@ -593,7 +593,7 @@ IdMetric.s: IdMetric.cpp.s
 
 # target to generate assembly for a file
 IdMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/IdMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/IdMetric-3.8.0.dir/IdMetric.cpp.s
 .PHONY : IdMetric.cpp.s
 
 LeafMetric.o: LeafMetric.cpp.o
@@ -601,7 +601,7 @@ LeafMetric.o: LeafMetric.cpp.o
 
 # target to build an object file
 LeafMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.o
 .PHONY : LeafMetric.cpp.o
 
 LeafMetric.i: LeafMetric.cpp.i
@@ -609,7 +609,7 @@ LeafMetric.i: LeafMetric.cpp.i
 
 # target to preprocess a source file
 LeafMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.i
 .PHONY : LeafMetric.cpp.i
 
 LeafMetric.s: LeafMetric.cpp.s
@@ -617,7 +617,7 @@ LeafMetric.s: LeafMetric.cpp.s
 
 # target to generate assembly for a file
 LeafMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/LeafMetric-3.8.0.dir/LeafMetric.cpp.s
 .PHONY : LeafMetric.cpp.s
 
 NodeMetric.o: NodeMetric.cpp.o
@@ -625,7 +625,7 @@ NodeMetric.o: NodeMetric.cpp.o
 
 # target to build an object file
 NodeMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/NodeMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/NodeMetric.cpp.o
 .PHONY : NodeMetric.cpp.o
 
 NodeMetric.i: NodeMetric.cpp.i
@@ -633,7 +633,7 @@ NodeMetric.i: NodeMetric.cpp.i
 
 # target to preprocess a source file
 NodeMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/NodeMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/NodeMetric.cpp.i
 .PHONY : NodeMetric.cpp.i
 
 NodeMetric.s: NodeMetric.cpp.s
@@ -641,7 +641,7 @@ NodeMetric.s: NodeMetric.cpp.s
 
 # target to generate assembly for a file
 NodeMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/NodeMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/NodeMetric-3.8.0.dir/NodeMetric.cpp.s
 .PHONY : NodeMetric.cpp.s
 
 PathLengthMetric.o: PathLengthMetric.cpp.o
@@ -649,7 +649,7 @@ PathLengthMetric.o: PathLengthMetric.cpp.o
 
 # target to build an object file
 PathLengthMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/PathLengthMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/PathLengthMetric.cpp.o
 .PHONY : PathLengthMetric.cpp.o
 
 PathLengthMetric.i: PathLengthMetric.cpp.i
@@ -657,7 +657,7 @@ PathLengthMetric.i: PathLengthMetric.cpp.i
 
 # target to preprocess a source file
 PathLengthMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/PathLengthMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/PathLengthMetric.cpp.i
 .PHONY : PathLengthMetric.cpp.i
 
 PathLengthMetric.s: PathLengthMetric.cpp.s
@@ -665,7 +665,7 @@ PathLengthMetric.s: PathLengthMetric.cpp.s
 
 # target to generate assembly for a file
 PathLengthMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/PathLengthMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/PathLengthMetric-3.8.0.dir/PathLengthMetric.cpp.s
 .PHONY : PathLengthMetric.cpp.s
 
 Random.o: Random.cpp.o
@@ -673,7 +673,7 @@ Random.o: Random.cpp.o
 
 # target to build an object file
 Random.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.o
 .PHONY : Random.cpp.o
 
 Random.i: Random.cpp.i
@@ -681,7 +681,7 @@ Random.i: Random.cpp.i
 
 # target to preprocess a source file
 Random.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.i
 .PHONY : Random.cpp.i
 
 Random.s: Random.cpp.s
@@ -689,7 +689,7 @@ Random.s: Random.cpp.s
 
 # target to generate assembly for a file
 Random.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.s
 .PHONY : Random.cpp.s
 
 StrahlerMetric.o: StrahlerMetric.cpp.o
@@ -697,7 +697,7 @@ StrahlerMetric.o: StrahlerMetric.cpp.o
 
 # target to build an object file
 StrahlerMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/StrahlerMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/StrahlerMetric.cpp.o
 .PHONY : StrahlerMetric.cpp.o
 
 StrahlerMetric.i: StrahlerMetric.cpp.i
@@ -705,7 +705,7 @@ StrahlerMetric.i: StrahlerMetric.cpp.i
 
 # target to preprocess a source file
 StrahlerMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/StrahlerMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/StrahlerMetric.cpp.i
 .PHONY : StrahlerMetric.cpp.i
 
 StrahlerMetric.s: StrahlerMetric.cpp.s
@@ -713,7 +713,7 @@ StrahlerMetric.s: StrahlerMetric.cpp.s
 
 # target to generate assembly for a file
 StrahlerMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/StrahlerMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrahlerMetric-3.8.0.dir/StrahlerMetric.cpp.s
 .PHONY : StrahlerMetric.cpp.s
 
 StrengthMetric.o: StrengthMetric.cpp.o
@@ -721,7 +721,7 @@ StrengthMetric.o: StrengthMetric.cpp.o
 
 # target to build an object file
 StrengthMetric.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.o
 .PHONY : StrengthMetric.cpp.o
 
 StrengthMetric.i: StrengthMetric.cpp.i
@@ -729,7 +729,7 @@ StrengthMetric.i: StrengthMetric.cpp.i
 
 # target to preprocess a source file
 StrengthMetric.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.i
 .PHONY : StrengthMetric.cpp.i
 
 StrengthMetric.s: StrengthMetric.cpp.s
@@ -737,7 +737,7 @@ StrengthMetric.s: StrengthMetric.cpp.s
 
 # target to generate assembly for a file
 StrengthMetric.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.s
 .PHONY : StrengthMetric.cpp.s
 
 StrongComponent.o: StrongComponent.cpp.o
@@ -745,7 +745,7 @@ StrongComponent.o: StrongComponent.cpp.o
 
 # target to build an object file
 StrongComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.o
 .PHONY : StrongComponent.cpp.o
 
 StrongComponent.i: StrongComponent.cpp.i
@@ -753,7 +753,7 @@ StrongComponent.i: StrongComponent.cpp.i
 
 # target to preprocess a source file
 StrongComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.i
 .PHONY : StrongComponent.cpp.i
 
 StrongComponent.s: StrongComponent.cpp.s
@@ -761,7 +761,7 @@ StrongComponent.s: StrongComponent.cpp.s
 
 # target to generate assembly for a file
 StrongComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/build.make plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.s
 .PHONY : StrongComponent.cpp.s
 
 # Help Target
@@ -853,6 +853,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

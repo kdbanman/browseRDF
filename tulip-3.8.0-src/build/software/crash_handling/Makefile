@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/crash_handling/CMakeFiles/progress.marks
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/crash_handling/CMakeFiles/progress.marks
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/clean
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 software/crash_handling/CMakeFiles/crash_handling.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/CMakeFiles/crash_handling.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 software/crash_handling/CMakeFiles/crash_handling.dir/rule
 .PHONY : software/crash_handling/CMakeFiles/crash_handling.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ crash_handling: software/crash_handling/CMakeFiles/crash_handling.dir/rule
 
 # fast build rule for target.
 crash_handling/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/build
 .PHONY : crash_handling/fast
 
 CrashHandling.o: CrashHandling.cpp.o
@@ -175,7 +175,7 @@ CrashHandling.o: CrashHandling.cpp.o
 
 # target to build an object file
 CrashHandling.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/CrashHandling.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/CrashHandling.cpp.o
 .PHONY : CrashHandling.cpp.o
 
 CrashHandling.i: CrashHandling.cpp.i
@@ -183,7 +183,7 @@ CrashHandling.i: CrashHandling.cpp.i
 
 # target to preprocess a source file
 CrashHandling.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/CrashHandling.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/CrashHandling.cpp.i
 .PHONY : CrashHandling.cpp.i
 
 CrashHandling.s: CrashHandling.cpp.s
@@ -191,7 +191,7 @@ CrashHandling.s: CrashHandling.cpp.s
 
 # target to generate assembly for a file
 CrashHandling.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/CrashHandling.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/CrashHandling.cpp.s
 .PHONY : CrashHandling.cpp.s
 
 StackWalker.o: StackWalker.cpp.o
@@ -199,7 +199,7 @@ StackWalker.o: StackWalker.cpp.o
 
 # target to build an object file
 StackWalker.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/StackWalker.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/StackWalker.cpp.o
 .PHONY : StackWalker.cpp.o
 
 StackWalker.i: StackWalker.cpp.i
@@ -207,7 +207,7 @@ StackWalker.i: StackWalker.cpp.i
 
 # target to preprocess a source file
 StackWalker.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/StackWalker.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/StackWalker.cpp.i
 .PHONY : StackWalker.cpp.i
 
 StackWalker.s: StackWalker.cpp.s
@@ -215,7 +215,7 @@ StackWalker.s: StackWalker.cpp.s
 
 # target to generate assembly for a file
 StackWalker.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/StackWalker.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/StackWalker.cpp.s
 .PHONY : StackWalker.cpp.s
 
 UnixSignalInterposer.o: UnixSignalInterposer.cpp.o
@@ -223,7 +223,7 @@ UnixSignalInterposer.o: UnixSignalInterposer.cpp.o
 
 # target to build an object file
 UnixSignalInterposer.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.o
 .PHONY : UnixSignalInterposer.cpp.o
 
 UnixSignalInterposer.i: UnixSignalInterposer.cpp.i
@@ -231,7 +231,7 @@ UnixSignalInterposer.i: UnixSignalInterposer.cpp.i
 
 # target to preprocess a source file
 UnixSignalInterposer.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.i
 .PHONY : UnixSignalInterposer.cpp.i
 
 UnixSignalInterposer.s: UnixSignalInterposer.cpp.s
@@ -239,7 +239,7 @@ UnixSignalInterposer.s: UnixSignalInterposer.cpp.s
 
 # target to generate assembly for a file
 UnixSignalInterposer.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f software/crash_handling/CMakeFiles/crash_handling.dir/build.make software/crash_handling/CMakeFiles/crash_handling.dir/UnixSignalInterposer.cpp.s
 .PHONY : UnixSignalInterposer.cpp.s
 
 # Help Target
@@ -277,6 +277,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

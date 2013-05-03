@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/IdMetric.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/IdMetric.cpp
 IdMetric.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/IdMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/IdMetric.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/IdMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/IdMetric.h
 tulip/TulipPlugin.h
 -
 

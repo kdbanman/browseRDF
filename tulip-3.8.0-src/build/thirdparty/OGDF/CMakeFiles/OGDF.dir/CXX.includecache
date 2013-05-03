@@ -2532,13 +2532,13 @@ ogdf/upward/UpwardPlanRep.h
 ogdf/upward/SubgraphUpwardPlanarizer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/augmentation/DfsMakeBiconnected.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/augmentation/DfsMakeBiconnected.cpp
 ogdf/augmentation/DfsMakeBiconnected.h
 -
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/augmentation/PlanarAugmentation.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/augmentation/PlanarAugmentation.cpp
 ogdf/augmentation/PlanarAugmentation.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -2546,7 +2546,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/augmentation/PlanarAugmentationFix.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/augmentation/PlanarAugmentationFix.cpp
 ogdf/augmentation/PlanarAugmentationFix.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -2554,7 +2554,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/CliqueFinder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/CliqueFinder.cpp
 ogdf/graphalg/CliqueFinder.h
 -
 ogdf/decomposition/StaticSPQRTree.h
@@ -2570,41 +2570,41 @@ math.h
 ogdf/basic/geometry.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/CombinatorialEmbedding.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/CombinatorialEmbedding.cpp
 ogdf/basic/CombinatorialEmbedding.h
 -
 ogdf/basic/FaceArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Constraint.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Constraint.cpp
 ogdf/basic/Constraints.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/Constraints.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/Constraints.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ConstraintManager.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ConstraintManager.cpp
 ogdf/basic/Constraints.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/DisjointSets.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/DisjointSets.cpp
 ogdf/basic/DisjointSets.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/DualGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/DualGraph.cpp
 ogdf/basic/DualGraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/EdgeComparer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/EdgeComparer.cpp
 ogdf/basic/EdgeComparer.h
 -
 ogdf/basic/Math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/EdgeComparerSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/EdgeComparerSimple.cpp
 ogdf/basic/EdgeComparerSimple.h
 -
 ogdf/basic/geometry.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Graph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Graph.cpp
 ogdf/basic/Array.h
 -
 ogdf/basic/AdjEntryArray.h
@@ -2616,7 +2616,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/basic/GraphObserver.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GraphAttributes.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GraphAttributes.cpp
 ogdf/basic/GraphAttributes.h
 -
 ogdf/fileformats/GmlParser.h
@@ -2624,17 +2624,17 @@ ogdf/fileformats/GmlParser.h
 ogdf/fileformats/XmlParser.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GraphConstraints.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GraphConstraints.cpp
 ogdf/basic/Constraints.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GraphCopy.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GraphCopy.cpp
 ogdf/basic/GraphCopy.h
 -
 ogdf/basic/FaceSet.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GridLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GridLayout.cpp
 ogdf/basic/GridLayoutMapped.h
 -
 ogdf/planarity/PlanRepUML.h
@@ -2646,23 +2646,23 @@ ogdf/basic/Layout.h
 ogdf/basic/HashArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GridLayoutModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/GridLayoutModule.cpp
 ogdf/module/GridLayoutModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Hashing.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Hashing.cpp
 ogdf/basic/Hashing.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Logger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Logger.cpp
 ogdf/basic/Logger.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Math.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/Math.cpp
 ogdf/basic/Math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/NearestRectangleFinder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/NearestRectangleFinder.cpp
 ogdf/basic/NearestRectangleFinder.h
 -
 float.h
@@ -2672,17 +2672,17 @@ ogdf/basic/List.h
 ogdf/basic/BoundedStack.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/PoolMemoryAllocator.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/PoolMemoryAllocator.cpp
 ogdf/basic/basic.h
 -
 ogdf/internal/basic/PoolMemoryAllocator.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/PreprocessorLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/PreprocessorLayout.cpp
 ogdf/basic/PreprocessorLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/String.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/String.cpp
 ogdf/basic/String.h
 -
 ogdf/basic/Hashing.h
@@ -2692,7 +2692,7 @@ stdarg.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/System.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/System.cpp
 ogdf/basic/basic.h
 -
 stdlib.h
@@ -2726,7 +2726,7 @@ fcntl.h
 sys/time.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/UMLGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/UMLGraph.cpp
 ogdf/basic/UMLGraph.h
 -
 ogdf/basic/EdgeComparer.h
@@ -2736,7 +2736,7 @@ ogdf/basic/Math.h
 ogdf/misclayout/CircularLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/basic.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/basic.cpp
 ogdf/basic/basic.h
 -
 ogdf/basic/List.h
@@ -2760,7 +2760,7 @@ sys/stat.h
 fnmatch.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/extended_graph_alg.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/extended_graph_alg.cpp
 ogdf/basic/simple_graph_alg.h
 -
 ogdf/basic/extended_graph_alg.h
@@ -2774,17 +2774,17 @@ float.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/geometry.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/geometry.cpp
 ogdf/basic/geometry.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/geometry.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/geometry.h
 ogdf/basic/GraphAttributes.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/GraphAttributes.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/GraphAttributes.h
 ogdf/basic/Math.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/Math.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/ogdf/basic/Math.h
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/graph_generators.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/graph_generators.cpp
 ogdf/basic/graph_generators.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -2802,17 +2802,17 @@ ogdf/planarity/PlanarModule.h
 ogdf/basic/Array2D.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/modules.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/modules.cpp
 ogdf/module/LayoutModule.h
 -
 ogdf/module/AcyclicSubgraphModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/random_hierarchy.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/random_hierarchy.cpp
 ogdf/basic/graph_generators.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/simple_graph_alg.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/simple_graph_alg.cpp
 ogdf/basic/simple_graph_alg.h
 -
 ogdf/basic/SList.h
@@ -2826,7 +2826,7 @@ ogdf/basic/tuples.h
 ogdf/basic/BoundedStack.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/stNumber.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/basic/stNumber.cpp
 ogdf/basic/simple_graph_alg.h
 -
 ogdf/basic/Stack.h
@@ -2836,13 +2836,13 @@ ogdf/basic/EdgeArray.h
 ogdf/basic/NodeArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CPlanarEdgeInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CPlanarEdgeInserter.cpp
 ogdf/cluster/CPlanarEdgeInserter.h
 -
 ogdf/basic/Queue.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CPlanarSubCLusteredST.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CPlanarSubCLusteredST.cpp
 ogdf/internal/cluster/CPlanarSubClusteredST.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -2852,13 +2852,13 @@ ogdf/basic/extended_graph_alg.h
 ogdf/basic/GraphCopy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CPlanarSubClusteredGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CPlanarSubClusteredGraph.cpp
 ogdf/cluster/CPlanarSubClusteredGraph.h
 -
 ogdf/cluster/CconnectClusterPlanar.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CconnectClusterPlanar.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CconnectClusterPlanar.cpp
 ogdf/cluster/CconnectClusterPlanar.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -2868,7 +2868,7 @@ ogdf/basic/extended_graph_alg.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CconnectClusterPlanarEmbed.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/CconnectClusterPlanarEmbed.cpp
 ogdf/basic/Graph.h
 -
 ogdf/cluster/CconnectClusterPlanarEmbed.h
@@ -2884,7 +2884,7 @@ ogdf/planarity/PlanarModule.h
 ogdf/internal/planarity/EmbedPQTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/ClusterGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/ClusterGraph.cpp
 ogdf/cluster/ClusterGraph.h
 -
 ogdf/cluster/ClusterArray.h
@@ -2904,7 +2904,7 @@ ogdf/basic/AdjEntryArray.h
 ogdf/fileformats/GmlParser.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/ClusterGraphAttributes.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/ClusterGraphAttributes.cpp
 ogdf/cluster/ClusterGraphAttributes.h
 -
 ogdf/cluster/ClusterArray.h
@@ -2914,7 +2914,7 @@ ogdf/fileformats/GmlParser.h
 ogdf/fileformats/OgmlParser.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/ClusterPlanarizationLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/ClusterPlanarizationLayout.cpp
 ogdf/cluster/ClusterPlanarizationLayout.h
 -
 ogdf/cluster/CconnectClusterPlanarEmbed.h
@@ -2932,25 +2932,25 @@ ogdf/cluster/CPlanarEdgeInserter.h
 ogdf/basic/extended_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_ChunkConnection.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_ChunkConnection.cpp
 ogdf/internal/cluster/Cluster_ChunkConnection.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_CutConstraint.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_CutConstraint.cpp
 ogdf/internal/cluster/Cluster_CutConstraint.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_EdgeVar.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_EdgeVar.cpp
 ogdf/internal/cluster/Cluster_EdgeVar.h
 -
 ogdf/internal/cluster/MaxCPlanar_Master.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_MaxPlanarEdges.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Cluster_MaxPlanarEdges.cpp
 ogdf/internal/cluster/Cluster_MaxPlanarEdges.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Clusterer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/Clusterer.cpp
 ogdf/graphalg/Clusterer.h
 -
 assert.h
@@ -2960,11 +2960,11 @@ ogdf/basic/simple_graph_alg.h
 ogdf/basic/GraphCopy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/KuratowskiConstraint.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/KuratowskiConstraint.cpp
 ogdf/internal/cluster/KuratowskiConstraint.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaxCPlanar_Master.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaxCPlanar_Master.cpp
 ogdf/internal/cluster/MaxCPlanar_Master.h
 -
 ogdf/internal/cluster/MaxCPlanar_Sub.h
@@ -2988,11 +2988,11 @@ ogdf/planarity/MaximalPlanarSubgraphSimple.h
 ogdf/basic/ArrayBuffer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaxCPlanar_MinimalClusterConnection.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaxCPlanar_MinimalClusterConnection.cpp
 ogdf/internal/cluster/MaxCPlanar_MinimalClusterConnection.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaxCPlanar_Sub.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaxCPlanar_Sub.cpp
 ogdf/internal/cluster/MaxCPlanar_Sub.h
 -
 ogdf/internal/cluster/Cluster_EdgeVar.h
@@ -3028,7 +3028,7 @@ iostream
 ogdf/basic/GraphAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaximumCPlanarSubgraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/cluster/MaximumCPlanarSubgraph.cpp
 ogdf/cluster/MaximumCPlanarSubgraph.h
 -
 ogdf/cluster/CconnectClusterPlanar.h
@@ -3040,7 +3040,7 @@ sstream
 limits
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/../decomposition/TricComp.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/../decomposition/TricComp.h
 ogdf/basic/NodeArray.h
 -
 ogdf/basic/EdgeArray.h
@@ -3050,27 +3050,27 @@ ogdf/basic/Array.h
 ogdf/basic/BoundedStack.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/BCTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/BCTree.cpp
 ogdf/decomposition/BCTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/DynamicBCTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/DynamicBCTree.cpp
 ogdf/decomposition/DynamicBCTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/DynamicSPQRForest.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/DynamicSPQRForest.cpp
 ogdf/decomposition/DynamicSPQRForest.h
 -
 ogdf/basic/GraphCopy.h
 -
 ../decomposition/TricComp.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/../decomposition/TricComp.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/../decomposition/TricComp.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/DynamicSPQRTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/DynamicSPQRTree.cpp
 ogdf/decomposition/DynamicSPQRTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/NonPlanarCore.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/NonPlanarCore.cpp
 ogdf/planarity/NonPlanarCore.h
 -
 ogdf/decomposition/StaticSPQRTree.h
@@ -3084,23 +3084,23 @@ ogdf/basic/CombinatorialEmbedding.h
 ogdf/basic/FaceArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/PlanarSPQRTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/PlanarSPQRTree.cpp
 ogdf/decomposition/PlanarSPQRTree.h
 -
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/StaticSPQRTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/StaticSPQRTree.cpp
 ogdf/decomposition/StaticSPQRTree.h
 -
 ogdf/basic/GraphCopy.h
 -
 TricComp.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.cpp
 TricComp.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.h
 ogdf/basic/GraphCopy.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -3108,7 +3108,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/basic/NodeSet.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/decomposition/TricComp.h
 ogdf/basic/NodeArray.h
 -
 ogdf/basic/EdgeArray.h
@@ -3118,25 +3118,25 @@ ogdf/basic/Array.h
 ogdf/basic/BoundedStack.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/AdjacencyOracle.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/AdjacencyOracle.cpp
 ogdf/internal/energybased/AdjacencyOracle.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.cpp
 ArrayGraph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 ogdf/basic/GraphAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Attraction.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Attraction.cpp
 ogdf/internal/energybased/Attraction.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/CoinTutteLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/CoinTutteLayout.cpp
 ogdf/basic/Math.h
 -
 ogdf/energybased/CoinTutteLayout.h
@@ -3146,13 +3146,13 @@ ogdf/basic/GraphCopyAttributes.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ComplexDouble.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ComplexDouble.h
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/DavidsonHarel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/DavidsonHarel.cpp
 ogdf/energybased/DavidsonHarel.h
 -
 ogdf/basic/basic.h
@@ -3162,7 +3162,7 @@ math.h
 time.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/DavidsonHarelLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/DavidsonHarelLayout.cpp
 ogdf/energybased/DavidsonHarelLayout.h
 -
 ogdf/internal/energybased/Repulsion.h
@@ -3176,83 +3176,83 @@ ogdf/internal/energybased/Planarity.h
 ogdf/internal/energybased/PlanarityGrid.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Edge.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Edge.h
 ogdf/basic/Graph.h
 -
 ogdf/basic/basic.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/EdgeAttributes.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/EdgeAttributes.cpp
 ogdf/internal/energybased/EdgeAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/EnergyFunction.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/EnergyFunction.cpp
 ogdf/internal/energybased/EnergyFunction.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunc.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunc.h
 ArrayGraph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 LinearQuadtreeExpansion.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
 LinearQuadtreeBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
 WSPD.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
 FMEKernel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
 list
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunctional.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunctional.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.cpp
 FMEKernel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
 ComplexDouble.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ComplexDouble.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ComplexDouble.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
 ogdf/basic/basic.h
 -
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 ArrayGraph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 FMEThread.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
 list
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.cpp
 FMEMultipoleKernel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.h
 ArrayGraph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 LinearQuadtreeBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
 LinearQuadtreeExpansion.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
 WSPD.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.h
 FMEKernel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEKernel.h
 FMEFunc.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunc.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunc.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.cpp
 FMEThread.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
 sys/types.h
 -
 sys/sysinfo.h
@@ -3262,27 +3262,27 @@ sys/mman.h
 sched.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
 ogdf/basic/Thread.h
 -
 ogdf/basic/Barrier.h
 -
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMMMLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMMMLayout.cpp
 ogdf/energybased/FMMMLayout.h
 -
 mathExtension.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 numexcept.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
 MAARPacking.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.h
 Multilevel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.h
 Edge.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Edge.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Edge.h
 time.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -3294,31 +3294,31 @@ ogdf/internal/energybased/NodeAttributes.h
 ogdf/internal/energybased/EdgeAttributes.h
 -
 Rectangle.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Rectangle.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Rectangle.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastMultipoleEmbedder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastMultipoleEmbedder.cpp
 ogdf/energybased/FastMultipoleEmbedder.h
 -
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 ArrayGraph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 LinearQuadtreeExpansion.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
 FMEThread.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEThread.h
 GalaxyMultilevel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.h
 FMEMultipoleKernel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEMultipoleKernel.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.cpp
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 ogdf/basic/GraphAttributes.h
 -
 iostream
@@ -3330,17 +3330,17 @@ pmmintrin.h
 sys/time.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FruchtermanReingold.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FruchtermanReingold.cpp
 ogdf/internal/energybased/FruchtermanReingold.h
 -
 mathExtension.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 numexcept.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
 ogdf/basic/Array2D.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GEMLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GEMLayout.cpp
 ogdf/energybased/GEMLayout.h
 -
 ogdf/basic/geometry.h
@@ -3352,17 +3352,17 @@ ogdf/basic/GraphCopyAttributes.h
 ogdf/packing/TileToRowsCCPacker.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.cpp
 GalaxyMultilevel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.h
 algorithm
 -
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 ogdf/basic/Array.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/GalaxyMultilevel.h
 ogdf/basic/GraphAttributes.h
 -
 ogdf/basic/tuples.h
@@ -3370,13 +3370,13 @@ ogdf/basic/tuples.h
 ogdf/basic/simple_graph_alg.h
 -
 ArrayGraph.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ArrayGraph.h
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/IntersectionRectangle.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/IntersectionRectangle.cpp
 ogdf/internal/energybased/IntersectionRectangle.h
 -
 ogdf/basic/List.h
@@ -3384,75 +3384,75 @@ ogdf/basic/List.h
 ogdf/basic/geometry.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.cpp
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 WSPD.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 FMEFunctional.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunctional.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FMEFunctional.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.cpp
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 LinearQuadtreeBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeBuilder.h
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.cpp
 LinearQuadtreeExpansion.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
 ComplexDouble.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ComplexDouble.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ComplexDouble.h
 WSPD.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
 complex
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtreeExpansion.h
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.cpp
 MAARPacking.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.h
 mathExtension.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 numexcept.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
 ogdf/energybased/FMMMLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MAARPacking.h
 PackingRowInfo.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PackingRowInfo.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PackingRowInfo.h
 Rectangle.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Rectangle.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Rectangle.h
 Set.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
 ogdf/basic/List.h
 -
 PQueue.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PQueue.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PQueue.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.cpp
 Multilevel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.h
 Set.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
 Node.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Node.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Node.h
 mathExtension.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 ogdf/basic/Array.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -3460,7 +3460,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/energybased/FMMMLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Multilevel.h
 ogdf/basic/Graph.h
 -
 ogdf/basic/NodeArray.h
@@ -3470,13 +3470,13 @@ ogdf/basic/EdgeArray.h
 ogdf/basic/List.h
 -
 Edge.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Edge.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Edge.h
 ogdf/internal/energybased/NodeAttributes.h
 -
 ogdf/internal/energybased/EdgeAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MultilevelGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MultilevelGraph.cpp
 ogdf/internal/energybased/MultilevelGraph.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -3484,21 +3484,21 @@ ogdf/basic/simple_graph_alg.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MultilevelLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/MultilevelLayout.cpp
 ogdf/energybased/MultilevelLayout.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ogdf/energybased/MultilevelLayout.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ogdf/energybased/MultilevelLayout.h
 ogdf/energybased/SpringEmbedderFR.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ogdf/energybased/SpringEmbedderFR.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/ogdf/energybased/SpringEmbedderFR.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/NMM.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/NMM.cpp
 ogdf/internal/energybased/NMM.h
 -
 mathExtension.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 ogdf/basic/geometry.h
 -
 numexcept.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
 time.h
 -
 ogdf/basic/basic.h
@@ -3508,7 +3508,7 @@ complex
 ogdf/energybased/FMMMLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Node.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Node.h
 ogdf/basic/Graph.h
 -
 ogdf/basic/Graph_d.h
@@ -3516,11 +3516,11 @@ ogdf/basic/Graph_d.h
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/NodeAttributes.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/NodeAttributes.cpp
 ogdf/internal/energybased/NodeAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/NodePairEnergy.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/NodePairEnergy.cpp
 ogdf/internal/energybased/NodePairEnergy.h
 -
 climits
@@ -3528,41 +3528,41 @@ climits
 limits
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Overlap.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Overlap.cpp
 ogdf/internal/energybased/Overlap.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PQueue.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PQueue.h
 ogdf/basic/List.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PackingRowInfo.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PackingRowInfo.h
 ogdf/basic/basic.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Planarity.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Planarity.cpp
 ogdf/internal/energybased/Planarity.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PlanarityGrid.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/PlanarityGrid.cpp
 ogdf/internal/energybased/PlanarityGrid.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/QuadTreeNM.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/QuadTreeNM.cpp
 ogdf/internal/energybased/QuadTreeNM.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/QuadTreeNodeNM.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/QuadTreeNodeNM.cpp
 ogdf/internal/energybased/QuadTreeNodeNM.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Rectangle.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Rectangle.h
 ogdf/basic/geometry.h
 -
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Repulsion.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Repulsion.cpp
 ogdf/internal/energybased/Repulsion.h
 -
 climits
@@ -3570,11 +3570,11 @@ climits
 limits
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.cpp
 Set.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/Set.h
 ogdf/basic/List.h
 -
 ogdf/basic/Graph.h
@@ -3584,7 +3584,7 @@ ogdf/basic/NodeArray.h
 ogdf/internal/energybased/NodeAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/SpringEmbedderFR.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/SpringEmbedderFR.cpp
 ogdf/energybased/SpringEmbedderFR.h
 -
 ogdf/packing/TileToRowsCCPacker.h
@@ -3596,7 +3596,7 @@ ogdf/basic/simple_graph_alg.h
 math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/SpringEmbedderFRExact.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/SpringEmbedderFRExact.cpp
 ogdf/energybased/SpringEmbedderFRExact.h
 -
 ogdf/packing/TileToRowsCCPacker.h
@@ -3610,7 +3610,7 @@ omp.h
 ogdf/internal/basic/intrinsics.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/SpringEmbedderKK.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/SpringEmbedderKK.cpp
 ogdf/energybased/SpringEmbedderKK.h
 -
 ogdf/basic/SList.h
@@ -3618,7 +3618,7 @@ ogdf/basic/SList.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/StressMajorizationSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/StressMajorizationSimple.cpp
 ogdf/energybased/StressMajorizationSimple.h
 -
 ogdf/energybased/FMMMLayout.h
@@ -3628,23 +3628,23 @@ ogdf/basic/SList.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/UniformGrid.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/UniformGrid.cpp
 ogdf/internal/energybased/UniformGrid.h
 -
 float.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.cpp
 WSPD.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
 FastUtils.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/FastUtils.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/WSPD.h
 LinearQuadtree.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/LinearQuadtree.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 math.h
 -
 iostream
@@ -3652,11 +3652,11 @@ iostream
 ogdf/basic/geometry.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/BarycenterPlacer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/BarycenterPlacer.cpp
 ogdf/energybased/multilevelmixer/BarycenterPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/CirclePlacer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/CirclePlacer.cpp
 ogdf/basic/Math.h
 -
 ogdf/energybased/multilevelmixer/CirclePlacer.h
@@ -3666,15 +3666,15 @@ ogdf/energybased/multilevelmixer/BarycenterPlacer.h
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/EdgeCoverMerger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/EdgeCoverMerger.cpp
 ogdf/energybased/multilevelmixer/EdgeCoverMerger.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/IndependentSetMerger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/IndependentSetMerger.cpp
 ogdf/energybased/multilevelmixer/IndependentSetMerger.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/LocalBiconnectedMerger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/LocalBiconnectedMerger.cpp
 ogdf/energybased/multilevelmixer/LocalBiconnectedMerger.h
 -
 ogdf/decomposition/BCTree.h
@@ -3684,7 +3684,7 @@ ogdf/basic/List.h
 ogdf/basic/HashArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MMMExampleFastLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MMMExampleFastLayout.cpp
 ogdf/energybased/multilevelmixer/MMMExampleFastLayout.h
 -
 ogdf/basic/PreprocessorLayout.h
@@ -3702,7 +3702,7 @@ ogdf/energybased/multilevelmixer/SolarMerger.h
 ogdf/energybased/multilevelmixer/SolarPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MMMExampleNiceLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MMMExampleNiceLayout.cpp
 ogdf/energybased/multilevelmixer/MMMExampleNiceLayout.h
 -
 ogdf/basic/PreprocessorLayout.h
@@ -3720,7 +3720,7 @@ ogdf/energybased/multilevelmixer/EdgeCoverMerger.h
 ogdf/energybased/multilevelmixer/BarycenterPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MMMExampleNoTwistLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MMMExampleNoTwistLayout.cpp
 ogdf/energybased/multilevelmixer/MMMExampleNoTwistLayout.h
 -
 ogdf/basic/PreprocessorLayout.h
@@ -3738,11 +3738,11 @@ ogdf/energybased/multilevelmixer/LocalBiconnectedMerger.h
 ogdf/energybased/multilevelmixer/BarycenterPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MatchingMerger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MatchingMerger.cpp
 ogdf/energybased/multilevelmixer/MatchingMerger.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MedianPlacer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MedianPlacer.cpp
 ogdf/energybased/multilevelmixer/MedianPlacer.h
 -
 algorithm
@@ -3750,7 +3750,7 @@ algorithm
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MixedForceLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/MixedForceLayout.cpp
 ogdf/energybased/multilevelmixer/MixedForceLayout.h
 -
 ogdf/energybased/SpringEmbedderFR.h
@@ -3758,7 +3758,7 @@ ogdf/energybased/SpringEmbedderFR.h
 ogdf/energybased/FastMultipoleEmbedder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/ModularMultilevelMixer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/ModularMultilevelMixer.cpp
 ogdf/basic/basic.h
 -
 ogdf/energybased/multilevelmixer/ModularMultilevelMixer.h
@@ -3778,45 +3778,45 @@ sstream
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/RandomMerger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/RandomMerger.cpp
 ogdf/energybased/multilevelmixer/RandomMerger.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/RandomPlacer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/RandomPlacer.cpp
 ogdf/basic/Math.h
 -
 ogdf/energybased/multilevelmixer/RandomPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/ScalingLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/ScalingLayout.cpp
 ogdf/energybased/multilevelmixer/ScalingLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/SolarMerger.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/SolarMerger.cpp
 ogdf/energybased/multilevelmixer/SolarMerger.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/SolarPlacer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/SolarPlacer.cpp
 ogdf/energybased/multilevelmixer/SolarPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/ZeroPlacer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/multilevelmixer/ZeroPlacer.cpp
 ogdf/energybased/multilevelmixer/ZeroPlacer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.cpp
 numexcept.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
 mathExtension.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/mathExtension.h
 ogdf/basic/basic.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/energybased/numexcept.h
 ogdf/basic/geometry.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/coin.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/coin.cpp
 ogdf/external/coin.h
 -
 CoinPackedVector.hpp
@@ -3826,17 +3826,17 @@ OsiCuts.hpp
 ogdf/basic/Logger.h
 -
 OsiCpxSolverInterface.hpp
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/OsiCpxSolverInterface.hpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/OsiCpxSolverInterface.hpp
 cplex.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/cplex.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/cplex.h
 ogdf/basic/tuples.h
 -
 OsiSymSolverInterface.hpp
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/OsiSymSolverInterface.hpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/external/OsiSymSolverInterface.hpp
 OsiClpSolverInterface.hpp
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoLineBuffer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoLineBuffer.cpp
 ogdf/fileformats/DinoLineBuffer.h
 -
 ogdf/basic/String.h
@@ -3848,27 +3848,27 @@ ctype.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoTools.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoTools.cpp
 ogdf/fileformats/DinoTools.h
 -
 ctype.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoUmlDiagramGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoUmlDiagramGraph.cpp
 ogdf/fileformats/DinoUmlDiagramGraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoUmlModelGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoUmlModelGraph.cpp
 ogdf/fileformats/DinoUmlModelGraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoUmlToGraphConverter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoUmlToGraphConverter.cpp
 ogdf/fileformats/DinoUmlToGraphConverter.h
 -
 ogdf/fileformats/DinoTools.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoXmlParser.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoXmlParser.cpp
 ogdf/fileformats/DinoXmlParser.h
 -
 ogdf/fileformats/DinoTools.h
@@ -3878,7 +3878,7 @@ ctype.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoXmlScanner.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/DinoXmlScanner.cpp
 ogdf/fileformats/DinoXmlScanner.h
 -
 ctype.h
@@ -3886,7 +3886,7 @@ ctype.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/GmlParser.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/GmlParser.cpp
 ogdf/fileformats/GmlParser.h
 -
 ctype.h
@@ -3894,11 +3894,11 @@ ctype.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/OgmlParser.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/OgmlParser.cpp
 ogdf/fileformats/OgmlParser.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/XmlParser.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/XmlParser.cpp
 ogdf/fileformats/XmlParser.h
 -
 ctype.h
@@ -3906,7 +3906,7 @@ ctype.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/simple_graph_load.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/fileformats/simple_graph_load.cpp
 ogdf/fileformats/simple_graph_load.h
 -
 ogdf/basic/Logger.h
@@ -3920,7 +3920,7 @@ string.h
 sstream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/ConvexHull.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/ConvexHull.cpp
 ogdf/graphalg/ConvexHull.h
 -
 float.h
@@ -3928,7 +3928,7 @@ float.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/MinCostFlowModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/MinCostFlowModule.cpp
 ogdf/module/MinCostFlowModule.h
 -
 ogdf/basic/graph_generators.h
@@ -3936,19 +3936,19 @@ ogdf/basic/graph_generators.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/MinCostFlowReinelt.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/MinCostFlowReinelt.cpp
 stdlib.h
 -
 ogdf/graphalg/MinCostFlowReinelt.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/MinimumCut.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/MinimumCut.cpp
 ogdf/basic/BinaryHeap.h
 -
 ogdf/graphalg/MinimumCut.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/ShortestPathsWithBFM.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/ShortestPathsWithBFM.cpp
 stdlib.h
 -
 ogdf/graphalg/ShortestPathWithBFM.h
@@ -3958,7 +3958,7 @@ ogdf/basic/NodeArray.h
 ogdf/basic/EdgeArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/mcf_front_reinelt.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/graphalg/mcf_front_reinelt.cpp
 ogdf/graphalg/MinCostFlowReinelt.h
 -
 ogdf/basic/NodeArray.h
@@ -3966,17 +3966,17 @@ ogdf/basic/NodeArray.h
 ogdf/basic/EdgeArray.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/incremental/SimpleIncNodeInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/incremental/SimpleIncNodeInserter.cpp
 ogdf/planarity/SimpleIncNodeInserter.h
 -
 ogdf/basic/Queue.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/labeling/ELabelPosSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/labeling/ELabelPosSimple.cpp
 ogdf/labeling/ELabelPosSimple.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/CoffmanGrahamRanking.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/CoffmanGrahamRanking.cpp
 ogdf/layered/CoffmanGrahamRanking.h
 -
 ogdf/basic/ModuleOption.h
@@ -3986,17 +3986,17 @@ ogdf/layered/DfsAcyclicSubgraph.h
 ogdf/basic/GraphCopy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/CrossingsMatrix.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/CrossingsMatrix.cpp
 ogdf/layered/CrossingsMatrix.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/FastHierarchyLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/FastHierarchyLayout.cpp
 ogdf/layered/FastHierarchyLayout.h
 -
 ogdf/layered/Hierarchy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/FastSimpleHierarchyLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/FastSimpleHierarchyLayout.cpp
 ogdf/layered/FastSimpleHierarchyLayout.h
 -
 ogdf/layered/Hierarchy.h
@@ -4014,13 +4014,13 @@ math.h
 limits
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/HierarchyLayoutModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/HierarchyLayoutModule.cpp
 ogdf/module/HierarchyLayoutModule.h
 -
 ogdf/basic/Queue.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/OptimalHierarchyClusterLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/OptimalHierarchyClusterLayout.cpp
 ogdf/layered/OptimalHierarchyClusterLayout.h
 -
 ogdf/lpsolver/LPSolver.h
@@ -4028,7 +4028,7 @@ ogdf/lpsolver/LPSolver.h
 ogdf/basic/Array2D.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/OptimalHierarchyLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/OptimalHierarchyLayout.cpp
 ogdf/layered/OptimalHierarchyLayout.h
 -
 ogdf/layered/Hierarchy.h
@@ -4036,7 +4036,7 @@ ogdf/layered/Hierarchy.h
 ogdf/lpsolver/LPSolver.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/OptimalRanking.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/OptimalRanking.cpp
 ogdf/layered/OptimalRanking.h
 -
 ogdf/layered/DfsAcyclicSubgraph.h
@@ -4048,13 +4048,13 @@ ogdf/graphalg/MinCostFlowReinelt.h
 ogdf/basic/GraphCopy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/SplitHeuristic.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/SplitHeuristic.cpp
 ogdf/layered/SplitHeuristic.h
 -
 ogdf/layered/CrossingsMatrix.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/acyclic_subgraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/acyclic_subgraph.cpp
 ogdf/layered/DfsAcyclicSubgraph.h
 -
 ogdf/layered/GreedyCycleRemoval.h
@@ -4068,7 +4068,7 @@ ogdf/basic/GraphAttributes.h
 ogdf/basic/Queue.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/heuristics.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/heuristics.cpp
 ogdf/layered/BarycenterHeuristic.h
 -
 ogdf/layered/MedianHeuristic.h
@@ -4080,7 +4080,7 @@ ogdf/layered/GreedySwitchHeuristic.h
 ogdf/layered/SiftingHeuristic.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/ranking.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/ranking.cpp
 ogdf/layered/LongestPathRanking.h
 -
 ogdf/layered/DfsAcyclicSubgraph.h
@@ -4094,7 +4094,7 @@ ogdf/basic/GraphCopy.h
 ogdf/basic/Queue.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/sugiyama-cluster.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/sugiyama-cluster.cpp
 ogdf/layered/SugiyamaLayout.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4108,7 +4108,7 @@ ogdf/basic/Array2D.h
 ogdf/cluster/ClusterSet.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/sugiyama.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/layered/sugiyama.cpp
 ogdf/layered/Hierarchy.h
 -
 ogdf/layered/SugiyamaLayout.h
@@ -4130,11 +4130,11 @@ ogdf/basic/simple_graph_alg.h
 algorithm
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/lpsolver/LPSolver_coin.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/lpsolver/LPSolver_coin.cpp
 ogdf/internal/lpsolver/LPSolver_coin.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/misclayout/BalloonLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/misclayout/BalloonLayout.cpp
 ogdf/misclayout/BalloonLayout.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4148,7 +4148,7 @@ ogdf/basic/Math.h
 math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/misclayout/CircularLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/misclayout/CircularLayout.cpp
 ogdf/misclayout/CircularLayout.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4164,11 +4164,11 @@ ogdf/basic/Math.h
 ogdf/packing/TileToRowsCCPacker.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/misclayout/ProcrustesSubLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/misclayout/ProcrustesSubLayout.cpp
 ogdf/misclayout/ProcrustesSubLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/ClusterOrthoLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/ClusterOrthoLayout.cpp
 ogdf/cluster/ClusterOrthoLayout.h
 -
 ogdf/cluster/CconnectClusterPlanarEmbed.h
@@ -4186,7 +4186,7 @@ ogdf/orthogonal/MinimumEdgeDistances.h
 ogdf/cluster/ClusterOrthoShaper.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/ClusterOrthoShaper.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/ClusterOrthoShaper.cpp
 ogdf/cluster/ClusterOrthoShaper.h
 -
 ogdf/basic/FaceArray.h
@@ -4196,7 +4196,7 @@ limits.h
 ogdf/graphalg/MinCostFlowReinelt.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/CompactionConstraintGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/CompactionConstraintGraph.cpp
 ogdf/orthogonal/CompactionConstraintGraph.h
 -
 ogdf/planarity/PlanRep.h
@@ -4206,7 +4206,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/EdgeRouter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/EdgeRouter.cpp
 ogdf/orthogonal/EdgeRouter.h
 -
 string.h
@@ -4214,7 +4214,7 @@ string.h
 limits.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/FlowCompaction.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/FlowCompaction.cpp
 ogdf/orthogonal/FlowCompaction.h
 -
 ogdf/orthogonal/CompactionConstraintGraph.h
@@ -4228,7 +4228,7 @@ ogdf/planarity/PlanRepUML.h
 limits.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/LongestPathCompaction.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/LongestPathCompaction.cpp
 ogdf/orthogonal/LongestPathCompaction.h
 -
 ogdf/orthogonal/CompactionConstraintGraph.h
@@ -4240,11 +4240,11 @@ ogdf/basic/GridLayout.h
 limits.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/NodeInfo.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/NodeInfo.cpp
 ogdf/internal/orthogonal/NodeInfo.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/OrthoLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/OrthoLayout.cpp
 ogdf/orthogonal/OrthoLayout.h
 -
 ogdf/orthogonal/LongestPathCompaction.h
@@ -4260,7 +4260,7 @@ ogdf/orthogonal/MinimumEdgeDistances.h
 ogdf/orthogonal/OrthoShaper.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/OrthoRep.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/OrthoRep.cpp
 ogdf/orthogonal/OrthoRep.h
 -
 ogdf/planarity/PlanRepUML.h
@@ -4270,7 +4270,7 @@ ogdf/basic/String.h
 string.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/OrthoShaper.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/orthogonal/OrthoShaper.cpp
 ogdf/orthogonal/OrthoShaper.h
 -
 ogdf/basic/FaceArray.h
@@ -4280,11 +4280,11 @@ limits.h
 ogdf/graphalg/MinCostFlowReinelt.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/packing/CCLayoutPackModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/packing/CCLayoutPackModule.cpp
 ogdf/module/CCLayoutPackModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/packing/ComponentSplitterLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/packing/ComponentSplitterLayout.cpp
 ogdf/packing/ComponentSplitterLayout.h
 -
 ogdf/packing/TileToRowsCCPacker.h
@@ -4300,23 +4300,23 @@ ogdf/basic/simple_graph_alg.h
 ogdf/basic/GraphCopy.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/packing/TileToRowsCCPacker.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/packing/TileToRowsCCPacker.cpp
 ogdf/packing/TileToRowsCCPacker.h
 -
 ogdf/basic/SList.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/BoyerMyrvold.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/BoyerMyrvold.cpp
 ogdf/planarity/BoyerMyrvold.h
 -
 ogdf/planarity/ExtractKuratowskis.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/BoyerMyrvoldInit.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/BoyerMyrvoldInit.cpp
 ogdf/internal/planarity/BoyerMyrvoldInit.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/BoyerMyrvoldPlanar.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/BoyerMyrvoldPlanar.cpp
 ogdf/internal/planarity/BoyerMyrvoldPlanar.h
 -
 ogdf/internal/planarity/BoyerMyrvoldInit.h
@@ -4324,7 +4324,7 @@ ogdf/internal/planarity/BoyerMyrvoldInit.h
 ogdf/internal/planarity/FindKuratowskis.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/ClusterPlanRep.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/ClusterPlanRep.cpp
 ogdf/cluster/ClusterPlanRep.h
 -
 ogdf/orthogonal/OrthoRep.h
@@ -4342,19 +4342,19 @@ ogdf/basic/tuples.h
 iomanip
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EdgeInsertionModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EdgeInsertionModule.cpp
 ogdf/module/EdgeInsertionModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedPQTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedPQTree.cpp
 ogdf/internal/planarity/EmbedPQTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMDMFLengthAttribute.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMDMFLengthAttribute.cpp
 ogdf/internal/planarity/EmbedderMDMFLengthAttribute.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMaxFace.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMaxFace.cpp
 ogdf/planarity/EmbedderMaxFace.h
 -
 ogdf/internal/planarity/ConnectedSubgraph.h
@@ -4362,7 +4362,7 @@ ogdf/internal/planarity/ConnectedSubgraph.h
 ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphs.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMaxFaceLayers.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMaxFaceLayers.cpp
 ogdf/planarity/EmbedderMaxFaceLayers.h
 -
 ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphsLayers.h
@@ -4370,7 +4370,7 @@ ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphsLayers.h
 ogdf/internal/planarity/ConnectedSubgraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepth.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepth.cpp
 ogdf/planarity/EmbedderMinDepth.h
 -
 ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphs.h
@@ -4378,7 +4378,7 @@ ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphs.h
 ogdf/internal/planarity/ConnectedSubgraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepthMaxFace.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepthMaxFace.cpp
 ogdf/planarity/EmbedderMinDepthMaxFace.h
 -
 ogdf/internal/planarity/ConnectedSubgraph.h
@@ -4386,7 +4386,7 @@ ogdf/internal/planarity/ConnectedSubgraph.h
 ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphs.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepthMaxFaceLayers.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepthMaxFaceLayers.cpp
 ogdf/planarity/EmbedderMinDepthMaxFaceLayers.h
 -
 ogdf/internal/planarity/ConnectedSubgraph.h
@@ -4394,7 +4394,7 @@ ogdf/internal/planarity/ConnectedSubgraph.h
 ogdf/internal/planarity/EmbedderMaxFaceBiconnectedGraphsLayers.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepthPiTa.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/EmbedderMinDepthPiTa.cpp
 ogdf/planarity/EmbedderMinDepthPiTa.h
 -
 ogdf/planarity/PlanarModule.h
@@ -4402,11 +4402,11 @@ ogdf/planarity/PlanarModule.h
 ogdf/internal/planarity/ConnectedSubgraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/ExtractKuratowskis.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/ExtractKuratowskis.cpp
 ogdf/planarity/ExtractKuratowskis.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/FastPlanarSubgraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/FastPlanarSubgraph.cpp
 ogdf/basic/basic.h
 -
 ogdf/basic/Array.h
@@ -4424,13 +4424,13 @@ ogdf/internal/planarity/PlanarLeafKey.h
 ogdf/planarity/FastPlanarSubgraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/FindKuratowskis.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/FindKuratowskis.cpp
 ogdf/internal/planarity/FindKuratowskis.h
 -
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/FixedEmbeddingInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/FixedEmbeddingInserter.cpp
 ogdf/planarity/FixedEmbeddingInserter.h
 -
 ogdf/basic/FaceArray.h
@@ -4440,27 +4440,27 @@ ogdf/basic/Queue.h
 ogdf/basic/FaceSet.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/GraphReduction.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/GraphReduction.cpp
 ogdf/graphalg/GraphReduction.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/Layout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/Layout.cpp
 ogdf/basic/Layout.h
 -
 ogdf/planarity/PlanRep.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/LayoutPlanRepModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/LayoutPlanRepModule.cpp
 ogdf/module/LayoutPlanRepModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMCrossingMinimizationModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMCrossingMinimizationModule.cpp
 ogdf/module/MMCrossingMinimizationModule.h
 -
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMFixedEmbeddingInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMFixedEmbeddingInserter.cpp
 ogdf/planarity/MMFixedEmbeddingInserter.h
 -
 ogdf/basic/FaceArray.h
@@ -4474,7 +4474,7 @@ ogdf/basic/NodeSet.h
 ogdf/planarlayout/PlanarStraightLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMSubgraphPlanarizer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMSubgraphPlanarizer.cpp
 ogdf/planarity/MMSubgraphPlanarizer.h
 -
 ogdf/planarity/FastPlanarSubgraph.h
@@ -4482,7 +4482,7 @@ ogdf/planarity/FastPlanarSubgraph.h
 ogdf/planarity/MMFixedEmbeddingInserter.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMVariableEmbeddingInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MMVariableEmbeddingInserter.cpp
 ogdf/planarity/MMVariableEmbeddingInserter.h
 -
 ogdf/basic/NodeSet.h
@@ -4498,13 +4498,13 @@ ogdf/basic/String.h
 ogdf/basic/GraphAttributes.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MaximalPlanarSubgraphSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MaximalPlanarSubgraphSimple.cpp
 ogdf/planarity/MaximalPlanarSubgraphSimple.h
 -
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MaximumPlanarSubgraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MaximumPlanarSubgraph.cpp
 ogdf/planarity/MaximumPlanarSubgraph.h
 -
 ogdf/cluster/MaximumCPlanarSubgraph.h
@@ -4514,7 +4514,7 @@ ogdf/planarity/PlanarModule.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MultiEdgeApproxInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/MultiEdgeApproxInserter.cpp
 ogdf/planarity/MultiEdgeApproxInserter.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4530,7 +4530,7 @@ ogdf/planarity/VariableEmbeddingInserter.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRep.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRep.cpp
 ogdf/basic/simple_graph_alg.h
 -
 ogdf/planarity/PlanarModule.h
@@ -4538,7 +4538,7 @@ ogdf/planarity/PlanarModule.h
 ogdf/planarity/PlanRep.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRepExpansion.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRepExpansion.cpp
 ogdf/planarity/PlanRepExpansion.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4552,7 +4552,7 @@ ogdf/basic/FaceSet.h
 ogdf/basic/NodeSet.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRepInc.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRepInc.cpp
 ogdf/basic/simple_graph_alg.h
 -
 ogdf/planarity/PlanRepInc.h
@@ -4562,7 +4562,7 @@ ogdf/basic/TopologyModule.h
 ogdf/basic/Math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRepUML.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanRepUML.cpp
 ogdf/planarity/PlanRepUML.h
 -
 ogdf/orthogonal/OrthoRep.h
@@ -4574,7 +4574,7 @@ ogdf/basic/GridLayoutMapped.h
 ogdf/basic/tuples.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarModule.cpp
 ogdf/basic/basic.h
 -
 ogdf/basic/Array.h
@@ -4596,19 +4596,19 @@ ogdf/planarity/PlanarModule.h
 ogdf/internal/planarity/EmbedPQTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarPQTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarPQTree.cpp
 ogdf/internal/planarity/PlanarPQTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarSubgraphModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarSubgraphModule.cpp
 ogdf/module/PlanarSubgraphModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarSubgraphPQTree.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarSubgraphPQTree.cpp
 ogdf/internal/planarity/PlanarSubgraphPQTree.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarizationGridLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarizationGridLayout.cpp
 ogdf/planarity/PlanarizationGridLayout.h
 -
 ogdf/planarity/FastPlanarSubgraph.h
@@ -4620,7 +4620,7 @@ ogdf/planarlayout/MixedModelLayout.h
 ogdf/packing/TileToRowsCCPacker.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarizationLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarizationLayout.cpp
 ogdf/planarity/PlanarizationLayout.h
 -
 ogdf/planarity/FastPlanarSubgraph.h
@@ -4642,7 +4642,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/graphalg/CliqueFinder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarizationLayout_inc.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/PlanarizationLayout_inc.cpp
 ogdf/planarity/PlanarizationLayout.h
 -
 ogdf/basic/TopologyModule.h
@@ -4654,11 +4654,11 @@ ogdf/basic/Queue.h
 ogdf/planarity/SimpleIncNodeInserter.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/SimpleEmbedder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/SimpleEmbedder.cpp
 ogdf/planarity/SimpleEmbedder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/SubgraphPlanarizer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/SubgraphPlanarizer.cpp
 ogdf/planarity/SubgraphPlanarizer.h
 -
 ogdf/planarity/FastPlanarSubgraph.h
@@ -4666,7 +4666,7 @@ ogdf/planarity/FastPlanarSubgraph.h
 ogdf/planarity/VariableEmbeddingInserter.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/TopologyModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/TopologyModule.cpp
 ogdf/planarity/PlanRepInc.h
 -
 ogdf/basic/TopologyModule.h
@@ -4680,7 +4680,7 @@ ogdf/basic/CombinatorialEmbedding.h
 ogdf/basic/geometry.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/VariableEmbeddingInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/VariableEmbeddingInserter.cpp
 ogdf/planarity/VariableEmbeddingInserter.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4692,7 +4692,7 @@ ogdf/planarity/PlanarModule.h
 ogdf/basic/CombinatorialEmbedding.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/VariableEmbeddingInserter2.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarity/VariableEmbeddingInserter2.cpp
 ogdf/planarity/VariableEmbeddingInserter2.h
 -
 ogdf/decomposition/DynamicSPQRForest.h
@@ -4700,7 +4700,7 @@ ogdf/decomposition/DynamicSPQRForest.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/BiconnectedShellingOrder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/BiconnectedShellingOrder.cpp
 ogdf/planarlayout/BiconnectedShellingOrder.h
 -
 ogdf/basic/CombinatorialEmbedding.h
@@ -4714,7 +4714,7 @@ ogdf/planarity/PlanarModule.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/FPPLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/FPPLayout.cpp
 ogdf/planarlayout/FPPLayout.h
 -
 ogdf/planarity/PlanarModule.h
@@ -4728,33 +4728,33 @@ ogdf/basic/exceptions.h
 ogdf/basic/List.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.cpp
 IOPoints.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.h
 ogdf/planarity/PlanRep.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MMCBBase.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MMCBBase.cpp
 ogdf/planarlayout/MMCBDoubleGrid.h
 -
 ogdf/planarlayout/MMCBLocalStretch.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MMOrder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MMOrder.h
 ogdf/planarlayout/ShellingOrder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.cpp
 MixedModelBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.h
 ogdf/planarity/PlanarModule.h
 -
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.h
 ogdf/planarity/PlanRep.h
 -
 ogdf/basic/GridLayout.h
@@ -4766,15 +4766,15 @@ ogdf/module/ShellingOrderModule.h
 ogdf/module/EmbedderModule.h
 -
 MMOrder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MMOrder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MMOrder.h
 IOPoints.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/IOPoints.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelCrossingsBeautifierModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelCrossingsBeautifierModule.cpp
 ogdf/module/MixedModelCrossingsBeautifierModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelLayout.cpp
 ogdf/planarlayout/MixedModelLayout.h
 -
 ogdf/augmentation/PlanarAugmentation.h
@@ -4788,9 +4788,9 @@ ogdf/module/MixedModelCrossingsBeautifierModule.h
 ogdf/planarity/SimpleEmbedder.h
 -
 MixedModelBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/MixedModelBase.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/PlanarDrawLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/PlanarDrawLayout.cpp
 ogdf/planarlayout/PlanarDrawLayout.h
 -
 ogdf/basic/GraphCopy.h
@@ -4810,7 +4810,7 @@ ogdf/basic/BoundedStack.h
 ogdf/planarlayout/BiconnectedShellingOrder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/PlanarStraightLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/PlanarStraightLayout.cpp
 ogdf/planarlayout/PlanarStraightLayout.h
 -
 ogdf/basic/GraphCopy.h
@@ -4828,7 +4828,7 @@ ogdf/module/ShellingOrderModule.h
 ogdf/planarlayout/BiconnectedShellingOrder.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/SchnyderLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/SchnyderLayout.cpp
 ogdf/planarlayout/SchnyderLayout.h
 -
 ogdf/planarity/PlanarModule.h
@@ -4840,7 +4840,7 @@ ogdf/basic/GraphCopy.h
 ogdf/basic/List.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/ShellingOrder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/ShellingOrder.cpp
 ogdf/planarlayout/ShellingOrder.h
 -
 ogdf/basic/BoundedStack.h
@@ -4848,11 +4848,11 @@ ogdf/basic/BoundedStack.h
 ogdf/basic/SList.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/ShellingOrderModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/ShellingOrderModule.cpp
 ogdf/module/ShellingOrderModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/TriconnectedShellingOrder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/planarlayout/TriconnectedShellingOrder.cpp
 ogdf/planarlayout/TriconnectedShellingOrder.h
 -
 ogdf/basic/CombinatorialEmbedding.h
@@ -4866,11 +4866,11 @@ ogdf/planarity/PlanarModule.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDraw.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDraw.cpp
 ogdf/simultaneous/SimDraw.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawCaller.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawCaller.cpp
 ogdf/simultaneous/SimDrawCaller.h
 -
 ogdf/layered/SugiyamaLayout.h
@@ -4884,7 +4884,7 @@ ogdf/planarity/VariableEmbeddingInserter.h
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawColorizer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawColorizer.cpp
 ogdf/simultaneous/SimDrawColorizer.h
 -
 ogdf/simultaneous/SimDraw.h
@@ -4892,23 +4892,23 @@ ogdf/simultaneous/SimDraw.h
 ogdf/basic/String.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawCreator.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawCreator.cpp
 ogdf/simultaneous/SimDrawCreator.h
 -
 ogdf/basic/graph_generators.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawCreatorSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawCreatorSimple.cpp
 ogdf/simultaneous/SimDrawCreatorSimple.h
 -
 ogdf/basic/Array2D.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawManipulatorModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/simultaneous/SimDrawManipulatorModule.cpp
 ogdf/simultaneous/SimDrawManipulatorModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/tree/RadialTreeLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/tree/RadialTreeLayout.cpp
 ogdf/tree/RadialTreeLayout.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4920,7 +4920,7 @@ ogdf/basic/Stack.h
 ogdf/basic/Math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/tree/TreeLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/tree/TreeLayout.cpp
 ogdf/tree/TreeLayout.h
 -
 ogdf/basic/List.h
@@ -4936,13 +4936,13 @@ ogdf/basic/simple_graph_alg.h
 ogdf/basic/Stack.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/DominanceLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/DominanceLayout.cpp
 ogdf/upward/DominanceLayout.h
 -
 math.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/ExpansionGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/ExpansionGraph.cpp
 ogdf/upward/ExpansionGraph.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -4950,7 +4950,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/basic/NodeSet.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FUPSSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FUPSSimple.cpp
 ogdf/upward/FUPSSimple.h
 -
 ogdf/upward/FeasibleUpwardPlanarSubgraph.h
@@ -4962,11 +4962,11 @@ ogdf/upward/FaceSinkGraph.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FaceSinkGraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FaceSinkGraph.cpp
 ogdf/upward/FaceSinkGraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FeasibleUpwardPlanarSubgraph.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FeasibleUpwardPlanarSubgraph.cpp
 ogdf/upward/FeasibleUpwardPlanarSubgraph.h
 -
 ogdf/upward/UpwardPlanarModule.h
@@ -4976,7 +4976,7 @@ ogdf/upward/FaceSinkGraph.h
 ogdf/basic/simple_graph_alg.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FixedEmbeddingUpwardEdgeInserter.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/FixedEmbeddingUpwardEdgeInserter.cpp
 ogdf/basic/Queue.h
 -
 ogdf/basic/BinaryHeap.h
@@ -4990,7 +4990,7 @@ ogdf/upward/FixedEmbeddingUpwardEdgeInserter.h
 ogdf/upward/LayerBasedUPRLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/LayerBasedUPRLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/LayerBasedUPRLayout.cpp
 ogdf/upward/LayerBasedUPRLayout.h
 -
 ogdf/basic/simple_graph_alg.h
@@ -5000,7 +5000,7 @@ ogdf/basic/Queue.h
 ogdf/basic/Stack.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/SubgraphUpwardPlanarizer.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/SubgraphUpwardPlanarizer.cpp
 ogdf/upward/SubgraphUpwardPlanarizer.h
 -
 ogdf/upward/FeasibleUpwardPlanarSubgraph.h
@@ -5022,7 +5022,7 @@ ogdf/basic/GraphAttributes.h
 ogdf/upward/LayerBasedUPRLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanRep.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanRep.cpp
 ogdf/basic/simple_graph_alg.h
 -
 ogdf/upward/UpwardPlanRep.h
@@ -5034,7 +5034,7 @@ ogdf/basic/FaceSet.h
 ogdf/basic/tuples.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanarModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanarModule.cpp
 ogdf/upward/UpwardPlanarModule.h
 -
 ogdf/upward/FaceSinkGraph.h
@@ -5050,11 +5050,11 @@ ogdf/basic/simple_graph_alg.h
 ogdf/upward/UpwardPlanarizationLayout.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanarSubgraphModule.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanarSubgraphModule.cpp
 ogdf/module/UpwardPlanarSubgraphModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanarSubgraphSimple.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/UpwardPlanarSubgraphSimple.cpp
 ogdf/upward/UpwardPlanarSubgraphSimple.h
 -
 ogdf/upward/UpwardPlanarModule.h
@@ -5064,7 +5064,7 @@ ogdf/basic/simple_graph_alg.h
 ogdf/planarity/PlanarModule.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/VisibilityLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/OGDF/src/upward/VisibilityLayout.cpp
 ogdf/upward/VisibilityLayout.h
 -
 ogdf/basic/simple_graph_alg.h

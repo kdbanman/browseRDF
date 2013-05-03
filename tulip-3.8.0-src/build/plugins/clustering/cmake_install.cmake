@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libStrengthClustering-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libStrengthClustering-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libStrengthClustering-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libStrengthClustering-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libStrengthClustering-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -57,7 +57,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libHierarchicalClustering-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libHierarchicalClustering-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libHierarchicalClustering-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libHierarchicalClustering-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libHierarchicalClustering-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -75,7 +75,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libConvolutionClustering-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libConvolutionClustering-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libConvolutionClustering-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libConvolutionClustering-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libConvolutionClustering-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -93,7 +93,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libEqualValueClustering-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libEqualValueClustering-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libEqualValueClustering-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libEqualValueClustering-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libEqualValueClustering-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -111,7 +111,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libQuotientClustering-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libQuotientClustering-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/libQuotientClustering-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libQuotientClustering-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/libQuotientClustering-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -124,7 +124,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tuli
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/Delaunay/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/Delaunay/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

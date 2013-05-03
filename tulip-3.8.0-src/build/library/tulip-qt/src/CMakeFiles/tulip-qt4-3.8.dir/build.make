@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend.make
@@ -48,17 +48,17 @@ include library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o: library/tulip-qt/src/moc_TulipTableWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o.requires
@@ -71,17 +71,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o: library/tulip-qt/src/moc_GlMainWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o.requires
@@ -94,17 +94,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o: library/tulip-qt/src/moc_GlMainView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o.requires
@@ -117,17 +117,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o: library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o.requires
@@ -140,17 +140,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.c
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o: library/tulip-qt/src/moc_PropertyWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o.requires
@@ -163,17 +163,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o: library/tulip-qt/src/moc_PropertyDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o.requires
@@ -186,17 +186,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o: library/tulip-qt/src/moc_CopyPropertyDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o.requires
@@ -209,17 +209,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o: library/tulip-qt/src/moc_RenderingParametersDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o.requires
@@ -232,17 +232,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o: library/tulip-qt/src/moc_LayerManagerWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o.requires
@@ -255,17 +255,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o: library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o.requires
@@ -278,17 +278,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o: library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o.requires
@@ -301,17 +301,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o: library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o.requires
@@ -324,17 +324,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o: library/tulip-qt/src/moc_FindSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o.requires
@@ -347,17 +347,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o: library/tulip-qt/src/moc_SGHierarchyWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o.requires
@@ -370,17 +370,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o.pr
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o: library/tulip-qt/src/moc_GWOverviewWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o.requires
@@ -393,17 +393,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o: library/tulip-qt/src/moc_Interactor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o.requires
@@ -416,17 +416,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o: library/tulip-qt/src/moc_GridOptionsWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o.requires
@@ -439,17 +439,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o.pr
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o: library/tulip-qt/src/moc_PluginProgressWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o.requires
@@ -462,17 +462,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o: library/tulip-qt/src/moc_QtProgress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o.requires
@@ -485,17 +485,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o: library/tulip-qt/src/moc_Controller.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o.requires
@@ -508,17 +508,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o: library/tulip-qt/src/moc_ControllerViewsManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o.requires
@@ -531,17 +531,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o: library/tulip-qt/src/moc_MainController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o.requires
@@ -554,17 +554,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o: library/tulip-qt/src/moc_View.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o.requires
@@ -577,17 +577,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o.provides.build:
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o: library/tulip-qt/src/moc_AbstractView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o.requires
@@ -600,17 +600,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o: library/tulip-qt/src/moc_ItemsListWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o.requires
@@ -623,17 +623,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o: library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o.requires
@@ -646,17 +646,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelection
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o: library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o.requires
@@ -669,17 +669,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelection
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o: library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o.requires
@@ -692,17 +692,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o: library/tulip-qt/src/moc_ListPropertyWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o.requires
@@ -715,17 +715,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o: library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o.requires
@@ -738,17 +738,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimato
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o: library/tulip-qt/src/moc_Morphing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o.requires
@@ -761,17 +761,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o.provides.bu
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o: library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o.requires
@@ -784,17 +784,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o: library/tulip-qt/src/moc_TextEditDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o.requires
@@ -807,17 +807,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o: library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o.requires
@@ -830,17 +830,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurati
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o: library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o.requires
@@ -853,17 +853,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidg
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o: library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o.requires
@@ -876,17 +876,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidg
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o: library/tulip-qt/src/moc_CSVImportWizard.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o.requires
@@ -899,17 +899,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o: library/tulip-qt/src/moc_SmallMultiplesView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o.requires
@@ -922,17 +922,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o: library/tulip-qt/src/moc_SnapshotDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o.requires
@@ -945,17 +945,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o: library/tulip-qt/src/moc_PropertyCreationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o.requires
@@ -968,17 +968,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o: library/tulip-qt/src/moc_ColorButton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o.requires
@@ -991,17 +991,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o.provides
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o: library/tulip-qt/src/moc_CoordWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o.requires
@@ -1014,17 +1014,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o.provides
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o: library/tulip-qt/src/moc_SizeWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o.requires
@@ -1037,17 +1037,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o: library/tulip-qt/src/moc_FileNameEditorWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o.requires
@@ -1060,17 +1060,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o: library/tulip-qt/src/moc_MouseSelectionEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o.requires
@@ -1083,17 +1083,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o: library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o.requires
@@ -1106,17 +1106,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o: library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o.requires
@@ -1129,17 +1129,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.c
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o: library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o.requires
@@ -1152,17 +1152,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o: library/tulip-qt/src/moc_GlMainWidgetItem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o.requires
@@ -1175,17 +1175,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o: library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp > CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp -o CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o.requires
@@ -1198,17 +1198,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o: library/tulip-qt/src/qrc_TulipQtResource.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx > CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx > CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx -o CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx -o CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o.requires
@@ -1221,17 +1221,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o: ../library/tulip-qt/src/TulipTableWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o.requires
@@ -1244,17 +1244,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o: ../library/tulip-qt/src/GlMainWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o.requires
@@ -1267,17 +1267,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o.provides.bu
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o: ../library/tulip-qt/src/GlMainView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o.requires
@@ -1290,17 +1290,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o: ../library/tulip-qt/src/NodeLinkDiagramComponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/NodeLinkDiagramComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o.requires
@@ -1313,17 +1313,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o: ../library/tulip-qt/src/PropertyDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o.requires
@@ -1336,17 +1336,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o: ../library/tulip-qt/src/CopyPropertyDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CopyPropertyDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o.requires
@@ -1359,17 +1359,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o: ../library/tulip-qt/src/PropertyWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o.requires
@@ -1382,17 +1382,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o: ../library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp > CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp > CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidgetUI.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o.requires
@@ -1405,17 +1405,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o: ../library/tulip-qt/src/ElementPropertiesWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ElementPropertiesWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o.requires
@@ -1428,17 +1428,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o: ../library/tulip-qt/src/FindSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FindSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o.requires
@@ -1451,17 +1451,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o: ../library/tulip-qt/src/SGHierarchyWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SGHierarchyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o.requires
@@ -1474,17 +1474,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o.provid
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o: ../library/tulip-qt/src/GWOverviewWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GWOverviewWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o.requires
@@ -1497,17 +1497,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o: ../library/tulip-qt/src/Morphing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp > CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp > CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp -o CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Morphing.cpp -o CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o.requires
@@ -1520,17 +1520,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o.provides.build:
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o: ../library/tulip-qt/src/GraphState.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphState.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o.requires
@@ -1543,17 +1543,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o: ../library/tulip-qt/src/MouseSelector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelector.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o.requires
@@ -1566,17 +1566,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o.provides.b
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o: ../library/tulip-qt/src/MouseBoxZoomer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseBoxZoomer.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o.requires
@@ -1589,17 +1589,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o: ../library/tulip-qt/src/MouseEdgeBuilder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBuilder.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o.requires
@@ -1612,17 +1612,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o: ../library/tulip-qt/src/MouseInteractors.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseInteractors.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o.requires
@@ -1635,17 +1635,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o: ../library/tulip-qt/src/MouseNodeBuilder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseNodeBuilder.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o.requires
@@ -1658,17 +1658,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o: ../library/tulip-qt/src/MouseSelectionEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseSelectionEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o.requires
@@ -1681,17 +1681,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o: ../library/tulip-qt/src/MouseEdgeSelector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeSelector.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o.requires
@@ -1704,17 +1704,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o.provid
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o: ../library/tulip-qt/src/MouseEdgeBendEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseEdgeBendEditor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o.requires
@@ -1727,17 +1727,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o: ../library/tulip-qt/src/MouseShowElementInfos.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp > CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MouseShowElementInfos.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o.requires
@@ -1750,17 +1750,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o.pr
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o: ../library/tulip-qt/src/DataSetDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DataSetDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o.requires
@@ -1773,17 +1773,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o.provides.b
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o: ../library/tulip-qt/src/TlpQtTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp > CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp > CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpQtTools.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o.requires
@@ -1796,17 +1796,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o: ../library/tulip-qt/src/InteractorManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o.requires
@@ -1819,17 +1819,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o.provid
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o: ../library/tulip-qt/src/Interactor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp > CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp > CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Interactor.cpp -o CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o.requires
@@ -1842,17 +1842,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o: ../library/tulip-qt/src/InteractorChainOfResponsibility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp > CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp > CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp -o CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/InteractorChainOfResponsibility.cpp -o CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o.requires
@@ -1865,17 +1865,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibilit
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o: ../library/tulip-qt/src/PluginProgressWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PluginProgressWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o.requires
@@ -1888,17 +1888,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o: ../library/tulip-qt/src/QtProgress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp > CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp > CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtProgress.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o.requires
@@ -1911,17 +1911,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o: ../library/tulip-qt/src/Controller.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp > CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp > CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp -o CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/Controller.cpp -o CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o.requires
@@ -1934,17 +1934,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o: ../library/tulip-qt/src/ControllerAlgorithmTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerAlgorithmTools.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o.requires
@@ -1957,17 +1957,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o: ../library/tulip-qt/src/ControllerViewsTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsTools.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o.requires
@@ -1980,17 +1980,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o: ../library/tulip-qt/src/ControllerViewsManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerViewsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o.requires
@@ -2003,17 +2003,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o: ../library/tulip-qt/src/MainController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp > CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp > CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/MainController.cpp -o CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o.requires
@@ -2026,17 +2026,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o: ../library/tulip-qt/src/View.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/View.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp > CMakeFiles/tulip-qt4-3.8.dir/View.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp > CMakeFiles/tulip-qt4-3.8.dir/View.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/View.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp -o CMakeFiles/tulip-qt4-3.8.dir/View.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/View.cpp -o CMakeFiles/tulip-qt4-3.8.dir/View.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o.requires
@@ -2049,17 +2049,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o.provides.build: lib
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o: ../library/tulip-qt/src/AbstractView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp > CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp > CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AbstractView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o.requires
@@ -2072,17 +2072,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o.provides.bu
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o: ../library/tulip-qt/src/ControllerPluginsManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ControllerPluginsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o.requires
@@ -2095,17 +2095,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o: ../library/tulip-qt/src/ViewPluginsManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ViewPluginsManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o.requires
@@ -2118,17 +2118,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o: ../library/tulip-qt/src/RenderingParametersDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/RenderingParametersDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o.requires
@@ -2141,17 +2141,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o: ../library/tulip-qt/src/LayerManagerWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/LayerManagerWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o.requires
@@ -2164,17 +2164,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o: ../library/tulip-qt/src/AugmentedDisplayDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/AugmentedDisplayDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o.requires
@@ -2187,17 +2187,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o: ../library/tulip-qt/src/GridOptionsWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GridOptionsWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o.requires
@@ -2210,17 +2210,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o.provid
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o: ../library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o.requires
@@ -2233,17 +2233,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o: ../library/tulip-qt/src/ItemsListWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ItemsListWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o.requires
@@ -2256,17 +2256,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o.provides
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o: ../library/tulip-qt/src/StringsListSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/StringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o.requires
@@ -2279,17 +2279,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o: ../library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SimpleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o.requires
@@ -2302,17 +2302,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidg
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o: ../library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/DoubleStringsListSelectionWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o.requires
@@ -2325,17 +2325,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidg
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o: ../library/tulip-qt/src/ColorScaleConfigDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleConfigDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o.requires
@@ -2348,17 +2348,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o: ../library/tulip-qt/src/ColorScaleWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorScaleWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o.requires
@@ -2371,17 +2371,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o: ../library/tulip-qt/src/QGlBufferManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QGlBufferManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o.requires
@@ -2394,17 +2394,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o: ../library/tulip-qt/src/ListPropertyWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ListPropertyWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o.requires
@@ -2417,17 +2417,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o: ../library/tulip-qt/src/QtOpenGlErrorViewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp > CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp > CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtOpenGlErrorViewer.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o.requires
@@ -2440,17 +2440,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o: ../library/tulip-qt/src/CSVParser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParser.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o.requires
@@ -2463,17 +2463,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o.provides.build
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o: ../library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp > CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp > CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/QtGlSceneZoomAndPanAnimator.cpp -o CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o.requires
@@ -2486,17 +2486,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o: ../library/tulip-qt/src/GlCompositeHierarchyManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlCompositeHierarchyManager.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o.requires
@@ -2509,17 +2509,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o: ../library/tulip-qt/src/GraphPropertiesTableWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphPropertiesTableWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o.requires
@@ -2532,17 +2532,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o: ../library/tulip-qt/src/CSVGraphImport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphImport.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o.requires
@@ -2555,17 +2555,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o: ../library/tulip-qt/src/CSVParserConfigurationWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVParserConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o.requires
@@ -2578,17 +2578,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.c
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o: ../library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVGraphMappingConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o.requires
@@ -2601,17 +2601,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o: ../library/tulip-qt/src/CSVImportConfigurationWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportConfigurationWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o.requires
@@ -2624,17 +2624,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.c
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o: ../library/tulip-qt/src/CSVImportWizard.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp > CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CSVImportWizard.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o.requires
@@ -2647,17 +2647,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o.provides
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o: ../library/tulip-qt/src/SmallMultiplesView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp > CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp > CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o.requires
@@ -2670,17 +2670,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o: ../library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SmallMultiplesNavigatorComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o.requires
@@ -2693,17 +2693,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorCompone
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o: ../library/tulip-qt/src/GlOffscreenRenderer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlOffscreenRenderer.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o.requires
@@ -2716,17 +2716,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o.prov
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o: ../library/tulip-qt/src/ThreadedComputeProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp > CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp > CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ThreadedComputeProperty.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o.requires
@@ -2739,17 +2739,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o: ../library/tulip-qt/src/SnapshotDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SnapshotDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o.requires
@@ -2762,17 +2762,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o.provides.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o: ../library/tulip-qt/src/PropertyCreationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp > CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/PropertyCreationDialog.cpp -o CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o.requires
@@ -2785,17 +2785,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o.p
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o: ../library/tulip-qt/src/TulipSettings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp > CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp > CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TulipSettings.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o.requires
@@ -2808,17 +2808,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o.provides.b
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o: ../library/tulip-qt/src/ColorButton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp > CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp > CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/ColorButton.cpp -o CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o.requires
@@ -2831,17 +2831,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o.provides.bui
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o: ../library/tulip-qt/src/CoordWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/CoordWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o.requires
@@ -2854,17 +2854,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o.provides.bui
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o: ../library/tulip-qt/src/SizeWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/SizeWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o.requires
@@ -2877,17 +2877,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o.provides.buil
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o: ../library/tulip-qt/src/FileNameEditorWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp > CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/FileNameEditorWidget.cpp -o CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o.requires
@@ -2900,17 +2900,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o.pro
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o: ../library/tulip-qt/src/TlpNetworkAccess.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp > CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp > CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TlpNetworkAccess.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o.requires
@@ -2923,17 +2923,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o.provide
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o: ../library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetGraphicsView.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o.requires
@@ -2946,17 +2946,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o: ../library/tulip-qt/src/BaseGraphicsViewComponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp > CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/BaseGraphicsViewComponent.cpp -o CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o.requires
@@ -2969,17 +2969,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o: ../library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp > CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp > CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/TabWidgetHidableMenuGraphicsProxy.cpp -o CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o.requires
@@ -2992,17 +2992,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsPr
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o: ../library/tulip-qt/src/GraphicsWidgetBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp > CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GraphicsWidgetBase.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o.requires
@@ -3015,17 +3015,17 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o.provi
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/flags.make
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o: ../library/tulip-qt/src/GlMainWidgetItem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp > CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.i
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src/GlMainWidgetItem.cpp -o CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.s
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o.requires:
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o.requires
@@ -3037,384 +3037,384 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o.provide
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o.provides.build: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o
 
 library/tulip-qt/src/../include/tulip/TabWidgetData.h: ../library/tulip-qt/designer/TabWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/TabWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TabWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/TabWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TabWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/TabWidget.ui
 
 library/tulip-qt/src/../include/tulip/PropertyDialogData.h: ../library/tulip-qt/designer/PropertyDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/PropertyDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/PropertyDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/PropertyDialog.ui
 
 library/tulip-qt/src/../include/tulip/CopyPropertyDialogData.h: ../library/tulip-qt/designer/CopyPropertyDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/CopyPropertyDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CopyPropertyDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CopyPropertyDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CopyPropertyDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CopyPropertyDialog.ui
 
 library/tulip-qt/src/../include/tulip/FindSelectionData.h: ../library/tulip-qt/designer/FindSelection.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/FindSelectionData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FindSelectionData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/FindSelection.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FindSelectionData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/FindSelection.ui
 
 library/tulip-qt/src/../include/tulip/RenderingParametersDialogData.h: ../library/tulip-qt/designer/RenderingParametersDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/RenderingParametersDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/RenderingParametersDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/RenderingParametersDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/RenderingParametersDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/RenderingParametersDialog.ui
 
 library/tulip-qt/src/../include/tulip/LayerManagerWidgetData.h: ../library/tulip-qt/designer/LayerManagerWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/LayerManagerWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/LayerManagerWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/LayerManagerWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/LayerManagerWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/LayerManagerWidget.ui
 
 library/tulip-qt/src/../include/tulip/AugmentedDisplayDialogData.h: ../library/tulip-qt/designer/AugmentedDisplayDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/AugmentedDisplayDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/AugmentedDisplayDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/AugmentedDisplayDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/AugmentedDisplayDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/AugmentedDisplayDialog.ui
 
 library/tulip-qt/src/../include/tulip/GWOverviewWidgetData.h: ../library/tulip-qt/designer/GWOverviewWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/GWOverviewWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GWOverviewWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/GWOverviewWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GWOverviewWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/GWOverviewWidget.ui
 
 library/tulip-qt/src/../include/tulip/GridOptionsData.h: ../library/tulip-qt/designer/GridOptions.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/GridOptionsData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GridOptionsData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/GridOptions.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GridOptionsData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/GridOptions.ui
 
 library/tulip-qt/src/../include/tulip/PluginProgressWidgetData.h: ../library/tulip-qt/designer/PluginProgressWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/PluginProgressWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PluginProgressWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/PluginProgressWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PluginProgressWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/PluginProgressWidget.ui
 
 library/tulip-qt/src/../include/tulip/ColorScaleConfigDialogData.h: ../library/tulip-qt/designer/ColorScaleConfigDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/ColorScaleConfigDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ColorScaleConfigDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/ColorScaleConfigDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ColorScaleConfigDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/ColorScaleConfigDialog.ui
 
 library/tulip-qt/src/../include/tulip/SimpleStringsListSelectionWidgetData.h: ../library/tulip-qt/designer/SimpleStringsListSelectionWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_142)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_142)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/SimpleStringsListSelectionWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SimpleStringsListSelectionWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/SimpleStringsListSelectionWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SimpleStringsListSelectionWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/SimpleStringsListSelectionWidget.ui
 
 library/tulip-qt/src/../include/tulip/DoubleStringsListSelectionWidgetData.h: ../library/tulip-qt/designer/DoubleStringsListSelectionWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_143)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_143)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/DoubleStringsListSelectionWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/DoubleStringsListSelectionWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/DoubleStringsListSelectionWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/DoubleStringsListSelectionWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/DoubleStringsListSelectionWidget.ui
 
 library/tulip-qt/src/../include/tulip/ListPropertyWidgetData.h: ../library/tulip-qt/designer/ListPropertyWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_144)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_144)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/ListPropertyWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ListPropertyWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/ListPropertyWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ListPropertyWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/ListPropertyWidget.ui
 
 library/tulip-qt/src/../include/tulip/ChooseFileNameDialogData.h: ../library/tulip-qt/designer/ChooseFileNameDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_145)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_145)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/ChooseFileNameDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ChooseFileNameDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/ChooseFileNameDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ChooseFileNameDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/ChooseFileNameDialog.ui
 
 library/tulip-qt/src/../include/tulip/TextEditDialogData.h: ../library/tulip-qt/designer/TextEditDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_146)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_146)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/TextEditDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TextEditDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/TextEditDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TextEditDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/TextEditDialog.ui
 
 library/tulip-qt/src/../include/tulip/QtOpenGlErrorViewerWithAskAgainDialogData.h: ../library/tulip-qt/designer/QtOpenGlErrorViewerWithAskAgainDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_147)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_147)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/QtOpenGlErrorViewerWithAskAgainDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/QtOpenGlErrorViewerWithAskAgainDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/QtOpenGlErrorViewerWithAskAgainDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/QtOpenGlErrorViewerWithAskAgainDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/QtOpenGlErrorViewerWithAskAgainDialog.ui
 
 library/tulip-qt/src/../include/tulip/CSVGraphMappingConfigurationWidgetData.h: ../library/tulip-qt/designer/CSVGraphMappingConfigurationWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_148)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_148)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/CSVGraphMappingConfigurationWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVGraphMappingConfigurationWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVGraphMappingConfigurationWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVGraphMappingConfigurationWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVGraphMappingConfigurationWidget.ui
 
 library/tulip-qt/src/../include/tulip/CSVImportConfigurationWidgetData.h: ../library/tulip-qt/designer/CSVImportConfigurationWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_149)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_149)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/CSVImportConfigurationWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportConfigurationWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVImportConfigurationWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportConfigurationWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVImportConfigurationWidget.ui
 
 library/tulip-qt/src/../include/tulip/CSVParserConfigurationWidgetData.h: ../library/tulip-qt/designer/CSVParserConfigurationWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_150)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_150)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/CSVParserConfigurationWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVParserConfigurationWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVParserConfigurationWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVParserConfigurationWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVParserConfigurationWidget.ui
 
 library/tulip-qt/src/../include/tulip/CSVImportWizardData.h: ../library/tulip-qt/designer/CSVImportWizard.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_151)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_151)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/CSVImportWizardData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportWizardData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVImportWizard.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportWizardData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CSVImportWizard.ui
 
 library/tulip-qt/src/../include/tulip/SnapshotDialogData.h: ../library/tulip-qt/designer/SnapshotDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_152)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_152)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/SnapshotDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SnapshotDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/SnapshotDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SnapshotDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/SnapshotDialog.ui
 
 library/tulip-qt/src/../include/tulip/PropertyCreationDialogData.h: ../library/tulip-qt/designer/PropertyCreationDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_153)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_153)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/PropertyCreationDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyCreationDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/PropertyCreationDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyCreationDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/PropertyCreationDialog.ui
 
 library/tulip-qt/src/../include/tulip/CoordWidgetData.h: ../library/tulip-qt/designer/CoordWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_154)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_154)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/CoordWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CoordWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CoordWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CoordWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/CoordWidget.ui
 
 library/tulip-qt/src/../include/tulip/SizeWidgetData.h: ../library/tulip-qt/designer/SizeWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_155)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_155)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/SizeWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SizeWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/SizeWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SizeWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/SizeWidget.ui
 
 library/tulip-qt/src/../include/tulip/FileNameEditorWidgetData.h: ../library/tulip-qt/designer/FileNameEditorWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_156)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_156)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/tulip/FileNameEditorWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FileNameEditorWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/FileNameEditorWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FileNameEditorWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/FileNameEditorWidget.ui
 
 library/tulip-qt/src/moc_TulipTableWidget.cpp: ../library/tulip-qt/include/tulip/TulipTableWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_157)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_157)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipTableWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/TulipTableWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TulipTableWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/TulipTableWidget.h
 
 library/tulip-qt/src/moc_GlMainWidget.cpp: ../library/tulip-qt/include/tulip/GlMainWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_158)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_158)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GlMainWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainWidget.h
 
 library/tulip-qt/src/moc_GlMainView.cpp: ../library/tulip-qt/include/tulip/GlMainView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_159)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_159)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GlMainView.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainView.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainView.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainView.h
 
 library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp: ../library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_160)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_160)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_NodeLinkDiagramComponent.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_NodeLinkDiagramComponent.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/NodeLinkDiagramComponent.h
 
 library/tulip-qt/src/moc_PropertyWidget.cpp: ../library/tulip-qt/include/tulip/PropertyWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_161)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_161)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PropertyWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PropertyWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PropertyWidget.h
 
 library/tulip-qt/src/moc_PropertyDialog.cpp: ../library/tulip-qt/include/tulip/PropertyDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_162)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_162)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PropertyDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PropertyDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PropertyDialog.h
 
 library/tulip-qt/src/moc_CopyPropertyDialog.cpp: ../library/tulip-qt/include/tulip/CopyPropertyDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_163)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_163)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_CopyPropertyDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CopyPropertyDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CopyPropertyDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CopyPropertyDialog.h
 
 library/tulip-qt/src/moc_RenderingParametersDialog.cpp: ../library/tulip-qt/include/tulip/RenderingParametersDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_164)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_164)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_RenderingParametersDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/RenderingParametersDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_RenderingParametersDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/RenderingParametersDialog.h
 
 library/tulip-qt/src/moc_LayerManagerWidget.cpp: ../library/tulip-qt/include/tulip/LayerManagerWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_165)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_165)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_LayerManagerWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/LayerManagerWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_LayerManagerWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/LayerManagerWidget.h
 
 library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp: ../library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_166)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_166)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_AugmentedDisplayDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AugmentedDisplayDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/AugmentedDisplayDialog.h
 
 library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp: ../library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_167)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_167)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ElementPropertiesWidgetUI.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidgetUI.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ElementPropertiesWidgetUI.h
 
 library/tulip-qt/src/moc_ElementPropertiesWidget.cpp: ../library/tulip-qt/include/tulip/ElementPropertiesWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_168)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_168)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ElementPropertiesWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ElementPropertiesWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ElementPropertiesWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ElementPropertiesWidget.h
 
 library/tulip-qt/src/moc_FindSelectionWidget.cpp: ../library/tulip-qt/include/tulip/FindSelectionWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_169)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_169)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_FindSelectionWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/FindSelectionWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FindSelectionWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/FindSelectionWidget.h
 
 library/tulip-qt/src/moc_SGHierarchyWidget.cpp: ../library/tulip-qt/include/tulip/SGHierarchyWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_170)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_170)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SGHierarchyWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SGHierarchyWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SGHierarchyWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SGHierarchyWidget.h
 
 library/tulip-qt/src/moc_GWOverviewWidget.cpp: ../library/tulip-qt/include/tulip/GWOverviewWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_171)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_171)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GWOverviewWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GWOverviewWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GWOverviewWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GWOverviewWidget.h
 
 library/tulip-qt/src/moc_Interactor.cpp: ../library/tulip-qt/include/tulip/Interactor.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_172)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_172)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_Interactor.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/Interactor.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Interactor.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/Interactor.h
 
 library/tulip-qt/src/moc_GridOptionsWidget.cpp: ../library/tulip-qt/include/tulip/GridOptionsWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_173)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_173)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GridOptionsWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GridOptionsWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GridOptionsWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GridOptionsWidget.h
 
 library/tulip-qt/src/moc_PluginProgressWidget.cpp: ../library/tulip-qt/include/tulip/PluginProgressWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_174)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_174)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PluginProgressWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PluginProgressWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PluginProgressWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PluginProgressWidget.h
 
 library/tulip-qt/src/moc_QtProgress.cpp: ../library/tulip-qt/include/tulip/QtProgress.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_175)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_175)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_QtProgress.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/QtProgress.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtProgress.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/QtProgress.h
 
 library/tulip-qt/src/moc_Controller.cpp: ../library/tulip-qt/include/tulip/Controller.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_176)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_176)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_Controller.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/Controller.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Controller.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/Controller.h
 
 library/tulip-qt/src/moc_ControllerViewsManager.cpp: ../library/tulip-qt/include/tulip/ControllerViewsManager.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_177)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_177)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ControllerViewsManager.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ControllerViewsManager.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ControllerViewsManager.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ControllerViewsManager.h
 
 library/tulip-qt/src/moc_MainController.cpp: ../library/tulip-qt/include/tulip/MainController.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_178)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_178)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_MainController.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/MainController.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MainController.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/MainController.h
 
 library/tulip-qt/src/moc_View.cpp: ../library/tulip-qt/include/tulip/View.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_179)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_179)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_View.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/View.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_View.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/View.h
 
 library/tulip-qt/src/moc_AbstractView.cpp: ../library/tulip-qt/include/tulip/AbstractView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_180)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_180)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_AbstractView.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/AbstractView.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_AbstractView.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/AbstractView.h
 
 library/tulip-qt/src/moc_ItemsListWidget.cpp: ../library/tulip-qt/include/tulip/ItemsListWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_181)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_181)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ItemsListWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ItemsListWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ItemsListWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ItemsListWidget.h
 
 library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp: ../library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_182)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_182)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SimpleStringsListSelectionWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SimpleStringsListSelectionWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SimpleStringsListSelectionWidget.h
 
 library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp: ../library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_183)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_183)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_DoubleStringsListSelectionWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_DoubleStringsListSelectionWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/DoubleStringsListSelectionWidget.h
 
 library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp: ../library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_184)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_184)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ColorScaleConfigDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorScaleConfigDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ColorScaleConfigDialog.h
 
 library/tulip-qt/src/moc_ListPropertyWidget.cpp: ../library/tulip-qt/include/tulip/ListPropertyWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_185)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_185)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ListPropertyWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ListPropertyWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ListPropertyWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ListPropertyWidget.h
 
 library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp: ../library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_186)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_186)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_QtGlSceneZoomAndPanAnimator.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_QtGlSceneZoomAndPanAnimator.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/QtGlSceneZoomAndPanAnimator.h
 
 library/tulip-qt/src/moc_Morphing.cpp: ../library/tulip-qt/include/tulip/Morphing.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_187)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_187)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_Morphing.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/Morphing.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_Morphing.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/Morphing.h
 
 library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp: ../library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_188)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_188)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GraphPropertiesTableWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GraphPropertiesTableWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GraphPropertiesTableWidget.h
 
 library/tulip-qt/src/moc_TextEditDialog.cpp: ../library/tulip-qt/include/tulip/TextEditDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_189)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_189)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TextEditDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/TextEditDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TextEditDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/TextEditDialog.h
 
 library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp: ../library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_190)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_190)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_CSVGraphMappingConfigurationWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVGraphMappingConfigurationWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVGraphMappingConfigurationWidget.h
 
 library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp: ../library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_191)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_191)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_CSVImportConfigurationWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportConfigurationWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVImportConfigurationWidget.h
 
 library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp: ../library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_192)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_192)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_CSVParserConfigurationWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVParserConfigurationWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVParserConfigurationWidget.h
 
 library/tulip-qt/src/moc_CSVImportWizard.cpp: ../library/tulip-qt/include/tulip/CSVImportWizard.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_193)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_193)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_CSVImportWizard.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVImportWizard.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CSVImportWizard.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CSVImportWizard.h
 
 library/tulip-qt/src/moc_SmallMultiplesView.cpp: ../library/tulip-qt/include/tulip/SmallMultiplesView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_194)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_194)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SmallMultiplesView.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SmallMultiplesView.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SmallMultiplesView.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SmallMultiplesView.h
 
 library/tulip-qt/src/moc_SnapshotDialog.cpp: ../library/tulip-qt/include/tulip/SnapshotDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_195)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_195)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SnapshotDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SnapshotDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SnapshotDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SnapshotDialog.h
 
 library/tulip-qt/src/moc_PropertyCreationDialog.cpp: ../library/tulip-qt/include/tulip/PropertyCreationDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_196)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_196)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PropertyCreationDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PropertyCreationDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_PropertyCreationDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/PropertyCreationDialog.h
 
 library/tulip-qt/src/moc_ColorButton.cpp: ../library/tulip-qt/include/tulip/ColorButton.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_197)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_197)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ColorButton.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ColorButton.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_ColorButton.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/ColorButton.h
 
 library/tulip-qt/src/moc_CoordWidget.cpp: ../library/tulip-qt/include/tulip/CoordWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_198)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_198)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_CoordWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CoordWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_CoordWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/CoordWidget.h
 
 library/tulip-qt/src/moc_SizeWidget.cpp: ../library/tulip-qt/include/tulip/SizeWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_199)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_199)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SizeWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SizeWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_SizeWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/SizeWidget.h
 
 library/tulip-qt/src/moc_FileNameEditorWidget.cpp: ../library/tulip-qt/include/tulip/FileNameEditorWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_200)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_200)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_FileNameEditorWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/FileNameEditorWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_FileNameEditorWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/FileNameEditorWidget.h
 
 library/tulip-qt/src/moc_MouseSelectionEditor.cpp: ../library/tulip-qt/include/tulip/MouseSelectionEditor.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_201)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_201)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_MouseSelectionEditor.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/MouseSelectionEditor.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseSelectionEditor.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/MouseSelectionEditor.h
 
 library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp: ../library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_202)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_202)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_MouseEdgeBendEditor.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_MouseEdgeBendEditor.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/MouseEdgeBendEditor.h
 
 library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp: ../library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_203)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_203)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GlMainWidgetGraphicsView.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetGraphicsView.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainWidgetGraphicsView.h
 
 library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp: ../library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_204)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_204)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_BaseGraphicsViewComponent.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_BaseGraphicsViewComponent.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/BaseGraphicsViewComponent.h
 
 library/tulip-qt/src/moc_GlMainWidgetItem.cpp: ../library/tulip-qt/include/tulip/GlMainWidgetItem.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_205)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_205)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GlMainWidgetItem.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainWidgetItem.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_GlMainWidgetItem.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/GlMainWidgetItem.h
 
 library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp: ../library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_206)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_206)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TabWidgetHidableMenuGraphicsProxy.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include/tulip/TabWidgetHidableMenuGraphicsProxy.h
 
 library/tulip-qt/src/qrc_TulipQtResource.cxx: ../library/tulip-qt/designer/arrow_two_head.png
 library/tulip-qt/src/qrc_TulipQtResource.cxx: ../library/tulip-qt/designer/i_addedge.png
@@ -3438,9 +3438,9 @@ library/tulip-qt/src/qrc_TulipQtResource.cxx: ../library/tulip-qt/designer/i_loc
 library/tulip-qt/src/qrc_TulipQtResource.cxx: ../library/tulip-qt/designer/i_unlocked.png
 library/tulip-qt/src/qrc_TulipQtResource.cxx: library/tulip-qt/src/__/designer/TulipQtResource.qrc.depends
 library/tulip-qt/src/qrc_TulipQtResource.cxx: ../library/tulip-qt/designer/TulipQtResource.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_207)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_207)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_TulipQtResource.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/rcc -name TulipQtResource -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/TulipQtResource.qrc
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && /usr/bin/rcc -name TulipQtResource -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/qrc_TulipQtResource.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/designer/TulipQtResource.qrc
 
 # Object files for target tulip-qt4-3.8
 tulip__qt4__3_8_OBJECTS = \
@@ -3732,7 +3732,7 @@ library/tulip-qt/src/libtulip-qt4-3.8.so: /usr/lib/x86_64-linux-gnu/libfreetype.
 library/tulip-qt/src/libtulip-qt4-3.8.so: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make
 library/tulip-qt/src/libtulip-qt4-3.8.so: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libtulip-qt4-3.8.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip-qt4-3.8.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip-qt4-3.8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build: library/tulip-qt/src/libtulip-qt4-3.8.so
@@ -3871,7 +3871,7 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/requires: library/tulip-qt/src
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/requires
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-qt4-3.8.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-qt4-3.8.dir/cmake_clean.cmake
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/clean
 
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend: library/tulip-qt/src/../include/tulip/TabWidgetData.h
@@ -3951,6 +3951,6 @@ library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend: library/tulip-qt/src/m
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend: library/tulip-qt/src/moc_GlMainWidgetItem.cpp
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend: library/tulip-qt/src/moc_TabWidgetHidableMenuGraphicsProxy.cpp
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend: library/tulip-qt/src/qrc_TulipQtResource.cxx
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/depend
 

@@ -996,19 +996,19 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialog.h
 QtGui/QDialog
 -
 tulip/Color.h
 -
 DoubleStringsListRelationDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialogData.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/moc_DoubleStringsListRelationDialog.cpp
 ../../../plugins/colors/DoubleStringsListRelationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/../../../plugins/colors/DoubleStringsListRelationDialog.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/ColorMapping.cpp
 cmath
 -
 tulip/TulipPlugin.h
@@ -1020,7 +1020,7 @@ tulip/Vector.h
 tulip/ColorScale.h
 -
 DoubleStringsListRelationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
 tulip/GlComposite.h
 -
 tulip/GlRect.h
@@ -1028,19 +1028,19 @@ tulip/GlRect.h
 tulip/GlLabel.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.cpp
 DoubleStringsListRelationDialog.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
 QtGui/QScrollBar
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialog.h
 QtGui/QDialog
 -
 tulip/Color.h
 -
 DoubleStringsListRelationDialogData.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialogData.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/colors/DoubleStringsListRelationDialogData.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

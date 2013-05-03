@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/Kruskal.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/Kruskal.cpp
 Kruskal.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/Kruskal.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/Kruskal.h
 tulip/ConnectedTest.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/selection/Kruskal.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/selection/Kruskal.h
 tulip/TulipPlugin.h
 -
 

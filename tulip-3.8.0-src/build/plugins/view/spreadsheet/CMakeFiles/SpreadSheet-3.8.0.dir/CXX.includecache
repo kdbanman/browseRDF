@@ -1116,7 +1116,7 @@ QtCore/QRegExp
 QtGui/QComboBox
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
 tulip/tulipconf.h
 -
 vector
@@ -1132,7 +1132,7 @@ QtCore/QStringList
 QtCore/QList
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableModel.h
 QtCore/QAbstractItemModel
 -
 tulip/Graph.h
@@ -1140,13 +1140,13 @@ tulip/Graph.h
 deque
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableWidget.h
 QtGui/QTableView
 -
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadView.h
 QtGui/QWidget
 -
 tulip/tulipconf.h
@@ -1158,7 +1158,7 @@ tulip/ObservableProperty.h
 QtCore/QModelIndexList
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
 QWidget
 -
 tulip/Graph.h
@@ -1170,19 +1170,19 @@ QtCore/QModelIndex
 QtGui/QMenu
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
 QtGui/QSortFilterProxyModel
 -
 tulip/Observable.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipItemDelegate.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipItemDelegate.h
 QtGui/QStyledItemDelegate
 -
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipQVariantBuilder.h
 tulip/tulipconf.h
 -
 QtCore/QVariant
@@ -1190,19 +1190,19 @@ QtCore/QVariant
 tulip/Graph.h
 -
 ElementCollection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 QtCore/QAbstractListModel
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
 QtGui/QWidget
 -
 QtCore/QRegExp
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VectorEditionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VectorEditionWidget.h
 QWidget
 -
 tulip/tulipconf.h
@@ -1212,71 +1212,71 @@ tulip/PropertyTypes.h
 tulip/TlpQtTools.h
 -
 TulipQVariantBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipQVariantBuilder.h
 QtCore/QVariant
 -
 QtCore/QAbstractListModel
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
 QtGui/QComboBox
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx
 ../../../../plugins/view/spreadsheet/ElementCollection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/ElementCollection.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx
 ../../../../plugins/view/spreadsheet/GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableModel.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx
 ../../../../plugins/view/spreadsheet/GraphTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/GraphTableWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx
 ../../../../plugins/view/spreadsheet/SpreadView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadView.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
 ../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/SpreadViewTableWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
 ../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipFilterProxyModel.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
 ../../../../plugins/view/spreadsheet/TulipItemDelegate.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipItemDelegate.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipItemDelegate.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
 ../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
 ../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
 ../../../../plugins/view/spreadsheet/VectorEditionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VectorEditionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VectorEditionWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
 ../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/../../../../plugins/view/spreadsheet/VisibleSectionsModel.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx
 QtCore/qglobal.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp
 ElementCollection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
 iostream
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
 tulip/tulipconf.h
 -
 vector
@@ -1292,9 +1292,9 @@ QtCore/QStringList
 QtCore/QList
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
 GlyphPreviewGenerator.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
 tulip/Graph.h
 -
 tulip/GlOffscreenRenderer.h
@@ -1302,7 +1302,7 @@ tulip/GlOffscreenRenderer.h
 tulip/EdgeExtremityGlyphManager.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
 map
 -
 QtGui/QPixmap
@@ -1312,17 +1312,17 @@ tulip/Node.h
 tulip/Edge.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 tulip/Graph.h
 -
 tulip/TlpQtTools.h
 -
 TulipQVariantBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 QtCore/QAbstractItemModel
 -
 tulip/Graph.h
@@ -1330,9 +1330,9 @@ tulip/Graph.h
 deque
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp
 GraphTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 tulip/PropertyCreationDialog.h
 -
 tulip/CopyPropertyDialog.h
@@ -1350,41 +1350,41 @@ QtGui/QDialogButtonBox
 QtGui/QKeyEvent
 -
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 TulipItemDelegate.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
 TulipFilterProxyModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 QtGui/QTableView
 -
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp
 OrientedPushButton.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.h
 QtGui/QStylePainter
 -
 QtGui/QMenu
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.h
 QPushButton
 -
 QStyleOptionButton
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp
 SpreadView.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
 iostream
 -
 sstream
 -
 ui_SpreadViewWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_SpreadViewWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_SpreadViewWidget.h
 tulip/Graph.h
 -
 tulip/TlpQtTools.h
@@ -1396,13 +1396,13 @@ QtGui/QToolBar
 QtGui/QKeyEvent
 -
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 TulipTableWidgetColumnSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
 GraphTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
 QtGui/QWidget
 -
 tulip/tulipconf.h
@@ -1414,15 +1414,15 @@ tulip/ObservableProperty.h
 QtCore/QModelIndexList
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp
 SpreadViewTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
 ui_SpreadViewTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_SpreadViewTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_SpreadViewTableWidget.h
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 GraphTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 tulip/PropertyCreationDialog.h
 -
 tulip/CopyPropertyDialog.h
@@ -1438,11 +1438,11 @@ QtGui/QSortFilterProxyModel
 QtCore/QTime
 -
 TulipTableWidgetColumnSelectionModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 set
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
 QWidget
 -
 tulip/Graph.h
@@ -1454,45 +1454,45 @@ QtCore/QModelIndex
 QtGui/QMenu
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp
 TulipFilterProxyModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 tulip/BooleanProperty.h
 -
 tulip/Graph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
 QtGui/QSortFilterProxyModel
 -
 tulip/Observable.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp
 TulipItemDelegate.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
 tulip/Color.h
 -
 tulip/ColorButton.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/ColorButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/ColorButton.h
 tulip/TlpQtTools.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/TlpQtTools.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/TlpQtTools.h
 tulip/FileNameEditorWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/FileNameEditorWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/FileNameEditorWidget.h
 tulip/CoordWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/CoordWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/CoordWidget.h
 tulip/SizeWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/SizeWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/SizeWidget.h
 tulip/ColorButton.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/ColorButton.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/tulip/ColorButton.h
 VectorEditionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
 ElementCollection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
 TulipQVariantBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
 QtGui/QLineEdit
 -
 QtGui/QComboBox
@@ -1504,15 +1504,15 @@ QtGui/QApplication
 QtGui/QTextLayout
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
 QtGui/QStyledItemDelegate
 -
 tulip/tulipconf.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp
 TulipQVariantBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
 tulip/TlpQtTools.h
 -
 tulip/GlGraphStaticData.h
@@ -1520,9 +1520,9 @@ tulip/GlGraphStaticData.h
 tulip/EdgeExtremityGlyphManager.h
 -
 GlyphPreviewGenerator.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
 tulip/tulipconf.h
 -
 QtCore/QVariant
@@ -1530,31 +1530,31 @@ QtCore/QVariant
 tulip/Graph.h
 -
 ElementCollection.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
 TulipTableWidgetColumnSelectionModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 GraphTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 tulip/PropertyInterface.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 QtCore/QAbstractListModel
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
 TulipTableWidgetColumnSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
 ui_TulipTableWidgetColumnSelectionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_TulipTableWidgetColumnSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_TulipTableWidgetColumnSelectionWidget.h
 TulipTableWidgetColumnSelectionModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 GraphTableModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 QtGui/QMenu
 -
 QtGui/QStyledItemDelegate
@@ -1568,25 +1568,25 @@ cassert
 string
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
 QtGui/QWidget
 -
 QtCore/QRegExp
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp
 VectorEditionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
 ui_VectorEditionWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_VectorEditionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ui_VectorEditionWidget.h
 QtGui/QDialog
 -
 QtGui/QDialogButtonBox
 -
 TulipItemDelegate.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
 QWidget
 -
 tulip/tulipconf.h
@@ -1596,25 +1596,25 @@ tulip/PropertyTypes.h
 tulip/TlpQtTools.h
 -
 TulipQVariantBuilder.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.h
 QtCore/QVariant
 -
 QtCore/QAbstractListModel
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp
 VisibleSectionsModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
 GraphTableWidget.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 QtGui/QHeaderView
 -
 TulipTableWidgetColumnSelectionModel.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 tulip/TlpQtTools.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
 QtGui/QComboBox
 -
 

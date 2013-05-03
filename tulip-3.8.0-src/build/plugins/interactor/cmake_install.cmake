@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorNavigation-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorNavigation-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorNavigation-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorNavigation-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorNavigation-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -57,7 +57,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorSelection-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorSelection-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorSelection-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorSelection-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorSelection-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -75,7 +75,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorSelectionModifier-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorSelectionModifier-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorSelectionModifier-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorSelectionModifier-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorSelectionModifier-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -93,7 +93,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorRectangleZoom-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorRectangleZoom-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/libInteractorRectangleZoom-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorRectangleZoom-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/interactors/libInteractorRectangleZoom-3.8.0.so")
     FILE(RPATH_REMOVE

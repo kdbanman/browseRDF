@@ -860,7 +860,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/glyph/window.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/glyph/window.cpp
 tulip/Glyph.h
 -
 tulip/GlRect.h

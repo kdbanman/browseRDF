@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/NodeMetric.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/NodeMetric.cpp
 stack
 -
 NodeMetric.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/NodeMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/NodeMetric.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/NodeMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/NodeMetric.h
 tulip/TulipPlugin.h
 -
 

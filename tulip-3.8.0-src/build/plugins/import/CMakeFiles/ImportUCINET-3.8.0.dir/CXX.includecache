@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/ImportUCINET.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/ImportUCINET.cpp
 iostream
 -
 fstream

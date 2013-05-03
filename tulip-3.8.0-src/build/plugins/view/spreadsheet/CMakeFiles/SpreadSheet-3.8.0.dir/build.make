@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o: plugins/view/spreadsheet/moc_SpreadView.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o.requires
@@ -71,17 +71,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadView.cxx.o.p
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o: plugins/view/spreadsheet/moc_GraphTableWidget.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.cxx.o.requires
@@ -94,17 +94,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableWidget.c
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o: plugins/view/spreadsheet/moc_GraphTableModel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cxx.o.requires
@@ -117,17 +117,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_GraphTableModel.cx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o: plugins/view/spreadsheet/moc_ElementCollection.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.cxx.o.requires
@@ -140,17 +140,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_ElementCollection.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o: plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.cxx.o.requires
@@ -163,17 +163,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipItemDelegate.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o: plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidget.cxx.o.requires
@@ -186,17 +186,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VectorEditionWidge
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o: plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionModel.cxx.o.requires
@@ -209,17 +209,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetCo
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o: plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetColumnSelectionWidget.cxx.o.requires
@@ -232,17 +232,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipTableWidgetCo
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o: plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWidget.cxx.o.requires
@@ -255,17 +255,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_SpreadViewTableWid
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o: plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsModel.cxx.o.requires
@@ -278,17 +278,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_VisibleSectionsMod
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o: plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyModel.cxx.o.requires
@@ -301,17 +301,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/moc_TulipFilterProxyMo
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o: ../plugins/view/spreadsheet/SpreadView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o.requires
@@ -324,17 +324,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadView.cpp.o.provi
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o: ../plugins/view/spreadsheet/GraphTableWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o.requires
@@ -347,17 +347,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableWidget.cpp.o
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o: ../plugins/view/spreadsheet/GraphTableModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o.requires
@@ -370,17 +370,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GraphTableModel.cpp.o.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o: ../plugins/view/spreadsheet/ElementCollection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.o.requires
@@ -393,17 +393,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/ElementCollection.cpp.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o: ../plugins/view/spreadsheet/TulipItemDelegate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.o.requires
@@ -416,17 +416,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipItemDelegate.cpp.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o: ../plugins/view/spreadsheet/TulipQVariantBuilder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipQVariantBuilder.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.cpp.o.requires
@@ -439,17 +439,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipQVariantBuilder.c
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o: ../plugins/view/spreadsheet/VectorEditionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cpp.o.requires
@@ -462,17 +462,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VectorEditionWidget.cp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o: ../plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GlyphPreviewGenerator.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.cpp.o.requires
@@ -485,17 +485,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/GlyphPreviewGenerator.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o: ../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionModel.cpp.o.requires
@@ -508,17 +508,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumn
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o: ../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumnSelectionWidget.cpp.o.requires
@@ -531,17 +531,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipTableWidgetColumn
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o: ../plugins/view/spreadsheet/OrientedPushButton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/OrientedPushButton.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp.o.requires
@@ -554,17 +554,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/OrientedPushButton.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o: ../plugins/view/spreadsheet/SpreadViewTableWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.cpp.o.requires
@@ -577,17 +577,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/SpreadViewTableWidget.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o: ../plugins/view/spreadsheet/VisibleSectionsModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.cpp.o.requires
@@ -600,17 +600,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/VisibleSectionsModel.c
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o: ../plugins/view/spreadsheet/TulipFilterProxyModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp > CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.cpp -o CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.cpp.o.requires
@@ -623,17 +623,17 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/TulipFilterProxyModel.
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/flags.make
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o: plugins/view/spreadsheet/qrc_Spreadsheet.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx > CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.i
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx -o CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.s
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o.requires:
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o.requires
@@ -645,86 +645,86 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o.
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o.provides.build: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/qrc_Spreadsheet.cxx.o
 
 plugins/view/spreadsheet/ui_SpreadViewWidget.h: ../plugins/view/spreadsheet/SpreadViewWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_SpreadViewWidget.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_SpreadViewWidget.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_SpreadViewWidget.h /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewWidget.ui
 
 plugins/view/spreadsheet/ui_VectorEditionWidget.h: ../plugins/view/spreadsheet/VectorEditionWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_VectorEditionWidget.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_VectorEditionWidget.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_VectorEditionWidget.h /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.ui
 
 plugins/view/spreadsheet/ui_TulipTableWidgetColumnSelectionWidget.h: ../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_TulipTableWidgetColumnSelectionWidget.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_TulipTableWidgetColumnSelectionWidget.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_TulipTableWidgetColumnSelectionWidget.h /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.ui
 
 plugins/view/spreadsheet/ui_SpreadViewTableWidget.h: ../plugins/view/spreadsheet/SpreadViewTableWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_SpreadViewTableWidget.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_SpreadViewTableWidget.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/ui_SpreadViewTableWidget.h /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.ui
 
 plugins/view/spreadsheet/moc_SpreadView.cxx: ../plugins/view/spreadsheet/SpreadView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SpreadView.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadView.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadView.h
 
 plugins/view/spreadsheet/moc_GraphTableWidget.cxx: ../plugins/view/spreadsheet/GraphTableWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GraphTableWidget.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableWidget.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableWidget.h
 
 plugins/view/spreadsheet/moc_GraphTableModel.cxx: ../plugins/view/spreadsheet/GraphTableModel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GraphTableModel.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_GraphTableModel.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/GraphTableModel.h
 
 plugins/view/spreadsheet/moc_ElementCollection.cxx: ../plugins/view/spreadsheet/ElementCollection.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ElementCollection.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_ElementCollection.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/ElementCollection.h
 
 plugins/view/spreadsheet/moc_TulipItemDelegate.cxx: ../plugins/view/spreadsheet/TulipItemDelegate.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipItemDelegate.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipItemDelegate.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipItemDelegate.h
 
 plugins/view/spreadsheet/moc_VectorEditionWidget.cxx: ../plugins/view/spreadsheet/VectorEditionWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_VectorEditionWidget.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VectorEditionWidget.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VectorEditionWidget.h
 
 plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx: ../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipTableWidgetColumnSelectionModel.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionModel.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionModel.h
 
 plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx: ../plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipTableWidgetColumnSelectionWidget.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipTableWidgetColumnSelectionWidget.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipTableWidgetColumnSelectionWidget.h
 
 plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx: ../plugins/view/spreadsheet/SpreadViewTableWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_SpreadViewTableWidget.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_SpreadViewTableWidget.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/SpreadViewTableWidget.h
 
 plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx: ../plugins/view/spreadsheet/VisibleSectionsModel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_VisibleSectionsModel.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/VisibleSectionsModel.h
 
 plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx: ../plugins/view/spreadsheet/TulipFilterProxyModel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipFilterProxyModel.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogl/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/include -I/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet -I/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/. -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/TulipFilterProxyModel.h
 
 plugins/view/spreadsheet/qrc_Spreadsheet.cxx: ../plugins/view/spreadsheet/inherited_properties.png
 plugins/view/spreadsheet/qrc_Spreadsheet.cxx: plugins/view/spreadsheet/Spreadsheet.qrc.depends
 plugins/view/spreadsheet/qrc_Spreadsheet.cxx: ../plugins/view/spreadsheet/Spreadsheet.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_Spreadsheet.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/rcc -name Spreadsheet -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/Spreadsheet.qrc
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && /usr/bin/rcc -name Spreadsheet -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/qrc_Spreadsheet.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet/Spreadsheet.qrc
 
 # Object files for target SpreadSheet-3.8.0
 SpreadSheet__3_8_0_OBJECTS = \
@@ -807,7 +807,7 @@ plugins/view/spreadsheet/libSpreadSheet-3.8.0.so: /usr/lib/x86_64-linux-gnu/libQ
 plugins/view/spreadsheet/libSpreadSheet-3.8.0.so: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/build.make
 plugins/view/spreadsheet/libSpreadSheet-3.8.0.so: plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libSpreadSheet-3.8.0.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpreadSheet-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpreadSheet-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/build: plugins/view/spreadsheet/libSpreadSheet-3.8.0.so
@@ -842,7 +842,7 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/requires: plugins/view
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/requires
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && $(CMAKE_COMMAND) -P CMakeFiles/SpreadSheet-3.8.0.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet && $(CMAKE_COMMAND) -P CMakeFiles/SpreadSheet-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/clean
 
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend: plugins/view/spreadsheet/ui_SpreadViewWidget.h
@@ -861,6 +861,6 @@ plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend: plugins/view/s
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend: plugins/view/spreadsheet/moc_VisibleSectionsModel.cxx
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend: plugins/view/spreadsheet/moc_TulipFilterProxyModel.cxx
 plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend: plugins/view/spreadsheet/qrc_Spreadsheet.cxx
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/spreadsheet /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/view/spreadsheet/CMakeFiles/SpreadSheet-3.8.0.dir/depend
 

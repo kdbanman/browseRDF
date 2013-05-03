@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/AdjacencyMatrixImport.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/AdjacencyMatrixImport.cpp
 sys/stat.h
 -
 sys/types.h

@@ -824,7 +824,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/Eccentricity.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/Eccentricity.cpp
 deque
 -
 omp.h
@@ -832,9 +832,9 @@ omp.h
 tulip/ConnectedTest.h
 -
 Eccentricity.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/Eccentricity.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/Eccentricity.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/Eccentricity.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/Eccentricity.h
 tulip/TulipPlugin.h
 -
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,23 +34,23 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/bitmaps/colorscales" TYPE FILE FILES
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Rainbow.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/GreenRed.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/OrangeBlue.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Blue.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BlackPink.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BlackRedYellowWhite.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BiologicalHeatMap.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Temperature.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Brown.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/CMYK.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Red.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/RedBlue.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/RedYellow.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BrownCyan.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Pink.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/MentheGrenadine.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BlueGreenYellow.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BlackPink.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BiologicalHeatMap.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/GreenRed.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/RedYellow.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Temperature.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/OrangeBlue.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/MentheGrenadine.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BrownCyan.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BlueGreenYellow.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Rainbow.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Brown.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Blue.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/RedBlue.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/BlackRedYellowWhite.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/CMYK.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Red.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/bitmaps/colorscales/Pink.png"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip")
 

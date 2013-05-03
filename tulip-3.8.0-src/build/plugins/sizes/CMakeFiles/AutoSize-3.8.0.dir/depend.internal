@@ -80,5 +80,5 @@ plugins/sizes/CMakeFiles/AutoSize-3.8.0.dir/AutoSize.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/sizes/AutoSize.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/sizes/AutoSize.cpp
  library/tulip/include/tulip/TulipRelease.h

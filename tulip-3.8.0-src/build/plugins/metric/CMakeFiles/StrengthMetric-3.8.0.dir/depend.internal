@@ -80,6 +80,6 @@ plugins/metric/CMakeFiles/StrengthMetric-3.8.0.dir/StrengthMetric.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrengthMetric.h
  library/tulip/include/tulip/TulipRelease.h

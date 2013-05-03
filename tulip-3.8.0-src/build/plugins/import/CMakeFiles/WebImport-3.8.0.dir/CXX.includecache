@@ -830,7 +830,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/../../../plugins/import/WebImport.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/../../../plugins/import/WebImport.h
 string
 -
 QtNetwork/QNetworkReply
@@ -840,11 +840,11 @@ QtCore/qeventloop.h
 QtCore/qtimer.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/moc_WebImport.cpp
 ../../../plugins/import/WebImport.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/../../../plugins/import/WebImport.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/../../../plugins/import/WebImport.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.cpp
 iostream
 -
 QtGui/qapplication.h
@@ -856,9 +856,9 @@ tulip/TulipPlugin.h
 tulip/TlpNetworkAccess.h
 -
 WebImport.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/WebImport.h
 string
 -
 QtNetwork/QNetworkReply

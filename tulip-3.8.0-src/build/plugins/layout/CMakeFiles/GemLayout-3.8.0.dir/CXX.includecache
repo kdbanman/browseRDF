@@ -824,11 +824,11 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.cpp
 GEMLayout.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/GEMLayout.h
 vector
 -
 tulip/TulipPlugin.h

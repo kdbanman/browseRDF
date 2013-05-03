@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/include
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/include
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

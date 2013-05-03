@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include software/tulip/src/CMakeFiles/tulip_app.dir/depend.make
@@ -48,17 +48,17 @@ include software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o: software/tulip/src/moc_AppStartUp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp > CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp > CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp -o CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp -o CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o.requires
@@ -71,17 +71,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/moc_AppStartUp.cpp.o.provides.build:
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o: software/tulip/src/moc_InfoDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp > CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp > CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp -o CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp -o CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o.requires
@@ -94,17 +94,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/moc_InfoDialog.cpp.o.provides.build:
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o: software/tulip/src/moc_TulipApp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp > CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp > CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp -o CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp -o CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o.requires
@@ -117,17 +117,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/moc_TulipApp.cpp.o.provides.build: s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o: software/tulip/src/moc_PreferenceDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp > CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp > CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp -o CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp -o CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o.requires
@@ -140,17 +140,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/moc_PreferenceDialog.cpp.o.provides.
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o: software/tulip/src/moc_ChooseControllerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp > CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp > CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp -o CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp -o CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o.requires
@@ -163,17 +163,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/moc_ChooseControllerDialog.cpp.o.pro
 
 software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o: ../software/tulip/src/TulipApp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/TulipApp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/TulipApp.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/TulipApp.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp > CMakeFiles/tulip_app.dir/TulipApp.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp > CMakeFiles/tulip_app.dir/TulipApp.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/TulipApp.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp -o CMakeFiles/tulip_app.dir/TulipApp.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.cpp -o CMakeFiles/tulip_app.dir/TulipApp.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o.requires
@@ -186,17 +186,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/TulipApp.cpp.o.provides.build: softw
 
 software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o: ../software/tulip/src/InfoDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/InfoDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/InfoDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/InfoDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp > CMakeFiles/tulip_app.dir/InfoDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp > CMakeFiles/tulip_app.dir/InfoDialog.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/InfoDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp -o CMakeFiles/tulip_app.dir/InfoDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/InfoDialog.cpp -o CMakeFiles/tulip_app.dir/InfoDialog.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o.requires
@@ -209,17 +209,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/InfoDialog.cpp.o.provides.build: sof
 
 software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o: ../software/tulip/src/AppStartUp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/AppStartUp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/AppStartUp.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/AppStartUp.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp > CMakeFiles/tulip_app.dir/AppStartUp.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp > CMakeFiles/tulip_app.dir/AppStartUp.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/AppStartUp.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp -o CMakeFiles/tulip_app.dir/AppStartUp.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/AppStartUp.cpp -o CMakeFiles/tulip_app.dir/AppStartUp.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o.requires
@@ -232,17 +232,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/AppStartUp.cpp.o.provides.build: sof
 
 software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o: ../software/tulip/src/PreferenceDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp > CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp > CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp -o CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/PreferenceDialog.cpp -o CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o.requires
@@ -255,17 +255,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/PreferenceDialog.cpp.o.provides.buil
 
 software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o: ../software/tulip/src/ChooseControllerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp > CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp > CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp -o CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/ChooseControllerDialog.cpp -o CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o.requires
@@ -278,17 +278,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/ChooseControllerDialog.cpp.o.provide
 
 software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o: ../software/tulip/src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/main.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/main.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp
 
 software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/main.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp > CMakeFiles/tulip_app.dir/main.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp > CMakeFiles/tulip_app.dir/main.cpp.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/main.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp -o CMakeFiles/tulip_app.dir/main.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/main.cpp -o CMakeFiles/tulip_app.dir/main.cpp.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o.requires
@@ -301,17 +301,17 @@ software/tulip/src/CMakeFiles/tulip_app.dir/main.cpp.o.provides.build: software/
 
 software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o: software/tulip/src/CMakeFiles/tulip_app.dir/flags.make
 software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o: software/tulip/src/qrc_TulipResource.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx
 
 software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx > CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx > CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.i
 
 software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx -o CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx -o CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.s
 
 software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o.requires:
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o.requires
@@ -323,54 +323,54 @@ software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o.provides: so
 software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o.provides.build: software/tulip/src/CMakeFiles/tulip_app.dir/qrc_TulipResource.cxx.o
 
 software/tulip/src/../include/TulipData.h: ../software/tulip/designer/Tulip.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/TulipData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/TulipData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/Tulip.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/TulipData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/Tulip.ui
 
 software/tulip/src/../include/AppStartUpData.h: ../software/tulip/designer/AppStartUp.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/AppStartUpData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/AppStartUpData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/AppStartUp.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/AppStartUpData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/AppStartUp.ui
 
 software/tulip/src/../include/InfoDialogData.h: ../software/tulip/designer/InfoDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/InfoDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/InfoDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/InfoDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/InfoDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/InfoDialog.ui
 
 software/tulip/src/../include/PreferenceDialogData.h: ../software/tulip/designer/PreferenceDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/PreferenceDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/PreferenceDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/PreferenceDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/PreferenceDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/PreferenceDialog.ui
 
 software/tulip/src/../include/ChooseControllerDialogData.h: ../software/tulip/designer/ChooseControllerDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/ChooseControllerDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/ChooseControllerDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/ChooseControllerDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/../include/ChooseControllerDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/ChooseControllerDialog.ui
 
 software/tulip/src/moc_AppStartUp.cpp: ../software/tulip/include/AppStartUp.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_AppStartUp.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/include/AppStartUp.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_AppStartUp.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/include/AppStartUp.h
 
 software/tulip/src/moc_InfoDialog.cpp: ../software/tulip/include/InfoDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_InfoDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/include/InfoDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_InfoDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/include/InfoDialog.h
 
 software/tulip/src/moc_TulipApp.cpp: ../software/tulip/include/TulipApp.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_TulipApp.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/include/TulipApp.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_TulipApp.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/include/TulipApp.h
 
 software/tulip/src/moc_PreferenceDialog.cpp: ../software/tulip/include/PreferenceDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PreferenceDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/include/PreferenceDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_PreferenceDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/include/PreferenceDialog.h
 
 software/tulip/src/moc_ChooseControllerDialog.cpp: ../software/tulip/include/ChooseControllerDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ChooseControllerDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/include/ChooseControllerDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_MINOR_REL=8 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/moc_ChooseControllerDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/include/ChooseControllerDialog.h
 
 software/tulip/src/qrc_TulipResource.cxx: ../software/tulip/designer/background_logo.png
 software/tulip/src/qrc_TulipResource.cxx: ../software/tulip/designer/i_open.png
@@ -382,9 +382,9 @@ software/tulip/src/qrc_TulipResource.cxx: ../software/tulip/designer/logolabri.j
 software/tulip/src/qrc_TulipResource.cxx: ../software/tulip/designer/startUpPicture.png
 software/tulip/src/qrc_TulipResource.cxx: software/tulip/src/__/designer/TulipResource.qrc.depends
 software/tulip/src/qrc_TulipResource.cxx: ../software/tulip/designer/TulipResource.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_TulipResource.cxx"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/rcc -name TulipResource -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/TulipResource.qrc
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && /usr/bin/rcc -name TulipResource -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/qrc_TulipResource.cxx /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/designer/TulipResource.qrc
 
 # Object files for target tulip_app
 tulip_app_OBJECTS = \
@@ -451,7 +451,7 @@ software/tulip/src/tulip_app: /usr/lib/x86_64-linux-gnu/libGL.so
 software/tulip/src/tulip_app: software/tulip/src/CMakeFiles/tulip_app.dir/build.make
 software/tulip/src/tulip_app: software/tulip/src/CMakeFiles/tulip_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable tulip_app"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip_app.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 software/tulip/src/CMakeFiles/tulip_app.dir/build: software/tulip/src/tulip_app
@@ -472,7 +472,7 @@ software/tulip/src/CMakeFiles/tulip_app.dir/requires: software/tulip/src/CMakeFi
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/requires
 
 software/tulip/src/CMakeFiles/tulip_app.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip_app.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip_app.dir/cmake_clean.cmake
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/clean
 
 software/tulip/src/CMakeFiles/tulip_app.dir/depend: software/tulip/src/../include/TulipData.h
@@ -486,6 +486,6 @@ software/tulip/src/CMakeFiles/tulip_app.dir/depend: software/tulip/src/moc_Tulip
 software/tulip/src/CMakeFiles/tulip_app.dir/depend: software/tulip/src/moc_PreferenceDialog.cpp
 software/tulip/src/CMakeFiles/tulip_app.dir/depend: software/tulip/src/moc_ChooseControllerDialog.cpp
 software/tulip/src/CMakeFiles/tulip_app.dir/depend: software/tulip/src/qrc_TulipResource.cxx
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/CMakeFiles/tulip_app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/tulip/src/CMakeFiles/tulip_app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : software/tulip/src/CMakeFiles/tulip_app.dir/depend
 

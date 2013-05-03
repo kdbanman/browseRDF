@@ -810,7 +810,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/glyph/cross.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/glyph/cross.cpp
 vector
 -
 tulip/Coord.h

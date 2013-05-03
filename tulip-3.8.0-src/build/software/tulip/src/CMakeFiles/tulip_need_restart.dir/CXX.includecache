@@ -794,7 +794,7 @@ PluginLoaderWithInfo.h
 AppStartUp.h
 ../software/tulip/src/../include/AppStartUp.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipNeedRestart.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipNeedRestart.cpp
 iostream
 -
 cstdlib
@@ -802,7 +802,7 @@ cstdlib
 QtCore/QSettings
 -
 TulipApp.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/software/tulip/src/TulipApp.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

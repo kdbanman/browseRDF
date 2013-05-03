@@ -14,7 +14,7 @@ fstream
 zlib.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/gzstream/gzstream.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/gzstream/gzstream.cpp
 gzstream.h
 -
 iostream

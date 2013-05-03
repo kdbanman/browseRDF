@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-qt/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libtuli
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtulip-qt4-3.8.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/libtulip-qt4-3.8.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/libtulip-qt4-3.8.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtulip-qt4-3.8.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtulip-qt4-3.8.so")
     FILE(RPATH_REMOVE
@@ -52,32 +52,32 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libt
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tulip" TYPE FILE FILES
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TabWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CopyPropertyDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FindSelectionData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/RenderingParametersDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/LayerManagerWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/AugmentedDisplayDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GWOverviewWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GridOptionsData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PluginProgressWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ColorScaleConfigDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SimpleStringsListSelectionWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/DoubleStringsListSelectionWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ListPropertyWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ChooseFileNameDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TextEditDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/QtOpenGlErrorViewerWithAskAgainDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVGraphMappingConfigurationWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportConfigurationWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVParserConfigurationWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportWizardData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SnapshotDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyCreationDialogData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CoordWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SizeWidgetData.h"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FileNameEditorWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TabWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CopyPropertyDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FindSelectionData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/RenderingParametersDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/LayerManagerWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/AugmentedDisplayDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GWOverviewWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/GridOptionsData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PluginProgressWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ColorScaleConfigDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SimpleStringsListSelectionWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/DoubleStringsListSelectionWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ListPropertyWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/ChooseFileNameDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/TextEditDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/QtOpenGlErrorViewerWithAskAgainDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVGraphMappingConfigurationWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportConfigurationWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVParserConfigurationWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CSVImportWizardData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SnapshotDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/PropertyCreationDialogData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/CoordWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/SizeWidgetData.h"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/../include/tulip/FileNameEditorWidgetData.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

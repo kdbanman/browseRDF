@@ -80,6 +80,6 @@ plugins/clustering/CMakeFiles/StrengthClustering-3.8.0.dir/StrengthClustering.cp
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/StrengthClustering.h
  library/tulip/include/tulip/TulipRelease.h

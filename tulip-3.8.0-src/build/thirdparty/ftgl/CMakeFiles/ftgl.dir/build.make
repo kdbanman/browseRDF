@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include thirdparty/ftgl/CMakeFiles/ftgl.dir/depend.make
@@ -48,17 +48,17 @@ include thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.o: ../thirdparty/ftgl/FTBuffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTBuffer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTBuffer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTBuffer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTBuffer.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTBuffer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTBuffer.cpp > CMakeFiles/ftgl.dir/FTBuffer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTBuffer.cpp > CMakeFiles/ftgl.dir/FTBuffer.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTBuffer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTBuffer.cpp -o CMakeFiles/ftgl.dir/FTBuffer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTBuffer.cpp -o CMakeFiles/ftgl.dir/FTBuffer.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.o.requires
@@ -71,17 +71,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTBuffer.cpp.o.provides.build: thirdparty/ft
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.o: ../thirdparty/ftgl/FTCharmap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTCharmap.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTCharmap.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTCharmap.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTCharmap.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTCharmap.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTCharmap.cpp > CMakeFiles/ftgl.dir/FTCharmap.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTCharmap.cpp > CMakeFiles/ftgl.dir/FTCharmap.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTCharmap.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTCharmap.cpp -o CMakeFiles/ftgl.dir/FTCharmap.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTCharmap.cpp -o CMakeFiles/ftgl.dir/FTCharmap.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.o.requires
@@ -94,17 +94,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTCharmap.cpp.o.provides.build: thirdparty/f
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.o: ../thirdparty/ftgl/FTContour.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTContour.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTContour.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTContour.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTContour.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTContour.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTContour.cpp > CMakeFiles/ftgl.dir/FTContour.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTContour.cpp > CMakeFiles/ftgl.dir/FTContour.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTContour.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTContour.cpp -o CMakeFiles/ftgl.dir/FTContour.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTContour.cpp -o CMakeFiles/ftgl.dir/FTContour.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.o.requires
@@ -117,17 +117,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTContour.cpp.o.provides.build: thirdparty/f
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.o: ../thirdparty/ftgl/FTFace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFace.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFace.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFace.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFace.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFace.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFace.cpp > CMakeFiles/ftgl.dir/FTFace.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFace.cpp > CMakeFiles/ftgl.dir/FTFace.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFace.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFace.cpp -o CMakeFiles/ftgl.dir/FTFace.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFace.cpp -o CMakeFiles/ftgl.dir/FTFace.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.o.requires
@@ -140,17 +140,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFace.cpp.o.provides.build: thirdparty/ftgl
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o: ../thirdparty/ftgl/FTGlyphContainer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyphContainer.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyphContainer.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyphContainer.cpp > CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyphContainer.cpp > CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyphContainer.cpp -o CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyphContainer.cpp -o CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o.requires
@@ -163,17 +163,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyphContainer.cpp.o.provides.build: third
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.o: ../thirdparty/ftgl/FTLibrary.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLibrary.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLibrary.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLibrary.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLibrary.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTLibrary.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLibrary.cpp > CMakeFiles/ftgl.dir/FTLibrary.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLibrary.cpp > CMakeFiles/ftgl.dir/FTLibrary.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTLibrary.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLibrary.cpp -o CMakeFiles/ftgl.dir/FTLibrary.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLibrary.cpp -o CMakeFiles/ftgl.dir/FTLibrary.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.o.requires
@@ -186,17 +186,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLibrary.cpp.o.provides.build: thirdparty/f
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.o: ../thirdparty/ftgl/FTPoint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTPoint.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTPoint.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTPoint.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTPoint.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTPoint.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTPoint.cpp > CMakeFiles/ftgl.dir/FTPoint.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTPoint.cpp > CMakeFiles/ftgl.dir/FTPoint.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTPoint.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTPoint.cpp -o CMakeFiles/ftgl.dir/FTPoint.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTPoint.cpp -o CMakeFiles/ftgl.dir/FTPoint.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.o.requires
@@ -209,17 +209,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTPoint.cpp.o.provides.build: thirdparty/ftg
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.o: ../thirdparty/ftgl/FTSize.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTSize.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTSize.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTSize.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTSize.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTSize.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTSize.cpp > CMakeFiles/ftgl.dir/FTSize.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTSize.cpp > CMakeFiles/ftgl.dir/FTSize.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTSize.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTSize.cpp -o CMakeFiles/ftgl.dir/FTSize.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTSize.cpp -o CMakeFiles/ftgl.dir/FTSize.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.o.requires
@@ -232,17 +232,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTSize.cpp.o.provides.build: thirdparty/ftgl
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.o: ../thirdparty/ftgl/FTVectoriser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTVectoriser.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTVectoriser.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTVectoriser.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTVectoriser.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTVectoriser.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTVectoriser.cpp > CMakeFiles/ftgl.dir/FTVectoriser.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTVectoriser.cpp > CMakeFiles/ftgl.dir/FTVectoriser.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTVectoriser.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTVectoriser.cpp -o CMakeFiles/ftgl.dir/FTVectoriser.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTVectoriser.cpp -o CMakeFiles/ftgl.dir/FTVectoriser.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.o.requires
@@ -255,17 +255,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTVectoriser.cpp.o.provides.build: thirdpart
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o.requires
@@ -278,17 +278,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyph.cpp.o.provides.build: thirdp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o: ../thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTGlyphGlue.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o.requires
@@ -301,17 +301,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTGlyphGlue.cpp.o.provides.build: th
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBitmapGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o.requires
@@ -324,17 +324,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBitmapGlyph.cpp.o.provides.build: 
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTBufferGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o.requires
@@ -347,17 +347,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTBufferGlyph.cpp.o.provides.build: 
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTExtrudeGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o.requires
@@ -370,17 +370,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTExtrudeGlyph.cpp.o.provides.build:
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTOutlineGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o.requires
@@ -393,17 +393,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTOutlineGlyph.cpp.o.provides.build:
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPixmapGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o.requires
@@ -416,17 +416,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPixmapGlyph.cpp.o.provides.build: 
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTPolygonGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o.requires
@@ -439,17 +439,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTPolygonGlyph.cpp.o.provides.build:
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o: ../thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp > CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTGlyph/FTTextureGlyph.cpp -o CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o.requires
@@ -462,17 +462,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTGlyph/FTTextureGlyph.cpp.o.provides.build:
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o: ../thirdparty/ftgl/FTFont/FTFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o.requires
@@ -485,17 +485,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFont.cpp.o.provides.build: thirdpar
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o: ../thirdparty/ftgl/FTFont/FTFontGlue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFontGlue.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFontGlue.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFontGlue.cpp > CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFontGlue.cpp > CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFontGlue.cpp -o CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTFontGlue.cpp -o CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o.requires
@@ -508,17 +508,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTFontGlue.cpp.o.provides.build: thir
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o: ../thirdparty/ftgl/FTFont/FTBitmapFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBitmapFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBitmapFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBitmapFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBitmapFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBitmapFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBitmapFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o.requires
@@ -531,17 +531,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBitmapFont.cpp.o.provides.build: th
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o: ../thirdparty/ftgl/FTFont/FTBufferFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBufferFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBufferFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBufferFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBufferFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBufferFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTBufferFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o.requires
@@ -554,17 +554,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTBufferFont.cpp.o.provides.build: th
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o: ../thirdparty/ftgl/FTFont/FTExtrudeFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTExtrudeFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTExtrudeFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTExtrudeFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTExtrudeFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTExtrudeFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTExtrudeFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o.requires
@@ -577,17 +577,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTExtrudeFont.cpp.o.provides.build: t
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o: ../thirdparty/ftgl/FTFont/FTOutlineFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTOutlineFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTOutlineFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTOutlineFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTOutlineFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTOutlineFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTOutlineFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o.requires
@@ -600,17 +600,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTOutlineFont.cpp.o.provides.build: t
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o: ../thirdparty/ftgl/FTFont/FTPixmapFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPixmapFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPixmapFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPixmapFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPixmapFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPixmapFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPixmapFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o.requires
@@ -623,17 +623,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPixmapFont.cpp.o.provides.build: th
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o: ../thirdparty/ftgl/FTFont/FTPolygonFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPolygonFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPolygonFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPolygonFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPolygonFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPolygonFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTPolygonFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o.requires
@@ -646,17 +646,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTPolygonFont.cpp.o.provides.build: t
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o: ../thirdparty/ftgl/FTFont/FTTextureFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTTextureFont.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTTextureFont.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTTextureFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTTextureFont.cpp > CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTTextureFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTFont/FTTextureFont.cpp -o CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o.requires
@@ -669,17 +669,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTFont/FTTextureFont.cpp.o.provides.build: t
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o: ../thirdparty/ftgl/FTLayout/FTLayout.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayout.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayout.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayout.cpp > CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayout.cpp > CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayout.cpp -o CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayout.cpp -o CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o.requires
@@ -692,17 +692,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayout.cpp.o.provides.build: thir
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o: ../thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp > CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp > CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp -o CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTLayoutGlue.cpp -o CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o.requires
@@ -715,17 +715,17 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTLayoutGlue.cpp.o.provides.build: 
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o: thirdparty/ftgl/CMakeFiles/ftgl.dir/flags.make
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o: ../thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp > CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp > CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.i
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp -o CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl/FTLayout/FTSimpleLayout.cpp -o CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.s
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o.requires:
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/FTLayout/FTSimpleLayout.cpp.o.requires
@@ -808,7 +808,7 @@ thirdparty/ftgl/libftgl.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 thirdparty/ftgl/libftgl.so: thirdparty/ftgl/CMakeFiles/ftgl.dir/build.make
 thirdparty/ftgl/libftgl.so: thirdparty/ftgl/CMakeFiles/ftgl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libftgl.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ftgl.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ftgl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 thirdparty/ftgl/CMakeFiles/ftgl.dir/build: thirdparty/ftgl/libftgl.so
@@ -847,10 +847,10 @@ thirdparty/ftgl/CMakeFiles/ftgl.dir/requires: thirdparty/ftgl/CMakeFiles/ftgl.di
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/requires
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && $(CMAKE_COMMAND) -P CMakeFiles/ftgl.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl && $(CMAKE_COMMAND) -P CMakeFiles/ftgl.dir/cmake_clean.cmake
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/clean
 
 thirdparty/ftgl/CMakeFiles/ftgl.dir/depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl/CMakeFiles/ftgl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/thirdparty/ftgl /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl /home/kdbanman/browseRDF/tulip-3.8.0-src/build/thirdparty/ftgl/CMakeFiles/ftgl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : thirdparty/ftgl/CMakeFiles/ftgl.dir/depend
 

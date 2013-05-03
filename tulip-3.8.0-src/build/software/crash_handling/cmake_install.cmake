@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/crash_handling
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/software/crash_handling
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -81,7 +81,7 @@ plugins/glyph/CMakeFiles/Triangle-3.8.0.dir/triangle.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/glyph/triangle.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/glyph/triangle.cpp
  /usr/include/GL/../GL/gl.h
  /usr/include/GL/../GL/gl_mangle.h
  /usr/include/GL/../GL/glext.h

@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o: ../plugins/layout/DatasetTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DatasetTools.cpp.o.provides.build
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o: ../plugins/layout/EdgeTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp > CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp > CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/EdgeTools.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o.requires
@@ -94,17 +94,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/EdgeTools.cpp.o.provides.build: p
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o: ../plugins/layout/OrientableCoord.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableCoord.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o.requires
@@ -117,17 +117,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableCoord.cpp.o.provides.bu
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o: ../plugins/layout/OrientableLayout.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableLayout.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o.requires
@@ -140,17 +140,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableLayout.cpp.o.provides.b
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o: ../plugins/layout/OrientableSize.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSize.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o.requires
@@ -163,17 +163,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSize.cpp.o.provides.bui
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o: ../plugins/layout/OrientableSizeProxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp > CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OrientableSizeProxy.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o.requires
@@ -186,17 +186,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/OrientableSizeProxy.cpp.o.provide
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o: ../plugins/layout/Orientation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp > CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp > CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Orientation.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o.requires
@@ -209,17 +209,17 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Orientation.cpp.o.provides.build:
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o: ../plugins/layout/Dendrogram.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp > CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp > CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.i
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Dendrogram.cpp -o CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.s
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/Dendrogram.cpp.o.requires
@@ -259,7 +259,7 @@ plugins/layout/libDendrogram-3.8.0.so: thirdparty/libqhull/libqhull.a
 plugins/layout/libDendrogram-3.8.0.so: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/build.make
 plugins/layout/libDendrogram-3.8.0.so: plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libDendrogram-3.8.0.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dendrogram-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dendrogram-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/build: plugins/layout/libDendrogram-3.8.0.so
@@ -276,10 +276,10 @@ plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/requires: plugins/layout/CMakeFil
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/requires
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/Dendrogram-3.8.0.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/Dendrogram-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/clean
 
 plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/layout/CMakeFiles/Dendrogram-3.8.0.dir/depend
 

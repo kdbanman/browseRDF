@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend.make
@@ -48,17 +48,17 @@ include software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/fla
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o: software/plugins-manager/src/moc_PluginsManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsManager.cpp.o.requires
@@ -71,17 +71,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Plugins
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o: software/plugins-manager/src/moc_PluginsViewWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsViewWidget.cpp.o.requires
@@ -94,17 +94,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Plugins
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o: software/plugins-manager/src/moc_Server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.cpp.o.requires
@@ -117,17 +117,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Server.
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o: software/plugins-manager/src/moc_MultiServerManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiServerManager.cpp.o.requires
@@ -140,17 +140,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_MultiSe
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o: software/plugins-manager/src/moc_HttpRequest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpRequest.cpp.o.requires
@@ -163,17 +163,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_HttpReq
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o: software/plugins-manager/src/moc_PluginsInfoWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsInfoWidget.cpp.o.requires
@@ -186,17 +186,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Plugins
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o: software/plugins-manager/src/moc_UpdatePlugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePlugin.cpp.o.requires
@@ -209,17 +209,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdateP
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o: software/plugins-manager/src/moc_InstallPluginDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallPluginDialog.cpp.o.requires
@@ -232,17 +232,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Install
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o: software/plugins-manager/src/moc_Request.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request.cpp.o.requires
@@ -255,17 +255,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Request
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o: software/plugins-manager/src/moc_InstallExitDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_InstallExitDialog.cpp.o.requires
@@ -278,17 +278,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Install
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o: software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_AuthorizationInstallDependencies.cpp.o.requires
@@ -301,17 +301,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Authori
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o: software/plugins-manager/src/moc_ChooseServerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseServerDialog.cpp.o.requires
@@ -324,17 +324,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ChooseS
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o: software/plugins-manager/src/moc_ServersOptionDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ServersOptionDialog.cpp.o.requires
@@ -347,17 +347,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Servers
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o: software/plugins-manager/src/moc_ModifyServerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyServerDialog.cpp.o.requires
@@ -370,17 +370,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ModifyS
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o: software/plugins-manager/src/moc_PluginsUpdateChecker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_PluginsUpdateChecker.cpp.o.requires
@@ -393,17 +393,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_Plugins
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o: software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyConfigurationDialog.cpp.o.requires
@@ -416,17 +416,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_ProxyCo
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o: software/plugins-manager/src/moc_UpdatePluginsDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdatePluginsDialog.cpp.o.requires
@@ -439,17 +439,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_UpdateP
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o: software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTulipVersionAvailableDialog.cpp.o.requires
@@ -462,17 +462,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/moc_NewTuli
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o: ../software/plugins-manager/src/PluginsManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsManager.cpp.o.requires
@@ -485,17 +485,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsMana
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o: ../software/plugins-manager/src/PluginsViewWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsViewWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsViewWidget.cpp.o.requires
@@ -508,17 +508,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsView
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o: ../software/plugins-manager/src/Server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Server.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.o.requires
@@ -531,17 +531,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Server.cpp.
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o: ../software/plugins-manager/src/MultiServerManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/MultiServerManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServerManager.cpp.o.requires
@@ -554,17 +554,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/MultiServer
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o: ../software/plugins-manager/src/SoapResponseReader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapResponseReader.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapResponseReader.cpp.o.requires
@@ -577,17 +577,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRespons
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o: ../software/plugins-manager/src/SoapRequestBuilder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/SoapRequestBuilder.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequestBuilder.cpp.o.requires
@@ -600,17 +600,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/SoapRequest
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o: ../software/plugins-manager/src/HttpRequest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/HttpRequest.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest.cpp.o.requires
@@ -623,17 +623,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/HttpRequest
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o: ../software/plugins-manager/src/PluginsListManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsListManager.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsListManager.cpp.o.requires
@@ -646,17 +646,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsList
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o: ../software/plugins-manager/src/Request.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/Request.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp.o.requires
@@ -669,17 +669,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Request.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o: ../software/plugins-manager/src/PluginsInfoWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsInfoWidget.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfoWidget.cpp.o.requires
@@ -692,17 +692,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsInfo
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o: ../software/plugins-manager/src/UpdatePlugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePlugin.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugin.cpp.o.requires
@@ -715,17 +715,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugi
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o: ../software/plugins-manager/src/InstallPluginDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallPluginDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPluginDialog.cpp.o.requires
@@ -738,17 +738,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallPlug
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o: ../software/plugins-manager/src/InstallExitDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/InstallExitDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExitDialog.cpp.o.requires
@@ -761,17 +761,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/InstallExit
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o: ../software/plugins-manager/src/AuthorizationInstallDependencies.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/AuthorizationInstallDependencies.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/AuthorizationInstallDependencies.cpp.o.requires
@@ -784,17 +784,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/Authorizati
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o: ../software/plugins-manager/src/ChooseServerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ChooseServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServerDialog.cpp.o.requires
@@ -807,17 +807,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ChooseServe
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o: ../software/plugins-manager/src/ServersOptionDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ServersOptionDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOptionDialog.cpp.o.requires
@@ -830,17 +830,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ServersOpti
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o: ../software/plugins-manager/src/ModifyServerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ModifyServerDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServerDialog.cpp.o.requires
@@ -853,17 +853,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ModifyServe
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o: ../software/plugins-manager/src/PluginsUpdateChecker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsUpdateChecker.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpdateChecker.cpp.o.requires
@@ -876,17 +876,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsUpda
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o: ../software/plugins-manager/src/ProxyConfigurationDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/ProxyConfigurationDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfigurationDialog.cpp.o.requires
@@ -899,17 +899,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/ProxyConfig
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o: ../software/plugins-manager/src/UpdatePluginsDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/UpdatePluginsDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePluginsDialog.cpp.o.requires
@@ -922,17 +922,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/UpdatePlugi
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o: ../software/plugins-manager/src/PluginsHelp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginsHelp.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp.cpp.o.requires
@@ -945,17 +945,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginsHelp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o: ../software/plugins-manager/src/PluginInfo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/PluginInfo.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.cpp.o.requires
@@ -968,17 +968,17 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/PluginInfo.
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/flags.make
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o: ../software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp > CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.i
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/NewTulipVersionAvailableDialog.cpp -o CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.s
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o.requires:
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o.requires
@@ -990,119 +990,119 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVer
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o.provides.build: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/NewTulipVersionAvailableDialog.cpp.o
 
 software/plugins-manager/src/../include/PluginsInfoWidgetData.h: ../software/plugins-manager/designer/PluginsInfoWidget.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/PluginsInfoWidgetData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/PluginsInfoWidgetData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/PluginsInfoWidget.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/PluginsInfoWidgetData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/PluginsInfoWidget.ui
 
 software/plugins-manager/src/../include/InstallPluginDialogData.h: ../software/plugins-manager/designer/InstallPluginDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/InstallPluginDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/InstallPluginDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/InstallPluginDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/InstallPluginDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/InstallPluginDialog.ui
 
 software/plugins-manager/src/../include/ProxyConfigurationDialogData.h: ../software/plugins-manager/designer/ProxyConfigurationDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/ProxyConfigurationDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/ProxyConfigurationDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/ProxyConfigurationDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/ProxyConfigurationDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/ProxyConfigurationDialog.ui
 
 software/plugins-manager/src/../include/UpdatePluginsDialogData.h: ../software/plugins-manager/designer/UpdatePluginsDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/UpdatePluginsDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/UpdatePluginsDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/UpdatePluginsDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/UpdatePluginsDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/UpdatePluginsDialog.ui
 
 software/plugins-manager/src/../include/NewTulipVersionAvailableDialogData.h: ../software/plugins-manager/designer/NewTulipVersionAvailableDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/NewTulipVersionAvailableDialogData.h"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/NewTulipVersionAvailableDialogData.h /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/NewTulipVersionAvailableDialog.ui
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/uic-qt4 -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/../include/NewTulipVersionAvailableDialogData.h /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/designer/NewTulipVersionAvailableDialog.ui
 
 software/plugins-manager/src/moc_PluginsManager.cpp: ../software/plugins-manager/include/PluginsManager.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PluginsManager.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsManager.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsManager.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsManager.h
 
 software/plugins-manager/src/moc_PluginsViewWidget.cpp: ../software/plugins-manager/include/PluginsViewWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PluginsViewWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsViewWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsViewWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsViewWidget.h
 
 software/plugins-manager/src/moc_Server.cpp: ../software/plugins-manager/include/Server.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_Server.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/Server.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Server.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/Server.h
 
 software/plugins-manager/src/moc_MultiServerManager.cpp: ../software/plugins-manager/include/MultiServerManager.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_MultiServerManager.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/MultiServerManager.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_MultiServerManager.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/MultiServerManager.h
 
 software/plugins-manager/src/moc_HttpRequest.cpp: ../software/plugins-manager/include/HttpRequest.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_HttpRequest.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/HttpRequest.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_HttpRequest.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/HttpRequest.h
 
 software/plugins-manager/src/moc_PluginsInfoWidget.cpp: ../software/plugins-manager/include/PluginsInfoWidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PluginsInfoWidget.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsInfoWidget.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsInfoWidget.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsInfoWidget.h
 
 software/plugins-manager/src/moc_UpdatePlugin.cpp: ../software/plugins-manager/include/UpdatePlugin.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_UpdatePlugin.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/UpdatePlugin.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePlugin.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/UpdatePlugin.h
 
 software/plugins-manager/src/moc_InstallPluginDialog.cpp: ../software/plugins-manager/include/InstallPluginDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_InstallPluginDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/InstallPluginDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallPluginDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/InstallPluginDialog.h
 
 software/plugins-manager/src/moc_Request.cpp: ../software/plugins-manager/include/Request.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_Request.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/Request.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_Request.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/Request.h
 
 software/plugins-manager/src/moc_InstallExitDialog.cpp: ../software/plugins-manager/include/InstallExitDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_InstallExitDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/InstallExitDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_InstallExitDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/InstallExitDialog.h
 
 software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp: ../software/plugins-manager/include/AuthorizationInstallDependencies.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_AuthorizationInstallDependencies.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/AuthorizationInstallDependencies.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_AuthorizationInstallDependencies.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/AuthorizationInstallDependencies.h
 
 software/plugins-manager/src/moc_ChooseServerDialog.cpp: ../software/plugins-manager/include/ChooseServerDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ChooseServerDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ChooseServerDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ChooseServerDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ChooseServerDialog.h
 
 software/plugins-manager/src/moc_ServersOptionDialog.cpp: ../software/plugins-manager/include/ServersOptionDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ServersOptionDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ServersOptionDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ServersOptionDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ServersOptionDialog.h
 
 software/plugins-manager/src/moc_ModifyServerDialog.cpp: ../software/plugins-manager/include/ModifyServerDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ModifyServerDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ModifyServerDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ModifyServerDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ModifyServerDialog.h
 
 software/plugins-manager/src/moc_PluginsUpdateChecker.cpp: ../software/plugins-manager/include/PluginsUpdateChecker.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_PluginsUpdateChecker.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsUpdateChecker.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_PluginsUpdateChecker.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/PluginsUpdateChecker.h
 
 software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp: ../software/plugins-manager/include/ProxyConfigurationDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ProxyConfigurationDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ProxyConfigurationDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/ProxyConfigurationDialog.h
 
 software/plugins-manager/src/moc_UpdatePluginsDialog.cpp: ../software/plugins-manager/include/UpdatePluginsDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_UpdatePluginsDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/UpdatePluginsDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_UpdatePluginsDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/UpdatePluginsDialog.h
 
 software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp: ../software/plugins-manager/include/NewTulipVersionAvailableDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_NewTulipVersionAvailableDialog.cpp"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/NewTulipVersionAvailableDialog.h
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && /usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -o /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/include/NewTulipVersionAvailableDialog.h
 
 # Object files for target tulip-pluginsmanager-3.8
 tulip__pluginsmanager__3_8_OBJECTS = \
@@ -1195,8 +1195,8 @@ software/plugins-manager/src/libtulip-pluginsmanager-3.8.a: software/plugins-man
 software/plugins-manager/src/libtulip-pluginsmanager-3.8.a: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build.make
 software/plugins-manager/src/libtulip-pluginsmanager-3.8.a: software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libtulip-pluginsmanager-3.8.a"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-pluginsmanager-3.8.dir/cmake_clean_target.cmake
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip-pluginsmanager-3.8.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-pluginsmanager-3.8.dir/cmake_clean_target.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip-pluginsmanager-3.8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/build: software/plugins-manager/src/libtulip-pluginsmanager-3.8.a
@@ -1246,7 +1246,7 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/requires: s
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/requires
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-pluginsmanager-3.8.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-pluginsmanager-3.8.dir/cmake_clean.cmake
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/clean
 
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend: software/plugins-manager/src/../include/PluginsInfoWidgetData.h
@@ -1272,6 +1272,6 @@ software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend: sof
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend: software/plugins-manager/src/moc_ProxyConfigurationDialog.cpp
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend: software/plugins-manager/src/moc_UpdatePluginsDialog.cpp
 software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend: software/plugins-manager/src/moc_NewTulipVersionAvailableDialog.cpp
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build/software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : software/plugins-manager/src/CMakeFiles/tulip-pluginsmanager-3.8.dir/depend
 

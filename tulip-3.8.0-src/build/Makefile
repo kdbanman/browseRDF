@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,9 +127,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,19 @@ ftgl: cmake_check_build_system
 ftgl/fast:
 	$(MAKE) -f thirdparty/ftgl/CMakeFiles/ftgl.dir/build.make thirdparty/ftgl/CMakeFiles/ftgl.dir/build
 .PHONY : ftgl/fast
+
+#=============================================================================
+# Target rules for targets named sip
+
+# Build rule for target.
+sip: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sip
+.PHONY : sip
+
+# fast build rule for target.
+sip/fast:
+	$(MAKE) -f thirdparty/sip-4.13.2/siplib/CMakeFiles/sip.dir/build.make thirdparty/sip-4.13.2/siplib/CMakeFiles/sip.dir/build
+.PHONY : sip/fast
 
 #=============================================================================
 # Target rules for targets named qhull
@@ -1902,6 +1915,7 @@ help:
 	@echo "... gzstream"
 	@echo "... OGDF"
 	@echo "... ftgl"
+	@echo "... sip"
 	@echo "... qhull"
 	@echo "... tulip-3.8"
 	@echo "... tulip-ogl-3.8"

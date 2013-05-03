@@ -80,6 +80,6 @@ plugins/metric/CMakeFiles/RandomMetric-3.8.0.dir/Random.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/Random.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/Random.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/Random.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/Random.h
  library/tulip/include/tulip/TulipRelease.h

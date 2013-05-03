@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/CMakeFiles/progress.marks
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip-qt/src/CMakeFiles/progress.marks
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/clean
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/rule
 .PHONY : library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ tulip-qt4-3.8: library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/rule
 
 # fast build rule for target.
 tulip-qt4-3.8/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build
 .PHONY : tulip-qt4-3.8/fast
 
 AbstractView.o: AbstractView.cpp.o
@@ -175,7 +175,7 @@ AbstractView.o: AbstractView.cpp.o
 
 # target to build an object file
 AbstractView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.o
 .PHONY : AbstractView.cpp.o
 
 AbstractView.i: AbstractView.cpp.i
@@ -183,7 +183,7 @@ AbstractView.i: AbstractView.cpp.i
 
 # target to preprocess a source file
 AbstractView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.i
 .PHONY : AbstractView.cpp.i
 
 AbstractView.s: AbstractView.cpp.s
@@ -191,7 +191,7 @@ AbstractView.s: AbstractView.cpp.s
 
 # target to generate assembly for a file
 AbstractView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AbstractView.cpp.s
 .PHONY : AbstractView.cpp.s
 
 AugmentedDisplayDialog.o: AugmentedDisplayDialog.cpp.o
@@ -199,7 +199,7 @@ AugmentedDisplayDialog.o: AugmentedDisplayDialog.cpp.o
 
 # target to build an object file
 AugmentedDisplayDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.o
 .PHONY : AugmentedDisplayDialog.cpp.o
 
 AugmentedDisplayDialog.i: AugmentedDisplayDialog.cpp.i
@@ -207,7 +207,7 @@ AugmentedDisplayDialog.i: AugmentedDisplayDialog.cpp.i
 
 # target to preprocess a source file
 AugmentedDisplayDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.i
 .PHONY : AugmentedDisplayDialog.cpp.i
 
 AugmentedDisplayDialog.s: AugmentedDisplayDialog.cpp.s
@@ -215,7 +215,7 @@ AugmentedDisplayDialog.s: AugmentedDisplayDialog.cpp.s
 
 # target to generate assembly for a file
 AugmentedDisplayDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/AugmentedDisplayDialog.cpp.s
 .PHONY : AugmentedDisplayDialog.cpp.s
 
 BaseGraphicsViewComponent.o: BaseGraphicsViewComponent.cpp.o
@@ -223,7 +223,7 @@ BaseGraphicsViewComponent.o: BaseGraphicsViewComponent.cpp.o
 
 # target to build an object file
 BaseGraphicsViewComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.o
 .PHONY : BaseGraphicsViewComponent.cpp.o
 
 BaseGraphicsViewComponent.i: BaseGraphicsViewComponent.cpp.i
@@ -231,7 +231,7 @@ BaseGraphicsViewComponent.i: BaseGraphicsViewComponent.cpp.i
 
 # target to preprocess a source file
 BaseGraphicsViewComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.i
 .PHONY : BaseGraphicsViewComponent.cpp.i
 
 BaseGraphicsViewComponent.s: BaseGraphicsViewComponent.cpp.s
@@ -239,7 +239,7 @@ BaseGraphicsViewComponent.s: BaseGraphicsViewComponent.cpp.s
 
 # target to generate assembly for a file
 BaseGraphicsViewComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/BaseGraphicsViewComponent.cpp.s
 .PHONY : BaseGraphicsViewComponent.cpp.s
 
 CSVGraphImport.o: CSVGraphImport.cpp.o
@@ -247,7 +247,7 @@ CSVGraphImport.o: CSVGraphImport.cpp.o
 
 # target to build an object file
 CSVGraphImport.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.o
 .PHONY : CSVGraphImport.cpp.o
 
 CSVGraphImport.i: CSVGraphImport.cpp.i
@@ -255,7 +255,7 @@ CSVGraphImport.i: CSVGraphImport.cpp.i
 
 # target to preprocess a source file
 CSVGraphImport.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.i
 .PHONY : CSVGraphImport.cpp.i
 
 CSVGraphImport.s: CSVGraphImport.cpp.s
@@ -263,7 +263,7 @@ CSVGraphImport.s: CSVGraphImport.cpp.s
 
 # target to generate assembly for a file
 CSVGraphImport.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphImport.cpp.s
 .PHONY : CSVGraphImport.cpp.s
 
 CSVGraphMappingConfigurationWidget.o: CSVGraphMappingConfigurationWidget.cpp.o
@@ -271,7 +271,7 @@ CSVGraphMappingConfigurationWidget.o: CSVGraphMappingConfigurationWidget.cpp.o
 
 # target to build an object file
 CSVGraphMappingConfigurationWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.o
 .PHONY : CSVGraphMappingConfigurationWidget.cpp.o
 
 CSVGraphMappingConfigurationWidget.i: CSVGraphMappingConfigurationWidget.cpp.i
@@ -279,7 +279,7 @@ CSVGraphMappingConfigurationWidget.i: CSVGraphMappingConfigurationWidget.cpp.i
 
 # target to preprocess a source file
 CSVGraphMappingConfigurationWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.i
 .PHONY : CSVGraphMappingConfigurationWidget.cpp.i
 
 CSVGraphMappingConfigurationWidget.s: CSVGraphMappingConfigurationWidget.cpp.s
@@ -287,7 +287,7 @@ CSVGraphMappingConfigurationWidget.s: CSVGraphMappingConfigurationWidget.cpp.s
 
 # target to generate assembly for a file
 CSVGraphMappingConfigurationWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVGraphMappingConfigurationWidget.cpp.s
 .PHONY : CSVGraphMappingConfigurationWidget.cpp.s
 
 CSVImportConfigurationWidget.o: CSVImportConfigurationWidget.cpp.o
@@ -295,7 +295,7 @@ CSVImportConfigurationWidget.o: CSVImportConfigurationWidget.cpp.o
 
 # target to build an object file
 CSVImportConfigurationWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.o
 .PHONY : CSVImportConfigurationWidget.cpp.o
 
 CSVImportConfigurationWidget.i: CSVImportConfigurationWidget.cpp.i
@@ -303,7 +303,7 @@ CSVImportConfigurationWidget.i: CSVImportConfigurationWidget.cpp.i
 
 # target to preprocess a source file
 CSVImportConfigurationWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.i
 .PHONY : CSVImportConfigurationWidget.cpp.i
 
 CSVImportConfigurationWidget.s: CSVImportConfigurationWidget.cpp.s
@@ -311,7 +311,7 @@ CSVImportConfigurationWidget.s: CSVImportConfigurationWidget.cpp.s
 
 # target to generate assembly for a file
 CSVImportConfigurationWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportConfigurationWidget.cpp.s
 .PHONY : CSVImportConfigurationWidget.cpp.s
 
 CSVImportWizard.o: CSVImportWizard.cpp.o
@@ -319,7 +319,7 @@ CSVImportWizard.o: CSVImportWizard.cpp.o
 
 # target to build an object file
 CSVImportWizard.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.o
 .PHONY : CSVImportWizard.cpp.o
 
 CSVImportWizard.i: CSVImportWizard.cpp.i
@@ -327,7 +327,7 @@ CSVImportWizard.i: CSVImportWizard.cpp.i
 
 # target to preprocess a source file
 CSVImportWizard.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.i
 .PHONY : CSVImportWizard.cpp.i
 
 CSVImportWizard.s: CSVImportWizard.cpp.s
@@ -335,7 +335,7 @@ CSVImportWizard.s: CSVImportWizard.cpp.s
 
 # target to generate assembly for a file
 CSVImportWizard.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVImportWizard.cpp.s
 .PHONY : CSVImportWizard.cpp.s
 
 CSVParser.o: CSVParser.cpp.o
@@ -343,7 +343,7 @@ CSVParser.o: CSVParser.cpp.o
 
 # target to build an object file
 CSVParser.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.o
 .PHONY : CSVParser.cpp.o
 
 CSVParser.i: CSVParser.cpp.i
@@ -351,7 +351,7 @@ CSVParser.i: CSVParser.cpp.i
 
 # target to preprocess a source file
 CSVParser.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.i
 .PHONY : CSVParser.cpp.i
 
 CSVParser.s: CSVParser.cpp.s
@@ -359,7 +359,7 @@ CSVParser.s: CSVParser.cpp.s
 
 # target to generate assembly for a file
 CSVParser.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParser.cpp.s
 .PHONY : CSVParser.cpp.s
 
 CSVParserConfigurationWidget.o: CSVParserConfigurationWidget.cpp.o
@@ -367,7 +367,7 @@ CSVParserConfigurationWidget.o: CSVParserConfigurationWidget.cpp.o
 
 # target to build an object file
 CSVParserConfigurationWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.o
 .PHONY : CSVParserConfigurationWidget.cpp.o
 
 CSVParserConfigurationWidget.i: CSVParserConfigurationWidget.cpp.i
@@ -375,7 +375,7 @@ CSVParserConfigurationWidget.i: CSVParserConfigurationWidget.cpp.i
 
 # target to preprocess a source file
 CSVParserConfigurationWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.i
 .PHONY : CSVParserConfigurationWidget.cpp.i
 
 CSVParserConfigurationWidget.s: CSVParserConfigurationWidget.cpp.s
@@ -383,7 +383,7 @@ CSVParserConfigurationWidget.s: CSVParserConfigurationWidget.cpp.s
 
 # target to generate assembly for a file
 CSVParserConfigurationWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CSVParserConfigurationWidget.cpp.s
 .PHONY : CSVParserConfigurationWidget.cpp.s
 
 ColorButton.o: ColorButton.cpp.o
@@ -391,7 +391,7 @@ ColorButton.o: ColorButton.cpp.o
 
 # target to build an object file
 ColorButton.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.o
 .PHONY : ColorButton.cpp.o
 
 ColorButton.i: ColorButton.cpp.i
@@ -399,7 +399,7 @@ ColorButton.i: ColorButton.cpp.i
 
 # target to preprocess a source file
 ColorButton.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.i
 .PHONY : ColorButton.cpp.i
 
 ColorButton.s: ColorButton.cpp.s
@@ -407,7 +407,7 @@ ColorButton.s: ColorButton.cpp.s
 
 # target to generate assembly for a file
 ColorButton.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorButton.cpp.s
 .PHONY : ColorButton.cpp.s
 
 ColorScaleConfigDialog.o: ColorScaleConfigDialog.cpp.o
@@ -415,7 +415,7 @@ ColorScaleConfigDialog.o: ColorScaleConfigDialog.cpp.o
 
 # target to build an object file
 ColorScaleConfigDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.o
 .PHONY : ColorScaleConfigDialog.cpp.o
 
 ColorScaleConfigDialog.i: ColorScaleConfigDialog.cpp.i
@@ -423,7 +423,7 @@ ColorScaleConfigDialog.i: ColorScaleConfigDialog.cpp.i
 
 # target to preprocess a source file
 ColorScaleConfigDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.i
 .PHONY : ColorScaleConfigDialog.cpp.i
 
 ColorScaleConfigDialog.s: ColorScaleConfigDialog.cpp.s
@@ -431,7 +431,7 @@ ColorScaleConfigDialog.s: ColorScaleConfigDialog.cpp.s
 
 # target to generate assembly for a file
 ColorScaleConfigDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleConfigDialog.cpp.s
 .PHONY : ColorScaleConfigDialog.cpp.s
 
 ColorScaleWidget.o: ColorScaleWidget.cpp.o
@@ -439,7 +439,7 @@ ColorScaleWidget.o: ColorScaleWidget.cpp.o
 
 # target to build an object file
 ColorScaleWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.o
 .PHONY : ColorScaleWidget.cpp.o
 
 ColorScaleWidget.i: ColorScaleWidget.cpp.i
@@ -447,7 +447,7 @@ ColorScaleWidget.i: ColorScaleWidget.cpp.i
 
 # target to preprocess a source file
 ColorScaleWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.i
 .PHONY : ColorScaleWidget.cpp.i
 
 ColorScaleWidget.s: ColorScaleWidget.cpp.s
@@ -455,7 +455,7 @@ ColorScaleWidget.s: ColorScaleWidget.cpp.s
 
 # target to generate assembly for a file
 ColorScaleWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ColorScaleWidget.cpp.s
 .PHONY : ColorScaleWidget.cpp.s
 
 Controller.o: Controller.cpp.o
@@ -463,7 +463,7 @@ Controller.o: Controller.cpp.o
 
 # target to build an object file
 Controller.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.o
 .PHONY : Controller.cpp.o
 
 Controller.i: Controller.cpp.i
@@ -471,7 +471,7 @@ Controller.i: Controller.cpp.i
 
 # target to preprocess a source file
 Controller.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.i
 .PHONY : Controller.cpp.i
 
 Controller.s: Controller.cpp.s
@@ -479,7 +479,7 @@ Controller.s: Controller.cpp.s
 
 # target to generate assembly for a file
 Controller.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Controller.cpp.s
 .PHONY : Controller.cpp.s
 
 ControllerAlgorithmTools.o: ControllerAlgorithmTools.cpp.o
@@ -487,7 +487,7 @@ ControllerAlgorithmTools.o: ControllerAlgorithmTools.cpp.o
 
 # target to build an object file
 ControllerAlgorithmTools.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.o
 .PHONY : ControllerAlgorithmTools.cpp.o
 
 ControllerAlgorithmTools.i: ControllerAlgorithmTools.cpp.i
@@ -495,7 +495,7 @@ ControllerAlgorithmTools.i: ControllerAlgorithmTools.cpp.i
 
 # target to preprocess a source file
 ControllerAlgorithmTools.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.i
 .PHONY : ControllerAlgorithmTools.cpp.i
 
 ControllerAlgorithmTools.s: ControllerAlgorithmTools.cpp.s
@@ -503,7 +503,7 @@ ControllerAlgorithmTools.s: ControllerAlgorithmTools.cpp.s
 
 # target to generate assembly for a file
 ControllerAlgorithmTools.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerAlgorithmTools.cpp.s
 .PHONY : ControllerAlgorithmTools.cpp.s
 
 ControllerPluginsManager.o: ControllerPluginsManager.cpp.o
@@ -511,7 +511,7 @@ ControllerPluginsManager.o: ControllerPluginsManager.cpp.o
 
 # target to build an object file
 ControllerPluginsManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.o
 .PHONY : ControllerPluginsManager.cpp.o
 
 ControllerPluginsManager.i: ControllerPluginsManager.cpp.i
@@ -519,7 +519,7 @@ ControllerPluginsManager.i: ControllerPluginsManager.cpp.i
 
 # target to preprocess a source file
 ControllerPluginsManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.i
 .PHONY : ControllerPluginsManager.cpp.i
 
 ControllerPluginsManager.s: ControllerPluginsManager.cpp.s
@@ -527,7 +527,7 @@ ControllerPluginsManager.s: ControllerPluginsManager.cpp.s
 
 # target to generate assembly for a file
 ControllerPluginsManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerPluginsManager.cpp.s
 .PHONY : ControllerPluginsManager.cpp.s
 
 ControllerViewsManager.o: ControllerViewsManager.cpp.o
@@ -535,7 +535,7 @@ ControllerViewsManager.o: ControllerViewsManager.cpp.o
 
 # target to build an object file
 ControllerViewsManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.o
 .PHONY : ControllerViewsManager.cpp.o
 
 ControllerViewsManager.i: ControllerViewsManager.cpp.i
@@ -543,7 +543,7 @@ ControllerViewsManager.i: ControllerViewsManager.cpp.i
 
 # target to preprocess a source file
 ControllerViewsManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.i
 .PHONY : ControllerViewsManager.cpp.i
 
 ControllerViewsManager.s: ControllerViewsManager.cpp.s
@@ -551,7 +551,7 @@ ControllerViewsManager.s: ControllerViewsManager.cpp.s
 
 # target to generate assembly for a file
 ControllerViewsManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsManager.cpp.s
 .PHONY : ControllerViewsManager.cpp.s
 
 ControllerViewsTools.o: ControllerViewsTools.cpp.o
@@ -559,7 +559,7 @@ ControllerViewsTools.o: ControllerViewsTools.cpp.o
 
 # target to build an object file
 ControllerViewsTools.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.o
 .PHONY : ControllerViewsTools.cpp.o
 
 ControllerViewsTools.i: ControllerViewsTools.cpp.i
@@ -567,7 +567,7 @@ ControllerViewsTools.i: ControllerViewsTools.cpp.i
 
 # target to preprocess a source file
 ControllerViewsTools.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.i
 .PHONY : ControllerViewsTools.cpp.i
 
 ControllerViewsTools.s: ControllerViewsTools.cpp.s
@@ -575,7 +575,7 @@ ControllerViewsTools.s: ControllerViewsTools.cpp.s
 
 # target to generate assembly for a file
 ControllerViewsTools.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ControllerViewsTools.cpp.s
 .PHONY : ControllerViewsTools.cpp.s
 
 CoordWidget.o: CoordWidget.cpp.o
@@ -583,7 +583,7 @@ CoordWidget.o: CoordWidget.cpp.o
 
 # target to build an object file
 CoordWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.o
 .PHONY : CoordWidget.cpp.o
 
 CoordWidget.i: CoordWidget.cpp.i
@@ -591,7 +591,7 @@ CoordWidget.i: CoordWidget.cpp.i
 
 # target to preprocess a source file
 CoordWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.i
 .PHONY : CoordWidget.cpp.i
 
 CoordWidget.s: CoordWidget.cpp.s
@@ -599,7 +599,7 @@ CoordWidget.s: CoordWidget.cpp.s
 
 # target to generate assembly for a file
 CoordWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CoordWidget.cpp.s
 .PHONY : CoordWidget.cpp.s
 
 CopyPropertyDialog.o: CopyPropertyDialog.cpp.o
@@ -607,7 +607,7 @@ CopyPropertyDialog.o: CopyPropertyDialog.cpp.o
 
 # target to build an object file
 CopyPropertyDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.o
 .PHONY : CopyPropertyDialog.cpp.o
 
 CopyPropertyDialog.i: CopyPropertyDialog.cpp.i
@@ -615,7 +615,7 @@ CopyPropertyDialog.i: CopyPropertyDialog.cpp.i
 
 # target to preprocess a source file
 CopyPropertyDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.i
 .PHONY : CopyPropertyDialog.cpp.i
 
 CopyPropertyDialog.s: CopyPropertyDialog.cpp.s
@@ -623,7 +623,7 @@ CopyPropertyDialog.s: CopyPropertyDialog.cpp.s
 
 # target to generate assembly for a file
 CopyPropertyDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/CopyPropertyDialog.cpp.s
 .PHONY : CopyPropertyDialog.cpp.s
 
 DataSetDialog.o: DataSetDialog.cpp.o
@@ -631,7 +631,7 @@ DataSetDialog.o: DataSetDialog.cpp.o
 
 # target to build an object file
 DataSetDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.o
 .PHONY : DataSetDialog.cpp.o
 
 DataSetDialog.i: DataSetDialog.cpp.i
@@ -639,7 +639,7 @@ DataSetDialog.i: DataSetDialog.cpp.i
 
 # target to preprocess a source file
 DataSetDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.i
 .PHONY : DataSetDialog.cpp.i
 
 DataSetDialog.s: DataSetDialog.cpp.s
@@ -647,7 +647,7 @@ DataSetDialog.s: DataSetDialog.cpp.s
 
 # target to generate assembly for a file
 DataSetDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DataSetDialog.cpp.s
 .PHONY : DataSetDialog.cpp.s
 
 DoubleStringsListSelectionWidget.o: DoubleStringsListSelectionWidget.cpp.o
@@ -655,7 +655,7 @@ DoubleStringsListSelectionWidget.o: DoubleStringsListSelectionWidget.cpp.o
 
 # target to build an object file
 DoubleStringsListSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.o
 .PHONY : DoubleStringsListSelectionWidget.cpp.o
 
 DoubleStringsListSelectionWidget.i: DoubleStringsListSelectionWidget.cpp.i
@@ -663,7 +663,7 @@ DoubleStringsListSelectionWidget.i: DoubleStringsListSelectionWidget.cpp.i
 
 # target to preprocess a source file
 DoubleStringsListSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.i
 .PHONY : DoubleStringsListSelectionWidget.cpp.i
 
 DoubleStringsListSelectionWidget.s: DoubleStringsListSelectionWidget.cpp.s
@@ -671,7 +671,7 @@ DoubleStringsListSelectionWidget.s: DoubleStringsListSelectionWidget.cpp.s
 
 # target to generate assembly for a file
 DoubleStringsListSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/DoubleStringsListSelectionWidget.cpp.s
 .PHONY : DoubleStringsListSelectionWidget.cpp.s
 
 ElementPropertiesWidget.o: ElementPropertiesWidget.cpp.o
@@ -679,7 +679,7 @@ ElementPropertiesWidget.o: ElementPropertiesWidget.cpp.o
 
 # target to build an object file
 ElementPropertiesWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.o
 .PHONY : ElementPropertiesWidget.cpp.o
 
 ElementPropertiesWidget.i: ElementPropertiesWidget.cpp.i
@@ -687,7 +687,7 @@ ElementPropertiesWidget.i: ElementPropertiesWidget.cpp.i
 
 # target to preprocess a source file
 ElementPropertiesWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.i
 .PHONY : ElementPropertiesWidget.cpp.i
 
 ElementPropertiesWidget.s: ElementPropertiesWidget.cpp.s
@@ -695,7 +695,7 @@ ElementPropertiesWidget.s: ElementPropertiesWidget.cpp.s
 
 # target to generate assembly for a file
 ElementPropertiesWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidget.cpp.s
 .PHONY : ElementPropertiesWidget.cpp.s
 
 ElementPropertiesWidgetUI.o: ElementPropertiesWidgetUI.cpp.o
@@ -703,7 +703,7 @@ ElementPropertiesWidgetUI.o: ElementPropertiesWidgetUI.cpp.o
 
 # target to build an object file
 ElementPropertiesWidgetUI.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.o
 .PHONY : ElementPropertiesWidgetUI.cpp.o
 
 ElementPropertiesWidgetUI.i: ElementPropertiesWidgetUI.cpp.i
@@ -711,7 +711,7 @@ ElementPropertiesWidgetUI.i: ElementPropertiesWidgetUI.cpp.i
 
 # target to preprocess a source file
 ElementPropertiesWidgetUI.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.i
 .PHONY : ElementPropertiesWidgetUI.cpp.i
 
 ElementPropertiesWidgetUI.s: ElementPropertiesWidgetUI.cpp.s
@@ -719,7 +719,7 @@ ElementPropertiesWidgetUI.s: ElementPropertiesWidgetUI.cpp.s
 
 # target to generate assembly for a file
 ElementPropertiesWidgetUI.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ElementPropertiesWidgetUI.cpp.s
 .PHONY : ElementPropertiesWidgetUI.cpp.s
 
 FileNameEditorWidget.o: FileNameEditorWidget.cpp.o
@@ -727,7 +727,7 @@ FileNameEditorWidget.o: FileNameEditorWidget.cpp.o
 
 # target to build an object file
 FileNameEditorWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.o
 .PHONY : FileNameEditorWidget.cpp.o
 
 FileNameEditorWidget.i: FileNameEditorWidget.cpp.i
@@ -735,7 +735,7 @@ FileNameEditorWidget.i: FileNameEditorWidget.cpp.i
 
 # target to preprocess a source file
 FileNameEditorWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.i
 .PHONY : FileNameEditorWidget.cpp.i
 
 FileNameEditorWidget.s: FileNameEditorWidget.cpp.s
@@ -743,7 +743,7 @@ FileNameEditorWidget.s: FileNameEditorWidget.cpp.s
 
 # target to generate assembly for a file
 FileNameEditorWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FileNameEditorWidget.cpp.s
 .PHONY : FileNameEditorWidget.cpp.s
 
 FindSelectionWidget.o: FindSelectionWidget.cpp.o
@@ -751,7 +751,7 @@ FindSelectionWidget.o: FindSelectionWidget.cpp.o
 
 # target to build an object file
 FindSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.o
 .PHONY : FindSelectionWidget.cpp.o
 
 FindSelectionWidget.i: FindSelectionWidget.cpp.i
@@ -759,7 +759,7 @@ FindSelectionWidget.i: FindSelectionWidget.cpp.i
 
 # target to preprocess a source file
 FindSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.i
 .PHONY : FindSelectionWidget.cpp.i
 
 FindSelectionWidget.s: FindSelectionWidget.cpp.s
@@ -767,7 +767,7 @@ FindSelectionWidget.s: FindSelectionWidget.cpp.s
 
 # target to generate assembly for a file
 FindSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/FindSelectionWidget.cpp.s
 .PHONY : FindSelectionWidget.cpp.s
 
 GWOverviewWidget.o: GWOverviewWidget.cpp.o
@@ -775,7 +775,7 @@ GWOverviewWidget.o: GWOverviewWidget.cpp.o
 
 # target to build an object file
 GWOverviewWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.o
 .PHONY : GWOverviewWidget.cpp.o
 
 GWOverviewWidget.i: GWOverviewWidget.cpp.i
@@ -783,7 +783,7 @@ GWOverviewWidget.i: GWOverviewWidget.cpp.i
 
 # target to preprocess a source file
 GWOverviewWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.i
 .PHONY : GWOverviewWidget.cpp.i
 
 GWOverviewWidget.s: GWOverviewWidget.cpp.s
@@ -791,7 +791,7 @@ GWOverviewWidget.s: GWOverviewWidget.cpp.s
 
 # target to generate assembly for a file
 GWOverviewWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GWOverviewWidget.cpp.s
 .PHONY : GWOverviewWidget.cpp.s
 
 GlCompositeHierarchyManager.o: GlCompositeHierarchyManager.cpp.o
@@ -799,7 +799,7 @@ GlCompositeHierarchyManager.o: GlCompositeHierarchyManager.cpp.o
 
 # target to build an object file
 GlCompositeHierarchyManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.o
 .PHONY : GlCompositeHierarchyManager.cpp.o
 
 GlCompositeHierarchyManager.i: GlCompositeHierarchyManager.cpp.i
@@ -807,7 +807,7 @@ GlCompositeHierarchyManager.i: GlCompositeHierarchyManager.cpp.i
 
 # target to preprocess a source file
 GlCompositeHierarchyManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.i
 .PHONY : GlCompositeHierarchyManager.cpp.i
 
 GlCompositeHierarchyManager.s: GlCompositeHierarchyManager.cpp.s
@@ -815,7 +815,7 @@ GlCompositeHierarchyManager.s: GlCompositeHierarchyManager.cpp.s
 
 # target to generate assembly for a file
 GlCompositeHierarchyManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlCompositeHierarchyManager.cpp.s
 .PHONY : GlCompositeHierarchyManager.cpp.s
 
 GlMainView.o: GlMainView.cpp.o
@@ -823,7 +823,7 @@ GlMainView.o: GlMainView.cpp.o
 
 # target to build an object file
 GlMainView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.o
 .PHONY : GlMainView.cpp.o
 
 GlMainView.i: GlMainView.cpp.i
@@ -831,7 +831,7 @@ GlMainView.i: GlMainView.cpp.i
 
 # target to preprocess a source file
 GlMainView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.i
 .PHONY : GlMainView.cpp.i
 
 GlMainView.s: GlMainView.cpp.s
@@ -839,7 +839,7 @@ GlMainView.s: GlMainView.cpp.s
 
 # target to generate assembly for a file
 GlMainView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainView.cpp.s
 .PHONY : GlMainView.cpp.s
 
 GlMainWidget.o: GlMainWidget.cpp.o
@@ -847,7 +847,7 @@ GlMainWidget.o: GlMainWidget.cpp.o
 
 # target to build an object file
 GlMainWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.o
 .PHONY : GlMainWidget.cpp.o
 
 GlMainWidget.i: GlMainWidget.cpp.i
@@ -855,7 +855,7 @@ GlMainWidget.i: GlMainWidget.cpp.i
 
 # target to preprocess a source file
 GlMainWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.i
 .PHONY : GlMainWidget.cpp.i
 
 GlMainWidget.s: GlMainWidget.cpp.s
@@ -863,7 +863,7 @@ GlMainWidget.s: GlMainWidget.cpp.s
 
 # target to generate assembly for a file
 GlMainWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidget.cpp.s
 .PHONY : GlMainWidget.cpp.s
 
 GlMainWidgetGraphicsView.o: GlMainWidgetGraphicsView.cpp.o
@@ -871,7 +871,7 @@ GlMainWidgetGraphicsView.o: GlMainWidgetGraphicsView.cpp.o
 
 # target to build an object file
 GlMainWidgetGraphicsView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.o
 .PHONY : GlMainWidgetGraphicsView.cpp.o
 
 GlMainWidgetGraphicsView.i: GlMainWidgetGraphicsView.cpp.i
@@ -879,7 +879,7 @@ GlMainWidgetGraphicsView.i: GlMainWidgetGraphicsView.cpp.i
 
 # target to preprocess a source file
 GlMainWidgetGraphicsView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.i
 .PHONY : GlMainWidgetGraphicsView.cpp.i
 
 GlMainWidgetGraphicsView.s: GlMainWidgetGraphicsView.cpp.s
@@ -887,7 +887,7 @@ GlMainWidgetGraphicsView.s: GlMainWidgetGraphicsView.cpp.s
 
 # target to generate assembly for a file
 GlMainWidgetGraphicsView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetGraphicsView.cpp.s
 .PHONY : GlMainWidgetGraphicsView.cpp.s
 
 GlMainWidgetItem.o: GlMainWidgetItem.cpp.o
@@ -895,7 +895,7 @@ GlMainWidgetItem.o: GlMainWidgetItem.cpp.o
 
 # target to build an object file
 GlMainWidgetItem.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.o
 .PHONY : GlMainWidgetItem.cpp.o
 
 GlMainWidgetItem.i: GlMainWidgetItem.cpp.i
@@ -903,7 +903,7 @@ GlMainWidgetItem.i: GlMainWidgetItem.cpp.i
 
 # target to preprocess a source file
 GlMainWidgetItem.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.i
 .PHONY : GlMainWidgetItem.cpp.i
 
 GlMainWidgetItem.s: GlMainWidgetItem.cpp.s
@@ -911,7 +911,7 @@ GlMainWidgetItem.s: GlMainWidgetItem.cpp.s
 
 # target to generate assembly for a file
 GlMainWidgetItem.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlMainWidgetItem.cpp.s
 .PHONY : GlMainWidgetItem.cpp.s
 
 GlOffscreenRenderer.o: GlOffscreenRenderer.cpp.o
@@ -919,7 +919,7 @@ GlOffscreenRenderer.o: GlOffscreenRenderer.cpp.o
 
 # target to build an object file
 GlOffscreenRenderer.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.o
 .PHONY : GlOffscreenRenderer.cpp.o
 
 GlOffscreenRenderer.i: GlOffscreenRenderer.cpp.i
@@ -927,7 +927,7 @@ GlOffscreenRenderer.i: GlOffscreenRenderer.cpp.i
 
 # target to preprocess a source file
 GlOffscreenRenderer.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.i
 .PHONY : GlOffscreenRenderer.cpp.i
 
 GlOffscreenRenderer.s: GlOffscreenRenderer.cpp.s
@@ -935,7 +935,7 @@ GlOffscreenRenderer.s: GlOffscreenRenderer.cpp.s
 
 # target to generate assembly for a file
 GlOffscreenRenderer.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GlOffscreenRenderer.cpp.s
 .PHONY : GlOffscreenRenderer.cpp.s
 
 GraphPropertiesSelectionWidget.o: GraphPropertiesSelectionWidget.cpp.o
@@ -943,7 +943,7 @@ GraphPropertiesSelectionWidget.o: GraphPropertiesSelectionWidget.cpp.o
 
 # target to build an object file
 GraphPropertiesSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.o
 .PHONY : GraphPropertiesSelectionWidget.cpp.o
 
 GraphPropertiesSelectionWidget.i: GraphPropertiesSelectionWidget.cpp.i
@@ -951,7 +951,7 @@ GraphPropertiesSelectionWidget.i: GraphPropertiesSelectionWidget.cpp.i
 
 # target to preprocess a source file
 GraphPropertiesSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.i
 .PHONY : GraphPropertiesSelectionWidget.cpp.i
 
 GraphPropertiesSelectionWidget.s: GraphPropertiesSelectionWidget.cpp.s
@@ -959,7 +959,7 @@ GraphPropertiesSelectionWidget.s: GraphPropertiesSelectionWidget.cpp.s
 
 # target to generate assembly for a file
 GraphPropertiesSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesSelectionWidget.cpp.s
 .PHONY : GraphPropertiesSelectionWidget.cpp.s
 
 GraphPropertiesTableWidget.o: GraphPropertiesTableWidget.cpp.o
@@ -967,7 +967,7 @@ GraphPropertiesTableWidget.o: GraphPropertiesTableWidget.cpp.o
 
 # target to build an object file
 GraphPropertiesTableWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.o
 .PHONY : GraphPropertiesTableWidget.cpp.o
 
 GraphPropertiesTableWidget.i: GraphPropertiesTableWidget.cpp.i
@@ -975,7 +975,7 @@ GraphPropertiesTableWidget.i: GraphPropertiesTableWidget.cpp.i
 
 # target to preprocess a source file
 GraphPropertiesTableWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.i
 .PHONY : GraphPropertiesTableWidget.cpp.i
 
 GraphPropertiesTableWidget.s: GraphPropertiesTableWidget.cpp.s
@@ -983,7 +983,7 @@ GraphPropertiesTableWidget.s: GraphPropertiesTableWidget.cpp.s
 
 # target to generate assembly for a file
 GraphPropertiesTableWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphPropertiesTableWidget.cpp.s
 .PHONY : GraphPropertiesTableWidget.cpp.s
 
 GraphState.o: GraphState.cpp.o
@@ -991,7 +991,7 @@ GraphState.o: GraphState.cpp.o
 
 # target to build an object file
 GraphState.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.o
 .PHONY : GraphState.cpp.o
 
 GraphState.i: GraphState.cpp.i
@@ -999,7 +999,7 @@ GraphState.i: GraphState.cpp.i
 
 # target to preprocess a source file
 GraphState.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.i
 .PHONY : GraphState.cpp.i
 
 GraphState.s: GraphState.cpp.s
@@ -1007,7 +1007,7 @@ GraphState.s: GraphState.cpp.s
 
 # target to generate assembly for a file
 GraphState.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphState.cpp.s
 .PHONY : GraphState.cpp.s
 
 GraphicsWidgetBase.o: GraphicsWidgetBase.cpp.o
@@ -1015,7 +1015,7 @@ GraphicsWidgetBase.o: GraphicsWidgetBase.cpp.o
 
 # target to build an object file
 GraphicsWidgetBase.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.o
 .PHONY : GraphicsWidgetBase.cpp.o
 
 GraphicsWidgetBase.i: GraphicsWidgetBase.cpp.i
@@ -1023,7 +1023,7 @@ GraphicsWidgetBase.i: GraphicsWidgetBase.cpp.i
 
 # target to preprocess a source file
 GraphicsWidgetBase.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.i
 .PHONY : GraphicsWidgetBase.cpp.i
 
 GraphicsWidgetBase.s: GraphicsWidgetBase.cpp.s
@@ -1031,7 +1031,7 @@ GraphicsWidgetBase.s: GraphicsWidgetBase.cpp.s
 
 # target to generate assembly for a file
 GraphicsWidgetBase.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GraphicsWidgetBase.cpp.s
 .PHONY : GraphicsWidgetBase.cpp.s
 
 GridOptionsWidget.o: GridOptionsWidget.cpp.o
@@ -1039,7 +1039,7 @@ GridOptionsWidget.o: GridOptionsWidget.cpp.o
 
 # target to build an object file
 GridOptionsWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.o
 .PHONY : GridOptionsWidget.cpp.o
 
 GridOptionsWidget.i: GridOptionsWidget.cpp.i
@@ -1047,7 +1047,7 @@ GridOptionsWidget.i: GridOptionsWidget.cpp.i
 
 # target to preprocess a source file
 GridOptionsWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.i
 .PHONY : GridOptionsWidget.cpp.i
 
 GridOptionsWidget.s: GridOptionsWidget.cpp.s
@@ -1055,7 +1055,7 @@ GridOptionsWidget.s: GridOptionsWidget.cpp.s
 
 # target to generate assembly for a file
 GridOptionsWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/GridOptionsWidget.cpp.s
 .PHONY : GridOptionsWidget.cpp.s
 
 Interactor.o: Interactor.cpp.o
@@ -1063,7 +1063,7 @@ Interactor.o: Interactor.cpp.o
 
 # target to build an object file
 Interactor.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.o
 .PHONY : Interactor.cpp.o
 
 Interactor.i: Interactor.cpp.i
@@ -1071,7 +1071,7 @@ Interactor.i: Interactor.cpp.i
 
 # target to preprocess a source file
 Interactor.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.i
 .PHONY : Interactor.cpp.i
 
 Interactor.s: Interactor.cpp.s
@@ -1079,7 +1079,7 @@ Interactor.s: Interactor.cpp.s
 
 # target to generate assembly for a file
 Interactor.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Interactor.cpp.s
 .PHONY : Interactor.cpp.s
 
 InteractorChainOfResponsibility.o: InteractorChainOfResponsibility.cpp.o
@@ -1087,7 +1087,7 @@ InteractorChainOfResponsibility.o: InteractorChainOfResponsibility.cpp.o
 
 # target to build an object file
 InteractorChainOfResponsibility.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.o
 .PHONY : InteractorChainOfResponsibility.cpp.o
 
 InteractorChainOfResponsibility.i: InteractorChainOfResponsibility.cpp.i
@@ -1095,7 +1095,7 @@ InteractorChainOfResponsibility.i: InteractorChainOfResponsibility.cpp.i
 
 # target to preprocess a source file
 InteractorChainOfResponsibility.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.i
 .PHONY : InteractorChainOfResponsibility.cpp.i
 
 InteractorChainOfResponsibility.s: InteractorChainOfResponsibility.cpp.s
@@ -1103,7 +1103,7 @@ InteractorChainOfResponsibility.s: InteractorChainOfResponsibility.cpp.s
 
 # target to generate assembly for a file
 InteractorChainOfResponsibility.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorChainOfResponsibility.cpp.s
 .PHONY : InteractorChainOfResponsibility.cpp.s
 
 InteractorManager.o: InteractorManager.cpp.o
@@ -1111,7 +1111,7 @@ InteractorManager.o: InteractorManager.cpp.o
 
 # target to build an object file
 InteractorManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.o
 .PHONY : InteractorManager.cpp.o
 
 InteractorManager.i: InteractorManager.cpp.i
@@ -1119,7 +1119,7 @@ InteractorManager.i: InteractorManager.cpp.i
 
 # target to preprocess a source file
 InteractorManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.i
 .PHONY : InteractorManager.cpp.i
 
 InteractorManager.s: InteractorManager.cpp.s
@@ -1127,7 +1127,7 @@ InteractorManager.s: InteractorManager.cpp.s
 
 # target to generate assembly for a file
 InteractorManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/InteractorManager.cpp.s
 .PHONY : InteractorManager.cpp.s
 
 ItemsListWidget.o: ItemsListWidget.cpp.o
@@ -1135,7 +1135,7 @@ ItemsListWidget.o: ItemsListWidget.cpp.o
 
 # target to build an object file
 ItemsListWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.o
 .PHONY : ItemsListWidget.cpp.o
 
 ItemsListWidget.i: ItemsListWidget.cpp.i
@@ -1143,7 +1143,7 @@ ItemsListWidget.i: ItemsListWidget.cpp.i
 
 # target to preprocess a source file
 ItemsListWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.i
 .PHONY : ItemsListWidget.cpp.i
 
 ItemsListWidget.s: ItemsListWidget.cpp.s
@@ -1151,7 +1151,7 @@ ItemsListWidget.s: ItemsListWidget.cpp.s
 
 # target to generate assembly for a file
 ItemsListWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ItemsListWidget.cpp.s
 .PHONY : ItemsListWidget.cpp.s
 
 LayerManagerWidget.o: LayerManagerWidget.cpp.o
@@ -1159,7 +1159,7 @@ LayerManagerWidget.o: LayerManagerWidget.cpp.o
 
 # target to build an object file
 LayerManagerWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.o
 .PHONY : LayerManagerWidget.cpp.o
 
 LayerManagerWidget.i: LayerManagerWidget.cpp.i
@@ -1167,7 +1167,7 @@ LayerManagerWidget.i: LayerManagerWidget.cpp.i
 
 # target to preprocess a source file
 LayerManagerWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.i
 .PHONY : LayerManagerWidget.cpp.i
 
 LayerManagerWidget.s: LayerManagerWidget.cpp.s
@@ -1175,7 +1175,7 @@ LayerManagerWidget.s: LayerManagerWidget.cpp.s
 
 # target to generate assembly for a file
 LayerManagerWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/LayerManagerWidget.cpp.s
 .PHONY : LayerManagerWidget.cpp.s
 
 ListPropertyWidget.o: ListPropertyWidget.cpp.o
@@ -1183,7 +1183,7 @@ ListPropertyWidget.o: ListPropertyWidget.cpp.o
 
 # target to build an object file
 ListPropertyWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.o
 .PHONY : ListPropertyWidget.cpp.o
 
 ListPropertyWidget.i: ListPropertyWidget.cpp.i
@@ -1191,7 +1191,7 @@ ListPropertyWidget.i: ListPropertyWidget.cpp.i
 
 # target to preprocess a source file
 ListPropertyWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.i
 .PHONY : ListPropertyWidget.cpp.i
 
 ListPropertyWidget.s: ListPropertyWidget.cpp.s
@@ -1199,7 +1199,7 @@ ListPropertyWidget.s: ListPropertyWidget.cpp.s
 
 # target to generate assembly for a file
 ListPropertyWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ListPropertyWidget.cpp.s
 .PHONY : ListPropertyWidget.cpp.s
 
 MainController.o: MainController.cpp.o
@@ -1207,7 +1207,7 @@ MainController.o: MainController.cpp.o
 
 # target to build an object file
 MainController.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.o
 .PHONY : MainController.cpp.o
 
 MainController.i: MainController.cpp.i
@@ -1215,7 +1215,7 @@ MainController.i: MainController.cpp.i
 
 # target to preprocess a source file
 MainController.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.i
 .PHONY : MainController.cpp.i
 
 MainController.s: MainController.cpp.s
@@ -1223,7 +1223,7 @@ MainController.s: MainController.cpp.s
 
 # target to generate assembly for a file
 MainController.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MainController.cpp.s
 .PHONY : MainController.cpp.s
 
 Morphing.o: Morphing.cpp.o
@@ -1231,7 +1231,7 @@ Morphing.o: Morphing.cpp.o
 
 # target to build an object file
 Morphing.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.o
 .PHONY : Morphing.cpp.o
 
 Morphing.i: Morphing.cpp.i
@@ -1239,7 +1239,7 @@ Morphing.i: Morphing.cpp.i
 
 # target to preprocess a source file
 Morphing.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.i
 .PHONY : Morphing.cpp.i
 
 Morphing.s: Morphing.cpp.s
@@ -1247,7 +1247,7 @@ Morphing.s: Morphing.cpp.s
 
 # target to generate assembly for a file
 Morphing.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/Morphing.cpp.s
 .PHONY : Morphing.cpp.s
 
 MouseBoxZoomer.o: MouseBoxZoomer.cpp.o
@@ -1255,7 +1255,7 @@ MouseBoxZoomer.o: MouseBoxZoomer.cpp.o
 
 # target to build an object file
 MouseBoxZoomer.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.o
 .PHONY : MouseBoxZoomer.cpp.o
 
 MouseBoxZoomer.i: MouseBoxZoomer.cpp.i
@@ -1263,7 +1263,7 @@ MouseBoxZoomer.i: MouseBoxZoomer.cpp.i
 
 # target to preprocess a source file
 MouseBoxZoomer.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.i
 .PHONY : MouseBoxZoomer.cpp.i
 
 MouseBoxZoomer.s: MouseBoxZoomer.cpp.s
@@ -1271,7 +1271,7 @@ MouseBoxZoomer.s: MouseBoxZoomer.cpp.s
 
 # target to generate assembly for a file
 MouseBoxZoomer.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseBoxZoomer.cpp.s
 .PHONY : MouseBoxZoomer.cpp.s
 
 MouseEdgeBendEditor.o: MouseEdgeBendEditor.cpp.o
@@ -1279,7 +1279,7 @@ MouseEdgeBendEditor.o: MouseEdgeBendEditor.cpp.o
 
 # target to build an object file
 MouseEdgeBendEditor.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.o
 .PHONY : MouseEdgeBendEditor.cpp.o
 
 MouseEdgeBendEditor.i: MouseEdgeBendEditor.cpp.i
@@ -1287,7 +1287,7 @@ MouseEdgeBendEditor.i: MouseEdgeBendEditor.cpp.i
 
 # target to preprocess a source file
 MouseEdgeBendEditor.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.i
 .PHONY : MouseEdgeBendEditor.cpp.i
 
 MouseEdgeBendEditor.s: MouseEdgeBendEditor.cpp.s
@@ -1295,7 +1295,7 @@ MouseEdgeBendEditor.s: MouseEdgeBendEditor.cpp.s
 
 # target to generate assembly for a file
 MouseEdgeBendEditor.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBendEditor.cpp.s
 .PHONY : MouseEdgeBendEditor.cpp.s
 
 MouseEdgeBuilder.o: MouseEdgeBuilder.cpp.o
@@ -1303,7 +1303,7 @@ MouseEdgeBuilder.o: MouseEdgeBuilder.cpp.o
 
 # target to build an object file
 MouseEdgeBuilder.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.o
 .PHONY : MouseEdgeBuilder.cpp.o
 
 MouseEdgeBuilder.i: MouseEdgeBuilder.cpp.i
@@ -1311,7 +1311,7 @@ MouseEdgeBuilder.i: MouseEdgeBuilder.cpp.i
 
 # target to preprocess a source file
 MouseEdgeBuilder.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.i
 .PHONY : MouseEdgeBuilder.cpp.i
 
 MouseEdgeBuilder.s: MouseEdgeBuilder.cpp.s
@@ -1319,7 +1319,7 @@ MouseEdgeBuilder.s: MouseEdgeBuilder.cpp.s
 
 # target to generate assembly for a file
 MouseEdgeBuilder.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeBuilder.cpp.s
 .PHONY : MouseEdgeBuilder.cpp.s
 
 MouseEdgeSelector.o: MouseEdgeSelector.cpp.o
@@ -1327,7 +1327,7 @@ MouseEdgeSelector.o: MouseEdgeSelector.cpp.o
 
 # target to build an object file
 MouseEdgeSelector.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.o
 .PHONY : MouseEdgeSelector.cpp.o
 
 MouseEdgeSelector.i: MouseEdgeSelector.cpp.i
@@ -1335,7 +1335,7 @@ MouseEdgeSelector.i: MouseEdgeSelector.cpp.i
 
 # target to preprocess a source file
 MouseEdgeSelector.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.i
 .PHONY : MouseEdgeSelector.cpp.i
 
 MouseEdgeSelector.s: MouseEdgeSelector.cpp.s
@@ -1343,7 +1343,7 @@ MouseEdgeSelector.s: MouseEdgeSelector.cpp.s
 
 # target to generate assembly for a file
 MouseEdgeSelector.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseEdgeSelector.cpp.s
 .PHONY : MouseEdgeSelector.cpp.s
 
 MouseInteractors.o: MouseInteractors.cpp.o
@@ -1351,7 +1351,7 @@ MouseInteractors.o: MouseInteractors.cpp.o
 
 # target to build an object file
 MouseInteractors.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.o
 .PHONY : MouseInteractors.cpp.o
 
 MouseInteractors.i: MouseInteractors.cpp.i
@@ -1359,7 +1359,7 @@ MouseInteractors.i: MouseInteractors.cpp.i
 
 # target to preprocess a source file
 MouseInteractors.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.i
 .PHONY : MouseInteractors.cpp.i
 
 MouseInteractors.s: MouseInteractors.cpp.s
@@ -1367,7 +1367,7 @@ MouseInteractors.s: MouseInteractors.cpp.s
 
 # target to generate assembly for a file
 MouseInteractors.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseInteractors.cpp.s
 .PHONY : MouseInteractors.cpp.s
 
 MouseNodeBuilder.o: MouseNodeBuilder.cpp.o
@@ -1375,7 +1375,7 @@ MouseNodeBuilder.o: MouseNodeBuilder.cpp.o
 
 # target to build an object file
 MouseNodeBuilder.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.o
 .PHONY : MouseNodeBuilder.cpp.o
 
 MouseNodeBuilder.i: MouseNodeBuilder.cpp.i
@@ -1383,7 +1383,7 @@ MouseNodeBuilder.i: MouseNodeBuilder.cpp.i
 
 # target to preprocess a source file
 MouseNodeBuilder.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.i
 .PHONY : MouseNodeBuilder.cpp.i
 
 MouseNodeBuilder.s: MouseNodeBuilder.cpp.s
@@ -1391,7 +1391,7 @@ MouseNodeBuilder.s: MouseNodeBuilder.cpp.s
 
 # target to generate assembly for a file
 MouseNodeBuilder.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseNodeBuilder.cpp.s
 .PHONY : MouseNodeBuilder.cpp.s
 
 MouseSelectionEditor.o: MouseSelectionEditor.cpp.o
@@ -1399,7 +1399,7 @@ MouseSelectionEditor.o: MouseSelectionEditor.cpp.o
 
 # target to build an object file
 MouseSelectionEditor.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.o
 .PHONY : MouseSelectionEditor.cpp.o
 
 MouseSelectionEditor.i: MouseSelectionEditor.cpp.i
@@ -1407,7 +1407,7 @@ MouseSelectionEditor.i: MouseSelectionEditor.cpp.i
 
 # target to preprocess a source file
 MouseSelectionEditor.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.i
 .PHONY : MouseSelectionEditor.cpp.i
 
 MouseSelectionEditor.s: MouseSelectionEditor.cpp.s
@@ -1415,7 +1415,7 @@ MouseSelectionEditor.s: MouseSelectionEditor.cpp.s
 
 # target to generate assembly for a file
 MouseSelectionEditor.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelectionEditor.cpp.s
 .PHONY : MouseSelectionEditor.cpp.s
 
 MouseSelector.o: MouseSelector.cpp.o
@@ -1423,7 +1423,7 @@ MouseSelector.o: MouseSelector.cpp.o
 
 # target to build an object file
 MouseSelector.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.o
 .PHONY : MouseSelector.cpp.o
 
 MouseSelector.i: MouseSelector.cpp.i
@@ -1431,7 +1431,7 @@ MouseSelector.i: MouseSelector.cpp.i
 
 # target to preprocess a source file
 MouseSelector.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.i
 .PHONY : MouseSelector.cpp.i
 
 MouseSelector.s: MouseSelector.cpp.s
@@ -1439,7 +1439,7 @@ MouseSelector.s: MouseSelector.cpp.s
 
 # target to generate assembly for a file
 MouseSelector.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseSelector.cpp.s
 .PHONY : MouseSelector.cpp.s
 
 MouseShowElementInfos.o: MouseShowElementInfos.cpp.o
@@ -1447,7 +1447,7 @@ MouseShowElementInfos.o: MouseShowElementInfos.cpp.o
 
 # target to build an object file
 MouseShowElementInfos.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.o
 .PHONY : MouseShowElementInfos.cpp.o
 
 MouseShowElementInfos.i: MouseShowElementInfos.cpp.i
@@ -1455,7 +1455,7 @@ MouseShowElementInfos.i: MouseShowElementInfos.cpp.i
 
 # target to preprocess a source file
 MouseShowElementInfos.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.i
 .PHONY : MouseShowElementInfos.cpp.i
 
 MouseShowElementInfos.s: MouseShowElementInfos.cpp.s
@@ -1463,7 +1463,7 @@ MouseShowElementInfos.s: MouseShowElementInfos.cpp.s
 
 # target to generate assembly for a file
 MouseShowElementInfos.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/MouseShowElementInfos.cpp.s
 .PHONY : MouseShowElementInfos.cpp.s
 
 NodeLinkDiagramComponent.o: NodeLinkDiagramComponent.cpp.o
@@ -1471,7 +1471,7 @@ NodeLinkDiagramComponent.o: NodeLinkDiagramComponent.cpp.o
 
 # target to build an object file
 NodeLinkDiagramComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.o
 .PHONY : NodeLinkDiagramComponent.cpp.o
 
 NodeLinkDiagramComponent.i: NodeLinkDiagramComponent.cpp.i
@@ -1479,7 +1479,7 @@ NodeLinkDiagramComponent.i: NodeLinkDiagramComponent.cpp.i
 
 # target to preprocess a source file
 NodeLinkDiagramComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.i
 .PHONY : NodeLinkDiagramComponent.cpp.i
 
 NodeLinkDiagramComponent.s: NodeLinkDiagramComponent.cpp.s
@@ -1487,7 +1487,7 @@ NodeLinkDiagramComponent.s: NodeLinkDiagramComponent.cpp.s
 
 # target to generate assembly for a file
 NodeLinkDiagramComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/NodeLinkDiagramComponent.cpp.s
 .PHONY : NodeLinkDiagramComponent.cpp.s
 
 PluginProgressWidget.o: PluginProgressWidget.cpp.o
@@ -1495,7 +1495,7 @@ PluginProgressWidget.o: PluginProgressWidget.cpp.o
 
 # target to build an object file
 PluginProgressWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.o
 .PHONY : PluginProgressWidget.cpp.o
 
 PluginProgressWidget.i: PluginProgressWidget.cpp.i
@@ -1503,7 +1503,7 @@ PluginProgressWidget.i: PluginProgressWidget.cpp.i
 
 # target to preprocess a source file
 PluginProgressWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.i
 .PHONY : PluginProgressWidget.cpp.i
 
 PluginProgressWidget.s: PluginProgressWidget.cpp.s
@@ -1511,7 +1511,7 @@ PluginProgressWidget.s: PluginProgressWidget.cpp.s
 
 # target to generate assembly for a file
 PluginProgressWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PluginProgressWidget.cpp.s
 .PHONY : PluginProgressWidget.cpp.s
 
 PropertyCreationDialog.o: PropertyCreationDialog.cpp.o
@@ -1519,7 +1519,7 @@ PropertyCreationDialog.o: PropertyCreationDialog.cpp.o
 
 # target to build an object file
 PropertyCreationDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.o
 .PHONY : PropertyCreationDialog.cpp.o
 
 PropertyCreationDialog.i: PropertyCreationDialog.cpp.i
@@ -1527,7 +1527,7 @@ PropertyCreationDialog.i: PropertyCreationDialog.cpp.i
 
 # target to preprocess a source file
 PropertyCreationDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.i
 .PHONY : PropertyCreationDialog.cpp.i
 
 PropertyCreationDialog.s: PropertyCreationDialog.cpp.s
@@ -1535,7 +1535,7 @@ PropertyCreationDialog.s: PropertyCreationDialog.cpp.s
 
 # target to generate assembly for a file
 PropertyCreationDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyCreationDialog.cpp.s
 .PHONY : PropertyCreationDialog.cpp.s
 
 PropertyDialog.o: PropertyDialog.cpp.o
@@ -1543,7 +1543,7 @@ PropertyDialog.o: PropertyDialog.cpp.o
 
 # target to build an object file
 PropertyDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.o
 .PHONY : PropertyDialog.cpp.o
 
 PropertyDialog.i: PropertyDialog.cpp.i
@@ -1551,7 +1551,7 @@ PropertyDialog.i: PropertyDialog.cpp.i
 
 # target to preprocess a source file
 PropertyDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.i
 .PHONY : PropertyDialog.cpp.i
 
 PropertyDialog.s: PropertyDialog.cpp.s
@@ -1559,7 +1559,7 @@ PropertyDialog.s: PropertyDialog.cpp.s
 
 # target to generate assembly for a file
 PropertyDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyDialog.cpp.s
 .PHONY : PropertyDialog.cpp.s
 
 PropertyWidget.o: PropertyWidget.cpp.o
@@ -1567,7 +1567,7 @@ PropertyWidget.o: PropertyWidget.cpp.o
 
 # target to build an object file
 PropertyWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.o
 .PHONY : PropertyWidget.cpp.o
 
 PropertyWidget.i: PropertyWidget.cpp.i
@@ -1575,7 +1575,7 @@ PropertyWidget.i: PropertyWidget.cpp.i
 
 # target to preprocess a source file
 PropertyWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.i
 .PHONY : PropertyWidget.cpp.i
 
 PropertyWidget.s: PropertyWidget.cpp.s
@@ -1583,7 +1583,7 @@ PropertyWidget.s: PropertyWidget.cpp.s
 
 # target to generate assembly for a file
 PropertyWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/PropertyWidget.cpp.s
 .PHONY : PropertyWidget.cpp.s
 
 QGlBufferManager.o: QGlBufferManager.cpp.o
@@ -1591,7 +1591,7 @@ QGlBufferManager.o: QGlBufferManager.cpp.o
 
 # target to build an object file
 QGlBufferManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.o
 .PHONY : QGlBufferManager.cpp.o
 
 QGlBufferManager.i: QGlBufferManager.cpp.i
@@ -1599,7 +1599,7 @@ QGlBufferManager.i: QGlBufferManager.cpp.i
 
 # target to preprocess a source file
 QGlBufferManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.i
 .PHONY : QGlBufferManager.cpp.i
 
 QGlBufferManager.s: QGlBufferManager.cpp.s
@@ -1607,7 +1607,7 @@ QGlBufferManager.s: QGlBufferManager.cpp.s
 
 # target to generate assembly for a file
 QGlBufferManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QGlBufferManager.cpp.s
 .PHONY : QGlBufferManager.cpp.s
 
 QtGlSceneZoomAndPanAnimator.o: QtGlSceneZoomAndPanAnimator.cpp.o
@@ -1615,7 +1615,7 @@ QtGlSceneZoomAndPanAnimator.o: QtGlSceneZoomAndPanAnimator.cpp.o
 
 # target to build an object file
 QtGlSceneZoomAndPanAnimator.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.o
 .PHONY : QtGlSceneZoomAndPanAnimator.cpp.o
 
 QtGlSceneZoomAndPanAnimator.i: QtGlSceneZoomAndPanAnimator.cpp.i
@@ -1623,7 +1623,7 @@ QtGlSceneZoomAndPanAnimator.i: QtGlSceneZoomAndPanAnimator.cpp.i
 
 # target to preprocess a source file
 QtGlSceneZoomAndPanAnimator.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.i
 .PHONY : QtGlSceneZoomAndPanAnimator.cpp.i
 
 QtGlSceneZoomAndPanAnimator.s: QtGlSceneZoomAndPanAnimator.cpp.s
@@ -1631,7 +1631,7 @@ QtGlSceneZoomAndPanAnimator.s: QtGlSceneZoomAndPanAnimator.cpp.s
 
 # target to generate assembly for a file
 QtGlSceneZoomAndPanAnimator.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtGlSceneZoomAndPanAnimator.cpp.s
 .PHONY : QtGlSceneZoomAndPanAnimator.cpp.s
 
 QtOpenGlErrorViewer.o: QtOpenGlErrorViewer.cpp.o
@@ -1639,7 +1639,7 @@ QtOpenGlErrorViewer.o: QtOpenGlErrorViewer.cpp.o
 
 # target to build an object file
 QtOpenGlErrorViewer.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.o
 .PHONY : QtOpenGlErrorViewer.cpp.o
 
 QtOpenGlErrorViewer.i: QtOpenGlErrorViewer.cpp.i
@@ -1647,7 +1647,7 @@ QtOpenGlErrorViewer.i: QtOpenGlErrorViewer.cpp.i
 
 # target to preprocess a source file
 QtOpenGlErrorViewer.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.i
 .PHONY : QtOpenGlErrorViewer.cpp.i
 
 QtOpenGlErrorViewer.s: QtOpenGlErrorViewer.cpp.s
@@ -1655,7 +1655,7 @@ QtOpenGlErrorViewer.s: QtOpenGlErrorViewer.cpp.s
 
 # target to generate assembly for a file
 QtOpenGlErrorViewer.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtOpenGlErrorViewer.cpp.s
 .PHONY : QtOpenGlErrorViewer.cpp.s
 
 QtProgress.o: QtProgress.cpp.o
@@ -1663,7 +1663,7 @@ QtProgress.o: QtProgress.cpp.o
 
 # target to build an object file
 QtProgress.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.o
 .PHONY : QtProgress.cpp.o
 
 QtProgress.i: QtProgress.cpp.i
@@ -1671,7 +1671,7 @@ QtProgress.i: QtProgress.cpp.i
 
 # target to preprocess a source file
 QtProgress.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.i
 .PHONY : QtProgress.cpp.i
 
 QtProgress.s: QtProgress.cpp.s
@@ -1679,7 +1679,7 @@ QtProgress.s: QtProgress.cpp.s
 
 # target to generate assembly for a file
 QtProgress.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/QtProgress.cpp.s
 .PHONY : QtProgress.cpp.s
 
 RenderingParametersDialog.o: RenderingParametersDialog.cpp.o
@@ -1687,7 +1687,7 @@ RenderingParametersDialog.o: RenderingParametersDialog.cpp.o
 
 # target to build an object file
 RenderingParametersDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.o
 .PHONY : RenderingParametersDialog.cpp.o
 
 RenderingParametersDialog.i: RenderingParametersDialog.cpp.i
@@ -1695,7 +1695,7 @@ RenderingParametersDialog.i: RenderingParametersDialog.cpp.i
 
 # target to preprocess a source file
 RenderingParametersDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.i
 .PHONY : RenderingParametersDialog.cpp.i
 
 RenderingParametersDialog.s: RenderingParametersDialog.cpp.s
@@ -1703,7 +1703,7 @@ RenderingParametersDialog.s: RenderingParametersDialog.cpp.s
 
 # target to generate assembly for a file
 RenderingParametersDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/RenderingParametersDialog.cpp.s
 .PHONY : RenderingParametersDialog.cpp.s
 
 SGHierarchyWidget.o: SGHierarchyWidget.cpp.o
@@ -1711,7 +1711,7 @@ SGHierarchyWidget.o: SGHierarchyWidget.cpp.o
 
 # target to build an object file
 SGHierarchyWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.o
 .PHONY : SGHierarchyWidget.cpp.o
 
 SGHierarchyWidget.i: SGHierarchyWidget.cpp.i
@@ -1719,7 +1719,7 @@ SGHierarchyWidget.i: SGHierarchyWidget.cpp.i
 
 # target to preprocess a source file
 SGHierarchyWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.i
 .PHONY : SGHierarchyWidget.cpp.i
 
 SGHierarchyWidget.s: SGHierarchyWidget.cpp.s
@@ -1727,7 +1727,7 @@ SGHierarchyWidget.s: SGHierarchyWidget.cpp.s
 
 # target to generate assembly for a file
 SGHierarchyWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SGHierarchyWidget.cpp.s
 .PHONY : SGHierarchyWidget.cpp.s
 
 SimpleStringsListSelectionWidget.o: SimpleStringsListSelectionWidget.cpp.o
@@ -1735,7 +1735,7 @@ SimpleStringsListSelectionWidget.o: SimpleStringsListSelectionWidget.cpp.o
 
 # target to build an object file
 SimpleStringsListSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.o
 .PHONY : SimpleStringsListSelectionWidget.cpp.o
 
 SimpleStringsListSelectionWidget.i: SimpleStringsListSelectionWidget.cpp.i
@@ -1743,7 +1743,7 @@ SimpleStringsListSelectionWidget.i: SimpleStringsListSelectionWidget.cpp.i
 
 # target to preprocess a source file
 SimpleStringsListSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.i
 .PHONY : SimpleStringsListSelectionWidget.cpp.i
 
 SimpleStringsListSelectionWidget.s: SimpleStringsListSelectionWidget.cpp.s
@@ -1751,7 +1751,7 @@ SimpleStringsListSelectionWidget.s: SimpleStringsListSelectionWidget.cpp.s
 
 # target to generate assembly for a file
 SimpleStringsListSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SimpleStringsListSelectionWidget.cpp.s
 .PHONY : SimpleStringsListSelectionWidget.cpp.s
 
 SizeWidget.o: SizeWidget.cpp.o
@@ -1759,7 +1759,7 @@ SizeWidget.o: SizeWidget.cpp.o
 
 # target to build an object file
 SizeWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.o
 .PHONY : SizeWidget.cpp.o
 
 SizeWidget.i: SizeWidget.cpp.i
@@ -1767,7 +1767,7 @@ SizeWidget.i: SizeWidget.cpp.i
 
 # target to preprocess a source file
 SizeWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.i
 .PHONY : SizeWidget.cpp.i
 
 SizeWidget.s: SizeWidget.cpp.s
@@ -1775,7 +1775,7 @@ SizeWidget.s: SizeWidget.cpp.s
 
 # target to generate assembly for a file
 SizeWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SizeWidget.cpp.s
 .PHONY : SizeWidget.cpp.s
 
 SmallMultiplesNavigatorComponent.o: SmallMultiplesNavigatorComponent.cpp.o
@@ -1783,7 +1783,7 @@ SmallMultiplesNavigatorComponent.o: SmallMultiplesNavigatorComponent.cpp.o
 
 # target to build an object file
 SmallMultiplesNavigatorComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.o
 .PHONY : SmallMultiplesNavigatorComponent.cpp.o
 
 SmallMultiplesNavigatorComponent.i: SmallMultiplesNavigatorComponent.cpp.i
@@ -1791,7 +1791,7 @@ SmallMultiplesNavigatorComponent.i: SmallMultiplesNavigatorComponent.cpp.i
 
 # target to preprocess a source file
 SmallMultiplesNavigatorComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.i
 .PHONY : SmallMultiplesNavigatorComponent.cpp.i
 
 SmallMultiplesNavigatorComponent.s: SmallMultiplesNavigatorComponent.cpp.s
@@ -1799,7 +1799,7 @@ SmallMultiplesNavigatorComponent.s: SmallMultiplesNavigatorComponent.cpp.s
 
 # target to generate assembly for a file
 SmallMultiplesNavigatorComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesNavigatorComponent.cpp.s
 .PHONY : SmallMultiplesNavigatorComponent.cpp.s
 
 SmallMultiplesView.o: SmallMultiplesView.cpp.o
@@ -1807,7 +1807,7 @@ SmallMultiplesView.o: SmallMultiplesView.cpp.o
 
 # target to build an object file
 SmallMultiplesView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.o
 .PHONY : SmallMultiplesView.cpp.o
 
 SmallMultiplesView.i: SmallMultiplesView.cpp.i
@@ -1815,7 +1815,7 @@ SmallMultiplesView.i: SmallMultiplesView.cpp.i
 
 # target to preprocess a source file
 SmallMultiplesView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.i
 .PHONY : SmallMultiplesView.cpp.i
 
 SmallMultiplesView.s: SmallMultiplesView.cpp.s
@@ -1823,7 +1823,7 @@ SmallMultiplesView.s: SmallMultiplesView.cpp.s
 
 # target to generate assembly for a file
 SmallMultiplesView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SmallMultiplesView.cpp.s
 .PHONY : SmallMultiplesView.cpp.s
 
 SnapshotDialog.o: SnapshotDialog.cpp.o
@@ -1831,7 +1831,7 @@ SnapshotDialog.o: SnapshotDialog.cpp.o
 
 # target to build an object file
 SnapshotDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.o
 .PHONY : SnapshotDialog.cpp.o
 
 SnapshotDialog.i: SnapshotDialog.cpp.i
@@ -1839,7 +1839,7 @@ SnapshotDialog.i: SnapshotDialog.cpp.i
 
 # target to preprocess a source file
 SnapshotDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.i
 .PHONY : SnapshotDialog.cpp.i
 
 SnapshotDialog.s: SnapshotDialog.cpp.s
@@ -1847,7 +1847,7 @@ SnapshotDialog.s: SnapshotDialog.cpp.s
 
 # target to generate assembly for a file
 SnapshotDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/SnapshotDialog.cpp.s
 .PHONY : SnapshotDialog.cpp.s
 
 StringsListSelectionWidget.o: StringsListSelectionWidget.cpp.o
@@ -1855,7 +1855,7 @@ StringsListSelectionWidget.o: StringsListSelectionWidget.cpp.o
 
 # target to build an object file
 StringsListSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.o
 .PHONY : StringsListSelectionWidget.cpp.o
 
 StringsListSelectionWidget.i: StringsListSelectionWidget.cpp.i
@@ -1863,7 +1863,7 @@ StringsListSelectionWidget.i: StringsListSelectionWidget.cpp.i
 
 # target to preprocess a source file
 StringsListSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.i
 .PHONY : StringsListSelectionWidget.cpp.i
 
 StringsListSelectionWidget.s: StringsListSelectionWidget.cpp.s
@@ -1871,7 +1871,7 @@ StringsListSelectionWidget.s: StringsListSelectionWidget.cpp.s
 
 # target to generate assembly for a file
 StringsListSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/StringsListSelectionWidget.cpp.s
 .PHONY : StringsListSelectionWidget.cpp.s
 
 TabWidgetHidableMenuGraphicsProxy.o: TabWidgetHidableMenuGraphicsProxy.cpp.o
@@ -1879,7 +1879,7 @@ TabWidgetHidableMenuGraphicsProxy.o: TabWidgetHidableMenuGraphicsProxy.cpp.o
 
 # target to build an object file
 TabWidgetHidableMenuGraphicsProxy.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.o
 .PHONY : TabWidgetHidableMenuGraphicsProxy.cpp.o
 
 TabWidgetHidableMenuGraphicsProxy.i: TabWidgetHidableMenuGraphicsProxy.cpp.i
@@ -1887,7 +1887,7 @@ TabWidgetHidableMenuGraphicsProxy.i: TabWidgetHidableMenuGraphicsProxy.cpp.i
 
 # target to preprocess a source file
 TabWidgetHidableMenuGraphicsProxy.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.i
 .PHONY : TabWidgetHidableMenuGraphicsProxy.cpp.i
 
 TabWidgetHidableMenuGraphicsProxy.s: TabWidgetHidableMenuGraphicsProxy.cpp.s
@@ -1895,7 +1895,7 @@ TabWidgetHidableMenuGraphicsProxy.s: TabWidgetHidableMenuGraphicsProxy.cpp.s
 
 # target to generate assembly for a file
 TabWidgetHidableMenuGraphicsProxy.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TabWidgetHidableMenuGraphicsProxy.cpp.s
 .PHONY : TabWidgetHidableMenuGraphicsProxy.cpp.s
 
 ThreadedComputeProperty.o: ThreadedComputeProperty.cpp.o
@@ -1903,7 +1903,7 @@ ThreadedComputeProperty.o: ThreadedComputeProperty.cpp.o
 
 # target to build an object file
 ThreadedComputeProperty.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.o
 .PHONY : ThreadedComputeProperty.cpp.o
 
 ThreadedComputeProperty.i: ThreadedComputeProperty.cpp.i
@@ -1911,7 +1911,7 @@ ThreadedComputeProperty.i: ThreadedComputeProperty.cpp.i
 
 # target to preprocess a source file
 ThreadedComputeProperty.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.i
 .PHONY : ThreadedComputeProperty.cpp.i
 
 ThreadedComputeProperty.s: ThreadedComputeProperty.cpp.s
@@ -1919,7 +1919,7 @@ ThreadedComputeProperty.s: ThreadedComputeProperty.cpp.s
 
 # target to generate assembly for a file
 ThreadedComputeProperty.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ThreadedComputeProperty.cpp.s
 .PHONY : ThreadedComputeProperty.cpp.s
 
 TlpNetworkAccess.o: TlpNetworkAccess.cpp.o
@@ -1927,7 +1927,7 @@ TlpNetworkAccess.o: TlpNetworkAccess.cpp.o
 
 # target to build an object file
 TlpNetworkAccess.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.o
 .PHONY : TlpNetworkAccess.cpp.o
 
 TlpNetworkAccess.i: TlpNetworkAccess.cpp.i
@@ -1935,7 +1935,7 @@ TlpNetworkAccess.i: TlpNetworkAccess.cpp.i
 
 # target to preprocess a source file
 TlpNetworkAccess.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.i
 .PHONY : TlpNetworkAccess.cpp.i
 
 TlpNetworkAccess.s: TlpNetworkAccess.cpp.s
@@ -1943,7 +1943,7 @@ TlpNetworkAccess.s: TlpNetworkAccess.cpp.s
 
 # target to generate assembly for a file
 TlpNetworkAccess.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpNetworkAccess.cpp.s
 .PHONY : TlpNetworkAccess.cpp.s
 
 TlpQtTools.o: TlpQtTools.cpp.o
@@ -1951,7 +1951,7 @@ TlpQtTools.o: TlpQtTools.cpp.o
 
 # target to build an object file
 TlpQtTools.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.o
 .PHONY : TlpQtTools.cpp.o
 
 TlpQtTools.i: TlpQtTools.cpp.i
@@ -1959,7 +1959,7 @@ TlpQtTools.i: TlpQtTools.cpp.i
 
 # target to preprocess a source file
 TlpQtTools.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.i
 .PHONY : TlpQtTools.cpp.i
 
 TlpQtTools.s: TlpQtTools.cpp.s
@@ -1967,7 +1967,7 @@ TlpQtTools.s: TlpQtTools.cpp.s
 
 # target to generate assembly for a file
 TlpQtTools.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TlpQtTools.cpp.s
 .PHONY : TlpQtTools.cpp.s
 
 TulipSettings.o: TulipSettings.cpp.o
@@ -1975,7 +1975,7 @@ TulipSettings.o: TulipSettings.cpp.o
 
 # target to build an object file
 TulipSettings.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.o
 .PHONY : TulipSettings.cpp.o
 
 TulipSettings.i: TulipSettings.cpp.i
@@ -1983,7 +1983,7 @@ TulipSettings.i: TulipSettings.cpp.i
 
 # target to preprocess a source file
 TulipSettings.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.i
 .PHONY : TulipSettings.cpp.i
 
 TulipSettings.s: TulipSettings.cpp.s
@@ -1991,7 +1991,7 @@ TulipSettings.s: TulipSettings.cpp.s
 
 # target to generate assembly for a file
 TulipSettings.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipSettings.cpp.s
 .PHONY : TulipSettings.cpp.s
 
 TulipTableWidget.o: TulipTableWidget.cpp.o
@@ -1999,7 +1999,7 @@ TulipTableWidget.o: TulipTableWidget.cpp.o
 
 # target to build an object file
 TulipTableWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.o
 .PHONY : TulipTableWidget.cpp.o
 
 TulipTableWidget.i: TulipTableWidget.cpp.i
@@ -2007,7 +2007,7 @@ TulipTableWidget.i: TulipTableWidget.cpp.i
 
 # target to preprocess a source file
 TulipTableWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.i
 .PHONY : TulipTableWidget.cpp.i
 
 TulipTableWidget.s: TulipTableWidget.cpp.s
@@ -2015,7 +2015,7 @@ TulipTableWidget.s: TulipTableWidget.cpp.s
 
 # target to generate assembly for a file
 TulipTableWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/TulipTableWidget.cpp.s
 .PHONY : TulipTableWidget.cpp.s
 
 View.o: View.cpp.o
@@ -2023,7 +2023,7 @@ View.o: View.cpp.o
 
 # target to build an object file
 View.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.o
 .PHONY : View.cpp.o
 
 View.i: View.cpp.i
@@ -2031,7 +2031,7 @@ View.i: View.cpp.i
 
 # target to preprocess a source file
 View.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.i
 .PHONY : View.cpp.i
 
 View.s: View.cpp.s
@@ -2039,7 +2039,7 @@ View.s: View.cpp.s
 
 # target to generate assembly for a file
 View.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/View.cpp.s
 .PHONY : View.cpp.s
 
 ViewPluginsManager.o: ViewPluginsManager.cpp.o
@@ -2047,7 +2047,7 @@ ViewPluginsManager.o: ViewPluginsManager.cpp.o
 
 # target to build an object file
 ViewPluginsManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.o
 .PHONY : ViewPluginsManager.cpp.o
 
 ViewPluginsManager.i: ViewPluginsManager.cpp.i
@@ -2055,7 +2055,7 @@ ViewPluginsManager.i: ViewPluginsManager.cpp.i
 
 # target to preprocess a source file
 ViewPluginsManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.i
 .PHONY : ViewPluginsManager.cpp.i
 
 ViewPluginsManager.s: ViewPluginsManager.cpp.s
@@ -2063,7 +2063,7 @@ ViewPluginsManager.s: ViewPluginsManager.cpp.s
 
 # target to generate assembly for a file
 ViewPluginsManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/ViewPluginsManager.cpp.s
 .PHONY : ViewPluginsManager.cpp.s
 
 moc_AbstractView.o: moc_AbstractView.cpp.o
@@ -2071,7 +2071,7 @@ moc_AbstractView.o: moc_AbstractView.cpp.o
 
 # target to build an object file
 moc_AbstractView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.o
 .PHONY : moc_AbstractView.cpp.o
 
 moc_AbstractView.i: moc_AbstractView.cpp.i
@@ -2079,7 +2079,7 @@ moc_AbstractView.i: moc_AbstractView.cpp.i
 
 # target to preprocess a source file
 moc_AbstractView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.i
 .PHONY : moc_AbstractView.cpp.i
 
 moc_AbstractView.s: moc_AbstractView.cpp.s
@@ -2087,7 +2087,7 @@ moc_AbstractView.s: moc_AbstractView.cpp.s
 
 # target to generate assembly for a file
 moc_AbstractView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AbstractView.cpp.s
 .PHONY : moc_AbstractView.cpp.s
 
 moc_AugmentedDisplayDialog.o: moc_AugmentedDisplayDialog.cpp.o
@@ -2095,7 +2095,7 @@ moc_AugmentedDisplayDialog.o: moc_AugmentedDisplayDialog.cpp.o
 
 # target to build an object file
 moc_AugmentedDisplayDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.o
 .PHONY : moc_AugmentedDisplayDialog.cpp.o
 
 moc_AugmentedDisplayDialog.i: moc_AugmentedDisplayDialog.cpp.i
@@ -2103,7 +2103,7 @@ moc_AugmentedDisplayDialog.i: moc_AugmentedDisplayDialog.cpp.i
 
 # target to preprocess a source file
 moc_AugmentedDisplayDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.i
 .PHONY : moc_AugmentedDisplayDialog.cpp.i
 
 moc_AugmentedDisplayDialog.s: moc_AugmentedDisplayDialog.cpp.s
@@ -2111,7 +2111,7 @@ moc_AugmentedDisplayDialog.s: moc_AugmentedDisplayDialog.cpp.s
 
 # target to generate assembly for a file
 moc_AugmentedDisplayDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_AugmentedDisplayDialog.cpp.s
 .PHONY : moc_AugmentedDisplayDialog.cpp.s
 
 moc_BaseGraphicsViewComponent.o: moc_BaseGraphicsViewComponent.cpp.o
@@ -2119,7 +2119,7 @@ moc_BaseGraphicsViewComponent.o: moc_BaseGraphicsViewComponent.cpp.o
 
 # target to build an object file
 moc_BaseGraphicsViewComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.o
 .PHONY : moc_BaseGraphicsViewComponent.cpp.o
 
 moc_BaseGraphicsViewComponent.i: moc_BaseGraphicsViewComponent.cpp.i
@@ -2127,7 +2127,7 @@ moc_BaseGraphicsViewComponent.i: moc_BaseGraphicsViewComponent.cpp.i
 
 # target to preprocess a source file
 moc_BaseGraphicsViewComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.i
 .PHONY : moc_BaseGraphicsViewComponent.cpp.i
 
 moc_BaseGraphicsViewComponent.s: moc_BaseGraphicsViewComponent.cpp.s
@@ -2135,7 +2135,7 @@ moc_BaseGraphicsViewComponent.s: moc_BaseGraphicsViewComponent.cpp.s
 
 # target to generate assembly for a file
 moc_BaseGraphicsViewComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_BaseGraphicsViewComponent.cpp.s
 .PHONY : moc_BaseGraphicsViewComponent.cpp.s
 
 moc_CSVGraphMappingConfigurationWidget.o: moc_CSVGraphMappingConfigurationWidget.cpp.o
@@ -2143,7 +2143,7 @@ moc_CSVGraphMappingConfigurationWidget.o: moc_CSVGraphMappingConfigurationWidget
 
 # target to build an object file
 moc_CSVGraphMappingConfigurationWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.o
 .PHONY : moc_CSVGraphMappingConfigurationWidget.cpp.o
 
 moc_CSVGraphMappingConfigurationWidget.i: moc_CSVGraphMappingConfigurationWidget.cpp.i
@@ -2151,7 +2151,7 @@ moc_CSVGraphMappingConfigurationWidget.i: moc_CSVGraphMappingConfigurationWidget
 
 # target to preprocess a source file
 moc_CSVGraphMappingConfigurationWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.i
 .PHONY : moc_CSVGraphMappingConfigurationWidget.cpp.i
 
 moc_CSVGraphMappingConfigurationWidget.s: moc_CSVGraphMappingConfigurationWidget.cpp.s
@@ -2159,7 +2159,7 @@ moc_CSVGraphMappingConfigurationWidget.s: moc_CSVGraphMappingConfigurationWidget
 
 # target to generate assembly for a file
 moc_CSVGraphMappingConfigurationWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVGraphMappingConfigurationWidget.cpp.s
 .PHONY : moc_CSVGraphMappingConfigurationWidget.cpp.s
 
 moc_CSVImportConfigurationWidget.o: moc_CSVImportConfigurationWidget.cpp.o
@@ -2167,7 +2167,7 @@ moc_CSVImportConfigurationWidget.o: moc_CSVImportConfigurationWidget.cpp.o
 
 # target to build an object file
 moc_CSVImportConfigurationWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.o
 .PHONY : moc_CSVImportConfigurationWidget.cpp.o
 
 moc_CSVImportConfigurationWidget.i: moc_CSVImportConfigurationWidget.cpp.i
@@ -2175,7 +2175,7 @@ moc_CSVImportConfigurationWidget.i: moc_CSVImportConfigurationWidget.cpp.i
 
 # target to preprocess a source file
 moc_CSVImportConfigurationWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.i
 .PHONY : moc_CSVImportConfigurationWidget.cpp.i
 
 moc_CSVImportConfigurationWidget.s: moc_CSVImportConfigurationWidget.cpp.s
@@ -2183,7 +2183,7 @@ moc_CSVImportConfigurationWidget.s: moc_CSVImportConfigurationWidget.cpp.s
 
 # target to generate assembly for a file
 moc_CSVImportConfigurationWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportConfigurationWidget.cpp.s
 .PHONY : moc_CSVImportConfigurationWidget.cpp.s
 
 moc_CSVImportWizard.o: moc_CSVImportWizard.cpp.o
@@ -2191,7 +2191,7 @@ moc_CSVImportWizard.o: moc_CSVImportWizard.cpp.o
 
 # target to build an object file
 moc_CSVImportWizard.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.o
 .PHONY : moc_CSVImportWizard.cpp.o
 
 moc_CSVImportWizard.i: moc_CSVImportWizard.cpp.i
@@ -2199,7 +2199,7 @@ moc_CSVImportWizard.i: moc_CSVImportWizard.cpp.i
 
 # target to preprocess a source file
 moc_CSVImportWizard.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.i
 .PHONY : moc_CSVImportWizard.cpp.i
 
 moc_CSVImportWizard.s: moc_CSVImportWizard.cpp.s
@@ -2207,7 +2207,7 @@ moc_CSVImportWizard.s: moc_CSVImportWizard.cpp.s
 
 # target to generate assembly for a file
 moc_CSVImportWizard.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVImportWizard.cpp.s
 .PHONY : moc_CSVImportWizard.cpp.s
 
 moc_CSVParserConfigurationWidget.o: moc_CSVParserConfigurationWidget.cpp.o
@@ -2215,7 +2215,7 @@ moc_CSVParserConfigurationWidget.o: moc_CSVParserConfigurationWidget.cpp.o
 
 # target to build an object file
 moc_CSVParserConfigurationWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.o
 .PHONY : moc_CSVParserConfigurationWidget.cpp.o
 
 moc_CSVParserConfigurationWidget.i: moc_CSVParserConfigurationWidget.cpp.i
@@ -2223,7 +2223,7 @@ moc_CSVParserConfigurationWidget.i: moc_CSVParserConfigurationWidget.cpp.i
 
 # target to preprocess a source file
 moc_CSVParserConfigurationWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.i
 .PHONY : moc_CSVParserConfigurationWidget.cpp.i
 
 moc_CSVParserConfigurationWidget.s: moc_CSVParserConfigurationWidget.cpp.s
@@ -2231,7 +2231,7 @@ moc_CSVParserConfigurationWidget.s: moc_CSVParserConfigurationWidget.cpp.s
 
 # target to generate assembly for a file
 moc_CSVParserConfigurationWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CSVParserConfigurationWidget.cpp.s
 .PHONY : moc_CSVParserConfigurationWidget.cpp.s
 
 moc_ColorButton.o: moc_ColorButton.cpp.o
@@ -2239,7 +2239,7 @@ moc_ColorButton.o: moc_ColorButton.cpp.o
 
 # target to build an object file
 moc_ColorButton.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.o
 .PHONY : moc_ColorButton.cpp.o
 
 moc_ColorButton.i: moc_ColorButton.cpp.i
@@ -2247,7 +2247,7 @@ moc_ColorButton.i: moc_ColorButton.cpp.i
 
 # target to preprocess a source file
 moc_ColorButton.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.i
 .PHONY : moc_ColorButton.cpp.i
 
 moc_ColorButton.s: moc_ColorButton.cpp.s
@@ -2255,7 +2255,7 @@ moc_ColorButton.s: moc_ColorButton.cpp.s
 
 # target to generate assembly for a file
 moc_ColorButton.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorButton.cpp.s
 .PHONY : moc_ColorButton.cpp.s
 
 moc_ColorScaleConfigDialog.o: moc_ColorScaleConfigDialog.cpp.o
@@ -2263,7 +2263,7 @@ moc_ColorScaleConfigDialog.o: moc_ColorScaleConfigDialog.cpp.o
 
 # target to build an object file
 moc_ColorScaleConfigDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.o
 .PHONY : moc_ColorScaleConfigDialog.cpp.o
 
 moc_ColorScaleConfigDialog.i: moc_ColorScaleConfigDialog.cpp.i
@@ -2271,7 +2271,7 @@ moc_ColorScaleConfigDialog.i: moc_ColorScaleConfigDialog.cpp.i
 
 # target to preprocess a source file
 moc_ColorScaleConfigDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.i
 .PHONY : moc_ColorScaleConfigDialog.cpp.i
 
 moc_ColorScaleConfigDialog.s: moc_ColorScaleConfigDialog.cpp.s
@@ -2279,7 +2279,7 @@ moc_ColorScaleConfigDialog.s: moc_ColorScaleConfigDialog.cpp.s
 
 # target to generate assembly for a file
 moc_ColorScaleConfigDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ColorScaleConfigDialog.cpp.s
 .PHONY : moc_ColorScaleConfigDialog.cpp.s
 
 moc_Controller.o: moc_Controller.cpp.o
@@ -2287,7 +2287,7 @@ moc_Controller.o: moc_Controller.cpp.o
 
 # target to build an object file
 moc_Controller.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.o
 .PHONY : moc_Controller.cpp.o
 
 moc_Controller.i: moc_Controller.cpp.i
@@ -2295,7 +2295,7 @@ moc_Controller.i: moc_Controller.cpp.i
 
 # target to preprocess a source file
 moc_Controller.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.i
 .PHONY : moc_Controller.cpp.i
 
 moc_Controller.s: moc_Controller.cpp.s
@@ -2303,7 +2303,7 @@ moc_Controller.s: moc_Controller.cpp.s
 
 # target to generate assembly for a file
 moc_Controller.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Controller.cpp.s
 .PHONY : moc_Controller.cpp.s
 
 moc_ControllerViewsManager.o: moc_ControllerViewsManager.cpp.o
@@ -2311,7 +2311,7 @@ moc_ControllerViewsManager.o: moc_ControllerViewsManager.cpp.o
 
 # target to build an object file
 moc_ControllerViewsManager.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.o
 .PHONY : moc_ControllerViewsManager.cpp.o
 
 moc_ControllerViewsManager.i: moc_ControllerViewsManager.cpp.i
@@ -2319,7 +2319,7 @@ moc_ControllerViewsManager.i: moc_ControllerViewsManager.cpp.i
 
 # target to preprocess a source file
 moc_ControllerViewsManager.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.i
 .PHONY : moc_ControllerViewsManager.cpp.i
 
 moc_ControllerViewsManager.s: moc_ControllerViewsManager.cpp.s
@@ -2327,7 +2327,7 @@ moc_ControllerViewsManager.s: moc_ControllerViewsManager.cpp.s
 
 # target to generate assembly for a file
 moc_ControllerViewsManager.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ControllerViewsManager.cpp.s
 .PHONY : moc_ControllerViewsManager.cpp.s
 
 moc_CoordWidget.o: moc_CoordWidget.cpp.o
@@ -2335,7 +2335,7 @@ moc_CoordWidget.o: moc_CoordWidget.cpp.o
 
 # target to build an object file
 moc_CoordWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.o
 .PHONY : moc_CoordWidget.cpp.o
 
 moc_CoordWidget.i: moc_CoordWidget.cpp.i
@@ -2343,7 +2343,7 @@ moc_CoordWidget.i: moc_CoordWidget.cpp.i
 
 # target to preprocess a source file
 moc_CoordWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.i
 .PHONY : moc_CoordWidget.cpp.i
 
 moc_CoordWidget.s: moc_CoordWidget.cpp.s
@@ -2351,7 +2351,7 @@ moc_CoordWidget.s: moc_CoordWidget.cpp.s
 
 # target to generate assembly for a file
 moc_CoordWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CoordWidget.cpp.s
 .PHONY : moc_CoordWidget.cpp.s
 
 moc_CopyPropertyDialog.o: moc_CopyPropertyDialog.cpp.o
@@ -2359,7 +2359,7 @@ moc_CopyPropertyDialog.o: moc_CopyPropertyDialog.cpp.o
 
 # target to build an object file
 moc_CopyPropertyDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.o
 .PHONY : moc_CopyPropertyDialog.cpp.o
 
 moc_CopyPropertyDialog.i: moc_CopyPropertyDialog.cpp.i
@@ -2367,7 +2367,7 @@ moc_CopyPropertyDialog.i: moc_CopyPropertyDialog.cpp.i
 
 # target to preprocess a source file
 moc_CopyPropertyDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.i
 .PHONY : moc_CopyPropertyDialog.cpp.i
 
 moc_CopyPropertyDialog.s: moc_CopyPropertyDialog.cpp.s
@@ -2375,7 +2375,7 @@ moc_CopyPropertyDialog.s: moc_CopyPropertyDialog.cpp.s
 
 # target to generate assembly for a file
 moc_CopyPropertyDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_CopyPropertyDialog.cpp.s
 .PHONY : moc_CopyPropertyDialog.cpp.s
 
 moc_DoubleStringsListSelectionWidget.o: moc_DoubleStringsListSelectionWidget.cpp.o
@@ -2383,7 +2383,7 @@ moc_DoubleStringsListSelectionWidget.o: moc_DoubleStringsListSelectionWidget.cpp
 
 # target to build an object file
 moc_DoubleStringsListSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.o
 .PHONY : moc_DoubleStringsListSelectionWidget.cpp.o
 
 moc_DoubleStringsListSelectionWidget.i: moc_DoubleStringsListSelectionWidget.cpp.i
@@ -2391,7 +2391,7 @@ moc_DoubleStringsListSelectionWidget.i: moc_DoubleStringsListSelectionWidget.cpp
 
 # target to preprocess a source file
 moc_DoubleStringsListSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.i
 .PHONY : moc_DoubleStringsListSelectionWidget.cpp.i
 
 moc_DoubleStringsListSelectionWidget.s: moc_DoubleStringsListSelectionWidget.cpp.s
@@ -2399,7 +2399,7 @@ moc_DoubleStringsListSelectionWidget.s: moc_DoubleStringsListSelectionWidget.cpp
 
 # target to generate assembly for a file
 moc_DoubleStringsListSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_DoubleStringsListSelectionWidget.cpp.s
 .PHONY : moc_DoubleStringsListSelectionWidget.cpp.s
 
 moc_ElementPropertiesWidget.o: moc_ElementPropertiesWidget.cpp.o
@@ -2407,7 +2407,7 @@ moc_ElementPropertiesWidget.o: moc_ElementPropertiesWidget.cpp.o
 
 # target to build an object file
 moc_ElementPropertiesWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.o
 .PHONY : moc_ElementPropertiesWidget.cpp.o
 
 moc_ElementPropertiesWidget.i: moc_ElementPropertiesWidget.cpp.i
@@ -2415,7 +2415,7 @@ moc_ElementPropertiesWidget.i: moc_ElementPropertiesWidget.cpp.i
 
 # target to preprocess a source file
 moc_ElementPropertiesWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.i
 .PHONY : moc_ElementPropertiesWidget.cpp.i
 
 moc_ElementPropertiesWidget.s: moc_ElementPropertiesWidget.cpp.s
@@ -2423,7 +2423,7 @@ moc_ElementPropertiesWidget.s: moc_ElementPropertiesWidget.cpp.s
 
 # target to generate assembly for a file
 moc_ElementPropertiesWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidget.cpp.s
 .PHONY : moc_ElementPropertiesWidget.cpp.s
 
 moc_ElementPropertiesWidgetUI.o: moc_ElementPropertiesWidgetUI.cpp.o
@@ -2431,7 +2431,7 @@ moc_ElementPropertiesWidgetUI.o: moc_ElementPropertiesWidgetUI.cpp.o
 
 # target to build an object file
 moc_ElementPropertiesWidgetUI.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.o
 .PHONY : moc_ElementPropertiesWidgetUI.cpp.o
 
 moc_ElementPropertiesWidgetUI.i: moc_ElementPropertiesWidgetUI.cpp.i
@@ -2439,7 +2439,7 @@ moc_ElementPropertiesWidgetUI.i: moc_ElementPropertiesWidgetUI.cpp.i
 
 # target to preprocess a source file
 moc_ElementPropertiesWidgetUI.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.i
 .PHONY : moc_ElementPropertiesWidgetUI.cpp.i
 
 moc_ElementPropertiesWidgetUI.s: moc_ElementPropertiesWidgetUI.cpp.s
@@ -2447,7 +2447,7 @@ moc_ElementPropertiesWidgetUI.s: moc_ElementPropertiesWidgetUI.cpp.s
 
 # target to generate assembly for a file
 moc_ElementPropertiesWidgetUI.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ElementPropertiesWidgetUI.cpp.s
 .PHONY : moc_ElementPropertiesWidgetUI.cpp.s
 
 moc_FileNameEditorWidget.o: moc_FileNameEditorWidget.cpp.o
@@ -2455,7 +2455,7 @@ moc_FileNameEditorWidget.o: moc_FileNameEditorWidget.cpp.o
 
 # target to build an object file
 moc_FileNameEditorWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.o
 .PHONY : moc_FileNameEditorWidget.cpp.o
 
 moc_FileNameEditorWidget.i: moc_FileNameEditorWidget.cpp.i
@@ -2463,7 +2463,7 @@ moc_FileNameEditorWidget.i: moc_FileNameEditorWidget.cpp.i
 
 # target to preprocess a source file
 moc_FileNameEditorWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.i
 .PHONY : moc_FileNameEditorWidget.cpp.i
 
 moc_FileNameEditorWidget.s: moc_FileNameEditorWidget.cpp.s
@@ -2471,7 +2471,7 @@ moc_FileNameEditorWidget.s: moc_FileNameEditorWidget.cpp.s
 
 # target to generate assembly for a file
 moc_FileNameEditorWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FileNameEditorWidget.cpp.s
 .PHONY : moc_FileNameEditorWidget.cpp.s
 
 moc_FindSelectionWidget.o: moc_FindSelectionWidget.cpp.o
@@ -2479,7 +2479,7 @@ moc_FindSelectionWidget.o: moc_FindSelectionWidget.cpp.o
 
 # target to build an object file
 moc_FindSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.o
 .PHONY : moc_FindSelectionWidget.cpp.o
 
 moc_FindSelectionWidget.i: moc_FindSelectionWidget.cpp.i
@@ -2487,7 +2487,7 @@ moc_FindSelectionWidget.i: moc_FindSelectionWidget.cpp.i
 
 # target to preprocess a source file
 moc_FindSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.i
 .PHONY : moc_FindSelectionWidget.cpp.i
 
 moc_FindSelectionWidget.s: moc_FindSelectionWidget.cpp.s
@@ -2495,7 +2495,7 @@ moc_FindSelectionWidget.s: moc_FindSelectionWidget.cpp.s
 
 # target to generate assembly for a file
 moc_FindSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_FindSelectionWidget.cpp.s
 .PHONY : moc_FindSelectionWidget.cpp.s
 
 moc_GWOverviewWidget.o: moc_GWOverviewWidget.cpp.o
@@ -2503,7 +2503,7 @@ moc_GWOverviewWidget.o: moc_GWOverviewWidget.cpp.o
 
 # target to build an object file
 moc_GWOverviewWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.o
 .PHONY : moc_GWOverviewWidget.cpp.o
 
 moc_GWOverviewWidget.i: moc_GWOverviewWidget.cpp.i
@@ -2511,7 +2511,7 @@ moc_GWOverviewWidget.i: moc_GWOverviewWidget.cpp.i
 
 # target to preprocess a source file
 moc_GWOverviewWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.i
 .PHONY : moc_GWOverviewWidget.cpp.i
 
 moc_GWOverviewWidget.s: moc_GWOverviewWidget.cpp.s
@@ -2519,7 +2519,7 @@ moc_GWOverviewWidget.s: moc_GWOverviewWidget.cpp.s
 
 # target to generate assembly for a file
 moc_GWOverviewWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GWOverviewWidget.cpp.s
 .PHONY : moc_GWOverviewWidget.cpp.s
 
 moc_GlMainView.o: moc_GlMainView.cpp.o
@@ -2527,7 +2527,7 @@ moc_GlMainView.o: moc_GlMainView.cpp.o
 
 # target to build an object file
 moc_GlMainView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.o
 .PHONY : moc_GlMainView.cpp.o
 
 moc_GlMainView.i: moc_GlMainView.cpp.i
@@ -2535,7 +2535,7 @@ moc_GlMainView.i: moc_GlMainView.cpp.i
 
 # target to preprocess a source file
 moc_GlMainView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.i
 .PHONY : moc_GlMainView.cpp.i
 
 moc_GlMainView.s: moc_GlMainView.cpp.s
@@ -2543,7 +2543,7 @@ moc_GlMainView.s: moc_GlMainView.cpp.s
 
 # target to generate assembly for a file
 moc_GlMainView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainView.cpp.s
 .PHONY : moc_GlMainView.cpp.s
 
 moc_GlMainWidget.o: moc_GlMainWidget.cpp.o
@@ -2551,7 +2551,7 @@ moc_GlMainWidget.o: moc_GlMainWidget.cpp.o
 
 # target to build an object file
 moc_GlMainWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.o
 .PHONY : moc_GlMainWidget.cpp.o
 
 moc_GlMainWidget.i: moc_GlMainWidget.cpp.i
@@ -2559,7 +2559,7 @@ moc_GlMainWidget.i: moc_GlMainWidget.cpp.i
 
 # target to preprocess a source file
 moc_GlMainWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.i
 .PHONY : moc_GlMainWidget.cpp.i
 
 moc_GlMainWidget.s: moc_GlMainWidget.cpp.s
@@ -2567,7 +2567,7 @@ moc_GlMainWidget.s: moc_GlMainWidget.cpp.s
 
 # target to generate assembly for a file
 moc_GlMainWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidget.cpp.s
 .PHONY : moc_GlMainWidget.cpp.s
 
 moc_GlMainWidgetGraphicsView.o: moc_GlMainWidgetGraphicsView.cpp.o
@@ -2575,7 +2575,7 @@ moc_GlMainWidgetGraphicsView.o: moc_GlMainWidgetGraphicsView.cpp.o
 
 # target to build an object file
 moc_GlMainWidgetGraphicsView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.o
 .PHONY : moc_GlMainWidgetGraphicsView.cpp.o
 
 moc_GlMainWidgetGraphicsView.i: moc_GlMainWidgetGraphicsView.cpp.i
@@ -2583,7 +2583,7 @@ moc_GlMainWidgetGraphicsView.i: moc_GlMainWidgetGraphicsView.cpp.i
 
 # target to preprocess a source file
 moc_GlMainWidgetGraphicsView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.i
 .PHONY : moc_GlMainWidgetGraphicsView.cpp.i
 
 moc_GlMainWidgetGraphicsView.s: moc_GlMainWidgetGraphicsView.cpp.s
@@ -2591,7 +2591,7 @@ moc_GlMainWidgetGraphicsView.s: moc_GlMainWidgetGraphicsView.cpp.s
 
 # target to generate assembly for a file
 moc_GlMainWidgetGraphicsView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetGraphicsView.cpp.s
 .PHONY : moc_GlMainWidgetGraphicsView.cpp.s
 
 moc_GlMainWidgetItem.o: moc_GlMainWidgetItem.cpp.o
@@ -2599,7 +2599,7 @@ moc_GlMainWidgetItem.o: moc_GlMainWidgetItem.cpp.o
 
 # target to build an object file
 moc_GlMainWidgetItem.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.o
 .PHONY : moc_GlMainWidgetItem.cpp.o
 
 moc_GlMainWidgetItem.i: moc_GlMainWidgetItem.cpp.i
@@ -2607,7 +2607,7 @@ moc_GlMainWidgetItem.i: moc_GlMainWidgetItem.cpp.i
 
 # target to preprocess a source file
 moc_GlMainWidgetItem.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.i
 .PHONY : moc_GlMainWidgetItem.cpp.i
 
 moc_GlMainWidgetItem.s: moc_GlMainWidgetItem.cpp.s
@@ -2615,7 +2615,7 @@ moc_GlMainWidgetItem.s: moc_GlMainWidgetItem.cpp.s
 
 # target to generate assembly for a file
 moc_GlMainWidgetItem.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GlMainWidgetItem.cpp.s
 .PHONY : moc_GlMainWidgetItem.cpp.s
 
 moc_GraphPropertiesTableWidget.o: moc_GraphPropertiesTableWidget.cpp.o
@@ -2623,7 +2623,7 @@ moc_GraphPropertiesTableWidget.o: moc_GraphPropertiesTableWidget.cpp.o
 
 # target to build an object file
 moc_GraphPropertiesTableWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.o
 .PHONY : moc_GraphPropertiesTableWidget.cpp.o
 
 moc_GraphPropertiesTableWidget.i: moc_GraphPropertiesTableWidget.cpp.i
@@ -2631,7 +2631,7 @@ moc_GraphPropertiesTableWidget.i: moc_GraphPropertiesTableWidget.cpp.i
 
 # target to preprocess a source file
 moc_GraphPropertiesTableWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.i
 .PHONY : moc_GraphPropertiesTableWidget.cpp.i
 
 moc_GraphPropertiesTableWidget.s: moc_GraphPropertiesTableWidget.cpp.s
@@ -2639,7 +2639,7 @@ moc_GraphPropertiesTableWidget.s: moc_GraphPropertiesTableWidget.cpp.s
 
 # target to generate assembly for a file
 moc_GraphPropertiesTableWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GraphPropertiesTableWidget.cpp.s
 .PHONY : moc_GraphPropertiesTableWidget.cpp.s
 
 moc_GridOptionsWidget.o: moc_GridOptionsWidget.cpp.o
@@ -2647,7 +2647,7 @@ moc_GridOptionsWidget.o: moc_GridOptionsWidget.cpp.o
 
 # target to build an object file
 moc_GridOptionsWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.o
 .PHONY : moc_GridOptionsWidget.cpp.o
 
 moc_GridOptionsWidget.i: moc_GridOptionsWidget.cpp.i
@@ -2655,7 +2655,7 @@ moc_GridOptionsWidget.i: moc_GridOptionsWidget.cpp.i
 
 # target to preprocess a source file
 moc_GridOptionsWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.i
 .PHONY : moc_GridOptionsWidget.cpp.i
 
 moc_GridOptionsWidget.s: moc_GridOptionsWidget.cpp.s
@@ -2663,7 +2663,7 @@ moc_GridOptionsWidget.s: moc_GridOptionsWidget.cpp.s
 
 # target to generate assembly for a file
 moc_GridOptionsWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_GridOptionsWidget.cpp.s
 .PHONY : moc_GridOptionsWidget.cpp.s
 
 moc_Interactor.o: moc_Interactor.cpp.o
@@ -2671,7 +2671,7 @@ moc_Interactor.o: moc_Interactor.cpp.o
 
 # target to build an object file
 moc_Interactor.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.o
 .PHONY : moc_Interactor.cpp.o
 
 moc_Interactor.i: moc_Interactor.cpp.i
@@ -2679,7 +2679,7 @@ moc_Interactor.i: moc_Interactor.cpp.i
 
 # target to preprocess a source file
 moc_Interactor.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.i
 .PHONY : moc_Interactor.cpp.i
 
 moc_Interactor.s: moc_Interactor.cpp.s
@@ -2687,7 +2687,7 @@ moc_Interactor.s: moc_Interactor.cpp.s
 
 # target to generate assembly for a file
 moc_Interactor.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Interactor.cpp.s
 .PHONY : moc_Interactor.cpp.s
 
 moc_ItemsListWidget.o: moc_ItemsListWidget.cpp.o
@@ -2695,7 +2695,7 @@ moc_ItemsListWidget.o: moc_ItemsListWidget.cpp.o
 
 # target to build an object file
 moc_ItemsListWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.o
 .PHONY : moc_ItemsListWidget.cpp.o
 
 moc_ItemsListWidget.i: moc_ItemsListWidget.cpp.i
@@ -2703,7 +2703,7 @@ moc_ItemsListWidget.i: moc_ItemsListWidget.cpp.i
 
 # target to preprocess a source file
 moc_ItemsListWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.i
 .PHONY : moc_ItemsListWidget.cpp.i
 
 moc_ItemsListWidget.s: moc_ItemsListWidget.cpp.s
@@ -2711,7 +2711,7 @@ moc_ItemsListWidget.s: moc_ItemsListWidget.cpp.s
 
 # target to generate assembly for a file
 moc_ItemsListWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ItemsListWidget.cpp.s
 .PHONY : moc_ItemsListWidget.cpp.s
 
 moc_LayerManagerWidget.o: moc_LayerManagerWidget.cpp.o
@@ -2719,7 +2719,7 @@ moc_LayerManagerWidget.o: moc_LayerManagerWidget.cpp.o
 
 # target to build an object file
 moc_LayerManagerWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.o
 .PHONY : moc_LayerManagerWidget.cpp.o
 
 moc_LayerManagerWidget.i: moc_LayerManagerWidget.cpp.i
@@ -2727,7 +2727,7 @@ moc_LayerManagerWidget.i: moc_LayerManagerWidget.cpp.i
 
 # target to preprocess a source file
 moc_LayerManagerWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.i
 .PHONY : moc_LayerManagerWidget.cpp.i
 
 moc_LayerManagerWidget.s: moc_LayerManagerWidget.cpp.s
@@ -2735,7 +2735,7 @@ moc_LayerManagerWidget.s: moc_LayerManagerWidget.cpp.s
 
 # target to generate assembly for a file
 moc_LayerManagerWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_LayerManagerWidget.cpp.s
 .PHONY : moc_LayerManagerWidget.cpp.s
 
 moc_ListPropertyWidget.o: moc_ListPropertyWidget.cpp.o
@@ -2743,7 +2743,7 @@ moc_ListPropertyWidget.o: moc_ListPropertyWidget.cpp.o
 
 # target to build an object file
 moc_ListPropertyWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.o
 .PHONY : moc_ListPropertyWidget.cpp.o
 
 moc_ListPropertyWidget.i: moc_ListPropertyWidget.cpp.i
@@ -2751,7 +2751,7 @@ moc_ListPropertyWidget.i: moc_ListPropertyWidget.cpp.i
 
 # target to preprocess a source file
 moc_ListPropertyWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.i
 .PHONY : moc_ListPropertyWidget.cpp.i
 
 moc_ListPropertyWidget.s: moc_ListPropertyWidget.cpp.s
@@ -2759,7 +2759,7 @@ moc_ListPropertyWidget.s: moc_ListPropertyWidget.cpp.s
 
 # target to generate assembly for a file
 moc_ListPropertyWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_ListPropertyWidget.cpp.s
 .PHONY : moc_ListPropertyWidget.cpp.s
 
 moc_MainController.o: moc_MainController.cpp.o
@@ -2767,7 +2767,7 @@ moc_MainController.o: moc_MainController.cpp.o
 
 # target to build an object file
 moc_MainController.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.o
 .PHONY : moc_MainController.cpp.o
 
 moc_MainController.i: moc_MainController.cpp.i
@@ -2775,7 +2775,7 @@ moc_MainController.i: moc_MainController.cpp.i
 
 # target to preprocess a source file
 moc_MainController.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.i
 .PHONY : moc_MainController.cpp.i
 
 moc_MainController.s: moc_MainController.cpp.s
@@ -2783,7 +2783,7 @@ moc_MainController.s: moc_MainController.cpp.s
 
 # target to generate assembly for a file
 moc_MainController.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MainController.cpp.s
 .PHONY : moc_MainController.cpp.s
 
 moc_Morphing.o: moc_Morphing.cpp.o
@@ -2791,7 +2791,7 @@ moc_Morphing.o: moc_Morphing.cpp.o
 
 # target to build an object file
 moc_Morphing.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.o
 .PHONY : moc_Morphing.cpp.o
 
 moc_Morphing.i: moc_Morphing.cpp.i
@@ -2799,7 +2799,7 @@ moc_Morphing.i: moc_Morphing.cpp.i
 
 # target to preprocess a source file
 moc_Morphing.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.i
 .PHONY : moc_Morphing.cpp.i
 
 moc_Morphing.s: moc_Morphing.cpp.s
@@ -2807,7 +2807,7 @@ moc_Morphing.s: moc_Morphing.cpp.s
 
 # target to generate assembly for a file
 moc_Morphing.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_Morphing.cpp.s
 .PHONY : moc_Morphing.cpp.s
 
 moc_MouseEdgeBendEditor.o: moc_MouseEdgeBendEditor.cpp.o
@@ -2815,7 +2815,7 @@ moc_MouseEdgeBendEditor.o: moc_MouseEdgeBendEditor.cpp.o
 
 # target to build an object file
 moc_MouseEdgeBendEditor.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.o
 .PHONY : moc_MouseEdgeBendEditor.cpp.o
 
 moc_MouseEdgeBendEditor.i: moc_MouseEdgeBendEditor.cpp.i
@@ -2823,7 +2823,7 @@ moc_MouseEdgeBendEditor.i: moc_MouseEdgeBendEditor.cpp.i
 
 # target to preprocess a source file
 moc_MouseEdgeBendEditor.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.i
 .PHONY : moc_MouseEdgeBendEditor.cpp.i
 
 moc_MouseEdgeBendEditor.s: moc_MouseEdgeBendEditor.cpp.s
@@ -2831,7 +2831,7 @@ moc_MouseEdgeBendEditor.s: moc_MouseEdgeBendEditor.cpp.s
 
 # target to generate assembly for a file
 moc_MouseEdgeBendEditor.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseEdgeBendEditor.cpp.s
 .PHONY : moc_MouseEdgeBendEditor.cpp.s
 
 moc_MouseSelectionEditor.o: moc_MouseSelectionEditor.cpp.o
@@ -2839,7 +2839,7 @@ moc_MouseSelectionEditor.o: moc_MouseSelectionEditor.cpp.o
 
 # target to build an object file
 moc_MouseSelectionEditor.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.o
 .PHONY : moc_MouseSelectionEditor.cpp.o
 
 moc_MouseSelectionEditor.i: moc_MouseSelectionEditor.cpp.i
@@ -2847,7 +2847,7 @@ moc_MouseSelectionEditor.i: moc_MouseSelectionEditor.cpp.i
 
 # target to preprocess a source file
 moc_MouseSelectionEditor.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.i
 .PHONY : moc_MouseSelectionEditor.cpp.i
 
 moc_MouseSelectionEditor.s: moc_MouseSelectionEditor.cpp.s
@@ -2855,7 +2855,7 @@ moc_MouseSelectionEditor.s: moc_MouseSelectionEditor.cpp.s
 
 # target to generate assembly for a file
 moc_MouseSelectionEditor.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_MouseSelectionEditor.cpp.s
 .PHONY : moc_MouseSelectionEditor.cpp.s
 
 moc_NodeLinkDiagramComponent.o: moc_NodeLinkDiagramComponent.cpp.o
@@ -2863,7 +2863,7 @@ moc_NodeLinkDiagramComponent.o: moc_NodeLinkDiagramComponent.cpp.o
 
 # target to build an object file
 moc_NodeLinkDiagramComponent.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.o
 .PHONY : moc_NodeLinkDiagramComponent.cpp.o
 
 moc_NodeLinkDiagramComponent.i: moc_NodeLinkDiagramComponent.cpp.i
@@ -2871,7 +2871,7 @@ moc_NodeLinkDiagramComponent.i: moc_NodeLinkDiagramComponent.cpp.i
 
 # target to preprocess a source file
 moc_NodeLinkDiagramComponent.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.i
 .PHONY : moc_NodeLinkDiagramComponent.cpp.i
 
 moc_NodeLinkDiagramComponent.s: moc_NodeLinkDiagramComponent.cpp.s
@@ -2879,7 +2879,7 @@ moc_NodeLinkDiagramComponent.s: moc_NodeLinkDiagramComponent.cpp.s
 
 # target to generate assembly for a file
 moc_NodeLinkDiagramComponent.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_NodeLinkDiagramComponent.cpp.s
 .PHONY : moc_NodeLinkDiagramComponent.cpp.s
 
 moc_PluginProgressWidget.o: moc_PluginProgressWidget.cpp.o
@@ -2887,7 +2887,7 @@ moc_PluginProgressWidget.o: moc_PluginProgressWidget.cpp.o
 
 # target to build an object file
 moc_PluginProgressWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.o
 .PHONY : moc_PluginProgressWidget.cpp.o
 
 moc_PluginProgressWidget.i: moc_PluginProgressWidget.cpp.i
@@ -2895,7 +2895,7 @@ moc_PluginProgressWidget.i: moc_PluginProgressWidget.cpp.i
 
 # target to preprocess a source file
 moc_PluginProgressWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.i
 .PHONY : moc_PluginProgressWidget.cpp.i
 
 moc_PluginProgressWidget.s: moc_PluginProgressWidget.cpp.s
@@ -2903,7 +2903,7 @@ moc_PluginProgressWidget.s: moc_PluginProgressWidget.cpp.s
 
 # target to generate assembly for a file
 moc_PluginProgressWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PluginProgressWidget.cpp.s
 .PHONY : moc_PluginProgressWidget.cpp.s
 
 moc_PropertyCreationDialog.o: moc_PropertyCreationDialog.cpp.o
@@ -2911,7 +2911,7 @@ moc_PropertyCreationDialog.o: moc_PropertyCreationDialog.cpp.o
 
 # target to build an object file
 moc_PropertyCreationDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.o
 .PHONY : moc_PropertyCreationDialog.cpp.o
 
 moc_PropertyCreationDialog.i: moc_PropertyCreationDialog.cpp.i
@@ -2919,7 +2919,7 @@ moc_PropertyCreationDialog.i: moc_PropertyCreationDialog.cpp.i
 
 # target to preprocess a source file
 moc_PropertyCreationDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.i
 .PHONY : moc_PropertyCreationDialog.cpp.i
 
 moc_PropertyCreationDialog.s: moc_PropertyCreationDialog.cpp.s
@@ -2927,7 +2927,7 @@ moc_PropertyCreationDialog.s: moc_PropertyCreationDialog.cpp.s
 
 # target to generate assembly for a file
 moc_PropertyCreationDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyCreationDialog.cpp.s
 .PHONY : moc_PropertyCreationDialog.cpp.s
 
 moc_PropertyDialog.o: moc_PropertyDialog.cpp.o
@@ -2935,7 +2935,7 @@ moc_PropertyDialog.o: moc_PropertyDialog.cpp.o
 
 # target to build an object file
 moc_PropertyDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.o
 .PHONY : moc_PropertyDialog.cpp.o
 
 moc_PropertyDialog.i: moc_PropertyDialog.cpp.i
@@ -2943,7 +2943,7 @@ moc_PropertyDialog.i: moc_PropertyDialog.cpp.i
 
 # target to preprocess a source file
 moc_PropertyDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.i
 .PHONY : moc_PropertyDialog.cpp.i
 
 moc_PropertyDialog.s: moc_PropertyDialog.cpp.s
@@ -2951,7 +2951,7 @@ moc_PropertyDialog.s: moc_PropertyDialog.cpp.s
 
 # target to generate assembly for a file
 moc_PropertyDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyDialog.cpp.s
 .PHONY : moc_PropertyDialog.cpp.s
 
 moc_PropertyWidget.o: moc_PropertyWidget.cpp.o
@@ -2959,7 +2959,7 @@ moc_PropertyWidget.o: moc_PropertyWidget.cpp.o
 
 # target to build an object file
 moc_PropertyWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.o
 .PHONY : moc_PropertyWidget.cpp.o
 
 moc_PropertyWidget.i: moc_PropertyWidget.cpp.i
@@ -2967,7 +2967,7 @@ moc_PropertyWidget.i: moc_PropertyWidget.cpp.i
 
 # target to preprocess a source file
 moc_PropertyWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.i
 .PHONY : moc_PropertyWidget.cpp.i
 
 moc_PropertyWidget.s: moc_PropertyWidget.cpp.s
@@ -2975,7 +2975,7 @@ moc_PropertyWidget.s: moc_PropertyWidget.cpp.s
 
 # target to generate assembly for a file
 moc_PropertyWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_PropertyWidget.cpp.s
 .PHONY : moc_PropertyWidget.cpp.s
 
 moc_QtGlSceneZoomAndPanAnimator.o: moc_QtGlSceneZoomAndPanAnimator.cpp.o
@@ -2983,7 +2983,7 @@ moc_QtGlSceneZoomAndPanAnimator.o: moc_QtGlSceneZoomAndPanAnimator.cpp.o
 
 # target to build an object file
 moc_QtGlSceneZoomAndPanAnimator.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.o
 .PHONY : moc_QtGlSceneZoomAndPanAnimator.cpp.o
 
 moc_QtGlSceneZoomAndPanAnimator.i: moc_QtGlSceneZoomAndPanAnimator.cpp.i
@@ -2991,7 +2991,7 @@ moc_QtGlSceneZoomAndPanAnimator.i: moc_QtGlSceneZoomAndPanAnimator.cpp.i
 
 # target to preprocess a source file
 moc_QtGlSceneZoomAndPanAnimator.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.i
 .PHONY : moc_QtGlSceneZoomAndPanAnimator.cpp.i
 
 moc_QtGlSceneZoomAndPanAnimator.s: moc_QtGlSceneZoomAndPanAnimator.cpp.s
@@ -2999,7 +2999,7 @@ moc_QtGlSceneZoomAndPanAnimator.s: moc_QtGlSceneZoomAndPanAnimator.cpp.s
 
 # target to generate assembly for a file
 moc_QtGlSceneZoomAndPanAnimator.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtGlSceneZoomAndPanAnimator.cpp.s
 .PHONY : moc_QtGlSceneZoomAndPanAnimator.cpp.s
 
 moc_QtProgress.o: moc_QtProgress.cpp.o
@@ -3007,7 +3007,7 @@ moc_QtProgress.o: moc_QtProgress.cpp.o
 
 # target to build an object file
 moc_QtProgress.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.o
 .PHONY : moc_QtProgress.cpp.o
 
 moc_QtProgress.i: moc_QtProgress.cpp.i
@@ -3015,7 +3015,7 @@ moc_QtProgress.i: moc_QtProgress.cpp.i
 
 # target to preprocess a source file
 moc_QtProgress.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.i
 .PHONY : moc_QtProgress.cpp.i
 
 moc_QtProgress.s: moc_QtProgress.cpp.s
@@ -3023,7 +3023,7 @@ moc_QtProgress.s: moc_QtProgress.cpp.s
 
 # target to generate assembly for a file
 moc_QtProgress.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_QtProgress.cpp.s
 .PHONY : moc_QtProgress.cpp.s
 
 moc_RenderingParametersDialog.o: moc_RenderingParametersDialog.cpp.o
@@ -3031,7 +3031,7 @@ moc_RenderingParametersDialog.o: moc_RenderingParametersDialog.cpp.o
 
 # target to build an object file
 moc_RenderingParametersDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.o
 .PHONY : moc_RenderingParametersDialog.cpp.o
 
 moc_RenderingParametersDialog.i: moc_RenderingParametersDialog.cpp.i
@@ -3039,7 +3039,7 @@ moc_RenderingParametersDialog.i: moc_RenderingParametersDialog.cpp.i
 
 # target to preprocess a source file
 moc_RenderingParametersDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.i
 .PHONY : moc_RenderingParametersDialog.cpp.i
 
 moc_RenderingParametersDialog.s: moc_RenderingParametersDialog.cpp.s
@@ -3047,7 +3047,7 @@ moc_RenderingParametersDialog.s: moc_RenderingParametersDialog.cpp.s
 
 # target to generate assembly for a file
 moc_RenderingParametersDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_RenderingParametersDialog.cpp.s
 .PHONY : moc_RenderingParametersDialog.cpp.s
 
 moc_SGHierarchyWidget.o: moc_SGHierarchyWidget.cpp.o
@@ -3055,7 +3055,7 @@ moc_SGHierarchyWidget.o: moc_SGHierarchyWidget.cpp.o
 
 # target to build an object file
 moc_SGHierarchyWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.o
 .PHONY : moc_SGHierarchyWidget.cpp.o
 
 moc_SGHierarchyWidget.i: moc_SGHierarchyWidget.cpp.i
@@ -3063,7 +3063,7 @@ moc_SGHierarchyWidget.i: moc_SGHierarchyWidget.cpp.i
 
 # target to preprocess a source file
 moc_SGHierarchyWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.i
 .PHONY : moc_SGHierarchyWidget.cpp.i
 
 moc_SGHierarchyWidget.s: moc_SGHierarchyWidget.cpp.s
@@ -3071,7 +3071,7 @@ moc_SGHierarchyWidget.s: moc_SGHierarchyWidget.cpp.s
 
 # target to generate assembly for a file
 moc_SGHierarchyWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SGHierarchyWidget.cpp.s
 .PHONY : moc_SGHierarchyWidget.cpp.s
 
 moc_SimpleStringsListSelectionWidget.o: moc_SimpleStringsListSelectionWidget.cpp.o
@@ -3079,7 +3079,7 @@ moc_SimpleStringsListSelectionWidget.o: moc_SimpleStringsListSelectionWidget.cpp
 
 # target to build an object file
 moc_SimpleStringsListSelectionWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.o
 .PHONY : moc_SimpleStringsListSelectionWidget.cpp.o
 
 moc_SimpleStringsListSelectionWidget.i: moc_SimpleStringsListSelectionWidget.cpp.i
@@ -3087,7 +3087,7 @@ moc_SimpleStringsListSelectionWidget.i: moc_SimpleStringsListSelectionWidget.cpp
 
 # target to preprocess a source file
 moc_SimpleStringsListSelectionWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.i
 .PHONY : moc_SimpleStringsListSelectionWidget.cpp.i
 
 moc_SimpleStringsListSelectionWidget.s: moc_SimpleStringsListSelectionWidget.cpp.s
@@ -3095,7 +3095,7 @@ moc_SimpleStringsListSelectionWidget.s: moc_SimpleStringsListSelectionWidget.cpp
 
 # target to generate assembly for a file
 moc_SimpleStringsListSelectionWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SimpleStringsListSelectionWidget.cpp.s
 .PHONY : moc_SimpleStringsListSelectionWidget.cpp.s
 
 moc_SizeWidget.o: moc_SizeWidget.cpp.o
@@ -3103,7 +3103,7 @@ moc_SizeWidget.o: moc_SizeWidget.cpp.o
 
 # target to build an object file
 moc_SizeWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.o
 .PHONY : moc_SizeWidget.cpp.o
 
 moc_SizeWidget.i: moc_SizeWidget.cpp.i
@@ -3111,7 +3111,7 @@ moc_SizeWidget.i: moc_SizeWidget.cpp.i
 
 # target to preprocess a source file
 moc_SizeWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.i
 .PHONY : moc_SizeWidget.cpp.i
 
 moc_SizeWidget.s: moc_SizeWidget.cpp.s
@@ -3119,7 +3119,7 @@ moc_SizeWidget.s: moc_SizeWidget.cpp.s
 
 # target to generate assembly for a file
 moc_SizeWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SizeWidget.cpp.s
 .PHONY : moc_SizeWidget.cpp.s
 
 moc_SmallMultiplesView.o: moc_SmallMultiplesView.cpp.o
@@ -3127,7 +3127,7 @@ moc_SmallMultiplesView.o: moc_SmallMultiplesView.cpp.o
 
 # target to build an object file
 moc_SmallMultiplesView.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.o
 .PHONY : moc_SmallMultiplesView.cpp.o
 
 moc_SmallMultiplesView.i: moc_SmallMultiplesView.cpp.i
@@ -3135,7 +3135,7 @@ moc_SmallMultiplesView.i: moc_SmallMultiplesView.cpp.i
 
 # target to preprocess a source file
 moc_SmallMultiplesView.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.i
 .PHONY : moc_SmallMultiplesView.cpp.i
 
 moc_SmallMultiplesView.s: moc_SmallMultiplesView.cpp.s
@@ -3143,7 +3143,7 @@ moc_SmallMultiplesView.s: moc_SmallMultiplesView.cpp.s
 
 # target to generate assembly for a file
 moc_SmallMultiplesView.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SmallMultiplesView.cpp.s
 .PHONY : moc_SmallMultiplesView.cpp.s
 
 moc_SnapshotDialog.o: moc_SnapshotDialog.cpp.o
@@ -3151,7 +3151,7 @@ moc_SnapshotDialog.o: moc_SnapshotDialog.cpp.o
 
 # target to build an object file
 moc_SnapshotDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.o
 .PHONY : moc_SnapshotDialog.cpp.o
 
 moc_SnapshotDialog.i: moc_SnapshotDialog.cpp.i
@@ -3159,7 +3159,7 @@ moc_SnapshotDialog.i: moc_SnapshotDialog.cpp.i
 
 # target to preprocess a source file
 moc_SnapshotDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.i
 .PHONY : moc_SnapshotDialog.cpp.i
 
 moc_SnapshotDialog.s: moc_SnapshotDialog.cpp.s
@@ -3167,7 +3167,7 @@ moc_SnapshotDialog.s: moc_SnapshotDialog.cpp.s
 
 # target to generate assembly for a file
 moc_SnapshotDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_SnapshotDialog.cpp.s
 .PHONY : moc_SnapshotDialog.cpp.s
 
 moc_TabWidgetHidableMenuGraphicsProxy.o: moc_TabWidgetHidableMenuGraphicsProxy.cpp.o
@@ -3175,7 +3175,7 @@ moc_TabWidgetHidableMenuGraphicsProxy.o: moc_TabWidgetHidableMenuGraphicsProxy.c
 
 # target to build an object file
 moc_TabWidgetHidableMenuGraphicsProxy.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.o
 .PHONY : moc_TabWidgetHidableMenuGraphicsProxy.cpp.o
 
 moc_TabWidgetHidableMenuGraphicsProxy.i: moc_TabWidgetHidableMenuGraphicsProxy.cpp.i
@@ -3183,7 +3183,7 @@ moc_TabWidgetHidableMenuGraphicsProxy.i: moc_TabWidgetHidableMenuGraphicsProxy.c
 
 # target to preprocess a source file
 moc_TabWidgetHidableMenuGraphicsProxy.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.i
 .PHONY : moc_TabWidgetHidableMenuGraphicsProxy.cpp.i
 
 moc_TabWidgetHidableMenuGraphicsProxy.s: moc_TabWidgetHidableMenuGraphicsProxy.cpp.s
@@ -3191,7 +3191,7 @@ moc_TabWidgetHidableMenuGraphicsProxy.s: moc_TabWidgetHidableMenuGraphicsProxy.c
 
 # target to generate assembly for a file
 moc_TabWidgetHidableMenuGraphicsProxy.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TabWidgetHidableMenuGraphicsProxy.cpp.s
 .PHONY : moc_TabWidgetHidableMenuGraphicsProxy.cpp.s
 
 moc_TextEditDialog.o: moc_TextEditDialog.cpp.o
@@ -3199,7 +3199,7 @@ moc_TextEditDialog.o: moc_TextEditDialog.cpp.o
 
 # target to build an object file
 moc_TextEditDialog.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.o
 .PHONY : moc_TextEditDialog.cpp.o
 
 moc_TextEditDialog.i: moc_TextEditDialog.cpp.i
@@ -3207,7 +3207,7 @@ moc_TextEditDialog.i: moc_TextEditDialog.cpp.i
 
 # target to preprocess a source file
 moc_TextEditDialog.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.i
 .PHONY : moc_TextEditDialog.cpp.i
 
 moc_TextEditDialog.s: moc_TextEditDialog.cpp.s
@@ -3215,7 +3215,7 @@ moc_TextEditDialog.s: moc_TextEditDialog.cpp.s
 
 # target to generate assembly for a file
 moc_TextEditDialog.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TextEditDialog.cpp.s
 .PHONY : moc_TextEditDialog.cpp.s
 
 moc_TulipTableWidget.o: moc_TulipTableWidget.cpp.o
@@ -3223,7 +3223,7 @@ moc_TulipTableWidget.o: moc_TulipTableWidget.cpp.o
 
 # target to build an object file
 moc_TulipTableWidget.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.o
 .PHONY : moc_TulipTableWidget.cpp.o
 
 moc_TulipTableWidget.i: moc_TulipTableWidget.cpp.i
@@ -3231,7 +3231,7 @@ moc_TulipTableWidget.i: moc_TulipTableWidget.cpp.i
 
 # target to preprocess a source file
 moc_TulipTableWidget.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.i
 .PHONY : moc_TulipTableWidget.cpp.i
 
 moc_TulipTableWidget.s: moc_TulipTableWidget.cpp.s
@@ -3239,7 +3239,7 @@ moc_TulipTableWidget.s: moc_TulipTableWidget.cpp.s
 
 # target to generate assembly for a file
 moc_TulipTableWidget.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_TulipTableWidget.cpp.s
 .PHONY : moc_TulipTableWidget.cpp.s
 
 moc_View.o: moc_View.cpp.o
@@ -3247,7 +3247,7 @@ moc_View.o: moc_View.cpp.o
 
 # target to build an object file
 moc_View.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.o
 .PHONY : moc_View.cpp.o
 
 moc_View.i: moc_View.cpp.i
@@ -3255,7 +3255,7 @@ moc_View.i: moc_View.cpp.i
 
 # target to preprocess a source file
 moc_View.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.i
 .PHONY : moc_View.cpp.i
 
 moc_View.s: moc_View.cpp.s
@@ -3263,7 +3263,7 @@ moc_View.s: moc_View.cpp.s
 
 # target to generate assembly for a file
 moc_View.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/moc_View.cpp.s
 .PHONY : moc_View.cpp.s
 
 qrc_TulipQtResource.o: qrc_TulipQtResource.cxx.o
@@ -3271,7 +3271,7 @@ qrc_TulipQtResource.o: qrc_TulipQtResource.cxx.o
 
 # target to build an object file
 qrc_TulipQtResource.cxx.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.o
 .PHONY : qrc_TulipQtResource.cxx.o
 
 qrc_TulipQtResource.i: qrc_TulipQtResource.cxx.i
@@ -3279,7 +3279,7 @@ qrc_TulipQtResource.i: qrc_TulipQtResource.cxx.i
 
 # target to preprocess a source file
 qrc_TulipQtResource.cxx.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.i
 .PHONY : qrc_TulipQtResource.cxx.i
 
 qrc_TulipQtResource.s: qrc_TulipQtResource.cxx.s
@@ -3287,7 +3287,7 @@ qrc_TulipQtResource.s: qrc_TulipQtResource.cxx.s
 
 # target to generate assembly for a file
 qrc_TulipQtResource.cxx.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/build.make library/tulip-qt/src/CMakeFiles/tulip-qt4-3.8.dir/qrc_TulipQtResource.cxx.s
 .PHONY : qrc_TulipQtResource.cxx.s
 
 # Help Target
@@ -3706,6 +3706,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

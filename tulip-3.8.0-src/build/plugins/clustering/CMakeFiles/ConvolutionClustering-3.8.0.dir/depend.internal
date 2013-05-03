@@ -80,9 +80,9 @@ plugins/clustering/CMakeFiles/ConvolutionClustering-3.8.0.dir/ConvolutionCluster
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -315,9 +315,9 @@ plugins/clustering/CMakeFiles/ConvolutionClustering-3.8.0.dir/ConvolutionCluster
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClustering.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/ConvolutionClusteringSetup.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -555,9 +555,9 @@ plugins/clustering/CMakeFiles/ConvolutionClustering-3.8.0.dir/moc_ConvolutionClu
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClustering.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetup.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/moc_ConvolutionClusteringSetup.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClustering.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/../../../plugins/clustering/ConvolutionClusteringSetup.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/moc_ConvolutionClusteringSetup.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint

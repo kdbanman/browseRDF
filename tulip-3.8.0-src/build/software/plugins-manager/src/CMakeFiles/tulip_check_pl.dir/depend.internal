@@ -70,7 +70,7 @@ software/plugins-manager/src/CMakeFiles/tulip_check_pl.dir/TulipCheckPluginLoad.
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
  ../software/plugins-manager/src/../include/PluginInfo.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/TulipCheckPluginLoad.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/software/plugins-manager/src/TulipCheckPluginLoad.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QObject

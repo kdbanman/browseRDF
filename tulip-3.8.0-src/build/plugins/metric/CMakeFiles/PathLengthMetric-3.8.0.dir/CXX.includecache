@@ -824,13 +824,13 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/PathLengthMetric.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/PathLengthMetric.cpp
 stack
 -
 PathLengthMetric.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/PathLengthMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/PathLengthMetric.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/PathLengthMetric.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/PathLengthMetric.h
 tulip/TulipPlugin.h
 -
 

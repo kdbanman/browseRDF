@@ -810,7 +810,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/InteractorSelectionModifier.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor/InteractorSelectionModifier.cpp
 tulip/MouseInteractors.h
 -
 tulip/MouseSelector.h
@@ -818,9 +818,9 @@ tulip/MouseSelector.h
 tulip/MouseSelectionEditor.h
 -
 NodeLinkDiagramComponentInteractor.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/interactor/NodeLinkDiagramComponentInteractor.h
 tulip/InteractorChainOfResponsibility.h
 -
 

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'DoubleStringsListRelationDialog.h'
 **
-** Created: Mon Apr 29 01:55:13 2013
+** Created: Tue Apr 30 11:13:49 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Utility rule file for doc_generation.
 
@@ -43,10 +43,10 @@ CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
 include docs/CMakeFiles/doc_generation.dir/progress.make
 
 docs/CMakeFiles/doc_generation:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Checking if documentation files are present"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs && /usr/bin/cmake -E touch /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/tulip380.qhc
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs && /usr/bin/cmake -E touch /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/tulip380.qch
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs && /usr/bin/cmake -E touch /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs/tulip380.qhc
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs && /usr/bin/cmake -E touch /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs/tulip380.qch
 
 doc_generation: docs/CMakeFiles/doc_generation
 doc_generation: docs/CMakeFiles/doc_generation.dir/build.make
@@ -57,10 +57,10 @@ docs/CMakeFiles/doc_generation.dir/build: doc_generation
 .PHONY : docs/CMakeFiles/doc_generation.dir/build
 
 docs/CMakeFiles/doc_generation.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs && $(CMAKE_COMMAND) -P CMakeFiles/doc_generation.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs && $(CMAKE_COMMAND) -P CMakeFiles/doc_generation.dir/cmake_clean.cmake
 .PHONY : docs/CMakeFiles/doc_generation.dir/clean
 
 docs/CMakeFiles/doc_generation.dir/depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/docs /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/docs/CMakeFiles/doc_generation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/docs /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs /home/kdbanman/browseRDF/tulip-3.8.0-src/build/docs/CMakeFiles/doc_generation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/CMakeFiles/doc_generation.dir/depend
 

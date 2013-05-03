@@ -80,5 +80,5 @@ plugins/import/CMakeFiles/CompleteGraph-3.8.0.dir/CompleteGraph.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/CompleteGraph.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/CompleteGraph.cpp
  library/tulip/include/tulip/TulipRelease.h

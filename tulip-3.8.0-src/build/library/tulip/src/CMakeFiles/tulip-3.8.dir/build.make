@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include library/tulip/src/CMakeFiles/tulip-3.8.dir/depend.make
@@ -48,17 +48,17 @@ include library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o: ../library/tulip/src/AcyclicTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp > CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp > CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp -o CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/AcyclicTest.cpp -o CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o.requires
@@ -71,17 +71,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/AcyclicTest.cpp.o.provides.build: lib
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o: ../library/tulip/src/Bfs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Bfs.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Bfs.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Bfs.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp > CMakeFiles/tulip-3.8.dir/Bfs.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp > CMakeFiles/tulip-3.8.dir/Bfs.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Bfs.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp -o CMakeFiles/tulip-3.8.dir/Bfs.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Bfs.cpp -o CMakeFiles/tulip-3.8.dir/Bfs.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o.requires
@@ -94,17 +94,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Bfs.cpp.o.provides.build: library/tul
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o: ../library/tulip/src/BiconnectedTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp > CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp > CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp -o CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BiconnectedTest.cpp -o CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o.requires
@@ -117,17 +117,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BiconnectedTest.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o: ../library/tulip/src/BooleanAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o.requires
@@ -140,17 +140,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanAlgorithm.cpp.o.provides.build
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o: ../library/tulip/src/BooleanProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp > CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp > CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp -o CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BooleanProperty.cpp -o CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o.requires
@@ -163,17 +163,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BooleanProperty.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o: ../library/tulip/src/BoundingBox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp > CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp > CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp -o CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/BoundingBox.cpp -o CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o.requires
@@ -186,17 +186,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/BoundingBox.cpp.o.provides.build: lib
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o: ../library/tulip/src/ColorAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o.requires
@@ -209,17 +209,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorAlgorithm.cpp.o.provides.build: 
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o: ../library/tulip/src/Color.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Color.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Color.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Color.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp > CMakeFiles/tulip-3.8.dir/Color.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp > CMakeFiles/tulip-3.8.dir/Color.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Color.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp -o CMakeFiles/tulip-3.8.dir/Color.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Color.cpp -o CMakeFiles/tulip-3.8.dir/Color.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o.requires
@@ -232,17 +232,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Color.cpp.o.provides.build: library/t
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o: ../library/tulip/src/ColorProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp > CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp > CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp -o CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorProperty.cpp -o CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o.requires
@@ -255,17 +255,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorProperty.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o: ../library/tulip/src/ColorScale.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ColorScale.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp > CMakeFiles/tulip-3.8.dir/ColorScale.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp > CMakeFiles/tulip-3.8.dir/ColorScale.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ColorScale.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp -o CMakeFiles/tulip-3.8.dir/ColorScale.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ColorScale.cpp -o CMakeFiles/tulip-3.8.dir/ColorScale.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o.requires
@@ -278,17 +278,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ColorScale.cpp.o.provides.build: libr
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o: ../library/tulip/src/ConnectedTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp > CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp > CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp -o CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConnectedTest.cpp -o CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o.requires
@@ -301,17 +301,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ConnectedTest.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o: ../library/tulip/src/ConvexHull.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp > CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp > CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp -o CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ConvexHull.cpp -o CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o.requires
@@ -324,17 +324,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ConvexHull.cpp.o.provides.build: libr
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o: ../library/tulip/src/Delaunay.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Delaunay.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp > CMakeFiles/tulip-3.8.dir/Delaunay.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp > CMakeFiles/tulip-3.8.dir/Delaunay.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Delaunay.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp -o CMakeFiles/tulip-3.8.dir/Delaunay.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Delaunay.cpp -o CMakeFiles/tulip-3.8.dir/Delaunay.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o.requires
@@ -347,17 +347,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Delaunay.cpp.o.provides.build: librar
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o: ../library/tulip/src/DoubleAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o.requires
@@ -370,17 +370,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleAlgorithm.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o: ../library/tulip/src/DoubleProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp > CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp > CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp -o CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DoubleProperty.cpp -o CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o.requires
@@ -393,17 +393,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/DoubleProperty.cpp.o.provides.build: 
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o: ../library/tulip/src/DrawingTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp > CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp > CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp -o CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/DrawingTools.cpp -o CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o.requires
@@ -416,17 +416,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/DrawingTools.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o: ../library/tulip/src/ExtendedClusterOperation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp > CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp > CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp -o CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ExtendedClusterOperation.cpp -o CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o.requires
@@ -439,17 +439,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ExtendedClusterOperation.cpp.o.provid
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o: ../library/tulip/src/FaceIterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp > CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp > CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp -o CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/FaceIterator.cpp -o CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o.requires
@@ -462,17 +462,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/FaceIterator.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o: ../library/tulip/src/GraphAbstract.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp > CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp > CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp -o CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphAbstract.cpp -o CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o.requires
@@ -485,17 +485,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphAbstract.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o: ../library/tulip/src/Graph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Graph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Graph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Graph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp > CMakeFiles/tulip-3.8.dir/Graph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp > CMakeFiles/tulip-3.8.dir/Graph.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Graph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp -o CMakeFiles/tulip-3.8.dir/Graph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Graph.cpp -o CMakeFiles/tulip-3.8.dir/Graph.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o.requires
@@ -508,17 +508,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Graph.cpp.o.provides.build: library/t
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o: ../library/tulip/src/GraphDecorator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp > CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp > CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp -o CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphDecorator.cpp -o CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o.requires
@@ -531,17 +531,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphDecorator.cpp.o.provides.build: 
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o: ../library/tulip/src/GraphImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp > CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp > CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp -o CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphImpl.cpp -o CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o.requires
@@ -554,17 +554,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphImpl.cpp.o.provides.build: libra
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o: ../library/tulip/src/GraphIterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp > CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp > CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp -o CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphIterator.cpp -o CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o.requires
@@ -577,17 +577,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphIterator.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o: ../library/tulip/src/GraphMeasure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp > CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp > CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp -o CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphMeasure.cpp -o CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o.requires
@@ -600,17 +600,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphMeasure.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o: ../library/tulip/src/GraphProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp > CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp > CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp -o CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphProperty.cpp -o CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o.requires
@@ -623,17 +623,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphProperty.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o: ../library/tulip/src/GraphStorage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp > CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp > CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp -o CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphStorage.cpp -o CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o.requires
@@ -646,17 +646,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphStorage.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o: ../library/tulip/src/GraphTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp > CMakeFiles/tulip-3.8.dir/GraphTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp > CMakeFiles/tulip-3.8.dir/GraphTools.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp -o CMakeFiles/tulip-3.8.dir/GraphTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphTools.cpp -o CMakeFiles/tulip-3.8.dir/GraphTools.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o.requires
@@ -669,17 +669,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphTools.cpp.o.provides.build: libr
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o: ../library/tulip/src/GraphUpdatesRecorder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp > CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp > CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp -o CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphUpdatesRecorder.cpp -o CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o.requires
@@ -692,17 +692,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphUpdatesRecorder.cpp.o.provides.b
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o: ../library/tulip/src/GraphView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphView.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/GraphView.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/GraphView.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp > CMakeFiles/tulip-3.8.dir/GraphView.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp > CMakeFiles/tulip-3.8.dir/GraphView.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/GraphView.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp -o CMakeFiles/tulip-3.8.dir/GraphView.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/GraphView.cpp -o CMakeFiles/tulip-3.8.dir/GraphView.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o.requires
@@ -715,17 +715,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/GraphView.cpp.o.provides.build: libra
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o: ../library/tulip/src/IdManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/IdManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/IdManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/IdManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp > CMakeFiles/tulip-3.8.dir/IdManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp > CMakeFiles/tulip-3.8.dir/IdManager.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/IdManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp -o CMakeFiles/tulip-3.8.dir/IdManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IdManager.cpp -o CMakeFiles/tulip-3.8.dir/IdManager.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o.requires
@@ -738,17 +738,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/IdManager.cpp.o.provides.build: libra
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o: ../library/tulip/src/IntegerAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o.requires
@@ -761,17 +761,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerAlgorithm.cpp.o.provides.build
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o: ../library/tulip/src/IntegerProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp > CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp > CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp -o CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/IntegerProperty.cpp -o CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o.requires
@@ -784,17 +784,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/IntegerProperty.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o: ../library/tulip/src/LayoutAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o.requires
@@ -807,17 +807,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutAlgorithm.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o: ../library/tulip/src/LayoutProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp > CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp > CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp -o CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/LayoutProperty.cpp -o CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o.requires
@@ -830,17 +830,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/LayoutProperty.cpp.o.provides.build: 
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o: ../library/tulip/src/MapIterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/MapIterator.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp > CMakeFiles/tulip-3.8.dir/MapIterator.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp > CMakeFiles/tulip-3.8.dir/MapIterator.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/MapIterator.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp -o CMakeFiles/tulip-3.8.dir/MapIterator.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/MapIterator.cpp -o CMakeFiles/tulip-3.8.dir/MapIterator.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o.requires
@@ -853,17 +853,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/MapIterator.cpp.o.provides.build: lib
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o: ../library/tulip/src/Observable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Observable.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Observable.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Observable.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp > CMakeFiles/tulip-3.8.dir/Observable.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp > CMakeFiles/tulip-3.8.dir/Observable.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Observable.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp -o CMakeFiles/tulip-3.8.dir/Observable.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Observable.cpp -o CMakeFiles/tulip-3.8.dir/Observable.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o.requires
@@ -876,17 +876,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Observable.cpp.o.provides.build: libr
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o: ../library/tulip/src/ObservableGraph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp > CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp > CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp -o CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableGraph.cpp -o CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o.requires
@@ -899,17 +899,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableGraph.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o: ../library/tulip/src/ObservableProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp > CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp > CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp -o CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/ObservableProperty.cpp -o CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o.requires
@@ -922,17 +922,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/ObservableProperty.cpp.o.provides.bui
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o: ../library/tulip/src/Ordering.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Ordering.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Ordering.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Ordering.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp > CMakeFiles/tulip-3.8.dir/Ordering.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp > CMakeFiles/tulip-3.8.dir/Ordering.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Ordering.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp -o CMakeFiles/tulip-3.8.dir/Ordering.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Ordering.cpp -o CMakeFiles/tulip-3.8.dir/Ordering.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o.requires
@@ -945,17 +945,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Ordering.cpp.o.provides.build: librar
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o: ../library/tulip/src/OuterPlanarTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp > CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp > CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp -o CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/OuterPlanarTest.cpp -o CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o.requires
@@ -968,17 +968,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/OuterPlanarTest.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o: ../library/tulip/src/PlanarConMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp > CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp > CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp -o CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarConMap.cpp -o CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o.requires
@@ -991,17 +991,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarConMap.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o: ../library/tulip/src/PlanarityTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTest.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o.requires
@@ -1014,17 +1014,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTest.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o: ../library/tulip/src/PlanarityTestEmbed.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestEmbed.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o.requires
@@ -1037,17 +1037,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestEmbed.cpp.o.provides.bui
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o: ../library/tulip/src/PlanarityTestImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestImpl.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o.requires
@@ -1060,17 +1060,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestImpl.cpp.o.provides.buil
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o: ../library/tulip/src/PlanarityTestObstr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestObstr.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o.requires
@@ -1083,17 +1083,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestObstr.cpp.o.provides.bui
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o: ../library/tulip/src/PlanarityTestTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp > CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PlanarityTestTools.cpp -o CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o.requires
@@ -1106,17 +1106,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PlanarityTestTools.cpp.o.provides.bui
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o: ../library/tulip/src/Plane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Plane.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Plane.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Plane.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp > CMakeFiles/tulip-3.8.dir/Plane.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp > CMakeFiles/tulip-3.8.dir/Plane.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Plane.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp -o CMakeFiles/tulip-3.8.dir/Plane.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Plane.cpp -o CMakeFiles/tulip-3.8.dir/Plane.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o.requires
@@ -1129,17 +1129,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Plane.cpp.o.provides.build: library/t
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o: ../library/tulip/src/PluginLibraryLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp > CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp > CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp -o CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLibraryLoader.cpp -o CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o.requires
@@ -1152,17 +1152,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLibraryLoader.cpp.o.provides.bu
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o: ../library/tulip/src/PluginLoaderTxt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp > CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp > CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp -o CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PluginLoaderTxt.cpp -o CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o.requires
@@ -1175,17 +1175,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PluginLoaderTxt.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o: ../library/tulip/src/Polynome.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Polynome.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Polynome.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Polynome.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp > CMakeFiles/tulip-3.8.dir/Polynome.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp > CMakeFiles/tulip-3.8.dir/Polynome.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Polynome.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp -o CMakeFiles/tulip-3.8.dir/Polynome.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Polynome.cpp -o CMakeFiles/tulip-3.8.dir/Polynome.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o.requires
@@ -1198,17 +1198,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Polynome.cpp.o.provides.build: librar
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o: ../library/tulip/src/PreferenceManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp > CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp > CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp -o CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PreferenceManager.cpp -o CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o.requires
@@ -1221,17 +1221,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PreferenceManager.cpp.o.provides.buil
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o: ../library/tulip/src/PropertyInterface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp > CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp > CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp -o CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyInterface.cpp -o CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o.requires
@@ -1244,17 +1244,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyInterface.cpp.o.provides.buil
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o: ../library/tulip/src/PropertyManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp > CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp > CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp -o CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyManager.cpp -o CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o.requires
@@ -1267,17 +1267,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyManager.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o: ../library/tulip/src/PropertyTypes.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp > CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp > CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp -o CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/PropertyTypes.cpp -o CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o.requires
@@ -1290,17 +1290,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/PropertyTypes.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o: ../library/tulip/src/Reflect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Reflect.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/Reflect.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/Reflect.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp > CMakeFiles/tulip-3.8.dir/Reflect.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp > CMakeFiles/tulip-3.8.dir/Reflect.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/Reflect.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp -o CMakeFiles/tulip-3.8.dir/Reflect.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/Reflect.cpp -o CMakeFiles/tulip-3.8.dir/Reflect.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o.requires
@@ -1313,17 +1313,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/Reflect.cpp.o.provides.build: library
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o: ../library/tulip/src/SimplePluginProgress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp > CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp > CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp -o CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimplePluginProgress.cpp -o CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o.requires
@@ -1336,17 +1336,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SimplePluginProgress.cpp.o.provides.b
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o: ../library/tulip/src/SimpleTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp > CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp > CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp -o CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SimpleTest.cpp -o CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o.requires
@@ -1359,17 +1359,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SimpleTest.cpp.o.provides.build: libr
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o: ../library/tulip/src/SizeAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o.requires
@@ -1382,17 +1382,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeAlgorithm.cpp.o.provides.build: l
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o: ../library/tulip/src/SizeProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp > CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp > CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp -o CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/SizeProperty.cpp -o CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o.requires
@@ -1405,17 +1405,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/SizeProperty.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o: ../library/tulip/src/StlFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp > CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp > CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp -o CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StlFunctions.cpp -o CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o.requires
@@ -1428,17 +1428,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StlFunctions.cpp.o.provides.build: li
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o: ../library/tulip/src/StringAlgorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp > CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringAlgorithm.cpp -o CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o.requires
@@ -1451,17 +1451,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StringAlgorithm.cpp.o.provides.build:
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o: ../library/tulip/src/StringCollection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/StringCollection.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp > CMakeFiles/tulip-3.8.dir/StringCollection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp > CMakeFiles/tulip-3.8.dir/StringCollection.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/StringCollection.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp -o CMakeFiles/tulip-3.8.dir/StringCollection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringCollection.cpp -o CMakeFiles/tulip-3.8.dir/StringCollection.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o.requires
@@ -1474,17 +1474,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StringCollection.cpp.o.provides.build
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o: ../library/tulip/src/StringProperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/StringProperty.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp > CMakeFiles/tulip-3.8.dir/StringProperty.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp > CMakeFiles/tulip-3.8.dir/StringProperty.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/StringProperty.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp -o CMakeFiles/tulip-3.8.dir/StringProperty.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/StringProperty.cpp -o CMakeFiles/tulip-3.8.dir/StringProperty.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o.requires
@@ -1497,17 +1497,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/StringProperty.cpp.o.provides.build: 
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o: ../library/tulip/src/TLPExport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/TLPExport.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp > CMakeFiles/tulip-3.8.dir/TLPExport.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp > CMakeFiles/tulip-3.8.dir/TLPExport.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/TLPExport.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp -o CMakeFiles/tulip-3.8.dir/TLPExport.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPExport.cpp -o CMakeFiles/tulip-3.8.dir/TLPExport.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o.requires
@@ -1520,17 +1520,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPExport.cpp.o.provides.build: libra
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o: ../library/tulip/src/TLPImport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/TLPImport.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp > CMakeFiles/tulip-3.8.dir/TLPImport.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp > CMakeFiles/tulip-3.8.dir/TLPImport.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/TLPImport.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp -o CMakeFiles/tulip-3.8.dir/TLPImport.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TLPImport.cpp -o CMakeFiles/tulip-3.8.dir/TLPImport.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o.requires
@@ -1543,17 +1543,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TLPImport.cpp.o.provides.build: libra
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o: ../library/tulip/src/TlpTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/TlpTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp > CMakeFiles/tulip-3.8.dir/TlpTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp > CMakeFiles/tulip-3.8.dir/TlpTools.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/TlpTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp -o CMakeFiles/tulip-3.8.dir/TlpTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TlpTools.cpp -o CMakeFiles/tulip-3.8.dir/TlpTools.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o.requires
@@ -1566,17 +1566,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TlpTools.cpp.o.provides.build: librar
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o: ../library/tulip/src/TreeTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/TreeTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp > CMakeFiles/tulip-3.8.dir/TreeTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp > CMakeFiles/tulip-3.8.dir/TreeTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/TreeTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp -o CMakeFiles/tulip-3.8.dir/TreeTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TreeTest.cpp -o CMakeFiles/tulip-3.8.dir/TreeTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o.requires
@@ -1589,17 +1589,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TreeTest.cpp.o.provides.build: librar
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o: ../library/tulip/src/TriconnectedTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp > CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp > CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp -o CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/TriconnectedTest.cpp -o CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o.requires
@@ -1612,17 +1612,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/TriconnectedTest.cpp.o.provides.build
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o: ../library/tulip/src/vectorgraph.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp > CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp > CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp -o CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/vectorgraph.cpp -o CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o.requires
@@ -1635,17 +1635,17 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/vectorgraph.cpp.o.provides.build: lib
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o: library/tulip/src/CMakeFiles/tulip-3.8.dir/flags.make
 library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o: ../library/tulip/src/WithParameter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tulip-3.8.dir/WithParameter.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp > CMakeFiles/tulip-3.8.dir/WithParameter.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp > CMakeFiles/tulip-3.8.dir/WithParameter.cpp.i
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tulip-3.8.dir/WithParameter.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp -o CMakeFiles/tulip-3.8.dir/WithParameter.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src/WithParameter.cpp -o CMakeFiles/tulip-3.8.dir/WithParameter.cpp.s
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o.requires:
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/WithParameter.cpp.o.requires
@@ -1808,7 +1808,7 @@ library/tulip/src/libtulip-3.8.so: /usr/lib/x86_64-linux-gnu/libz.so
 library/tulip/src/libtulip-3.8.so: library/tulip/src/CMakeFiles/tulip-3.8.dir/build.make
 library/tulip/src/libtulip-3.8.so: library/tulip/src/CMakeFiles/tulip-3.8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libtulip-3.8.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip-3.8.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tulip-3.8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/tulip/src/CMakeFiles/tulip-3.8.dir/build: library/tulip/src/libtulip-3.8.so
@@ -1887,10 +1887,10 @@ library/tulip/src/CMakeFiles/tulip-3.8.dir/requires: library/tulip/src/CMakeFile
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/requires
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-3.8.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src && $(CMAKE_COMMAND) -P CMakeFiles/tulip-3.8.dir/cmake_clean.cmake
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/clean
 
 library/tulip/src/CMakeFiles/tulip-3.8.dir/depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src/CMakeFiles/tulip-3.8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src /home/kdbanman/browseRDF/tulip-3.8.0-src/build/library/tulip/src/CMakeFiles/tulip-3.8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/tulip/src/CMakeFiles/tulip-3.8.dir/depend
 

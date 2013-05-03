@@ -80,8 +80,8 @@ plugins/import/CMakeFiles/DotImport-3.8.0.dir/dotImport.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImport.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportCLUT.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportLexer.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportParser.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImport.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportCLUT.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportLexer.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/dotImportParser.h
  library/tulip/include/tulip/TulipRelease.h

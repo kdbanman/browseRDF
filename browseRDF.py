@@ -101,9 +101,9 @@ def show():
 if len(ARG) == 1 or len(ARG) == 2 or len(ARG) == 2 and ARG[1] == 'debug':
 
   if len(ARG) == 1 or ARG[1] == "debug":
-    #uri = "http://dbpedia.org/data/Albert_Einstein"
+    uri = "http://dbpedia.org/data/Albert_Einstein"
     #uri = "http://rdf.freebase.com/ns/en.germany"
-    uri = "http://xmlns.com/foaf/spec/index.rdf"
+    #uri = "http://xmlns.com/foaf/spec/index.rdf"
     #uri = "http://purl.org/dc/elements/1.1/"
     #uri = "IT_Vocabulary.rdf"
   else:
@@ -126,10 +126,10 @@ while True:
   
   if exploring:
     display.append("With the blue selection tool, click on the URI nodes to explore them.\n")
-    display.append("V for neighbor visualization mode\n      Q to quit.  ")
+    display.append("V for neighbor visualization mode\nQ to quit.  ")
   else:
     display.append("With the blue selection tool, click on any node to visualize its neigbours.\n")
-    display.append("Enter E for recursive exploration mode\n      Q to quit.  ")
+    display.append("Enter E for recursive exploration mode\nQ to quit.  ")
 
   for s in display:
     print s
@@ -144,6 +144,7 @@ while True:
     hide()
     cont.restoreColors(nbrClicked)
     show()
+    tulipgui.tlp.tileViews()
 
     nbrClicked = []
     exploring = True

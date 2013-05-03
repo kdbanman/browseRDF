@@ -830,7 +830,7 @@ algorithm
 cmath
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.cpp
 set
 -
 tulip/tuliphash.h
@@ -838,9 +838,9 @@ tulip/tuliphash.h
 tulip/TriconnectedTest.h
 -
 Tutte.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/Tutte.h
 cmath
 -
 tulip/TulipPlugin.h

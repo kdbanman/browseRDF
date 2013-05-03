@@ -80,6 +80,6 @@ plugins/metric/CMakeFiles/StrongComponent-3.8.0.dir/StrongComponent.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/metric/StrongComponent.h
  library/tulip/include/tulip/TulipRelease.h

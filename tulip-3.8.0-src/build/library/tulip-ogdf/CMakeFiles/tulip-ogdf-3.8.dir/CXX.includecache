@@ -1084,9 +1084,9 @@ ogdf/basic/Constraints.h
 ogdf/internal/energybased/MultilevelGraph.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/OGDFLayoutPluginBase.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/OGDFLayoutPluginBase.cpp
 tulip2ogdf/OGDFLayoutPluginBase.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/OGDFLayoutPluginBase.h
 vector
 -
 tulip/DrawingTools.h
@@ -1094,9 +1094,9 @@ tulip/DrawingTools.h
 tulip/ForEach.h
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/TulipToOGDF.cpp
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/TulipToOGDF.cpp
 tulip2ogdf/TulipToOGDF.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
 tulip/PropertyTypes.h
 -
 tulip/LayoutProperty.h
@@ -1110,7 +1110,7 @@ tulip/DoubleProperty.h
 vector
 -
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/OGDFLayoutPluginBase.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/OGDFLayoutPluginBase.h
 tulip/tulipconf.h
 -
 tulip/TulipPlugin.h
@@ -1124,9 +1124,9 @@ ogdf/basic/GraphAttributes.h
 ogdf/module/LayoutModule.h
 -
 TulipToOGDF.h
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
 
-/home/kirbybanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
+/home/kdbanman/browseRDF/tulip-3.8.0-src/library/tulip-ogdf/tulip2ogdf/TulipToOGDF.h
 ogdf/basic/GraphAttributes.h
 -
 ogdf/fileformats/GmlParser.h

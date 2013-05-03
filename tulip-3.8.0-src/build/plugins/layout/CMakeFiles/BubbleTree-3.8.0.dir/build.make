@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 # Include any dependencies generated for this target.
 include plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/depend.make
@@ -48,17 +48,17 @@ include plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/flags.make
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o: plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o: ../plugins/layout/BubbleTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/BubbleTree.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/BubbleTree.cpp
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/BubbleTree.cpp > CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/BubbleTree.cpp > CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.i
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/BubbleTree.cpp -o CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/BubbleTree.cpp -o CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.s
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o.requires
@@ -71,17 +71,17 @@ plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/BubbleTree.cpp.o.provides.build: 
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o: plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/flags.make
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o: ../plugins/layout/DatasetTools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o -c /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o -c /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.i"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp > CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.i
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.s"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/DatasetTools.cpp -o CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.s
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o.requires:
 .PHONY : plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DatasetTools.cpp.o.requires
@@ -109,7 +109,7 @@ plugins/layout/libBubbleTree-3.8.0.so: thirdparty/libqhull/libqhull.a
 plugins/layout/libBubbleTree-3.8.0.so: plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/build.make
 plugins/layout/libBubbleTree-3.8.0.so: plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libBubbleTree-3.8.0.so"
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BubbleTree-3.8.0.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BubbleTree-3.8.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/build: plugins/layout/libBubbleTree-3.8.0.so
@@ -120,10 +120,10 @@ plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/requires: plugins/layout/CMakeFil
 .PHONY : plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/requires
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/BubbleTree-3.8.0.dir/cmake_clean.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout && $(CMAKE_COMMAND) -P CMakeFiles/BubbleTree-3.8.0.dir/cmake_clean.cmake
 .PHONY : plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/clean
 
 plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirbybanman/browseRDF/tulip-3.8.0-src /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdbanman/browseRDF/tulip-3.8.0-src /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout /home/kdbanman/browseRDF/tulip-3.8.0-src/build /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/layout/CMakeFiles/BubbleTree-3.8.0.dir/depend
 

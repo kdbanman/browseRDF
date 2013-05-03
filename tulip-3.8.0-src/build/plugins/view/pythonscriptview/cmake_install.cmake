@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_p
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/view/libpythonscriptview-3.8.0.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/view" TYPE SHARED_LIBRARY FILES "/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/libpythonscriptview-3.8.0.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tulip/view" TYPE SHARED_LIBRARY FILES "/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/pythonscriptview/libpythonscriptview-3.8.0.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/view/libpythonscriptview-3.8.0.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tulip/view/libpythonscriptview-3.8.0.so")
     FILE(RPATH_REMOVE
@@ -52,13 +52,13 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tuli
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/apiFiles" TYPE FILE FILES
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.4.api"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.5.api"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.6.api"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.7.api"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-3.1.api"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-3.2.api"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/PyQt4.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.4.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.5.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.6.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-2.7.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-3.1.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/Python-3.2.api"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/view/pythonscriptview/api/PyQt4.api"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip_python")
 

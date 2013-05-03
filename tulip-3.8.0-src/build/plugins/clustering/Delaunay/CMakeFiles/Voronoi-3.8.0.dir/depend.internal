@@ -81,5 +81,5 @@ plugins/clustering/Delaunay/CMakeFiles/Voronoi-3.8.0.dir/VoronoiDiagram.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/clustering/Delaunay/VoronoiDiagram.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/clustering/Delaunay/VoronoiDiagram.cpp
  library/tulip/include/tulip/TulipRelease.h

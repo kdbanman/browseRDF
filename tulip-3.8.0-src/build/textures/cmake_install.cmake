@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/textures
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/textures
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tulip/bitmaps" TYPE FILE FILES
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/textures/arrowSprite.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/textures/candiSprite.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/textures/edgeBlomSprite.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/textures/edgeSpring.png"
-    "/home/kirbybanman/browseRDF/tulip-3.8.0-src/textures/titlebarGradient.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/textures/arrowSprite.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/textures/candiSprite.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/textures/edgeBlomSprite.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/textures/edgeSpring.png"
+    "/home/kdbanman/browseRDF/tulip-3.8.0-src/textures/titlebarGradient.png"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "tulip")
 

@@ -80,6 +80,6 @@ plugins/import/CMakeFiles/GMLImport-3.8.0.dir/GMLImport.cpp.o
  ../library/tulip/include/tulip/vectorgraph.h
  ../library/tulip/include/tulip/vectorgraphproperty.h
  ../library/tulip/include/tulip/vs_compat.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLImport.cpp
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLParser.h
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLImport.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/import/GMLParser.h
  library/tulip/include/tulip/TulipRelease.h

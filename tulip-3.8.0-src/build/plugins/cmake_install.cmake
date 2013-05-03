@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins
+# Install script for directory: /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/import/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/metric/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/selection/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/sizes/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/export/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/glyph/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/view/cmake_install.cmake")
-  INCLUDE("/home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/clustering/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/colors/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/import/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/layout/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/metric/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/selection/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/sizes/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/export/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/glyph/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/view/cmake_install.cmake")
+  INCLUDE("/home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/interactor/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

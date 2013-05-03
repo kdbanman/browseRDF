@@ -117,5 +117,5 @@ plugins/layout/OGDF/CMakeFiles/ogdftree-3.8.0.dir/OGDFTree.cpp.o
  ../thirdparty/OGDF/ogdf/internal/energybased/MultilevelGraph.h
  ../thirdparty/OGDF/ogdf/module/LayoutModule.h
  ../thirdparty/OGDF/ogdf/tree/TreeLayout.h
- /home/kirbybanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFTree.cpp
+ /home/kdbanman/browseRDF/tulip-3.8.0-src/plugins/layout/OGDF/OGDFTree.cpp
  library/tulip/include/tulip/TulipRelease.h

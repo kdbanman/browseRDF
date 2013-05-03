@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src
+CMAKE_SOURCE_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirbybanman/browseRDF/tulip-3.8.0-src/build
+CMAKE_BINARY_DIR = /home/kdbanman/browseRDF/tulip-3.8.0-src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,7 +88,7 @@ install/strip/fast: install/strip
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"ftgl\" \"libtulip\" \"libtulip_dev\" \"libtulip_ogl\" \"libtulip_ogl_dev\" \"libtulip_qt\" \"libtulip_qt_dev\" \"sip\" \"tulip\" \"tulip_doc\" \"tulip_ogdf\" \"tulip_plugins\" \"tulip_python\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,14 +127,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/plugins/selection/CMakeFiles/progress.marks
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirbybanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles /home/kdbanman/browseRDF/tulip-3.8.0-src/build/plugins/selection/CMakeFiles/progress.marks
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdbanman/browseRDF/tulip-3.8.0-src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/clean
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/preinstall
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ InducedSubGraphSelection-3.8.0: plugins/selection/CMakeFiles/InducedSubGraphSele
 
 # fast build rule for target.
 InducedSubGraphSelection-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build
 .PHONY : InducedSubGraphSelection-3.8.0/fast
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ Kruskal-3.8.0: plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/rule
 
 # fast build rule for target.
 Kruskal-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build
 .PHONY : Kruskal-3.8.0/fast
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -195,12 +195,12 @@ LoopSelection-3.8.0: plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/rule
 
 # fast build rule for target.
 LoopSelection-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build
 .PHONY : LoopSelection-3.8.0/fast
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ MultipleSelection-3.8.0: plugins/selection/CMakeFiles/MultipleSelection-3.8.0.di
 
 # fast build rule for target.
 MultipleSelection-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build
 .PHONY : MultipleSelection-3.8.0/fast
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -223,12 +223,12 @@ ReachableSubGraphSelection-3.8.0: plugins/selection/CMakeFiles/ReachableSubGraph
 
 # fast build rule for target.
 ReachableSubGraphSelection-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build
 .PHONY : ReachableSubGraphSelection-3.8.0/fast
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ SpanningDagSelection-3.8.0: plugins/selection/CMakeFiles/SpanningDagSelection-3.
 
 # fast build rule for target.
 SpanningDagSelection-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build
 .PHONY : SpanningDagSelection-3.8.0/fast
 
 # Convenience name for target.
 plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/rule:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/rule
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/rule
 .PHONY : plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/rule
 
 # Convenience name for target.
@@ -251,7 +251,7 @@ SpanningTreeSelection-3.8.0: plugins/selection/CMakeFiles/SpanningTreeSelection-
 
 # fast build rule for target.
 SpanningTreeSelection-3.8.0/fast:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build
 .PHONY : SpanningTreeSelection-3.8.0/fast
 
 InducedSubGraphSelection.o: InducedSubGraphSelection.cpp.o
@@ -259,7 +259,7 @@ InducedSubGraphSelection.o: InducedSubGraphSelection.cpp.o
 
 # target to build an object file
 InducedSubGraphSelection.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/InducedSubGraphSelection.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/InducedSubGraphSelection.cpp.o
 .PHONY : InducedSubGraphSelection.cpp.o
 
 InducedSubGraphSelection.i: InducedSubGraphSelection.cpp.i
@@ -267,7 +267,7 @@ InducedSubGraphSelection.i: InducedSubGraphSelection.cpp.i
 
 # target to preprocess a source file
 InducedSubGraphSelection.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/InducedSubGraphSelection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/InducedSubGraphSelection.cpp.i
 .PHONY : InducedSubGraphSelection.cpp.i
 
 InducedSubGraphSelection.s: InducedSubGraphSelection.cpp.s
@@ -275,7 +275,7 @@ InducedSubGraphSelection.s: InducedSubGraphSelection.cpp.s
 
 # target to generate assembly for a file
 InducedSubGraphSelection.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/InducedSubGraphSelection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/InducedSubGraphSelection-3.8.0.dir/InducedSubGraphSelection.cpp.s
 .PHONY : InducedSubGraphSelection.cpp.s
 
 Kruskal.o: Kruskal.cpp.o
@@ -283,7 +283,7 @@ Kruskal.o: Kruskal.cpp.o
 
 # target to build an object file
 Kruskal.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/Kruskal.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/Kruskal.cpp.o
 .PHONY : Kruskal.cpp.o
 
 Kruskal.i: Kruskal.cpp.i
@@ -291,7 +291,7 @@ Kruskal.i: Kruskal.cpp.i
 
 # target to preprocess a source file
 Kruskal.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/Kruskal.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/Kruskal.cpp.i
 .PHONY : Kruskal.cpp.i
 
 Kruskal.s: Kruskal.cpp.s
@@ -299,7 +299,7 @@ Kruskal.s: Kruskal.cpp.s
 
 # target to generate assembly for a file
 Kruskal.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/Kruskal.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/build.make plugins/selection/CMakeFiles/Kruskal-3.8.0.dir/Kruskal.cpp.s
 .PHONY : Kruskal.cpp.s
 
 LoopSelection.o: LoopSelection.cpp.o
@@ -307,7 +307,7 @@ LoopSelection.o: LoopSelection.cpp.o
 
 # target to build an object file
 LoopSelection.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/LoopSelection.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/LoopSelection.cpp.o
 .PHONY : LoopSelection.cpp.o
 
 LoopSelection.i: LoopSelection.cpp.i
@@ -315,7 +315,7 @@ LoopSelection.i: LoopSelection.cpp.i
 
 # target to preprocess a source file
 LoopSelection.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/LoopSelection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/LoopSelection.cpp.i
 .PHONY : LoopSelection.cpp.i
 
 LoopSelection.s: LoopSelection.cpp.s
@@ -323,7 +323,7 @@ LoopSelection.s: LoopSelection.cpp.s
 
 # target to generate assembly for a file
 LoopSelection.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/LoopSelection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/LoopSelection-3.8.0.dir/LoopSelection.cpp.s
 .PHONY : LoopSelection.cpp.s
 
 MultipleEdgeSelection.o: MultipleEdgeSelection.cpp.o
@@ -331,7 +331,7 @@ MultipleEdgeSelection.o: MultipleEdgeSelection.cpp.o
 
 # target to build an object file
 MultipleEdgeSelection.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.cpp.o
 .PHONY : MultipleEdgeSelection.cpp.o
 
 MultipleEdgeSelection.i: MultipleEdgeSelection.cpp.i
@@ -339,7 +339,7 @@ MultipleEdgeSelection.i: MultipleEdgeSelection.cpp.i
 
 # target to preprocess a source file
 MultipleEdgeSelection.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.cpp.i
 .PHONY : MultipleEdgeSelection.cpp.i
 
 MultipleEdgeSelection.s: MultipleEdgeSelection.cpp.s
@@ -347,7 +347,7 @@ MultipleEdgeSelection.s: MultipleEdgeSelection.cpp.s
 
 # target to generate assembly for a file
 MultipleEdgeSelection.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/MultipleSelection-3.8.0.dir/MultipleEdgeSelection.cpp.s
 .PHONY : MultipleEdgeSelection.cpp.s
 
 ReachableSubGraphSelection.o: ReachableSubGraphSelection.cpp.o
@@ -355,7 +355,7 @@ ReachableSubGraphSelection.o: ReachableSubGraphSelection.cpp.o
 
 # target to build an object file
 ReachableSubGraphSelection.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/ReachableSubGraphSelection.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/ReachableSubGraphSelection.cpp.o
 .PHONY : ReachableSubGraphSelection.cpp.o
 
 ReachableSubGraphSelection.i: ReachableSubGraphSelection.cpp.i
@@ -363,7 +363,7 @@ ReachableSubGraphSelection.i: ReachableSubGraphSelection.cpp.i
 
 # target to preprocess a source file
 ReachableSubGraphSelection.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/ReachableSubGraphSelection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/ReachableSubGraphSelection.cpp.i
 .PHONY : ReachableSubGraphSelection.cpp.i
 
 ReachableSubGraphSelection.s: ReachableSubGraphSelection.cpp.s
@@ -371,7 +371,7 @@ ReachableSubGraphSelection.s: ReachableSubGraphSelection.cpp.s
 
 # target to generate assembly for a file
 ReachableSubGraphSelection.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/ReachableSubGraphSelection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/ReachableSubGraphSelection-3.8.0.dir/ReachableSubGraphSelection.cpp.s
 .PHONY : ReachableSubGraphSelection.cpp.s
 
 SpanningDagSelection.o: SpanningDagSelection.cpp.o
@@ -379,7 +379,7 @@ SpanningDagSelection.o: SpanningDagSelection.cpp.o
 
 # target to build an object file
 SpanningDagSelection.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/SpanningDagSelection.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/SpanningDagSelection.cpp.o
 .PHONY : SpanningDagSelection.cpp.o
 
 SpanningDagSelection.i: SpanningDagSelection.cpp.i
@@ -387,7 +387,7 @@ SpanningDagSelection.i: SpanningDagSelection.cpp.i
 
 # target to preprocess a source file
 SpanningDagSelection.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/SpanningDagSelection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/SpanningDagSelection.cpp.i
 .PHONY : SpanningDagSelection.cpp.i
 
 SpanningDagSelection.s: SpanningDagSelection.cpp.s
@@ -395,7 +395,7 @@ SpanningDagSelection.s: SpanningDagSelection.cpp.s
 
 # target to generate assembly for a file
 SpanningDagSelection.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/SpanningDagSelection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningDagSelection-3.8.0.dir/SpanningDagSelection.cpp.s
 .PHONY : SpanningDagSelection.cpp.s
 
 SpanningTreeSelection.o: SpanningTreeSelection.cpp.o
@@ -403,7 +403,7 @@ SpanningTreeSelection.o: SpanningTreeSelection.cpp.o
 
 # target to build an object file
 SpanningTreeSelection.cpp.o:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/SpanningTreeSelection.cpp.o
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/SpanningTreeSelection.cpp.o
 .PHONY : SpanningTreeSelection.cpp.o
 
 SpanningTreeSelection.i: SpanningTreeSelection.cpp.i
@@ -411,7 +411,7 @@ SpanningTreeSelection.i: SpanningTreeSelection.cpp.i
 
 # target to preprocess a source file
 SpanningTreeSelection.cpp.i:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/SpanningTreeSelection.cpp.i
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/SpanningTreeSelection.cpp.i
 .PHONY : SpanningTreeSelection.cpp.i
 
 SpanningTreeSelection.s: SpanningTreeSelection.cpp.s
@@ -419,7 +419,7 @@ SpanningTreeSelection.s: SpanningTreeSelection.cpp.s
 
 # target to generate assembly for a file
 SpanningTreeSelection.cpp.s:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/SpanningTreeSelection.cpp.s
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(MAKE) -f plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/build.make plugins/selection/CMakeFiles/SpanningTreeSelection-3.8.0.dir/SpanningTreeSelection.cpp.s
 .PHONY : SpanningTreeSelection.cpp.s
 
 # Help Target
@@ -475,6 +475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kirbybanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kdbanman/browseRDF/tulip-3.8.0-src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
