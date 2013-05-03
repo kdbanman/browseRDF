@@ -29,6 +29,7 @@ cont = controller.Controller()
 
 
 exploring = True
+showLabels = False
 nbrClicked = []
 
 class SelectObserver(tulip.tlp.PropertyObserver):
@@ -55,7 +56,8 @@ class SelectObserver(tulip.tlp.PropertyObserver):
       try:
         rdfGraph = mod.getGraph(uri)
         tlpGraph = cont.triplesToTulip(rdfGraph)
-        vw.newFrontier(tlpGraph)
+        vw.newFrontier(tlpGraph, showLabels)
+	tulipgui.tlp.tileViews()
       except:
         print "RDF document not returned from " + uri
 
@@ -96,6 +98,14 @@ def hide():
 def show():
   for v in tulipgui.tlp.getOpenedViews():
     v.setVisible(True)
+  tulipgui.tlp.tileViews()
+
+def displayLabels(show):
+  for v in tulipgui.tlp.getOpenedViews():
+    params = v.getRenderingParameters()
+    params.setViewEdgeLabel(show)
+    params.setViewNodeLabel(show)
+    v.setRenderingParameters(params)
 
 
 if len(ARG) == 1 or len(ARG) == 2 or len(ARG) == 2 and ARG[1] == 'debug':
@@ -112,7 +122,7 @@ if len(ARG) == 1 or len(ARG) == 2 or len(ARG) == 2 and ARG[1] == 'debug':
   try:
     rdfGraph = mod.getGraph(uri)
     tlpGraph = cont.triplesToTulip(rdfGraph)
-    vw.newFrontier(tlpGraph)
+    vw.newFrontier(tlpGraph, showLabels)
   except:
     print "ERROR:  RDF not returned from:\n\t" + uri
     sys.exit(1)
@@ -126,10 +136,11 @@ while True:
   
   if exploring:
     display.append("With the blue selection tool, click on the URI nodes to explore them.\n")
-    display.append("V for neighbor visualization mode\nQ to quit.  ")
+    display.append("V for neighbor visualization mode.")
   else:
     display.append("With the blue selection tool, click on any node to visualize its neigbours.\n")
-    display.append("Enter E for recursive exploration mode\nQ to quit.  ")
+    display.append("E for recursive exploration mode.")
+  display.append("L to toggle labels\nQ to quit.")
 
   for s in display:
     print s
@@ -138,6 +149,10 @@ while True:
   if userInput == "q" or userInput == "quit":
     tulipgui.tlp.closeAllViews()
     sys.exit(0)
+
+  elif userInput[0] == "l" and userInput in "labels":
+    showLabels = not showLabels
+    displayLabels(showLabels)
 
   elif userInput[0] == "e" and userInput in "exploration" and not exploring:
   
