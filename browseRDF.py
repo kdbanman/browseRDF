@@ -32,6 +32,16 @@ exploring = True
 showLabels = False
 nbrClicked = []
 
+
+def arrangeViews():
+  i = 0
+  for sub in cont._parent.getSubGraphs():
+    views = tulipgui.tlp.getViewsOfGraph(sub)
+    if len(views) != 0:
+      scale = 150
+      views[0].setPos(i%800, (i/800)*scale)
+      i += scale
+
 class SelectObserver(tulip.tlp.PropertyObserver):
   '''
   The program's flow is controlled by observation of tulip nodes, the following
@@ -57,7 +67,7 @@ class SelectObserver(tulip.tlp.PropertyObserver):
         rdfGraph = mod.getGraph(uri)
         tlpGraph = cont.triplesToTulip(rdfGraph)
         vw.newFrontier(tlpGraph, showLabels)
-	tulipgui.tlp.tileViews()
+	arrangeViews()
       except:
         print "RDF document not returned from " + uri
 
@@ -98,7 +108,7 @@ def hide():
 def show():
   for v in tulipgui.tlp.getOpenedViews():
     v.setVisible(True)
-  tulipgui.tlp.tileViews()
+  arrangeViews()
 
 def displayLabels(show):
   for v in tulipgui.tlp.getOpenedViews():
@@ -123,6 +133,7 @@ if len(ARG) == 1 or len(ARG) == 2 or len(ARG) == 2 and ARG[1] == 'debug':
     rdfGraph = mod.getGraph(uri)
     tlpGraph = cont.triplesToTulip(rdfGraph)
     vw.newFrontier(tlpGraph, showLabels)
+    arrangeViews()
   except:
     print "ERROR:  RDF not returned from:\n\t" + uri
     sys.exit(1)
@@ -159,7 +170,7 @@ while True:
     hide()
     cont.restoreColors(nbrClicked)
     show()
-    tulipgui.tlp.tileViews()
+    arrangeViews()
 
     nbrClicked = []
     exploring = True
