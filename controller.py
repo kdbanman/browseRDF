@@ -51,6 +51,14 @@ class Controller():
   clicked = _parent.getBooleanProperty("clicked")
 
 
+  def bindToMain(self, mainGraph):
+    '''
+    call in the very beginning from within the Python Script view inside
+    Tulip's main gui, and NOWHERE else.
+    '''
+    _parent = mainGraph.addSubGraph()
+
+
   def rememberColor(self, node):
     self.prevColor[node] = self.viewColor[node]
 

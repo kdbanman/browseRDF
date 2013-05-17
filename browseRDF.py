@@ -4,11 +4,13 @@
 #
 # This code is subject to the GPLv3 license.
 
+import sys
+
 import tulip
 import tulipgui
+import tulipogl
 
 import model
-import view
 import controller 
 
 mod = model.Model()
@@ -20,24 +22,23 @@ showLabels = False
 nbrClicked = []
 
 
-def newFrontier(self, graph, labels):
-  '''
-  "graph" is a tlp.Graph()
-  newFrontier creates a new window with the contents of a freshly
-  dereferenced uri.  It's meant to be called after the controller has
-  converted a retrieved rdflib graph into a tulip graph.
-  '''
-  view = tulipgui.tlp.addNodeLinkDiagramView(graph)
-  view.setOptionsWidgetsVisible(False)
+def newFrontier(self, newGraph, labels):
+
+  # "graph" is a tlp.Graph()
+  # newFrontier creates a new window with the contents of a freshly
+  # dereferenced uri.  It's meant to be called after the controller has
+  # converted a retrieved rdflib graph into a tulip graph.
+
+  view = tulipgui.tlp.addNodeLinkDiagramView(newGraph)
 
   params = view.getRenderingParameters()
   params.setViewEdgeLabel(labels)
   params.setViewNodeLabel(labels)
-  params.setEdgeSizeInterpolate(False)
+  params.setEdgeSizeInterpolate(True)
   params.setViewArrow(True)
   params.setLabelsDensity(0)
   params.setLabelScaled(False)
-  params.setNodesLabelStencil(0)
+  #params.setNodesLabelStencil(0)
   params.setMinSizeOfLabel(15)
 
   view.setRenderingParameters(params)
@@ -76,7 +77,7 @@ class SelectObserver(tulip.tlp.PropertyObserver):
         rdfGraph = mod.getGraph(uri)
         tlpGraph = cont.triplesToTulip(rdfGraph)
         newFrontier(tlpGraph, showLabels)
-	arrangeViews()
+        arrangeViews()
       except:
         print "RDF document not returned from " + uri
 
@@ -127,7 +128,7 @@ def displayLabels(show):
     v.setRenderingParameters(params)
 
 
-def explore(uri=None):
+def explore(uri=None, exploring=True):
   if not uri:
     uri = "http://dbpedia.org/data/Albert_Einstein"
     #uri = "http://rdf.freebase.com/ns/en.germany"
@@ -137,16 +138,23 @@ def explore(uri=None):
   
   try:
     rdfGraph = mod.getGraph(uri)
+  except:
+    print "ERROR:  RDF not returned from:\n\t" + uri
+    
+  try:
     tlpGraph = cont.triplesToTulip(rdfGraph)
+  except:
+    print "ERROR:  RDF not tranlated into tlp.Graph() from:\n\t" + uri
+  	  
+  try:
     newFrontier(tlpGraph, showLabels)
     arrangeViews()
   except:
-    print "ERROR:  RDF not returned from:\n\t" + uri
-    sys.exit(1)
+	 print "ERROR:  View of graph not created from:\n\t" + uri
 
 
   userInput = ""
-  while True:
+  if True:
     display = ["\n" for x in xrange(0,50)]
     display.append(("EXPLORATION" if exploring else "NEIGHBOR VISUALIZATION") + " mode.\n")
     
@@ -182,3 +190,7 @@ def explore(uri=None):
   
     elif userInput[0] == "v" and userInput in "visualization" and exploring:
       exploring = False
+
+def main(graph):
+	cont.bindToMain(graph)
+	explore()
