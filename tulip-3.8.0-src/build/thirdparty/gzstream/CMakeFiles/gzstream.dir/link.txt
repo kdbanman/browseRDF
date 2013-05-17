@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -Wall -Wextra -Wunused -DHAVE_LIBJPEG -DHAVE_LIBPNG -D_LINUX -DQT_ASSISTANT='"assistant"' -DI64 -fPIC   -shared -Wl,-soname,libgzstream.so -o libgzstream.so CMakeFiles/gzstream.dir/gzstream.cpp.o -lz 

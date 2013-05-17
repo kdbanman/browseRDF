@@ -43,6 +43,10 @@ def newFrontier(newGraph, labels):
 
   view.setRenderingParameters(params)
 
+def updateViews():
+  for v in tulipgui.tlp.getOpenedViews():
+    v.draw()
+
 def arrangeViews():
   i = 0
   for sub in cont._parent.getSubGraphs():
@@ -95,6 +99,8 @@ class SelectObserver(tulip.tlp.PropertyObserver):
               searched.add(nbr)
         cont.clicked[n] = True
         nbrClicked.append(n)
+    
+    updateViews()
 
 
 
@@ -127,10 +133,41 @@ def displayLabels(show):
     params.setViewNodeLabel(show)
     v.setRenderingParameters(params)
 
+def labels():
+  global showLabels
+  showLabels = not showLabels
+  displayLabels(showLabels)
+  updateViews()
 
-def explore(uri=None, exploring=True):
+def mode():
+
+  global exploring
+  global nbrClicked
+
+  exploring = not exploring
+
+  if exploring:
+    cont.restoreColors(nbrClicked)
+    updateViews()
+
+    nbrClicked = []
+
+    print "You are now in Exploration mode.  With the blue selection tool, click"
+    print "on any of the URI nodes (the blue ones) to explore them."
+    print "\nIf the URI node does not return RDF, a warning will be displayed."
+    print "\nCall browseRDF.mode() to switch to Neighbor Visualization mode." 
+    print "\nCall browseRDF.labels() to switch labels on or off."
+  else:
+    print "You are now in Neighbor Visualization mode.  With the blue selection"
+    print "tool, click on any node to perform a stepwize breadth-first search."
+    print "The searched nodes will be colored yellow as you click."
+    print "\nCall browseRDF.mode() to switch to Exploration mode."
+    print "\nCall browseRDF.labels() to switch labels on or off."
+
+
+def explore(uri=None ):
   if not uri:
-    uri = "http://dbpedia.org/data/Albert_Einstein"
+    #uri = "http://dbpedia.org/data/Albert_Einstein"
     #uri = "http://rdf.freebase.com/ns/en.germany"
     #uri = "http://xmlns.com/foaf/spec/index.rdf"
     #uri = "http://purl.org/dc/elements/1.1/"
@@ -149,51 +186,16 @@ def explore(uri=None, exploring=True):
   try:
     newFrontier(tlpGraph, showLabels)
     arrangeViews()
-  except Exception as e:
-	 print "ERROR:  View of graph not created from:\n\t" + uri
+  except:
+    print "ERROR:  View of graph not created from:\n\t" + uri
 
-  '''
-  userInput = ""
-  while True:
-    display = ["\n" for x in xrange(0,50)]
-    display.append(("EXPLORATION" if exploring else "NEIGHBOR VISUALIZATION") + " mode.\n")
-    
-    if exploring:
-      display.append("With the blue selection tool, click on the URI nodes to explore them.\n")
-      display.append("V for neighbor visualization mode.")
-    else:
-      display.append("With the blue selection tool, click on any node to visualize its neigbours.\n")
-      display.append("E for recursive exploration mode.")
-    display.append("L to toggle labels\nQ to quit.")
-  
-    for s in display:
-      print s
-  
-    userInput = input().lower()
-    if userInput == "q" or userInput == "quit":
-      tulipgui.tlp.closeAllViews()
-      print "\n\n IMPORTANT:"
-      print "\tStart a new Tulip session with CTRL + N or File -> New"
-      print "\tif you wish to continue using Tulip or browseRDF."
-  
-    elif userInput[0] == "l" and userInput in "labels":
-      showLabels = not showLabels
-      displayLabels(showLabels)
-  
-    elif userInput[0] == "e" and userInput in "exploration" and not exploring:
-    
-      hide()
-      cont.restoreColors(nbrClicked)
-      show()
-      arrangeViews()
-  
-      nbrClicked = []
-      exploring = True
-  
-    elif userInput[0] == "v" and userInput in "visualization" and exploring:
-      exploring = False
-   '''
 
 def main(graph):
-	cont.bindToMain(graph)
-	explore()
+  print "Welcome to browseRDF.\n"
+
+  global exploring
+  
+  cont.bindToMain(graph)
+  explore()
+  exploring = False
+  mode()

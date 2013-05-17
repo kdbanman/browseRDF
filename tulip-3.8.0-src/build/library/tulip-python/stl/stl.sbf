@@ -1,3 +1,0 @@
-target = stl
-sources = sipstlcmodule.cpp sipstlstdostream.cpp sipstlstd.cpp sipstlstdvector2600.cpp sipstlstdvector1900.cpp sipstlstdvector1800.cpp sipstlstdvector2400.cpp sipstlstdstring.cpp sipstlstdset1900.cpp sipstlstdset1800.cpp sipstlstdset2400.cpp sipstlstdpair19001900.cpp
-headers = sipAPIstl.h
