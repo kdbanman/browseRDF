@@ -22,7 +22,7 @@ showLabels = False
 nbrClicked = []
 
 
-def newFrontier(self, newGraph, labels):
+def newFrontier(newGraph, labels):
 
   # "graph" is a tlp.Graph()
   # newFrontier creates a new window with the contents of a freshly
@@ -38,7 +38,7 @@ def newFrontier(self, newGraph, labels):
   params.setViewArrow(True)
   params.setLabelsDensity(0)
   params.setLabelScaled(False)
-  #params.setNodesLabelStencil(0)
+  params.setNodesLabelStencil(0)
   params.setMinSizeOfLabel(15)
 
   view.setRenderingParameters(params)
@@ -90,10 +90,10 @@ class SelectObserver(tulip.tlp.PropertyObserver):
       for n in toSearch:
         for nbr in cont._parent.getInOutNodes(n):
           if nbr not in searched:
-	    if cont.clicked[n]:
-	      toSearch.append(nbr)
-	      searched.add(nbr)
-	cont.clicked[n] = True
+            if cont.clicked[n]:
+              toSearch.append(nbr)
+              searched.add(nbr)
+        cont.clicked[n] = True
         nbrClicked.append(n)
 
 
@@ -149,12 +149,12 @@ def explore(uri=None, exploring=True):
   try:
     newFrontier(tlpGraph, showLabels)
     arrangeViews()
-  except:
+  except Exception as e:
 	 print "ERROR:  View of graph not created from:\n\t" + uri
 
-
+  '''
   userInput = ""
-  if True:
+  while True:
     display = ["\n" for x in xrange(0,50)]
     display.append(("EXPLORATION" if exploring else "NEIGHBOR VISUALIZATION") + " mode.\n")
     
@@ -172,7 +172,9 @@ def explore(uri=None, exploring=True):
     userInput = input().lower()
     if userInput == "q" or userInput == "quit":
       tulipgui.tlp.closeAllViews()
-      sys.exit(0)
+      print "\n\n IMPORTANT:"
+      print "\tStart a new Tulip session with CTRL + N or File -> New"
+      print "\tif you wish to continue using Tulip or browseRDF."
   
     elif userInput[0] == "l" and userInput in "labels":
       showLabels = not showLabels
@@ -190,6 +192,7 @@ def explore(uri=None, exploring=True):
   
     elif userInput[0] == "v" and userInput in "visualization" and exploring:
       exploring = False
+   '''
 
 def main(graph):
 	cont.bindToMain(graph)
